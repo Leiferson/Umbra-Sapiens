@@ -1,0 +1,49 @@
+\umbra_sapiens\history\characters
+extended character history like allways. We now have 5608 new characters!
+new files in this folder
+changes to some already present files
+umbra_sapiens\history\titles
+new files for cossacks
+added file for varangian guard with missing bracket in vanilla
+umbra_sapiens\common\dynasties
+new dynasties inside newstuff
+\umbra_sapiens\common\landed_titles
+New titles inside landed_titles
+\umbra_sapiens\common\mercenaries
+Added new compositions for cossacks
+\mod\umbra_sapiens\gfx\flags
+Added new flags for cossacks
+\umbra_sapiens\events
+Added events for cossacks forming inside russian_events, removed event that added retenues to russian principalities since it is not that helpfull anyways
+Added event to speed up catholic colonialism not different from what other christians already had.
+\umbra_sapiens\decisions
+Added events for vassalizing cossacks
+Changed conditions to form Ottoman Empire to help the AI not be so challenged
+17.01.2024
+Added a wasteland province: The Sud in South Sudan, a giant bog
+\umbra_sapiens\history\characters
+extended character history like allways. We now have 6155 new characters!
+umbra_sapiens\common\dynasties
+new dynasties inside newstuff
+\umbra_sapiens\decisions
+changed conditions to form russia inside the country forming decisions file
+24.2.2024
+Incoporated Crossroads: The Caucasus Overhaul [3.1.1] 
+Changed landed_titles 
+Added many flags 
+Added provinces to the empty places we still have
+Changed the map file 
+Changed several coresponding history files. Only turkish on character history did overlap, the rest were new files.
+Added new cultures and new religions
+Expanded the religious icons
+Added a new retinue
+Added localizations
+25.9.2024
+Changed technology map
+Expanded history
+-------------
+Added new minor titles to the Ottoman empire
+Changed conditions for the castration targeted decision
+Corrected a buggy event that was stuck on everloop
+Expanded character history to include 8204 new characters
+Minor fixes
