@@ -3018,8 +3018,8 @@ pagan_group = {
 		graphical_culture = mongolgfx	
 		secondary_event_pictures = tengri_pagan
 
-		icon = 29
-		heresy_icon = 30
+		icon = 134
+		heresy_icon = 133
 		
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
@@ -3062,8 +3062,8 @@ pagan_group = {
 	jurchen_pagan = { #Jurchens
 		graphical_culture = mongolgfx	
 
-		icon = 28
-		heresy_icon = 30
+		icon = 132
+		heresy_icon = 133
 		
 		color = { 0.6 0.2 0.8 }
 		
@@ -3335,8 +3335,8 @@ pagan_group = {
 		interface_skin = { indian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 120
+		heresy_icon = 119
 		
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
@@ -3381,8 +3381,8 @@ pagan_group = {
 			}
 		}
 
-		icon = 34
-		heresy_icon = 35
+		icon = 120
+		heresy_icon = 119
 		
 		color = { 0.4 0.3 0.3 }
 
@@ -3442,8 +3442,8 @@ pagan_group = {
 		interface_skin = { indian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 128
+		heresy_icon = 129
 		
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
@@ -3488,8 +3488,8 @@ pagan_group = {
 			}
 		}
 
-		icon = 34
-		heresy_icon = 35
+		icon = 128
+		heresy_icon = 129
 		
 		color = { 1.0 0.4 1.0 }
 
@@ -3656,8 +3656,8 @@ pagan_group = {
 		interface_skin = { indian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 135
+		heresy_icon = 136
 		
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
@@ -3702,8 +3702,8 @@ pagan_group = {
 			}
 		}
 
-		icon = 34
-		heresy_icon = 35
+		icon = 114
+		heresy_icon = 136
 		
 		color = { 0.9 0.7 0.7 }
 
@@ -3870,8 +3870,8 @@ pagan_group = {
 		interface_skin = { indian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 117
+		heresy_icon = 118
 		
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
@@ -3910,8 +3910,8 @@ pagan_group = {
 		graphical_culture = hindugfx
 		interface_skin = { indian_interface muslim_interface }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 117
+		heresy_icon = 118
 		
 		color = { 0.6 0.3 0.3 }
 
@@ -3971,8 +3971,8 @@ pagan_group = {
 		interface_skin = { indian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 112
+		heresy_icon = 113
 		
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
@@ -4017,8 +4017,8 @@ pagan_group = {
 			}
 		}
 
-		icon = 34
-		heresy_icon = 35
+		icon = 111
+		heresy_icon = 113
 		
 		color = { 0.7 0.7 0.1 }
 
@@ -4610,8 +4610,8 @@ pagan_group = {
 		has_coa_on_barony_only = no
 		secondary_event_pictures = finnish_pagan
 		
-		icon = 26
-		heresy_icon = 27
+		icon = 119
+		heresy_icon = 120
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -4699,8 +4699,8 @@ pagan_group = {
 			}
 		}
 
-		icon = 25
-		heresy_icon = 27
+		icon = 119
+		heresy_icon = 120
 		
 		color = { 0.85 0.85 0.4 }
 		crusade_name = GREAT_HOLY_WAR
@@ -4768,8 +4768,8 @@ subartic_pagan_reformed = {
 		
 		secondary_event_pictures = mongolgfx
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 87
+		heresy_icon = 89
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -4834,8 +4834,8 @@ subartic_pagan_reformed = {
 	}	
 	subartic_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 87
+		heresy_icon = 89
 		color = { 253 216 178 }
 		alternate_start = {
 			OR = {
@@ -4912,8 +4912,8 @@ subartic_pagan_reformed = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 109
+		heresy_icon = 110
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -4978,8 +4978,8 @@ subartic_pagan_reformed = {
 	}	
 	plains_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 108
+		heresy_icon = 110
 		color = { 251 177 129 }
 		alternate_start = {
 			OR = {
@@ -5052,8 +5052,8 @@ subartic_pagan_reformed = {
 	}
 	basin_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 88
+		heresy_icon = 90
 		color = { 234 133 124 }
 		alternate_start = {
 			OR = {
@@ -5130,8 +5130,8 @@ subartic_pagan_reformed = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 88
+		heresy_icon = 90
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -5199,8 +5199,8 @@ plateau_pagan_reformed = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 106
+		heresy_icon = 107
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -5264,8 +5264,8 @@ plateau_pagan_reformed = {
 	}	
 	plateau_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 105
+		heresy_icon = 107
 		color = { 122 181 179 }
 		alternate_start = {
 			OR = {
@@ -5342,8 +5342,8 @@ plateau_pagan_reformed = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 78
+		heresy_icon = 83
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -5408,8 +5408,8 @@ plateau_pagan_reformed = {
 	}	
 	california_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 78
+		heresy_icon = 83
 		color = { 186 217 180 }
 		alternate_start = {
 			OR = {
@@ -5486,8 +5486,8 @@ plateau_pagan_reformed = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 130
+		heresy_icon = 131
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -5552,8 +5552,8 @@ plateau_pagan_reformed = {
 	}	
 	southeast_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 130
+		heresy_icon = 131
 		color = { 227 222 181 }
 		alternate_start = {
 			OR = {
@@ -5630,8 +5630,8 @@ southwest_pagan_reformed = {
 		
 		secondary_event_pictures = muslimgfx
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 49
+		heresy_icon = 50
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -5696,8 +5696,8 @@ southwest_pagan_reformed = {
 	}	
 	southwest_pagan = {
 		graphical_culture = zapotecangfx
-		icon = 15
-		heresy_icon = 16
+		icon = 48
+		heresy_icon = 50
 		color = { 234 181 128 }
 		alternate_start = {
 			OR = {
@@ -5774,8 +5774,8 @@ southwest_pagan_reformed = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 94
+		heresy_icon = 95
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -5840,8 +5840,8 @@ southwest_pagan_reformed = {
 	}	
 	algic_pagan = {
 		graphical_culture = northernnativegfx
-		icon = 15
-		heresy_icon = 16
+		icon = 92
+		heresy_icon = 93
 		color = { 0.2 0.8 0.8 }
 		alternate_start = {
 			OR = {
@@ -5916,8 +5916,8 @@ southwest_pagan_reformed = {
 		graphical_culture = northernnativegfx 
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 
-		icon = 17
-		heresy_icon = 18
+		icon = 82
+		heresy_icon = 91
 		
 		color = { 0.7 0 0 }
 		crusade_name = GREAT_HOLY_WAR
@@ -5970,8 +5970,8 @@ southwest_pagan_reformed = {
 		graphical_culture = northernnativegfx
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 
-		icon = 17
-		heresy_icon = 18
+		icon = 82
+		heresy_icon = 91
 		
 		color = { 0.5 0.1 0.1 }
 		crusade_name = GREAT_HOLY_WAR
@@ -6028,8 +6028,8 @@ southwest_pagan_reformed = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 121
+		heresy_icon = 122
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6075,8 +6075,8 @@ southwest_pagan_reformed = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 121
+		heresy_icon = 122
 		
 		color = { 0.9 0.75 0.55 }
 
@@ -6142,8 +6142,8 @@ southwest_pagan_reformed = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 135
+		heresy_icon = 136
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6186,8 +6186,8 @@ southwest_pagan_reformed = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 114
+		heresy_icon = 136
 		
 		color = { 23 97 142 }
 
@@ -6237,8 +6237,8 @@ southwest_pagan_reformed = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 107
+		heresy_icon = 105
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6282,8 +6282,8 @@ southwest_pagan_reformed = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 107
+		heresy_icon = 105
 		
 		color = { 60 60 200 }
 
@@ -6299,13 +6299,13 @@ southwest_pagan_reformed = {
 			GOD_THE_GUALICHO GOD_THE_WEKUFE 
 		}
 		}
-		mapuche_pagan_reformed = {
+	mapuche_pagan_reformed = {
 		graphical_culture = pagangfx
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 90
+		heresy_icon = 88
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6413,13 +6413,13 @@ southwest_pagan_reformed = {
 		intermarry = south_american
 		aggression = 0.5 # AI aggression factor
 	}
-amazonian_pagan = {
+	amazonian_pagan = {
 		graphical_culture = africangfx
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 122
+		heresy_icon = 121
 		
 		color = { 0 100 0 }
 
@@ -6446,8 +6446,8 @@ amazonian_pagan = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 122
+		heresy_icon = 121
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6489,8 +6489,8 @@ amazonian_pagan = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 90
+		heresy_icon = 88
 		
 		color = { 120 80 90 }
 
@@ -6511,8 +6511,8 @@ amazonian_pagan = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = sunni
 
-		icon = 35
-		heresy_icon = 36
+		icon = 119
+		heresy_icon = 120
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6558,8 +6558,8 @@ amazonian_pagan = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 119
+		heresy_icon = 120
 		
 		color = {  0.21 0.81 0.51 }
 
@@ -6721,8 +6721,8 @@ andean_rel_group = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 96
+		heresy_icon = 98
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6763,8 +6763,8 @@ andean_rel_group = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 96
+		heresy_icon = 98
 		
 		color = { 0.25 0.5 0.5 }
 
@@ -6916,8 +6916,8 @@ andean_rel_group = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 97
+		heresy_icon = 98
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -6969,8 +6969,8 @@ andean_rel_group = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 96
+		heresy_icon = 98
 		
 		color = { 0.05 0.05 0.05 }
 
@@ -7126,8 +7126,8 @@ andean_rel_group = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		secondary_event_pictures = west_african_pagan
 
-		icon = 35
-		heresy_icon = 36
+		icon = 97
+		heresy_icon = 98
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -7177,8 +7177,8 @@ andean_rel_group = {
 		interface_skin = { zun_interface zoroastrian_interface muslim_interface }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } }
 
-		icon = 34
-		heresy_icon = 35
+		icon = 96
+		heresy_icon = 98
 		
 		color = { 35 200 150 }
 
@@ -7728,8 +7728,8 @@ mesoamerican_rel_group = {
 		
 		secondary_event_pictures = mesoamerican
 		
-		icon = 17
-		heresy_icon = 18
+		icon = 126
+		heresy_icon = 127
 		
 		ai_convert_other_group = 2 # always try to convert
 		
@@ -7769,8 +7769,8 @@ mesoamerican_rel_group = {
 	
 	mayan = {
 		graphical_culture = mesoamericangfx
-		icon = 15
-		heresy_icon = 16
+		icon = 125
+		heresy_icon = 127
 		color = { 0.46 0.22 0.92 }
 		alternate_start = { has_alternate_start_parameter = { key = religion value = full_random } has_dlc = "Sunset Invasion" }
 		
