@@ -142,6 +142,7 @@
 }
 1365.4.12 = {
 	holder=370725	#John IV, Duke of Brittany
+	liege=d_brittany
 }
 1399.11.1 = {
 	holder=370729	#John V, Duke of Brittany

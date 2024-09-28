@@ -86,3 +86,43 @@
 1343.9.26={
 	holder = 455541 #Gaston III de Foix
 }
+1360.5.8=
+{
+liege=0
+}
+1391.8.1 = {
+	holder=371012	#Matthew, Count of Foix
+}
+1398.1.1 = {
+	holder=371013	#Isabelle de Foix-Castelbon
+}
+1428.1.1 = {
+	holder=371015	#Jean Ier de Foix
+}
+1436.5.4 = {
+	holder=371031	#Gaston IV de Foix-Béarn
+}
+1472.7.28 = {
+	holder=371104	#François Phoebus
+}
+1479.2.12 = {
+	liege=k_navarra
+}
+1483.1.7 = {
+	holder=371105	#Catherine of Navarre
+}
+1512.8.1={
+	liege=k_france
+}
+1517.2.12 = {
+	holder=371339	#Henry II of Navarre
+}
+1555.5.25 = {
+	holder=371346	#Queen Jeanne III of Navarra
+}
+1572.6.9 = {
+	holder=371464	#Henry IV of France
+}
+1610.5.14={
+	holder=371859 #Louis XIII the Just
+}

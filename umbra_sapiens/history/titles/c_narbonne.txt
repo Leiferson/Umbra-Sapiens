@@ -66,6 +66,9 @@ holder=72432
 {
 holder=72440
 }
+1271.8.21 = {
+	liege=k_france
+}
 1298.1.1=
 {
 holder=72446
@@ -80,4 +83,46 @@ holder=72453
 }
 1341.1.1={
 holder=455620
+}
+1388.1.1 = {
+holder=380856	#Guglielmo I di Narbona
+}
+1397.1.1 = {
+holder=380868	#Guglielmo II di Narbona
+}
+1424.8.17 = {
+holder=381312	#Guglielmo III di Narbona
+}
+1447.1.1 = {
+holder=371031	#Gaston IV de Foix-Béarn
+}
+1468.1.1 = {
+holder=371038	#Jean de Foix (1450-1500)
+}
+1500.11.5 = {
+holder=380243	#Gaston de Foix-Nemours
+}
+1507.1.1 = {
+	holder=371092 #Louis XII
+}
+1515.1.1={
+	holder=370977 #Francis I
+}
+1547.3.31={
+	holder=371100 #Henry II
+}
+1559.7.10={
+	holder=375095 #Francis II
+}
+1560.12.5={
+	holder=371693 #Charles IX
+}
+1574.5.30={
+	holder=371694 #Henry III
+}
+1589.8.2={
+	holder=371464 #Henry IV the Great
+}
+1610.5.14={
+	holder=371859 #Louis XIII the Just
 }

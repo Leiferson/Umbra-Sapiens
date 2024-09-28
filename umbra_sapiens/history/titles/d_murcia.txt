@@ -109,3 +109,15 @@
 1283.12.25={
 	holder=457630 # Juan Manuel de Villena
 }
+1348.7.13 = {
+	holder=457632	#Fernando Manuel de Villena
+}
+1350.8.8 = {
+	holder=381265	#Blanca Manuel de Villena
+}
+1361.1.1={
+	holder=370046	#Sancho de Castilla (1363-1371)
+}
+1369.3.23 = {
+	holder=0 
+}

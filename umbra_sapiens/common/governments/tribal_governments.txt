@@ -93,15 +93,11 @@ tribal_governments = {
 		frame_suffix = "_primitive"
 		title_prefix = "tribal_"
 		potential = {
-			religion_group = pagan_group
-			NOR = {
-				religion = norse_pagan
-				religion = aztec_pagan
-			}
-			OR = {
-				liege = { government = primitive_government }
-				independent = yes
-			}
+		religion_group = pagan_group
+		OR = {
+		liege = { government = primitive_government }
+		independent = yes
+		}
 		
 			Capital_scope ={ 			
 			NOR = {
@@ -123,10 +119,10 @@ tribal_governments = {
 				region = world_asia_minor
 				}
 				}
-			OR = {
-					is_feudal = no
-					has_game_started = no
-				}
+		OR = {
+				is_feudal = no
+				has_game_started = no
+			}
 			OR = {
 				controls_religion = no
 				religion_group = muslim
@@ -152,8 +148,7 @@ tribal_governments = {
 		can_usurp_kingdoms_and_empires = no
 		can_create_empires = no
 		can_create_kingdoms = no
-		demesne_size = -2
-		vassal_limit = -15
+		vassal_limit = -12
 		commander_limit = -4
 		marriage_ignore_religion = yes
 		court_size_modifier = -26

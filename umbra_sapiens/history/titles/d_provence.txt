@@ -146,7 +146,7 @@
 	holder=370838 #René of Anjou
 }
 1442.6.2={
-	liege=0
+	liege=k_france
 }
 1480.7.10 = {
 	holder=371258 #Charles IV of Anjou

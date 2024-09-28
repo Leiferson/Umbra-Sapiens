@@ -114,3 +114,42 @@
 1283.12.15={
 	holder=457633 # Sancho Manuel de Castilla
 }
+1346.1.1 = {
+	holder=457635 # Juan Sánchez Manuel
+}
+1369.3.23 = {
+	liege=0
+}
+1384.1.2 = {
+	holder=381266 # Alfonso Manuel
+}
+1394.2.26 = {
+	holder=381267 # Leonor Manuel
+}
+1408.3.8={
+	holder=370051 # Catalina de Lancaster
+}
+1418.6.2 = {
+	holder=370174	#John II
+}
+1454.7.21={
+	holder=370193	#Henry IV the Impotent 
+}
+1474.12.11={
+	holder=370189	#Isabella I
+}
+1504.11.26={
+	holder=370344	#Joanna of Castile
+}
+1516.3.13={
+	holder=370714	#Charles I
+}
+1556.1.16={
+	holder=370718	#Philip II
+}
+1598.9.13={
+	holder=371850	#Philip III
+}
+1621.3.31={
+	holder=372606	#Philip IV
+}

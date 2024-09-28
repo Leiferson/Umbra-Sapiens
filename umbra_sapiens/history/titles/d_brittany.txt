@@ -118,11 +118,37 @@
 1399.11.1 = {
 	holder=370729	#John V, Duke of Brittany
 }
+1423.4.13={
+	set_tribute_suzerain = { 
+		who = k_england
+		type = permanent 
+	}
+}
+1425.10.7={
+	clear_tribute_suzerain = k_england
+	set_tribute_suzerain = { 
+		who = k_france
+		type = permanent 
+	}
+}
+1427.9.8={
+	clear_tribute_suzerain = k_france
+	set_tribute_suzerain = { 
+		who = k_england
+		type = permanent 
+	}
+}
 1442.8.29 = {
 	holder=370792	#Francis I, Duke of Brittany
+	clear_tribute_suzerain = k_england
+	set_tribute_suzerain = { 
+		who = k_france
+		type = permanent 
+	}
 }
 1450.7.17 = {
 	holder=370794	#Peter II, Duke of Brittany
+	clear_tribute_suzerain = k_france
 }
 1457.9.22 = {
 	holder=370732	#Arthur III, Duke of Brittany

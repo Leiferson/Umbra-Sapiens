@@ -129,12 +129,14 @@ holder = 455526 # Philippe IV le Bel
 1349.10.6 = {
 	holder=455813	#Charles II (roi de Navarre)
 }
-1360.5.8={
-liege=0
-#english
+1360.5.8=
+{
+liege="k_england"
+holder=454500
 }
-1372.9.20={
+1374.1.1={
 	holder=455499 #Charles V
+	liege=k_france
 }
 1380.9.16={
 	holder=370746 #Charles VI

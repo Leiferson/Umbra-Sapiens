@@ -1,0 +1,122 @@
+753.1.1 = {
+	liege="k_lotharingia"
+	holder = 91506 #Jean Turpin, archbishop of Reims
+}
+835.1.1={
+	liege="k_france"
+	holder = 163049
+}
+925.1.1={
+	holder = 144977
+}
+931.1.1={
+	holder = 144976
+}
+940.1.1={
+	holder = 144977
+}
+946.1.1={
+	holder = 144976
+}
+988.1.1={
+	holder = 144978
+}
+991.1.1={
+	holder = 7824
+}
+999.2.18={
+	holder = 144978
+}
+1055.1.1={
+	holder=91173 #Gervais de Bellème
+}
+1067.7.4={
+	holder=20132 #Manassès I de Gournay
+}
+1081.12.27={
+	holder=91174 #Renauld I du Bellay
+}
+1096.1.1={
+	holder=91175 #Manassès II de Châtillon
+}
+1102.1.1={
+	liege="d_champagne"
+}
+1106.9.17={
+	holder=232013 #Gervais de Rethel
+}
+1107.5.23={
+	holder=91176 #Raoul le Verd
+}
+1124.1.1={
+	holder=91177 #Raymond de Martingné
+}
+1138.1.1={
+	holder=91178 #Samson de Mauvoisin
+}
+1161.1.1={
+	holder=91033 #Henri I de France
+}
+1176.1.1={
+	holder=91160 #Guillaume aux Blanches Mains
+}
+1202.1.1={
+	holder=91179 #Guy Paré
+}
+1207.1.1={
+	holder=91180 #Albéric de Humbert
+}
+1219.1.1={
+	holder=91181 #Guillaume de Joinville
+}
+1227.1.1={
+	holder=91044 #Henri II de Dreux
+}
+1240.1.1={
+	holder=91182 #Yves de Saint-Martain
+}
+1250.1.1={
+	holder=91183 #Thomas de Beaumetz
+}
+1263.1.1={
+	holder=91170 #Jean I de Courtenay-Champignelles
+}
+1270.8.20={
+	holder=91184 #Pierre Barbet
+}
+1298.1.1={
+	holder=91172 #Robert de Courtenay-Champignelles
+}
+1324.1.1={
+	holder=91185 #Guillaume de Trie
+}
+1331.1.1={
+	holder=91186 #Jean II de Vienne
+}
+Hugues d'Arcy[68] (1351–1352)
+
+    Humbert, O.P.[69] (1352–1355) (Administrator)
+
+Jean de Craon[70] (1355–1373)
+Louis Thesart[71] (14 April 1374 – 12 October 1375)
+Richard Picque[72] (12 November 1375 – 6 December 1389)
+Ferry Cassinel[73] (29 January 1390 – 26 May 1390) (Avignon Obedience)
+Guy de Roye[74] (1391–1409)
+Simon of Cramaud[75] (2 July 1409 – 1413)
+Pierre Trousseau[76] (2 May 1413 - 16 December 1413)
+Renaud of Chartres[77] (2 January 1414 – 1444)
+Jacques Juvenal des Ursins (9 October 1444 – 3 March 1449)
+Jean Juvenal des Ursins (3 March 1449 – 14 July 1473)[79]
+Pierre de Montfort-Laval (1474–1493)[80]
+Robert Briçonnet (1493–1497)[81]
+Guillaume Briçonnet (1497–1507)
+Cardinal Charles Dominique de Carreto[83] (16 September 1507 – 28 March 1509)
+Cardinal Robert de Lenoncourt[84] (28 March 1509 – 25 September 1532)
+Cardinal Jean de Lorraine[85] (1533–1550)
+Cardinal Charles of Guise[86] (1538–1574)
+Cardinal Louis I of Guise[87] (1574–1588)
+Cardinal Nicolas de Pellevé[88] (1588–1594)
+Philippe du Bec[89] (1594–1605)
+Cardinal Louis II of Guise[90] (1605–1621)
+Gabriel de Sainte-Marie OSB (William Gifford)[91] (1623–1629)
+Henry of Guise[92] (1629–1641)

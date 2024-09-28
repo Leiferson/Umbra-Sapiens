@@ -717,11 +717,6 @@
 	culture = occitan
 	religion = catholic
 }  
-1010043167= {
-	name="de Coucy"
-	culture = frankish
-	religion = catholic
-}  
 1010043168= {
 	name="de Béthune"
 	culture = frankish
@@ -844,11 +839,6 @@
 }  
 1010043193= {
 	name="de Quiñones"
-	culture = castillan
-	religion = catholic
-} 
-1010043194= {
-	name="de Zúñiga"
 	culture = castillan
 	religion = catholic
 } 
@@ -5683,4 +5673,369 @@
 	name="Coello Ribera"
 	culture="castillan"
 	religion="catholic"
+}
+1010044129={
+	name="Chamizo"
+	culture="castillan"
+	religion="catholic"
+}
+1010044130={
+	name="Pantoja"
+	culture="castillan"
+	religion="catholic"
+}
+1010044131={
+	name="de Campo"
+	culture="castillan"
+	religion="catholic"
+}
+1010044132={
+	name="de Campo"
+	culture="castillan"
+	religion="catholic"
+}
+1010044133={
+	name="de Barbudo"
+	culture="castillan"
+	religion="catholic"
+}
+1010044134={
+	name="de Monroy"
+	culture="castillan"
+	religion="catholic"
+}
+1010044135={
+	name="de Tinières"
+	culture="occitan"
+	religion="catholic"
+}
+1010044136={
+	name="de Verdale"
+	culture="occitan"
+	religion="catholic"
+}
+1010044137={
+	name="Alberti"
+	culture="occitan"
+	religion="catholic"
+}
+1010044138={
+	name="de Chapelles"
+	culture="occitan"
+	religion="catholic"
+}
+1010044139={
+	name="de Canillac"
+	culture="occitan"
+	religion="catholic"
+}
+1010044140={
+	name="de Déaux"
+	culture="occitan"
+	religion="catholic"
+}
+1010044141={
+	name="de Vernols"
+	culture="occitan"
+	religion="catholic"
+}
+1010044142={
+	name="de Lovier"
+	culture="occitan"
+	religion="catholic"
+}
+1010044143={
+	name="Adhémar"
+	culture="occitan"
+	religion="catholic"
+}
+1010044144={
+	name="Allemand"
+	culture="occitan"
+	religion="catholic"
+}
+1010044145={
+	name="Forestier"
+	culture="occitan"
+	religion="catholic"
+}
+1010044146={
+	name="Saporis D'Eyragues"
+	culture="occitan"
+	religion="catholic"
+}
+1010044147={
+	name="Robert"
+	culture="occitan"
+	religion="catholic"
+}
+1010044148={
+	name="de Rouvres"
+	culture="occitan"
+	religion="catholic"
+}
+1010044149={
+	name="de Valleville"
+	culture="occitan"
+	religion="catholic"
+}
+1010044150={
+	name="Bonald"
+	culture="occitan"
+	religion="catholic"
+}
+1010044151={
+	name="Le Roy de Chavigny"
+	culture="occitan"
+	religion="catholic"
+}
+1010044152={
+	name="Barrière"
+	culture="occitan"
+	religion="catholic"
+}
+1010044153={
+	name="Pellicier"
+	culture="occitan"
+	religion="catholic"
+}
+1010044154={
+	name="de Subjet de Cardot"
+	culture="occitan"
+	religion="catholic"
+}
+1010044155={
+	name="de Ratte"
+	culture="occitan"
+	religion="catholic"
+}
+1010044156={
+	name="Garnier"
+	culture="occitan"
+	religion="catholic"
+}
+1010044157={
+	name="Fenolliet"
+	culture="occitan"
+	religion="catholic"
+}
+1010044158={
+	name="Châteauneuf"
+	culture="frankish"
+	religion="catholic"
+}
+1010044159={
+	name="de Sarcenas"
+	culture="frankish"
+	religion="catholic"
+}
+1010044160={
+	name="d'Aigrefeuille"
+	culture="frankish"
+	religion="catholic"
+}
+1010044161={
+	name="de Brogny"
+	culture="frankish"
+	religion="catholic"
+}
+1010044162={
+	name="Pileo di Prata"
+	culture="italian"
+	religion="catholic"
+}
+1010044163={
+	name="de Linières"
+	culture="italian"
+	religion="catholic"
+}
+1010044164={
+	name="de Pompadour"
+	culture="italian"
+	religion="catholic"
+}
+1010044165={
+	name="de Montchenu"
+	culture="italian"
+	religion="catholic"
+}
+1010044166={
+	name="de Tournon"
+	culture="frankish"
+	religion="catholic"
+}
+1010044167={
+	name="Sala"
+	culture="frankish"
+	religion="catholic"
+}
+1010044168={
+	name="de Saint-Vital"
+	culture="frankish"
+	religion="catholic"
+}
+1010044169={
+	name="d'Urre"
+	culture="frankish"
+	religion="catholic"
+}
+1010044170={
+	name="de L'Hostel"
+	culture="frankish"
+	religion="catholic"
+}
+1010044171={
+	name="de la Baume de Suze"
+	culture="frankish"
+	religion="catholic"
+}
+1010044172={
+	name="de Roure"
+	culture="frankish"
+	religion="catholic"
+}
+1010044173={
+	name="de Chanac"
+	culture="frankish"
+	religion="catholic"
+}
+1010044174={
+	name="Virgili"
+	culture="italian"
+	religion="catholic"
+}
+1010044175={
+	name="de la Garde"
+	culture="occitan"
+	religion="catholic"
+}
+1010044176={
+	name="de Bosc"
+	culture="occitan"
+	religion="catholic"
+}
+1010044177={
+	name="de Boisratier"
+	culture="occitan"
+	religion="catholic"
+}
+1010044178={
+	name="de Miremont"
+	culture="occitan"
+	religion="catholic"
+}
+1010044179={
+	name="de Corbeya"
+	culture="occitan"
+	religion="catholic"
+}
+1010044180={
+	name="de Peyrusse d'Escars"
+	culture="occitan"
+	religion="catholic"
+}
+1010044181={
+	name="de Peira"
+	culture="occitan"
+	religion="catholic"
+}
+1010044182={
+	name="de La Panouse"
+	culture="frankish"
+	religion="catholic"
+}
+1010044183={
+	name="Riario"
+	culture="frankish"
+	religion="catholic"
+}
+1010044184= {
+	name="Grosso della Rovere"
+	culture = occitan
+	religion = catholic
+}
+1010044185= {
+	name="de Beaune"
+	culture = frankish
+	religion = catholic
+}
+1010044186= {
+	name="de Rousseau"
+	culture = frankish
+	religion = catholic
+}
+1010044187= {
+	name="de La Mothe"
+	culture = frankish
+	religion = catholic
+}
+1010044188= {
+	name="de Crusy"
+	culture = frankish
+	religion = catholic
+}
+1010044189= {
+	name="Chandos"
+	culture = frankish
+	religion = catholic
+}
+1010044190= {
+	name="Saquet"
+	culture = frankish
+	religion = catholic
+}
+1010044191= {
+	name="de Thurey"
+	culture = frankish
+	religion = catholic
+}
+1010044192= {
+	name="de Talaru"
+	culture = frankish
+	religion = catholic
+}
+1010044193= {
+	name="de Versailles"
+	culture = frankish
+	religion = catholic
+}
+1010044194= {
+	name="d'Espinay"
+	culture = frankish
+	religion = catholic
+}
+1010044195= {
+	name="d'Epinac"
+	culture = frankish
+	religion = catholic
+}
+1010044196= {
+	name="de Marquemont"
+	culture = frankish
+	religion = catholic
+}
+1010044197= {
+	name="Miron"
+	culture = frankish
+	religion = catholic
+}
+1010044198= {
+	name="du Plessis de Richelieu"
+	culture = frankish
+	religion = catholic
+}
+1010044199= {
+	name="de Bueil"
+	culture = frankish
+	religion = catholic
+}
+1010044200= {
+	name="de Husson"
+	culture = frankish
+	religion = catholic
+}
+1010044201= {
+	name="de La Tour"
+	culture = occitan
+	religion = catholic
 }

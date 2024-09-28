@@ -158,29 +158,71 @@
 	holder=458006 # Gonzalo Martínez de Oviedo
 }
 1340.1.1={
-	holder=458006 # Nuño Chamizo (1340–1343)
+	holder=381246 # Nuño Chamizo (1340–1343)
 }
-Pedro Alfonso Pantoja (1343–1345)
-Pedro Yáñez de Campo (1345)
-Fernando Pérez Ponce de León (1346–1355)
-Diego Gutiérrez de Cevallos (1355)
-Suero Martínez (1356–1363)
-Gutierre Gómez de Toledo (1362–1365)
-Martín López de Córdoba (1365–1367)
-Pedro Muñiz Godoy (1367)
-Melén Suárez (1369–1370)
-Rodrigo Díaz de la Vega (1370–1375)
-Diego Martínez (1376–1383)
-Diego Gómez Barroso (1383–1384)
-Gonzalo Núñez Guzmán (1384–1385)
-Martín Yáñez de Barbudo (1385–1394)
-Fernando Rodríguez Villalobos (1394–1408)
-Infante Sancho de Aragón (1408–1416)
-Juan de Sotomayor (1416–1432)
-Gutierre de Sotomayor (1432–1454)
-Gómez de Cáceres y Solís (1458–1473)
-Alonso de Monroy (1473–1477)
-Juan de Zúñiga y Pimentel (1477–1494)
+1343.1.1={
+	holder=381247 # Pedro Alfonso Pantoja (1343–1345)
+}
+1345.1.1={
+	holder=381248 # Pedro Yáñez de Campo (1345)
+}
+1346.1.1={
+	holder=381249 # Fernando Pérez Ponce de León (1346–1355)
+}
+1355.1.1={
+	holder=381250 # Diego Gutiérrez de Cevallos (1355)
+}
+1356.1.1={
+	holder=381251 # Suero Martínez (1356–1363)
+}
+1363.1.1={
+	holder=381252	# Gutierre Gómez de Toledo (1363–1365)
+}
+1365.1.1={
+	holder=378481	# Martín López de Córdoba (1365–1367)
+}
+1367.1.1={
+	holder=378482	# Pedro Muñiz Godoy (1367)
+}
+1369.1.1={
+	holder=381253	# Melén Suárez (1369–1370)
+}
+1370.1.1={
+	holder=381254	# Rodrigo Díaz de la Vega (1370–1375)
+}
+1375.1.1={
+	holder=381255	# Diego Martínez (1376–1383)
+}
+1383.1.1={
+	holder=381256	# Diego Gómez Barroso (1383–1384)
+}
+1384.1.1={
+	holder=381257	# Gonzalo Núñez Guzmán (1384–1385)
+}
+1385.1.1={
+	holder=381258	# Martín Yáñez de Barbudo (1385–1394)
+}
+1394.1.1={
+	holder=381259	# Fernando Rodríguez Villalobos (1394–1408)
+}
+1408.1.1={
+	holder=370188	# Infante Sancho de Aragón (1408–1416)
+}
+1416.3.1={
+	holder=381260	# Juan de Sotomayor (1416–1432)
+}
+1432.1.1={
+	holder=381261	# Gutierre de Sotomayor (1432–1454)
+}
+1454.1.1={
+	holder=381262	# Gómez de Cáceres y Solís (1458–1473)
+}
+1473.1.1={
+	holder=381263	# Alonso de Monroy (1473–1477)
+}
+1477.1.1={
+	holder=381264	# Juan de Zúñiga y Pimentel (1477–1494)
+}
 1494.1.1={
 	holder=370189	#Isabella I
 }

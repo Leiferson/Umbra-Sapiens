@@ -1420,6 +1420,9 @@
 	1360.6.24 = {
 		add_spouse = 370087
 	}
+	1389.1.1={
+		add_spouse=381391
+	}
 	1416.5.15 = {
 		death="1416.5.15"
 	}
@@ -5841,7 +5844,7 @@
 	}
 }
 370381 = {
-	name="João" # Rei D.João IV
+	name="João" # João IV de Portugal
 	dynasty=1010043106
 	religion="catholic"
 	culture="portuguese"
@@ -5849,6 +5852,9 @@
 	mother=370380
 	1604.3.19 = {
 		birth="1604.3.19"
+	}
+	1633.1.12={
+		add_spouse=381296
 	}
 	1656.11.6 = {
 		death="1656.11.6"
@@ -8091,7 +8097,7 @@
 	}
 }
 371949 = {
-	name="Maximilian" #Holy Roman Emperor
+	name="Maximilian" #Maximilian I, Holy Roman Emperor
 	dynasty=51
 	father=370511
 	mother=370208
@@ -8179,30 +8185,14 @@
 		death="1361.1.1"
 	}
 }
-#Issue of Louis II, Count of Flanders
-370526 = {
-	name="Margaret" #Margaret de Flandre
-	female=yes
-	dynasty=92 #Dampierre
-	religion="catholic"
-	culture="frankish"
-	father=455710 
-	mother=455508
-	1323.2.9 = {
-		birth="1323.2.9"
-	}
-	1380.1.1 = {
-		death="1380.1.1"
-	}
-}
 #Issue of Philip the Bold
 370527 = {
-	name="Jean" #
+	name="Jean" #John the Fearless
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1371.5.28 = {
 		birth="1371.5.28"
 	}
@@ -8218,8 +8208,8 @@
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1374.1.1 = {
 		birth="1374.1.1"
 	}
@@ -8233,8 +8223,8 @@
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1378.4.1 = {
 		birth="1378.4.1"
 	}
@@ -8248,8 +8238,8 @@
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1379.1.1 = {
 		birth="1379.1.1"
 	}
@@ -8262,8 +8252,8 @@
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1384.8.1 = {
 		birth="1384.8.1"
 	}
@@ -8277,8 +8267,8 @@
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1386.1.1 = {
 		birth="1386.1.1"
 	}
@@ -8291,8 +8281,8 @@
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
-	father=455504
-	mother=370526
+	father=370092
+	mother=370661
 	1389.10.1 = {
 		birth="1389.10.1"
 	}
@@ -8993,21 +8983,6 @@
 	}
 }
 #Issue of Peter I, Duke of Bourbon
-370580 = {
-	name="Louis" #Louis II, Duke of Bourbon
-	dynasty=100146
-	religion="catholic"
-	culture="frankish"
-	father=455651
-	mother=455506
-	1337.2.4 = {
-		birth="1337.2.4"
-	}
-	1368.7.4 = { add_spouse=370624 }
-	1410.8.10 = {
-		death="1410.8.10"
-	}
-}
 370581 = {
 	name="Jeanne"
 	female=yes
@@ -9622,8 +9597,8 @@
 	1355.1.1 = {
 		birth="1355.1.1"
 	}
-	1402.3.1 = {
-		death="1402.3.1"
+	1418.1.1 = {
+		death="1418.1.1"
 	}
 }
 370623 = {
@@ -9713,8 +9688,8 @@
 	1384.1.1 = {
 		birth="1384.1.1"
 	}
-	1470.1.1 = {
-		death="1470.1.1"
+	1436.1.1 = {
+		death="1436.1.1"
 	}
 	}
 #Issue of Béraud III (dauphin d'Auvergne)
@@ -10047,7 +10022,7 @@
 	1401.1.1 = {
 		birth="1401.1.1"
 	}
-	1425.1.1= { add_spouse= 370676 }
+	1425.1.1= { add_spouse= 370541 }
 	1456.12.4 = {
 		death="1456.12.4"
 	}
@@ -10106,7 +10081,7 @@
 	1406.12.23 = {
 		birth="1406.12.23"
 	}
-	1442.2.5 = { add_spouse=372460 }
+	1442.2.5 = { add_spouse=381527 }
 	1486.1.1 = {
 		death="1486.1.1"
 	}
@@ -10198,292 +10173,6 @@
 		death="1405.3.16"
 	}
 }
-#Issue of Philippe II de Bourgogne
-370662 = {
-	name="Jean" #John without fear
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1371.5.28 = {
-		birth="1371.5.28"
-	}
-	1385.4.12 = { add_spouse = 370425 }
-	1419.9.10 = {
-		death="1419.9.10"
-	}
-}
-370663 = {
-	name="Marguerite"
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1374.10.16 = {
-		birth="1374.10.16"
-	}
-	1441.3.8 = {
-		death="1441.3.8"
-	}
-}
-370664 = {
-	name="Catherine"
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1378.1.1 = {
-		birth="1378.1.1"
-	}
-	1426.1.26 = {
-		death="1426.1.26"
-	}
-}
-370665 = {
-	name="Bonne"
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1379.1.1 = {
-		birth="1379.1.1"
-	}
-	1399.9.10 = {
-		death="1399.9.10"
-	}
-}
-370666 = {
-	name="Antoine"
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1384.1.1 = {
-		birth="1384.1.1"
-	}
-	1415.10.25 = {
-		death="1415.10.25"
-	}
-}
-370667 = {
-	name="Marie"
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1386.1.1 = {
-		birth="1386.1.1"
-	}
-	1422.10.8 = {
-		death="1422.10.8"
-	}
-}
-370668 = {
-	name="Philippe"
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=455502
-	mother=462600
-	1389.1.1 = {
-		birth="1389.1.1"
-	}
-	1415.10.25 = {
-		death="1415.10.25"
-	}
-}
-#Issue of Jean Ier de Bourgogne
-370669 = {
-	name="Marguerite" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1393.12.8 = {
-		birth="1393.12.8"
-	}
-	1442.2.2 = {
-		death="1442.2.2"
-	}
-}
-370670 = {
-	name="Marie" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1394.1.1 = {
-		birth="1394.1.1"
-	}
-	1463.10.30 = {
-		death="1463.10.30"
-	}
-}
-370671 = {
-	name="Philippe" #Philippe le Bon
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1396.7.31 = {
-		birth="1396.7.31"
-	}
-	#is missing the french wives with no offspring
-	1369.6.19 ={ add_spouse = 370526 }
-	1430.1.7 = { add_spouse=370072 }
-	1467.6.15 = {
-		death="1467.6.15"
-	}
-}
-370672 = {
-	name="Catherine" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1400.1.1 = {
-		birth="1400.1.1"
-	}
-	1414.1.1 = {
-		death="1414.1.1"
-	}
-}
-370673 = {
-	name="Jeanne" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1401.1.1 = {
-		birth="1401.1.1"
-	}
-	1412.1.1 = {
-		death="1412.1.1"
-	}
-}
-370674 = {
-	name="Isabelle" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1403.1.1 = {
-		birth="1403.1.1"
-	}
-	1412.1.1 = {
-		death="1412.1.1"
-	}
-}
-370675 = {
-	name="Anne" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1404.9.1 = {
-		birth="1404.9.1"
-	}
-	1432.11.14 = {
-		death="1432.11.14"
-	}
-}
-370676 = {
-	name="Agnès" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	mother=370425
-	1407.1.1 = {
-		birth="1407.1.1"
-	}
-	1476.12.1 = {
-		death="1476.12.1"
-	}
-}
-370677 = {
-	name="Guy" 
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	trait=bastard
-	1400.1.1 = {
-		birth="1400.1.1"
-	}
-	1436.1.1 = {
-		death="1436.1.1"
-	}
-}
-370678 = {
-	name="Antoine" 
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	trait=bastard
-	1403.1.1 = {
-		birth="1403.1.1"
-	}
-	1470.1.1 = {
-		death="1470.1.1"
-	}
-}
-370679 = {
-	name="Philippotte" 
-	female=yes
-	dynasty=101
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	trait=bastard
-	1404.1.1 = {
-		birth="1404.1.1"
-	}
-	1474.1.1 = {
-		death="1474.1.1"
-	}
-}
-370680 = {
-	name="Jean" 
-	female=yes
-	dynasty=1010043123
-	religion="catholic"
-	culture="frankish"
-	father=370662
-	trait=bastard
-	trait=monk
-	1404.1.1 = {
-		birth="1404.1.1"
-	}
-	1480.4.27 = {
-		death="1480.4.27"
-	}
-}
 #Issue of Charles I, Duke of Bourbon
 370681 = {
 	name="Jean" #Jean II of Burgundy
@@ -10491,7 +10180,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1426.1.1 = {
 		birth="1426.1.1"
 	}
@@ -10506,7 +10195,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1428.1.1 = {
 		birth="1428.1.1"
 	}
@@ -10520,7 +10209,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1429.2.11 = {
 		birth="1429.2.11"
 	}
@@ -10535,7 +10224,7 @@
 	culture="frankish"
 	trait=monk
 	father=370651
-	mother=370676
+	mother=370541
 	1433.1.1 = {
 		birth="1433.1.1"
 	}
@@ -10550,7 +10239,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1437.1.1 = {
 		birth="1437.1.1"
 	}
@@ -10564,7 +10253,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1438.1.1 = {
 		birth="1438.1.1"
 	}
@@ -10579,7 +10268,7 @@
 	culture="frankish"
 	trait=monk
 	father=370651
-	mother=370676
+	mother=370541
 	1438.1.1 = {
 		birth="1438.1.1"
 	}
@@ -10594,7 +10283,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1438.2.5 = {
 		birth="1438.2.5"
 	}
@@ -10608,9 +10297,12 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1438.12.1 = {
 		birth="1438.12.1"
+	}
+	1474.1.1={
+		add_spouse=370994	#Anne de France (1461-1522)
 	}
 	1503.10.10 = {
 		death="1503.10.10"
@@ -10623,7 +10315,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1440.1.1 = {
 		birth="1440.1.1"
 	}
@@ -10638,7 +10330,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1443.1.1 = {
 		birth="1443.1.1"
 	}
@@ -10652,7 +10344,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370651
-	mother=370676
+	mother=370541
 	1445.1.1 = {
 		birth="1445.1.1"
 	}
@@ -10703,13 +10395,12 @@
 		death="1482.1.1"
 	}
 }
-#Issue of Charles the Bold
 #Issue of Maximilian I, Holy Roman Emperor
 370697 = {
 	name="Philip" #Philip I of Castille
 	dynasty=51
 	father=371949
-	mother=370558
+	mother=370866
 	culture=german
 	religion=catholic
 	1478.7.22 = {
@@ -11342,7 +11033,7 @@
 	1390.1.1 = {
 		birth="1390.1.1"
 		}
-	1450.1.1 = { add_spouse=371321 }
+	1450.1.1 = { add_spouse=381528 }
 	1455.1.1 = {
 		death="1455.1.1"
 	}
@@ -13120,11 +12811,11 @@
 	culture="frankish"
 	father=370786
 	trait=bastard
-	1446.1.1 = {
-		birth="1446.1.1"
+	1448.1.1 = {
+		birth="1448.1.1"
 	}
-	1480.1.1 = {
-		death="1480.1.1"
+	1467.1.1 = {
+		death="1467.1.1"
 	}
 }
 370858 = {
@@ -13184,66 +12875,6 @@
 	}
 	1342.12.25 = {
 		death="1342.12.25"
-	}
-}
-#Issue of Louis II, Duke of Bourbon
-370862 = {
-	name="Catherine" 
-	female=yes
-	dynasty=100146
-	religion="catholic"
-	culture="frankish"
-	father=370580
-	mother=370624
-	1378.1.1 = {
-		birth="1378.1.1"
-	}
-	1378.1.2 = {
-		death="1378.1.2"
-	}
-}
-370863 = {
-	name="Jean" #John I, Duke of Bourbon
-	dynasty=100146
-	religion="catholic"
-	culture="frankish"
-	father=370580
-	mother=370624
-	1381.1.1 = {
-		birth="1381.1.1"
-	}
-	1400.1.1={ add_spouse=370648 }
-	1434.1.1 = {
-		death="1434.1.1"
-	}
-}
-370864 = {
-	name="Louis" #Sieur de Beaujeu
-	dynasty=100146
-	religion="catholic"
-	culture="frankish"
-	father=370580
-	mother=370624
-	1388.1.1 = {
-		birth="1388.1.1"
-	}
-	1404.1.1 = {
-		death="1404.1.1"
-	}
-}
-370865 = {
-	name="Isabelle" 
-	female=yes
-	dynasty=100146
-	religion="catholic"
-	culture="frankish"
-	father=370580
-	mother=370624
-	1384.1.1 = {
-		birth="1384.1.1"
-	}
-	1451.1.1 = {
-		death="1451.1.1"
 	}
 }
 #Issue of Charles the Bold
@@ -15415,7 +15046,7 @@
 	}
 }
 371012 = {
-	name="Mathieu" 
+	name="Mathieu" #Matthew, Count of Foix
 	dynasty=684
 	religion="catholic"
 	culture="occitan"
@@ -15808,8 +15439,8 @@
 	1476.9.8={
 		add_spouse=371091
 	}
-	1500.1.1 = {
-		death="1500.1.1"
+	1500.11.5 = {
+		death="1500.11.5"
 	}
 }
 371039 = {
@@ -17102,7 +16733,7 @@
 	}
 }
 371125 = {
-	name="Philippe" #Charles III, Count of Alençon 
+	name="Philippe" 
 	dynasty=101
 	religion="catholic"
 	culture="frankish"
@@ -17750,7 +17381,7 @@
 	dynasty=5100
 	religion="catholic"
 	culture="occitan"
-	father=455644 #Jean I d'armagnac
+	father=455644 #Bernard VII, Count of Armagnac
 	mother=370644 
 	1396.10.15 = { 
 		birth="1396.10.15" #unknown
@@ -19931,19 +19562,6 @@
 		death="1494.9.8"
 	}
 }
-371321 = {
-	name="Isabelle"
-	female=yes
-	dynasty=1010043166
-	religion="catholic"
-	culture="occitan"
-	1420.1.1 = {
-		birth="1420.1.1"
-	}
-	1478.1.1 = {
-		death="1478.1.1"
-	}
-}
 #Issue of William, Viscount of Limoges
 371322 = {
 	name="Françoise" 
@@ -19952,7 +19570,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370740
-	mother=371321
+	mother=381528
 	1450.1.1 = {
 		birth="1450.1.1"
 		}
@@ -19967,7 +19585,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370740
-	mother=371321
+	mother=381528
 	1451.1.1 = {
 		birth="1451.1.1"
 		}
@@ -19982,7 +19600,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370740
-	mother=371321
+	mother=381528
 	1452.1.1 = {
 		birth="1452.1.1"
 		}
@@ -20586,7 +20204,7 @@
 371365 = {
 	name="Marie"
 	female=yes
-	dynasty=1010043167
+	dynasty=5081
 	religion="catholic"
 	culture="frankish"
 	father=373000
@@ -20877,8 +20495,8 @@
 	1470.1.1 = {
 		birth="1470.1.1"
 	}
-	1547.1.1 = {
-		death="1547.1.1"
+	1547.4.1 = {
+		death="1547.4.1"
 	}
 }
 371385 = {
@@ -22105,7 +21723,7 @@
 	name="Catherine" 
 	female=yes
 	dynasty=100146
-	religion="catholic"
+	religion="reformed"
 	culture="frankish"
 	father=371453
 	mother=371346
@@ -22856,7 +22474,7 @@
 	1492.9.12 = {
 		birth="1492.9.12"
 	} 
-	1518.5.5 = { add_spouse=371534 }
+	1518.5.5 = { add_spouse=381538 }
 	1519.5.4 = {
 		death="1519.5.4"
 	}
@@ -23066,26 +22684,13 @@
 		death="1571.1.1"
 	}
 }
-371534 = {
-	name="Madeleine" 
-	female=yes
-	dynasty=1010043166
-	religion="catholic"
-	culture="italian"
-	1498.1.1 = {
-		birth="1498.1.1"
-	} 
-	1519.4.28 = {
-		death="1519.4.28"
-	}
-}
 #Issue of Lorenzo de' Medici, Duke of Urbino
 371535 = {
 	name="Caterina" #Wife of Henry II of France
 	female=yes
 	dynasty=13030
 	father=371519
-	mother=371534
+	mother=381538
 	religion="catholic"
 	culture="italian"
 	1519.4.13 = {
@@ -24879,7 +24484,7 @@
 371659 = {
 	name="Isabel" 
 	female=yes
-	dynasty=1010043194
+	dynasty=7016
 	religion="catholic"
 	culture="castillan"
 	1470.1.1 = {
@@ -27698,6 +27303,9 @@
 	mother=371857
 	1608.4.24 = {
 		birth="1608.4.24"
+	}
+	1626.8.6={
+	add_spouse=381458
 	}
 	1660.2.2 = {
 		death="1660.2.2"
@@ -35931,19 +35539,6 @@
 		death="1525.1.1"
 	}
 }
-372460 = {
-	name="Gabrielle" #daughter of Bertrand V de La Tour d'Auvergne
-	female=yes
-	dynasty=1010043166
-	religion="catholic"
-	culture="frankish"
-	1420.1.1 = {
-		birth="1420.1.1"
-	}
-	1474.1.1 = {
-		death="1474.1.1"
-	}
-}
 #Issue of Louis I, Count of Montpensier
 372461 = {
 	name="Gilbert" #Gilbert, Count of Montpensier
@@ -35951,7 +35546,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370655
-	mother=372460
+	mother=381527
 	1443.1.1 = {
 		birth="1443.1.1"
 	}
@@ -35966,7 +35561,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370655
-	mother=372460
+	mother=381527
 	1445.1.1 = {
 		birth="1445.1.1"
 	}
@@ -35981,7 +35576,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370655
-	mother=372460
+	mother=381527
 	1447.1.1 = {
 		birth="1447.1.1"
 	}
@@ -35996,7 +35591,7 @@
 	religion="catholic"
 	culture="frankish"
 	father=370655
-	mother=372460
+	mother=381527
 	1449.1.1 = {
 		birth="1449.1.1"
 	}
@@ -37574,6 +37169,12 @@
 	1563.11.8 = {
 		birth="1563.11.8"
 	}
+	1599.1.31={
+		add_spouse=371467
+	}
+	1606.4.24={
+		add_spouse=375591
+	}
 	1624.7.31 = {
 		death="1624.7.31"
 	}
@@ -37647,6 +37248,9 @@
 	mother=371691
 	1572.2.27 = {
 		birth="1572.2.27"
+	}
+	1597.1.1={
+		add_spouse=381508
 	}
 	1632.10.14 = {
 		death="1632.10.14"
@@ -43849,9 +43453,10 @@
 #Issue of Enguerrand VII de Coucy
 373000 = {
 	name="Enguerrand"
-	dynasty=1010043167
+	dynasty=5081
 	religion="catholic"
 	culture="frankish"
+	father=454980
 	1340.1.1 = {
 		birth="1340.1.1"
 	}
@@ -43864,7 +43469,7 @@
 373001 = {
 	name="Philippa"
 	female=yes
-	dynasty=1010043167
+	dynasty=5081
 	religion="catholic"
 	culture="frankish"
 	father=373000
@@ -43879,7 +43484,7 @@
 373002 = {
 	name="Isabelle"
 	female=yes
-	dynasty=1010043167
+	dynasty=5081
 	religion="catholic"
 	culture="frankish"
 	father=373000
@@ -82844,7 +82449,7 @@
 	}
 }
 375688 = {
-	name="Louis" 
+	name="Louis" #Louis de Lorraine (1555-1588)
 	dynasty=1010043169
 	religion="catholic"
 	culture="frankish"
@@ -83496,7 +83101,7 @@
 	}
 }
 375732 = {
-	name="Ferdinando" 
+	name="Ferdinando" #Ferdinand, Duke of Mayenne
 	dynasty=13052
 	religion="catholic"
 	culture="italian"
@@ -87384,13 +86989,13 @@
 	}
 }
 375999 = {
-	name="Henri" 
+	name="Henri" #Henri II, Duke of Guise
 	dynasty=1010043169
 	religion="catholic"
 	culture="frankish"
 	father=375692
 	mother=375997
-	trait=monk
+	trait=monk	#bishop of Reims
 	1614.4.4 = {
 		birth="1614.4.4"
 	}
@@ -122361,8 +121966,8 @@
 	1330.1.2={
 		birth="1330.1.2"
 	}
-	1385.1.1={
-		death="1385.1.1"
+	1385.10.2={
+		death="1385.10.2"
 	}
 }
 #Issue of Froila Mendes de Trastâmara
@@ -145301,8 +144906,8 @@
 	1336.1.1={
 		birth="1336.1.1"
 	}
-	1365.1.1={
-		death="1365.1.1"
+	1365.5.30={
+		death="1365.5.30"
 	}
 }
 380121={
@@ -145543,20 +145148,6 @@
 	}
 }
 380137={
-	name="Juan Urraco"	#Juan Urraco Pérez de Guzmán El bueno
-	dynasty=7010
-	religion=catholic
-	culture=castillan
-	father=380128
-	trait=bastard
-	1440.1.1={
-		birth="1440.1.1"
-	}
-	1505.1.1={
-		death="1505.1.1"
-	}
-}
-380138={
 	name="Juan Urraco"	#Juan Urraco Pérez de Guzmán El bueno
 	dynasty=7010
 	religion=catholic
@@ -160121,7 +159712,7 @@
 }
 381200 = {
 	name="Diego"	#Diego Zúñiga Sotomayor
-	dynasty=1010043194
+	dynasty=7016
 	religion="catholic"
 	culture="castillan"
 	trait=monk
@@ -160771,15 +160362,4090 @@
 }
 #Manrique de Lara, VII conde de Valencia 380707
 #order of alcantara
-458006 = {
-	name="Gonzalo"
-	dynasty=101910
+381246 = {
+	name="Nuño"	# Nuño Chamizo (1340–1343)
+	dynasty=1010044129
 	religion="catholic"
 	culture="castillan"
-	1291.1.1={
-		birth="1291.1.1"
+	trait=monk
+	1295.1.1={
+		birth="1295.1.1"
 	}
-	1338.1.1={
-		death="1338.1.1"
+	1343.1.1={
+		death="1343.1.1"
+	}
+}
+381247 = {
+	name="Pedro Alfonso"	# Pedro Alfonso Pantoja (1343–1345)
+	dynasty=1010044130
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1301.1.1={
+		birth="1301.1.1"
+	}
+	1345.1.1={
+		death="1345.1.1"
+	}
+}
+381248 = {
+	name="Pedro"	# Pedro Yáñez de Campo (1345)
+	dynasty=1010044131
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1290.1.1={
+		birth="1290.1.1"
+	}
+	1346.1.1={
+		death="1346.1.1"
+	}
+}
+381249 = {
+	name="Fernando"	# Fernando Pérez Ponce de León (1346–1355)
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1297.1.1={
+		birth="1297.1.1"
+	}
+	1355.1.1={
+		death="1355.1.1"
+	}
+}
+381250 = {
+	name="Diego"	# Diego Gutiérrez de Cevallos (1355)
+	dynasty=12186
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1302.1.1={
+		birth="1302.1.1"
+	}
+	1356.1.1={
+		death="1356.1.1"
+	}
+}
+381251 = {
+	name="Suero"	# Suero Martínez (1356–1363)
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1307.1.1={
+		birth="1307.1.1"
+	}
+	1363.1.1={
+		death="1363.1.1"
+	}
+}
+381252 = {
+	name="Gutierre"	# Gutierre Gómez de Toledo (1363–1365)
+	dynasty=1010044102
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1307.1.1={
+		birth="1307.1.1"
+	}
+	1365.1.1={
+		death="1365.1.1"
+	}
+}
+381253 = {
+	name="Melén"	# Melén Suárez (1369–1370)
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1315.1.1={
+		birth="1315.1.1"
+	}
+	1370.1.1={
+		death="1370.1.1"
+	}
+}
+381254 = {
+	name="Rodrigo"	# Rodrigo Díaz de la Vega (1370–1375)
+	dynasty=7009
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1320.1.1={
+		birth="1320.1.1"
+	}
+	1375.1.1={
+		death="1375.1.1"
+	}
+}
+381255 = {
+	name="Rodrigo"	# Diego Martínez (1376–1383)
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1323.1.1={
+		birth="1323.1.1"
+	}
+	1383.1.1={
+		death="1383.1.1"
+	}
+}
+381256 = {
+	name="Diego"	# Diego Gómez Barroso (1383–1384)
+	dynasty=1010043619
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1330.1.1={
+		birth="1330.1.1"
+	}
+	1384.1.1={
+		death="1384.1.1"
+	}
+}
+381257 = {
+	name="Gonzalo"	# Gonzalo Núñez Guzmán (1384–1385)
+	dynasty=7010
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1336.1.1={
+		birth="1336.1.1"
+	}
+	1385.1.1={
+		death="1385.1.1"
+	}
+}
+381258 = {
+	name="Martín"	# Martín Yáñez de Barbudo (1385–1394)
+	dynasty=1010044133
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1336.1.1={
+		birth="1336.1.1"
+	}
+	1394.1.1={
+		death="1394.1.1"
+	}
+}
+381259 = {
+	name="Fernando"	# Fernando Rodríguez Villalobos (1394–1408)
+	dynasty=7011
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1340.1.1={
+		birth="1340.1.1"
+	}
+	1408.1.1={
+		death="1408.1.1"
+	}
+}
+381260 = {
+	name="Fernando"	# Juan de Sotomayor (1416–1432)
+	dynasty=7015
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1381.1.1={
+		birth="1381.1.1"
+	}
+	1432.1.1={
+		death="1432.1.1"
+	}
+}
+381261 = {
+	name="Gutierre"	# Gutierre de Sotomayor (1432–1454)
+	dynasty=7015
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1403.1.1={
+		birth="1403.1.1"
+	}
+	1454.1.1={
+		death="1454.1.1"
+	}
+}
+381262 = {
+	name="Gómez"	# Gómez de Cáceres y Solís (1458–1473)
+	dynasty=7017
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1418.1.1={
+		birth="1418.1.1"
+	}
+	1473.1.1={
+		death="1473.1.1"
+	}
+}
+381263 = {
+	name="Alonso"	# Alonso de Monroy (1473–1477)
+	dynasty=1010044134
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1423.1.1={
+		birth="1423.1.1"
+	}
+	1477.1.1={
+		death="1477.1.1"
+	}
+}
+381264 = {
+	name="Juan"	# Juan de Zúñiga y Pimentel (1477–1494)
+	dynasty=7016
+	religion="catholic"
+	culture="castillan"
+	trait=monk
+	1465.1.1={
+		birth="1465.1.1"
+	}
+	1504.1.1={
+		death="1504.1.1"
+	}
+}
+#Issue of Fernando Manuel de Villena
+381265 = {
+	name="Blanca Manuel"	#Blanca Manuel de Villena 
+	female=yes
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457632
+	mother=71762
+	1348.1.1 = {
+		birth="1348.1.1"
+	}
+	1361.1.1 = {
+		death="1361.1.1"
+	}
+}
+#Issue of Juan Sánchez Manuel
+381266 = {
+	name="Alfonso Manuel"	#Alfonso Manuel
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	1377.1.2 = {
+		birth="1377.1.2"
+	}
+	1394.2.26 = {
+		death="1394.2.26"
+	}
+}
+381267 = {
+	name="Leonor Manuel"	#Leonor Manuel
+	female=yes
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	1378.1.2 = {
+		birth="1378.1.2"
+	}
+	1428.1.1 = {
+		death="1428.1.1"
+	}
+}
+381268 = {
+	name="Inés Manuel"	#Inés Manuel
+	female=yes
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	1379.1.2 = {
+		birth="1379.1.2"
+	}
+	1430.1.1 = {
+		death="1430.1.1"
+	}
+}
+381269 = {
+	name="Juana Manuel"	#Juana Manuel
+	female=yes
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	1380.1.1 = {
+		birth="1380.1.1"
+	}
+	1380.1.5 = {
+		death="1380.1.5"
+	}
+}
+381270 = {
+	name="Fernando"	#Fernando Sánchez Manuel
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	trait=bastard
+	trait=monk
+	1350.1.1 = {
+		birth="1350.1.1"
+	}
+	1408.1.1 = {
+		death="1408.1.1"
+	}
+}
+381271 = {
+	name="Sancho"	#Sancho Manuel
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	trait=bastard
+	trait=monk
+	1353.1.1 = {
+		birth="1353.1.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+381272 = {
+	name="Juan"	#Juan Sánchez Manuel
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	trait=bastard
+	trait=monk
+	1355.1.1 = {
+		birth="1355.1.1"
+	}
+	1401.1.1 = {
+		death="1401.1.1"
+	}
+}
+381273 = {
+	name="Fernán Manuel"	#Fernán Manuel
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	trait=bastard
+	trait=monk
+	1358.1.1 = {
+		birth="1358.1.1"
+	}
+	1410.1.1 = {
+		death="1410.1.1"
+	}
+}
+381274 = {
+	name="Alfonso"	#Alfonso Sánchez Manuel
+	dynasty=7024
+	religion="catholic"
+	culture="castillan"
+	father=457635
+	trait=bastard
+	trait=monk
+	1360.1.1 = {
+		birth="1360.1.1"
+	}
+	1428.1.1 = {
+		death="1428.1.1"
+	}
+}
+#Issue of Pedro Ponce de León (f. ca. 1374)
+381275 = {
+	name="Pedro"	#Pedro Ponce de León y Haro
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	1360.1.1={
+		birth="1360.1.1"
+	}
+	1448.1.1={
+		death="1448.1.1"
+	}
+}
+381276 = {
+	name="Isabel"	#Isabel Ponce de León (m. después de 1410)
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	1362.1.1={
+		birth="1362.1.1"
+	}
+	1433.1.1={
+		death="1433.1.1"
+	}
+}
+381277 = {
+	name="Beatriz"	#Beatriz Ponce de León
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	1363.1.1={
+		birth="1363.1.1"
+	}
+	1430.1.1={
+		death="1430.1.1"
+	}
+}
+381278 = {
+	name="María"	#María Ponce de León
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	1364.1.1={
+		birth="1364.1.1"
+	}
+	1437.1.1={
+		death="1437.1.1"
+	}
+}
+381279 = {
+	name="Fernando"	#Fernando Ponce de León
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	trait=bastard
+	1360.1.1={
+		birth="1360.1.1"
+	}
+	1401.1.1={
+		death="1401.1.1"
+	}
+}
+381280 = {
+	name="Juan"	#Juan Ponce de León
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	trait=bastard
+	1361.1.1={
+		birth="1361.1.1"
+	}
+	1394.1.1={
+		death="1394.1.1"
+	}
+}
+381281 = {
+	name="Alfonso"	#Alfonso Ponce de León
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	trait=bastard
+	1363.1.1={
+		birth="1363.1.1"
+	}
+	1402.1.1={
+		death="1402.1.1"
+	}
+}
+381282 = {
+	name="Beatriz"	#Beatriz Ponce de León
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=458028
+	trait=bastard
+	1365.1.1={
+		birth="1365.1.1"
+	}
+	1409.1.1={
+		death="1409.1.1"
+	}
+}
+#Issue of Pedro Ponce de León y Haro
+381283 = {
+	name="Juan"	#Juan Ponce de León y Ayala 
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381275
+	1400.1.1={
+		birth="1400.1.1"
+	}
+	1469.10.20={
+		death="1469.10.20"
+	}
+}
+#Issue of Juan Ponce de León y Ayala 
+381284 = {
+	name="Rodrigo"	#Rodrigo Ponce de León (1443-1492)
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381283
+	1443.1.1={
+		birth="1443.1.1"
+	}
+	1492.8.28={
+		death="1492.8.28"
+	}
+}
+#Issue of Rodrigo Ponce de León (1443-1492)
+381285 = {
+	name="Francisca"	#Francisca Ponce de León y de la Fuente
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381284
+	1465.1.1={
+		birth="1465.1.1"
+	}
+	1520.1.1={
+		death="1520.1.1"
+	}
+}
+381286 = {
+	name="María"	#María Ponce de León y de la Fuente
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381284
+	1470.1.1={
+		birth="1470.1.1"
+	}
+	1516.1.1={
+		death="1516.1.1"
+	}
+}
+381287 = {
+	name="Leonor"	#Leonor Ponce de León y de la Fuente
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381284
+	1472.1.1={
+		birth="1472.1.1"
+	}
+	1530.1.1={
+		death="1530.1.1"
+	}
+}
+#Issue of Francisca Ponce de León y de la Fuente
+381288 = {
+	name="Rodrigo"	#Rodrigo Ponce de León (m. 1530)
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381285
+	1493.1.1={
+		birth="1493.1.1"
+	}
+	1530.1.1={
+		death="1530.1.1"
+	}
+}
+#Issue of Rodrigo Ponce de León (m. 1530)
+381289 = {
+	name="Ana"	#Ana Ponce de León y Girón
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381288
+	1527.5.3={
+		birth="1527.5.3"
+	}
+	1601.4.26={
+		death="1601.4.26"
+	}
+}
+381290 = {
+	name="Luis Cristóbal"	#Luis Cristóbal Ponce de León
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381288
+	1512.1.1={
+		birth="1512.1.1"
+	}
+	1573.10.9={
+		death="1573.10.9"
+	}
+}
+#Issue of Luis Cristóbal Ponce de León
+381291 = {
+	name="Rodrigo"	#Rodrigo Ponce de León (m. 1630)
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381290
+	1545.12.31={
+		birth="1545.12.31"
+	}
+	1630.1.16={
+		death="1630.1.16"
+	}
+}
+#issue of Rodrigo Ponce de León (m. 1630)
+381292 = {
+	name="María"	#María Ponce de León
+	female=yes
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381291
+	1572.1.1={
+		birth="1572.1.1"
+	}
+	1625.1.1={
+		death="1625.1.1"
+	}
+}
+381293 = {
+	name="Luis"	#Luis Ponce de León y Zúñiga (1573-1605)
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381291
+	1573.1.1={
+		birth="1573.1.1"
+	}
+	1605.1.1={
+		death="1605.1.1"
+	}
+}
+#Issue of Luis Ponce de León y Zúñiga (1573-1605)
+381294 = {
+	name="Rodrigo"	#Rodrigo Ponce de León (1602-1658)
+	dynasty=7003
+	religion="catholic"
+	culture="castillan"
+	father=381293
+	1602.2.2={
+		birth="1602.2.2"
+	}
+	1658.1.1={
+		death="1658.1.1"
+	}
+}
+#Issue of Alonso de Guzmán y Sotomayor, 7th Duke of Medina Sidonia
+381295={
+	name="Gaspar Alonso"	#Gaspar Alonso Pérez de Guzmán el Bueno
+	dynasty=7010
+	religion=catholic
+	culture=castillan
+	father=380154
+	1602.8.2={
+		birth="1602.8.2"
+	}
+	1664.11.4={
+		death="1664.11.4"
+	}
+}
+381296={
+	name="Luisa Francisca"	#Luisa Francisca de Guzmán
+	female=yes
+	dynasty=7010
+	religion=catholic
+	culture=castillan
+	father=380154
+	1613.10.24={
+		birth="1613.10.24"
+	}
+	1666.2.27={
+		death="1666.2.27"
+	}
+}
+381297={
+	name="Alonso"	#Alonso Pérez de Guzmán y Gómez de Sandoval
+	dynasty=7010
+	religion=catholic
+	culture=castillan
+	father=380154
+	1615.1.1={
+		birth="1615.1.1"
+	}
+	1650.1.1={
+		death="1650.1.1"
+	}
+}
+#Issue of João IV de Portugal
+381298 = {
+	name="João" #Teodósio, Príncipe do Brasil
+	dynasty=1010043106
+	religion="catholic"
+	culture="portuguese"
+	father=370381
+	mother=381296
+	1634.2.8 = {
+		birth="1634.2.8"
+	}
+	1653.5.13 = {
+		death="1653.5.13"
+	}
+}
+381299 = {
+	name="Ana" #Ana de Bragança
+	female=yes
+	dynasty=1010043106
+	religion="catholic"
+	culture="portuguese"
+	father=370381
+	mother=381296
+	1635.1.21 = {
+		birth="1635.1.21"
+	}
+	1635.1.22 = {
+		death="1635.1.22"
+	}
+}
+381300 = {
+	name="Joana" #Joana, Princesa da Beira
+	female=yes
+	dynasty=1010043106
+	religion="catholic"
+	culture="portuguese"
+	father=370381
+	mother=381296
+	1636.9.18 = {
+		birth="1636.9.18"
+	}
+	1653.11.17 = {
+		death="1653.11.17"
+	}
+}
+381301 = {
+	name="Joana" #Catarina, Rainha da Inglaterra
+	female=yes
+	dynasty=1010043106
+	religion="catholic"
+	culture="portuguese"
+	father=370381
+	mother=381296
+	1638.11.25 = {
+		birth="1638.11.25"
+	}
+	1705.12.31 = {
+		death="1705.12.31"
+	}
+}
+381302 = {
+	name="Manuel" #Manuel de Bragança
+	dynasty=1010043106
+	religion="catholic"
+	culture="portuguese"
+	father=370381
+	mother=381296
+	1640.9.6 = {
+		birth="1640.9.6"
+	}
+	1640.9.7 = {
+		death="1640.9.7"
+	}
+}
+#Couto Mixto
+381303 = {
+	name="Vasco" 
+	religion="catholic"
+	culture="portuguese"
+	1310.1.1 = {
+		birth="1310.1.1"
+	}
+	1379.1.1 = {
+		death="1379.1.1"
+	}
+}
+381304 = {
+	name="Gabriel" 
+	religion="catholic"
+	culture="portuguese"
+	1350.1.1 = {
+		birth="1350.1.1"
+	}
+	1425.1.1 = {
+		death="1425.1.1"
+	}
+}
+381305 = {
+	name="Pedro" 
+	religion="catholic"
+	culture="portuguese"
+	1400.1.1 = {
+		birth="1400.1.1"
+	}
+	1480.1.1 = {
+		death="1480.1.1"
+	}
+}
+381306 = {
+	name="Fabiano" 
+	religion="catholic"
+	culture="portuguese"
+	1450.1.1 = {
+		birth="1450.1.1"
+	}
+	1533.1.1 = {
+		death="1533.1.1"
+	}
+}
+381307 = {
+	name="Marco" 
+	religion="catholic"
+	culture="portuguese"
+	1505.1.1 = {
+		birth="1505.1.1"
+	}
+	1596.1.1 = {
+		death="1596.1.1"
+	}
+}
+381308 = {
+	name="Roberto" 
+	religion="catholic"
+	culture="portuguese"
+	1570.1.1 = {
+		birth="1570.1.1"
+	}
+	1645.1.1 = {
+		death="1645.1.1"
+	}
+}
+#Issue of Archambaud V
+381309 = {
+	name="Archambaud" #Archambaud VI
+	dynasty=98
+	religion="catholic"
+	culture="occitan"
+	father=371156 #Archambaud V du Périgord
+	1390.1.1 = {
+		birth="1390.1.1"
+	}
+	1430.1.1 = {
+		death="1430.1.1"
+	}
+}
+381310 = {
+	name="Brunisenda" 
+	female=yes
+	dynasty=98
+	religion="catholic"
+	culture="occitan"
+	father=371156 #Archambaud V du Périgord
+	1392.1.1 = {
+		birth="1392.1.1"
+	}
+	1440.1.1 = {
+		death="1440.1.1"
+	}
+}
+381311 = {
+	name="Eleanor" 
+	female=yes
+	dynasty=98
+	religion="catholic"
+	culture="occitan"
+	father=371156 #Archambaud V du Périgord
+	1394.1.1 = {
+		birth="1394.1.1"
+	}
+	1439.1.1 = {
+		death="1439.1.1"
+	}
+}
+381312 = {
+	name="Guillaume"	#Guillaume III
+	dynasty=1010044135
+	religion="catholic"
+	culture="frankish"
+	1400.1.1 = {
+		birth="1400.1.1"
+	}
+	1447.1.1 = {
+		death="1447.1.1"
+	}
+}
+#bishops of Melgueil
+381313 = {
+	name="Arnaud"	#Arnaud de Verdale 1339–1352
+	dynasty=1010044136
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1300.1.1 = {
+		birth="1300.1.1"
+	}
+	1352.1.1 = {
+		death="1352.1.1"
+	}
+}
+381314 = {
+	name="Aldouin"	#Aldouin Alberti 1352–1353
+	dynasty=1010044137
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1304.1.1 = {
+		birth="1304.1.1"
+	}
+	1363.1.1 = {
+		death="1363.1.1"
+	}
+}
+381315 = {
+	name="Durand"	#Durand de Chapelles 1353–1361
+	dynasty=1010044138
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1304.1.1 = {
+		birth="1304.1.1"
+	}
+	1361.1.1 = {
+		death="1361.1.1"
+	}
+}
+381316 = {
+	name="Pierre"	#Pierre de Canillac 1361
+	dynasty=1010044139
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1310.1.1 = {
+		birth="1310.1.1"
+	}
+	1361.6.1 = {
+		death="1361.6.1"
+	}
+}
+381317 = {
+	name="Dieudonné"	#Dieudonné de Canillac 1361–1367
+	dynasty=1010044139
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1313.1.1 = {
+		birth="1313.1.1"
+	}
+	1367.1.1 = {
+		death="1367.1.1"
+	}
+}
+381318 = {
+	name="Gaucelin"	#Gaucelin de Déaux (Dreux) 1367–1373
+	dynasty=1010044140
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1315.1.1 = {
+		birth="1315.1.1"
+	}
+	1373.1.1 = {
+		death="1373.1.1"
+	}
+}
+381319 = {
+	name="Pierre"	#Pierre de Vernols 1373–1389
+	dynasty=1010044141
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1389.1.1 = {
+		death="1389.1.1"
+	}
+}
+381320 = {
+	name="Antoine"	#Antoine de Lovier 1389–1405
+	dynasty=1010044142
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1335.1.1 = {
+		birth="1335.1.1"
+	}
+	1405.1.1 = {
+		death="1405.1.1"
+	}
+}
+381321 = {
+	name="Pierre"	#Pierre Adhémar 1405 or 1408–1415
+	dynasty=1010044143
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1360.1.1 = {
+		birth="1360.1.1"
+	}
+	1415.1.1 = {
+		death="1415.1.1"
+	}
+}
+381322 = {
+	name="Louis"	#Louis Allemand 1418–1423
+	dynasty=1010044144
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1376.1.1 = {
+		birth="1376.1.1"
+	}
+	1423.1.1 = {
+		death="1423.1.1"
+	}
+}
+381323 = {
+	name="Guillaume"	#Guillaume Forestier 1423–1429
+	dynasty=1010044145
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1374.1.1 = {
+		birth="1374.1.1"
+	}
+	1429.1.1 = {
+		death="1429.1.1"
+	}
+}
+381324 = {
+	name="Léger"	#Léger Saporis D'Eyragues 1429–1430
+	dynasty=1010044146
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1379.1.1 = {
+		birth="1379.1.1"
+	}
+	1430.1.1 = {
+		death="1430.1.1"
+	}
+}
+381325 = {
+	name="Bertrand"	#Bertrand Robert 1431–1433
+	dynasty=1010044147
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1380.1.1 = {
+		birth="1380.1.1"
+	}
+	1433.1.1 = {
+		death="1433.1.1"
+	}
+}
+381326 = {
+	name="Robert"	#Robert de Rouvres 1433–1453
+	dynasty=1010044148
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1400.1.1 = {
+		birth="1400.1.1"
+	}
+	1453.1.1 = {
+		death="1453.1.1"
+	}
+}
+381327 = {
+	name="Maur"	#Maur de Valleville 1453–1471
+	dynasty=1010044149
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1406.1.1 = {
+		birth="1406.1.1"
+	}
+	1471.1.1 = {
+		death="1471.1.1"
+	}
+}
+381328 = {
+	name="Jean"	#Jean Bonald 1471 oder 1472–1487
+	dynasty=1010044150
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1413.1.1 = {
+		birth="1413.1.1"
+	}
+	1487.1.1 = {
+		death="1487.1.1"
+	}
+}
+381329 = {
+	name="Guillaume"	#Guillaume Le Roy de Chavigny 1487–1488
+	dynasty=1010044151
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1416.1.1 = {
+		birth="1416.1.1"
+	}
+	1488.1.1 = {
+		death="1488.1.1"
+	}
+}
+381330 = {
+	name="Izarn"	#Izarn Barrière 1487 or 1488–1498
+	dynasty=1010044152
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1427.1.1 = {
+		birth="1427.1.1"
+	}
+	1498.1.1 = {
+		death="1498.1.1"
+	}
+}
+381331 = {
+	name="Guillaume"	#Guillaume Pellicier 1498–1527 or 1529
+	dynasty=1010044153
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1455.1.1 = {
+		birth="1455.1.1"
+	}
+	1527.1.1 = {
+		death="1527.1.1"
+	}
+}
+381332 = {
+	name="Guillaume"	#Guillaume Pellicier II 1527 or 1529–1568 (of Montpellier from 1535)
+	dynasty=1010044153
+	religion="catholic"
+	culture="occitan"
+	father=381331
+	trait=monk
+	1500.1.1 = {
+		birth="1500.1.1"
+	}
+	1568.1.1 = {
+		death="1568.1.1"
+	}
+}
+381333 = {
+	name="Antoine"	#Antoine de Subjet de Cardot 1568–1596
+	dynasty=1010044154
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1520.1.1 = {
+		birth="1520.1.1"
+	}
+	1596.1.1 = {
+		death="1596.1.1"
+	}
+}
+381334 = {
+	name="Guitard"	#Guitard de Ratte 1596–1602
+	dynasty=1010044155
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1540.1.1 = {
+		birth="1540.1.1"
+	}
+	1602.1.1 = {
+		death="1602.1.1"
+	}
+}
+381335 = {
+	name="Jean"	#Jean Garnier 1603–1607
+	dynasty=1010044156
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1544.1.1 = {
+		birth="1544.1.1"
+	}
+	1607.1.1 = {
+		death="1607.1.1"
+	}
+}
+381336 = {
+	name="Pierre"	#Pierre Fenolliet (Fenouillet) 1607–1652
+	dynasty=1010044157
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1577.1.1 = {
+		birth="1577.1.1"
+	}
+	1652.1.1 = {
+		death="1652.1.1"
+	}
+}
+#bishops of vivarais
+381337 = {
+	name="Henri"	#Henri de Thoire-Villars
+	dynasty=8695 #Thoire
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1300.1.1 = {
+		birth="1300.1.1"
+	}
+	1336.1.1 = {
+		death="1336.1.1"
+	}
+}
+381338 = {
+	name="Henri"	#1365–1373: Bertrand de Châteauneuf
+	dynasty=1010044158 
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1315.1.1 = {
+		birth="1315.1.1"
+	}
+	1373.1.1 = {
+		death="1373.1.1"
+	}
+}
+381339 = {
+	name="Pierre"	#1373–1375: Pierre de Sarcenas
+	dynasty=1010044159 
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1313.1.1 = {
+		birth="1313.1.1"
+	}
+	1375.1.1 = {
+		death="1375.1.1"
+	}
+}
+381340 = {
+	name="Bernard"	#1376–1383: Bernard d'Aigrefeuille
+	dynasty=1010044160 
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1318.1.1 = {
+		birth="1318.1.1"
+	}
+	1383.1.1 = {
+		death="1383.1.1"
+	}
+}
+381341 = {
+	name="Jean Allarmet"	#1383–1385: Jean Allarmet de Brogny (Avignon Obedience)
+	dynasty=1010044161 
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1385.1.1 = {
+		death="1385.1.1"
+	}
+}
+381342 = {
+	name="Olivier"	#1385–1387: Olivier de Poitiers (Avignon Obedience)
+	dynasty=100141 
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1323.1.1 = {
+		birth="1323.1.1"
+	}
+	1387.1.1 = {
+		death="1387.1.1"
+	}
+}
+381343 = {
+	name="Pietro"	#1387–1388: Pietro Pileo di Prata (Avignon Obedience)
+	dynasty=1010044162
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1330.1.1 = {
+		birth="1330.1.1"
+	}
+	1388.1.1 = {
+		death="1388.1.1"
+	}
+}
+381344 = {
+	name="Guillaume"	#1389–1406: Guillaume de Poitiers (Avignon Obedience)
+	dynasty=100141
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1340.1.1 = {
+		birth="1340.1.1"
+	}
+	1406.1.1 = {
+		death="1406.1.1"
+	}
+}
+381345 = {
+	name="Jean"	#1406–1442: Jean de Linières (Avignon Obedience)
+	dynasty=1010044163
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1370.1.1 = {
+		birth="1370.1.1"
+	}
+	1442.1.1 = {
+		death="1442.1.1"
+	}
+}
+381346 = {
+	name="Guillaume-Olivier"	#1442–1454: Guillaume-Olivier de Poitiers
+	dynasty=100141
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1400.1.1 = {
+		birth="1400.1.1"
+	}
+	1454.1.1 = {
+		death="1454.1.1"
+	}
+}
+381347 = {
+	name="Hélie"	#1454–1477: Hélie de Pompadour
+	dynasty=1010044164
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1409.1.1 = {
+		birth="1409.1.1"
+	}
+	1477.1.1 = {
+		death="1477.1.1"
+	}
+}
+381348 = {
+	name="Jean"	#1478–1497: Jean de Montchenu
+	dynasty=1010044165
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1430.1.1 = {
+		birth="1430.1.1"
+	}
+	1497.1.1 = {
+		death="1497.1.1"
+	}
+}
+381349 = {
+	name="Claude"	#1498–1542: Claude de Tournon
+	dynasty=1010044166
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1480.1.1 = {
+		birth="1480.1.1"
+	}
+	1542.5.31 = {
+		death="1542.5.31"
+	}
+}
+381350 = {
+	name="Charles"	#1542–1550: Charles de Tournon
+	dynasty=1010044166
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1495.1.1 = {
+		birth="1495.1.1"
+	}
+	1550.7.8 = {
+		death="1550.7.8"
+	}
+}
+381351 = {
+	name="Simon"	#1550–1554: Simon de Maillé-Brézé
+	dynasty=1010043165
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1515.1.1 = {
+		birth="1515.1.1"
+	}
+	1597.1.11 = {
+		death="1597.1.11"
+	}
+}
+381352 = {
+	name="Jacques-Marie"	#1554–1564: Jacques-Marie Sala
+	dynasty=1010044167
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1500.1.1 = {
+		birth="1500.1.1"
+	}
+	1564.1.1 = {
+		death="1564.1.1"
+	}
+}
+381353 = {
+	name="Eucher"	#1564–1571: Eucher de Saint-Vital
+	dynasty=1010044168
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1505.1.1 = {
+		birth="1505.1.1"
+	}
+	1571.1.1 = {
+		death="1571.1.1"
+	}
+}
+381354 = {
+	name="Pierre"	#1571–1572: Pierre d'Urre
+	dynasty=1010044169
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1517.1.1 = {
+		birth="1517.1.1"
+	}
+	1572.1.1 = {
+		death="1572.1.1"
+	}
+}
+381355 = {
+	name="Jean"	#1575–1621: Jean V. de L'Hôtel
+	dynasty=1010044170
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1527.1.1 = {
+		birth="1527.1.1"
+	}
+	1621.4.6 = {
+		death="1621.4.6"
+	}
+}
+381356 = {
+	name="Louis-François"	#1621–1690: Louis-François de la Baume de Suze
+	dynasty=1010044171
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1602.1.1 = {
+		birth="1602.1.1"
+	}
+	1690.9.5 = {
+		death="1690.9.5"
+	}
+}
+#bishops of gevaudan
+381357 = {
+	name="Guillaume"	#Guilelmus 1362–1366	
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1307.1.1 = {
+		birth="1307.1.1"
+	}
+	1366.1.1 = {
+		death="1366.1.1"
+	}
+}
+381358 = {
+	name="Pierre Gerardi"	#Pierre Gerardi de Roure (1366–1368)
+	dynasty=1010044172
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1315.1.1 = {
+		birth="1315.1.1"
+	}
+	1368.1.1 = {
+		death="1368.1.1"
+	}
+}
+381359 = {
+	name="Guillaume"	#Guillaume de Chanac, O.S.B. (1371)
+	dynasty=1010044173
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1318.1.1 = {
+		birth="1318.1.1"
+	}
+	1371.1.1 = {
+		death="1371.1.1"
+	}
+}
+381360 = {
+	name="Bonuspar"	#Bonuspar Virgili(1371–1375)
+	dynasty=1010044174
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1375.1.1 = {
+		death="1375.1.1"
+	}
+}
+381361 = {
+	name="Ponce"	#Ponce de la Garde (1375– after 1383)
+	dynasty=1010044175
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1387.1.1 = {
+		death="1387.1.1"
+	}
+}
+381362 = {
+	name="Jean"	#Jean d'Armagnac 1387–1390 (Avignon Obedience) 
+	dynasty=100209
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1325.1.1 = {
+		birth="1325.1.1"
+	}
+	1390.1.1 = {
+		death="1390.1.1"
+	}
+}
+381363 = {
+	name="Robert"	#Robert de Bosc 1390–1407 (Avignon Obedience)
+	dynasty=1010044176
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1333.1.1 = {
+		birth="1333.1.1"
+	}
+	1407.1.1 = {
+		death="1407.1.1"
+	}
+}
+381364 = {
+	name="Guillaume"	#Guillaume de Boisratier
+	dynasty=1010044177
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1340.1.1 = {
+		birth="1340.1.1"
+	}
+	1409.1.1 = {
+		death="1409.1.1"
+	}
+}
+381365 = {
+	name="Pierre"	#Pierre de Saluzzo 1409–1412 (Avignon-Pisan-Roman Obedience)
+	dynasty=1010043564
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1348.1.1 = {
+		birth="1348.1.1"
+	}
+	1412.1.1 = {
+		death="1412.1.1"
+	}
+}
+381366 = {
+	name="Gerard"	#Gerard de Miremont 1413
+	dynasty=1010044178
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1350.1.1 = {
+		birth="1350.1.1"
+	}
+	1413.1.1 = {
+		death="1413.1.1"
+	}
+}
+381367 = {
+	name="Jean"	#Jean de Corbeya 1413–1426 (transferred to Auxerre)
+	dynasty=1010044179
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1358.1.1 = {
+		birth="1358.1.1"
+	}
+	1426.1.1 = {
+		death="1426.1.1"
+	}
+}
+381368 = {
+	name="Ranulf"	#Ranulf de Peyrusse d'Escars 1426–1441
+	dynasty=1010044180
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1380.1.1 = {
+		birth="1380.1.1"
+	}
+	1441.1.1 = {
+		death="1441.1.1"
+	}
+}
+381369 = {
+	name="Adelbert"	#Adelbert de Peira 1441–1443
+	dynasty=1010044181
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1383.1.1 = {
+		birth="1383.1.1"
+	}
+	1443.1.1 = {
+		death="1443.1.1"
+	}
+}
+381370 = {
+	name="Guy"	#Guy de Panouse 1443–1444 (transferred to Castres)
+	dynasty=1010044182
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1385.1.1 = {
+		birth="1385.1.1"
+	}
+	1444.1.1 = {
+		death="1444.1.1"
+	}
+}
+381371 = {
+	name="Regnault"	#Cardinal Regnault de Chartres (Administrator) 1444
+	dynasty=100111
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1400.1.1 = {
+		birth="1400.1.1"
+	}
+	1467.1.1 = {
+		death="1467.1.1"
+	}
+}
+381372 = {
+	name="Antoine"	#Antoine de La Panouse 1467–1473
+	dynasty=1010044182
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1415.1.1 = {
+		birth="1415.1.1"
+	}
+	1473.1.1 = {
+		death="1473.1.1"
+	}
+}
+381373 = {
+	name="Pietro"	#Pietro Riario, O.F.M. Conv. 1473–1474
+	dynasty=1010044183
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1422.1.1 = {
+		birth="1422.1.1"
+	}
+	1474.1.1 = {
+		death="1474.1.1"
+	}
+}
+381374 = {
+	name="Giuliano"	#Giuliano della Rovere 1478–1479
+	dynasty=1010044184
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1410.1.1 = {
+		birth="1410.1.1"
+	}
+	1479.1.1 = {
+		death="1479.1.1"
+	}
+}
+381375 = {
+	name="Clemente"	#Clemente Grosso della Rovere, O.F.M. Conv.(1483–1504)
+	dynasty=1010044184
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1450.1.1 = {
+		birth="1450.1.1"
+	}
+	1504.1.1 = {
+		death="1504.1.1"
+	}
+}
+381376 = {
+	name="Francesco"	#Francesco Grosso della Rovere 1504–1524
+	dynasty=1010044184
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1465.1.1 = {
+		birth="1465.1.1"
+	}
+	1524.1.1 = {
+		death="1524.1.1"
+	}
+}
+381377 = {
+	name="Renaud"	#Renaud de Beaune 1568–1581 (Appointed, Archbishop of Bourges)
+	dynasty=1010044185
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1505.1.1 = {
+		birth="1505.1.1"
+	}
+	1581.1.1 = {
+		death="1581.1.1"
+	}
+}
+381378 = {
+	name="Renaud"	#Charles de Rousseau 1608–1623
+	dynasty=1010044186
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1560.1.1 = {
+		birth="1560.1.1"
+	}
+	1624.1.1 = {
+		death="1624.1.1"
+	}
+}
+381379 = {
+	name="Daniel"	#Daniel de La Mothe-Houdancourt 1624–1628
+	dynasty=1010044187
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1565.1.1 = {
+		birth="1565.1.1"
+	}
+	1628.1.1 = {
+		death="1628.1.1"
+	}
+}
+381380 = {
+	name="Silvestre"	#Silvestre de Crusy de Marcillac 1628–1660
+	dynasty=1010044188
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1590.1.1 = {
+		birth="1590.1.1"
+	}
+	1660.1.1 = {
+		death="1660.1.1"
+	}
+}
+#Issue of Philippe de Bourgogne (1323-1346)
+381381 = {
+	name="Jeanne"	
+	female=yes
+	dynasty=741
+	religion="catholic"
+	culture="frankish"
+	father=455912
+	mother=455820
+	1344.1.1 = {
+		birth="1344.1.1"
+	}
+	1360.1.1 = {
+		death="1360.1.1"
+	}
+}
+381382 = {
+	name="Marguerite"	
+	female=yes
+	dynasty=741
+	religion="catholic"
+	culture="frankish"
+	father=455912
+	mother=455820
+	1345.1.1 = {
+		birth="1345.1.1"
+	}
+	1345.1.5 = {
+		death="1345.1.5"
+	}
+}
+381383 = {
+	name="Philippe"	#Philippe Ier de Bourgogne
+	dynasty=741
+	religion="catholic"
+	culture="frankish"
+	father=455912
+	mother=455820
+	1346.1.1 = {
+		birth="1346.1.1"
+	}
+	1361.11.21 = {
+		death="1361.11.21"
+	}
+}
+#Issue of Robert VII d'Auvergne
+381384 = {
+	name="Godefroy" #Godefroy d'Auvergne 
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=7471 #Robert VII d'Auvergne
+	mother=138429 #Marie de Flandre
+	1322.1.1 = {
+		birth="1322.1.1"
+	}
+	1385.1.1 = {
+		death="1385.1.1"
+	}
+}
+381385 = {
+	name="Guy" #Guy d'Auvergne 
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=7471 #Robert VII d'Auvergne
+	mother=138429 #Marie de Flandre
+	trait=monk
+	1319.1.1 = {
+		birth="1319.1.1"
+	}
+	1373.1.1 = {
+		death="1373.1.1"
+	}
+}
+381386 = {
+	name="Jean" #Jean Ier d'Auvergne
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=7471 #Robert VII d'Auvergne
+	mother=138429 #Marie de Flandre
+	1313.1.1 = {
+		birth="1313.1.1"
+	}
+	1328.1.1={
+		add_spouse=381387
+	}
+	1386.3.24 = {
+		death="1386.3.24"
+	}
+}
+381387 = {
+	name="Jeanne" #Jeanne de Clermont
+	female=yes
+	dynasty=89 #Capetian house of Clermont	
+	religion="catholic"
+	culture="frankish"	
+	father=91144 #Jean de Charolais
+	1314.1.1 = {
+		birth="1314.1.1"
+	}
+	1383.1.1 = {
+		death="1383.1.1"
+	}
+}
+#Issue of Jean Ier d'Auvergne
+381388 = {
+	name="Marie"	#Marie
+	female=yes
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=381386 #Robert VII d'Auvergne
+	mother=381387 #Marie de Flandre
+	1328.1.1 = {
+		birth="1328.1.1"
+	}
+	1390.1.1 = {
+		death="1390.1.1"
+	}
+}
+381389 = {
+	name="Jean"	#Jean II d'Auvergne
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=381386 #Robert VII d'Auvergne
+	mother=381387 #Marie de Flandre
+	1329.1.1 = {
+		birth="1329.1.1"
+	}
+	1373.8.11={
+		add_spouse=381390
+	}
+	1404.9.28 = {
+		death="1404.9.28"
+	}
+}
+381390 = {
+	name="Aliénor " #Aliénor de Comminges
+	female=yes
+	dynasty=386
+	religion="catholic"
+	culture="occitan"
+	father=371171
+	mother=455557
+	1350.1.1 = {
+		birth="1350.1.1" 
+	}
+	1378.1.2 = {
+		death="1378.1.2"
+	}
+}
+#Issue of Jean II d'Auvergne
+381391 = {
+	name="Jeanne"	#Jeanne II d'Auvergne
+	female=yes
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=381389 
+	mother=381390 
+	1378.1.1 = {
+		birth="1378.1.1"
+	}
+	#Georges Ier de La Trémoille
+	1424.1.1 = {
+		death="1424.1.1"
+	}
+}
+#Issue of Pierre II de Bourbon
+381392 = {
+	name="Charles"	#Charles de Bourbon (1476-1498)
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370689
+	mother=370994
+	1476.1.1 = {
+		birth="1476.1.1"
+	}
+	1498.1.1 = {
+		death="1498.1.1"
+	}
+}
+381393 = {
+	name="Suzanne"	#Suzanne de Bourbon
+	female=yes
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370689
+	mother=370994
+	1491.5.10 = {
+		birth="1491.5.10"
+	}
+	1521.4.28 = {
+		death="1521.4.28"
+	}
+}
+#Issue of Jean II of Burgundy
+381394 = {
+	name="Mathieu" #Mathieu de Bourbon
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370681
+	trait=bastard
+	1462.1.1 = {
+		birth="1462.1.1"
+	}
+	1505.1.1 = {
+		death="1505.1.1"
+	}
+}
+381395 = {
+	name="Charles" #Charles de Bourbon
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370681
+	mother=371320
+	trait=bastard
+	1470.1.1 = {
+		birth="1470.1.1"
+	}
+	1502.9.8 = {
+		death="1502.9.8"
+	}
+}
+381396 = {
+	name="Hector" #Hector de Bourbon
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370681
+	trait=bastard
+	trait=monk
+	1450.1.1 = {
+		birth="1450.1.1"
+	}
+	1502.1.1 = {
+		death="1502.1.1"
+	}
+}
+381397 = {
+	name="Marie" #Marie de Bourbon
+	female=yes
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370681
+	trait=bastard
+	1453.1.1 = {
+		birth="1453.1.1"
+	}
+	1512.1.1 = {
+		death="1512.1.1"
+	}
+}
+381398 = {
+	name="Marguerite" #Marguerite de Bourbon
+	female=yes
+	dynasty=329
+	religion="catholic"
+	culture="frankish"
+	father=370681
+	trait=bastard
+	1445.1.1 = {
+		birth="1445.1.1"
+	}
+	1464.1.1={
+	remove_trait=bastard
+	trait=legit_bastard
+	}
+	1483.1.1 = {
+		death="1483.1.1"
+	}
+}
+381399 = {
+	name="John" #John Chandos
+	dynasty=1010044189
+	religion="catholic"
+	culture="english"
+	trait=genius
+	trait=brilliant_strategist
+	martial=15
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1369.12.31 = {
+		death="1369.12.31"
+	}
+}
+381400 = {
+	name="Henri" 
+	dynasty=8695 #Thoire
+	religion="catholic"
+	culture="frankish"
+	father=70940
+	mother=462702
+	trait=monk
+	1335.1.1 = {
+		birth="1335.1.1"
+	}	
+	1354.1.1 = {
+		death="1354.1.1"
+	}
+}
+381401 = {
+	name="Raymond" #1356–1358 Raymond Saquet
+	dynasty=1010044190
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1303.1.1 = {
+		birth="1303.1.1"
+	}	
+	1358.1.1 = {
+		death="1358.1.1"
+	}
+}
+381402 = {
+	name="Guillaume" #1358–1365 Guillaume II de Thurey
+	dynasty=1010044191
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1303.1.1 = {
+		birth="1303.1.1"
+	}	
+	1358.1.1 = {
+		death="1358.1.1"
+	}
+}
+381403 = {
+	name="Jean" # 1375–1389 Jean II de Talaru
+	dynasty=1010044192
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1318.1.1 = {
+		birth="1318.1.1"
+	}	
+	1389.1.1 = {
+		death="1389.1.1"
+	}
+}
+381404 = {
+	name="Philippe" # 1389–1415 Philippe de Thurey Avignon Obedience
+	dynasty=1010044191
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1350.1.1 = {
+		birth="1350.1.1"
+	}	
+	1415.1.1 = {
+		death="1415.1.1"
+	}
+}
+381405 = {
+	name="Jean" # 1417–1444 Amédée de Talaru
+	dynasty=1010044192
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1390.1.1 = {
+		birth="1390.1.1"
+	}	
+	1444.2.11 = {
+		death="1444.2.11"
+	}
+}
+381406 = {
+	name="Geoffroy" # 1444–1446 Geoffroy II de Versailles
+	dynasty=1010044193
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1393.1.1 = {
+		birth="1393.1.1"
+	}	
+	1446.1.1 = {
+		death="1446.1.1"
+	}
+}
+381407 = {
+	name="Hugues" # Hugues II de Talaru
+	dynasty=1010044192
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1420.1.1 = {
+		birth="1420.1.1"
+	}	
+	1499.1.1 = {
+		death="1499.1.1"
+	}
+}
+381408 = {
+	name="André" # 1499–1500 André d'Espinay (cardinal)
+	dynasty=1010044194
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1425.1.1 = {
+		birth="1425.1.1"
+	}	
+	1500.1.1 = {
+		death="1500.1.1"
+	}
+}
+381409 = {
+	name="François" # 1501–1536 François de Rohan
+	dynasty=312
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1470.1.1 = {
+		birth="1470.1.1"
+	}	
+	1536.1.1 = {
+		death="1536.1.1"
+	}
+}
+381410 = {
+	name="François"	#1551–1562 Cardinal François de Tournon
+	dynasty=1010044166
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1489.1.1 = {
+		birth="1489.1.1"
+	}
+	1562.1.1 = {
+		death="1562.1.1"
+	}
+}
+381411 = {
+	name="Antoine" # 1564–1573 Antoine d'Albon
+	dynasty=232
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1510.1.1 = {
+		birth="1510.1.1"
+	}
+	1573.1.1 = {
+		death="1573.1.1"
+	}
+}
+381412 = {
+	name="Pierre" # 1573–1599 Pierre d'Epinac
+	dynasty=1010044195
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1527.1.1 = {
+		birth="1527.1.1"
+	}
+	1599.1.1 = {
+		death="1599.1.1"
+	}
+}
+381413 = {
+	name="Denis-Simon" # 1612–1626 Denis-Simon de Marquemont
+	dynasty=1010044196
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1570.1.1 = {
+		birth="1570.1.1"
+	}
+	1626.1.1 = {
+		death="1626.1.1"
+	}
+}
+381414 = {
+	name="Charles" # 1626–1628 Charles Miron
+	dynasty=1010044197
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1574.1.1 = {
+		birth="1574.1.1"
+	}
+	1628.1.1 = {
+		death="1628.1.1"
+	}
+}
+381415 = {
+	name="Alphonse-Louis" # 1628–1653 Alphonse-Louis du Plessis de Richelieu
+	dynasty=1010044198
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1582.1.1 = {
+		birth="1582.1.1"
+	}
+	1653.3.23 = {
+		death="1653.3.23"
+	}
+}
+#Issue of Jean II de Bueil
+381416 = {
+	name="Jean" #Jean II de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1366.1.1 = {
+		death="1366.1.1"
+	}
+}
+381417 = {
+	name="Jean" #Jean III de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381416
+	1340.1.1 = {
+		birth="1340.1.1"
+	}
+	1405.11.6 = {
+		death="1405.11.6"
+	}
+}
+381418 = {
+	name="Pierre" #Pierre de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381416
+	1345.1.1 = {
+		birth="1345.1.1"
+	}
+	1413.1.1 = {
+		death="1413.1.1"
+	}
+}
+381419 = {
+	name="Hardouin" #Hardouin de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381416
+	trait=monk
+	1347.1.1 = {
+		birth="1347.1.1"
+	}
+	1439.1.15 = {
+		death="1439.1.15"
+	}
+}
+381420 = {
+	name="Guillaume" #Guillaume de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381416
+	1348.1.1 = {
+		birth="1348.1.1"
+	}
+	1415.10.25 = {
+		death="1415.10.25"
+	}
+}
+381421 = {
+	name="Marguerite" #Marguerite de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381416
+	1350.1.1 = {
+		birth="1350.1.1"
+	}
+	1408.1.1 = {
+		death="1408.1.1"
+	}
+}
+381422 = {
+	name="Marie" #Marie de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381416
+	1351.1.1 = {
+		birth="1351.1.1"
+	}
+	1393.10.8 = {
+		death="1393.10.8"
+	}
+}
+#Issue of Jean III de Bueil
+381423 = {
+	name="Pierre" #Pierre de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381417
+	1359.1.1 = {
+		birth="1359.1.1"
+	}
+	1383.9.5 = {
+		death="1383.9.5"
+	}
+}
+381424 = {
+	name="Jean" #Jean IV de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381417
+	1365.1.1 = {
+		birth="1365.1.1"
+	}
+	1404.1.1={
+		add_spouse=370628
+	}
+	1415.10.25 = {
+		death="1415.10.25"
+	}
+}
+381425 = {
+	name="Jeanne" #Jeanne de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381417
+	1366.1.1 = {
+		birth="1366.1.1"
+	}
+	1422.7.6 = {
+		death="1422.7.6"
+	}
+}
+381426 = {
+	name="Marie" #Marie de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381417
+	1367.1.1 = {
+		birth="1367.1.1"
+	}
+	1415.1.1 = {
+		death="1415.1.1"
+	}
+}
+381427 = {
+	name="Catherine" #Catherine de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381417
+	1368.1.1 = {
+		birth="1368.1.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+#Issue of Jean IV de Bueil
+381428 = {
+	name="Jean"	#Jean V de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381424
+	mother=370628
+	1406.1.1 = {
+		birth="1406.1.1"
+	}
+	1478.7.7 = {
+		death="1478.7.7"
+	}
+}
+381429 = {
+	name="Louis"	#Louis III de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381424
+	mother=370628
+	1407.1.1 = {
+		birth="1407.1.1"
+	}
+	1447.2.5 = {
+		death="1447.2.5"
+	}
+}
+381430 = {
+	name="Anne"	#Anne de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381424
+	mother=370628
+	1405.1.1 = {
+		birth="1405.1.1"
+	}
+	1458.1.1 = {
+		death="1458.1.1"
+	}
+}
+#Issue of Jean V de Bueil
+381431 = {
+	name="Antoine"	#Antoine de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381428
+	1440.1.1 = {
+		birth="1440.1.1"
+	}
+	1461.12.23={
+		add_spouse=370857
+	}
+	1506.7.7 = {
+		death="1506.7.7"
+	}
+}
+381432 = {
+	name="Louis"	#Louis de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381428
+	1458.1.1 = {
+		birth="1458.1.1"
+	}
+	1458.1.5 = {
+		death="1458.1.5"
+	}
+}
+381433 = {
+	name="Edmond"	#Edmond de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381428
+	1480.1.1 = {
+		birth="1480.1.1"
+	}
+	1512.1.1 = {
+		death="1512.1.1"
+	}
+}
+381434 = {
+	name="Françoise"	#Françoise de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381428
+	1481.1.1 = {
+		birth="1481.1.1"
+	}
+	1481.1.5 = {
+		death="1481.1.5"
+	}
+}
+#Issue of Charles VII
+381435 = {
+	name="Jacques"	#Jacques de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381431
+	mother=370857
+	1462.1.1 = {
+		birth="1462.1.1"
+	}
+	1513.10.8 = {
+		death="1513.10.8"
+	}
+}
+381436 = {
+	name="Renée"	#Renée de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381431
+	mother=370857
+	1464.1.1 = {
+		birth="1464.1.1"
+	}
+	1500.1.1 = {
+		death="1500.1.1"
+	}
+}
+#Issue of Jacques de Bueil
+381437 = {
+	name="Charles"	#Charles de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381435
+	1497.1.1 = {
+		birth="1497.1.1"
+	}
+	1515.9.13 = {
+		death="1515.9.13"
+	}
+}
+381438 = {
+	name="François"	#François de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381435
+	trait=monk
+	1498.1.1 = {
+		birth="1498.1.1"
+	}
+	1525.3.25 = {
+		death="1525.3.25"
+	}
+}
+381439 = {
+	name="Louis"	#Louis IV de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381435
+	1513.1.1 = {
+		birth="1513.1.1"
+	}
+	1563.1.1 = {
+		death="1563.1.1"
+	}
+}
+#Issue of Charles de Bueil
+381440 = {
+	name="Jean"	#Jean VI de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381437
+	1515.1.1 = {
+		birth="1515.1.1"
+	}
+	1537.1.1 = {
+		death="1537.1.1"
+	}
+}
+#Issue of Louis IV de Bueil
+381441 = {
+	name="Jean"	#Jean VII de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	1562.1.1 = {
+		birth="1562.1.1"
+	}
+	1638.1.1 = {
+		death="1638.1.1"
+	}
+}
+381442 = {
+	name="Claude"	#Claude de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	1561.1.1 = {
+		birth="1561.1.1"
+	}
+	1596.1.1 = {
+		death="1596.1.1"
+	}
+}
+381443 = {
+	name="Anne"	#Anne de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	1560.1.1 = {
+		birth="1560.1.1"
+	}
+	1610.1.1 = {
+		death="1610.1.1"
+	}
+}
+381444 = {
+	name="Jacqueline"	#Jacqueline de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	1559.1.1 = {
+		birth="1559.1.1"
+	}
+	1601.1.1 = {
+		death="1601.1.1"
+	}
+}
+381445 = {
+	name="Gabrielle"	#Gabrielle de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	1558.1.1 = {
+		birth="1558.1.1"
+	}
+	1605.1.1 = {
+		death="1605.1.1"
+	}
+}
+381446 = {
+	name="Françoise"	#Françoise de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	trait=nun
+	1557.1.1 = {
+		birth="1557.1.1"
+	}
+	1600.1.1 = {
+		death="1600.1.1"
+	}
+}
+381447 = {
+	name="Louise"	#Louise de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381439
+	trait=nun
+	1557.1.1 = {
+		birth="1557.1.1"
+	}
+	1600.1.1 = {
+		death="1600.1.1"
+	}
+}
+#Issue of Jean VII de Bueil
+381448 = {
+	name="René"	#René de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381441
+	1585.1.1 = {
+		birth="1585.1.1"
+	}
+	1640.1.1 = {
+		death="1640.1.1"
+	}
+}
+#Issue of René de Bueil
+381449 = {
+	name="Jean"	#Jean VIII de Bueil
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381448
+	1627.1.1 = {
+		birth="1627.1.1"
+	}
+	1665.1.1 = {
+		death="1665.1.1"
+	}
+}
+381450 = {
+	name="Anne"	#Anne de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381448
+	1628.1.1 = {
+		birth="1628.1.1"
+	}
+	1690.1.1 = {
+		death="1690.1.1"
+	}
+}
+381451 = {
+	name="Françoise"	#Françoise de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381448
+	1634.1.1 = {
+		birth="1634.1.1"
+	}
+	1690.1.1 = {
+		death="1690.1.1"
+	}
+}
+381452 = {
+	name="Marie"	#Marie de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381448
+	1638.1.1 = {
+		birth="1638.1.1"
+	}
+	1690.1.1 = {
+		death="1690.1.1"
+	}
+}
+381453 = {
+	name="Renée"	#Renée de Bueil
+	female=yes
+	dynasty=1010044199
+	religion="catholic"
+	culture="frankish"
+	father=381448
+	1640.1.1 = {
+		birth="1640.1.1"
+	}
+	1690.1.1 = {
+		death="1690.1.1"
+	}
+}
+#Issue of Louis II of Châtillon
+381454 = {
+	name="Louis"	#Louis III, Count of Blois
+	dynasty=23113 #Châtillon
+	religion="catholic"
+	culture="frankish"
+	father=455783 #Guy I de Châtillon
+	mother=91193 #Marguerite de Valois
+	1340.1.1 = {
+		birth="1340.1.1"
+	}
+	1372.1.1 = {
+		death="1372.1.1"
+	}
+}
+381455 = {
+	name="Jean"	#John II, Count of Blois
+	dynasty=23113 #Châtillon
+	religion="catholic"
+	culture="frankish"
+	father=455783 #Guy I de Châtillon
+	mother=91193 #Marguerite de Valois
+	1341.1.1 = {
+		birth="1341.1.1"
+	}
+	1381.5.19 = {
+		death="1381.5.19"
+	}
+}
+381456 = {
+	name="Guy"	#Guy II, Count of Blois
+	dynasty=23113 #Châtillon
+	religion="catholic"
+	culture="frankish"
+	father=455783 #Guy I de Châtillon
+	mother=91193 #Marguerite de Valois
+	1342.1.1 = {
+		birth="1342.1.1"
+	}
+	1397.12.22 = {
+		death="1397.12.22"
+	}
+}
+#Issue of Guy II, Count of Blois
+381457 = {
+	name="Louis"	#Louis III de Châtillon
+	dynasty=23113 #Châtillon
+	religion="catholic"
+	culture="frankish"
+	father=381456 #Guy I de Châtillon
+	1360.1.1 = {
+		birth="1360.1.1"
+	}
+	1391.7.15 = {
+		death="1391.7.15"
+	}
+}
+#Issue of François de Bourbon, Duke of Montpensier
+381458 = {
+	name="Marie" #Marie de Bourbon, Duchess of Montpensier
+	female=yes
+	dynasty=100146
+	religion="catholic"
+	culture="frankish"
+	father=374653
+	1605.10.15 = {
+		birth="1605.10.15"
+	}
+	1627.6.4 = {
+		death="1627.6.4"
+	}
+}
+#Issue of Gaston, Duke of Orléans
+381459 = {
+	name="Anne Marie Louise"  #Anne Marie Louise d'Orléans, Duchess of Montpensier
+	female=yes
+	dynasty=100146
+	religion="catholic"
+	culture="frankish"
+	father=371863
+	mother=381458
+	1627.5.29 = {
+		birth="1627.5.29"
+	}
+	1693.4.5 = {
+		death="1693.4.5"
+	}
+}
+#Issue of Jean III de Chalon-Auxerre
+381460 = {
+	name="Jean"	#Jean IV (1337-1370)
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=455742
+	mother=455737
+	1337.1.2 = {
+		birth="1337.1.2"
+	}
+	1370.1.2 = {
+		death="1370.1.2"
+	}
+}
+381461 = {
+	name="Louis"	#Louis Ier de Chalon-Tonnerre
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=455742
+	mother=455737
+	1339.1.2 = {
+		birth="1339.1.2"
+	}
+	1398.1.2 = {
+		death="1398.1.2"
+	}
+}
+381462 = {
+	name="Marie"	#Marie de Chalon-Tonnerre
+	female=yes
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=455742
+	mother=455737
+	1340.1.2 = {
+		birth="1340.1.2"
+	}
+	1384.1.2 = {
+		death="1384.1.2"
+	}
+}
+#Issue of Louis Ier de Chalon-Tonnerre
+381463 = {
+	name="Jeanne"	#Jeanne II de Chalon-Tonnerre
+	female=yes
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=381461
+	1388.1.1 = {
+		birth="1388.1.1"
+	}
+	1451.5.16 = {
+		death="1451.5.16"
+	}
+}
+381464 = {
+	name="Louis"	#Louis II de Chalon-Tonnerre
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=381461
+	1389.1.1 = {
+		birth="1389.1.1"
+	}
+	1422.1.1 = {
+		death="1422.1.1"
+	}
+}
+381465 = {
+	name="Hugues"	#Hugues de Chalon-Tonnerre
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=381461
+	1390.1.1 = {
+		birth="1390.1.1"
+	}
+	1424.8.17 = {
+		death="1424.8.17"
+	}
+}
+381468 = {
+	name="Marguerite"	#Marguerite de Chalon-Tonnerre
+	female=yes
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=381461
+	1391.1.1 = {
+		birth="1391.1.1"
+	}
+	1463.1.1 = {
+		death="1463.1.1"
+	}
+}
+#Issue of Louis II de Chalon-Tonnerre
+381466 = {
+	name="Jean"	#Jean, bâtard de Chalon ou de Tonnerre (1397-1453)
+	dynasty=681
+	religion="catholic"
+	culture="frankish"
+	father=381464
+	trait=bastard
+	1397.1.1 = {
+		birth="1397.1.1"
+	}
+	1453.1.1 = {
+		death="1453.1.1"
+	}
+}
+#Issue of Olivier de Husson
+381467 = {
+	name="Olivier"	
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	1390.1.1 = {
+		birth="1390.1.1"
+	}
+	1409.1.1={
+		add_spouse=381468
+	}
+	1455.1.1 = {
+		death="1455.1.1"
+	}
+}
+381469 = {
+	name="Jean"	#Jean IV de Husson
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	father=381467
+	mother=381468
+	1410.1.1 = {
+		birth="1410.1.1"
+	}
+	1476.1.1 = {
+		death="1476.1.1"
+	}
+}
+#Issue of Jean IV de Husson
+381470 = {
+	name="Charles"	#Charles de Husson († 1492)
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	father=381469
+	1440.1.1 = {
+		birth="1440.1.1"
+	}
+	1492.1.1 = {
+		death="1492.1.1"
+	}
+}
+#Issue of Charles de Husson († 1492)
+381471 = {
+	name="Louis"	#Louis III de Husson (né vers 1474 † 1508)
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	father=381470
+	1474.1.1 = {
+		birth="1474.1.1"
+	}
+	1508.1.1 = {
+		death="1508.1.1"
+	}
+}
+381472 = {
+	name="Claude"	#Claude de Husson († 1524)
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	father=381470
+	1476.1.1 = {
+		birth="1476.1.1"
+	}
+	1524.1.1 = {
+		death="1524.1.1"
+	}
+}
+381473 = {
+	name="Anne"	#Anne de Husson (1475 † 1540)
+	female=yes
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	father=381470
+	1475.1.1 = {
+		birth="1475.1.1"
+	}
+	1540.1.1 = {
+		death="1540.1.1"
+	}
+}
+#issue of Louis III de Husson (né vers 1474 † 1508)
+381474 = {
+	name="Louis"	#Louis IV de Husson († 1537)
+	dynasty=1010044200
+	religion="catholic"
+	culture="frankish"
+	father=381471
+	trait=monk
+	1490.1.1 = {
+		birth="1490.1.1"
+	}
+	1524.1.1={
+		remove_trait=monk
+	}
+	1537.1.1 = {
+		death="1537.1.1"
+	}
+}
+#Issue of Bernardin de Clermont
+381475 = {
+	name="Bernardin"	#Bernardin de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	1440.1.1 = {
+		birth="1440.1.1"
+	}
+	1496.2.10={
+		add_spouse=381473
+	}
+	1522.1.1 = {
+		death="1522.1.1"
+	}
+}
+381476 = {
+	name="Antoine"	#Antoine III de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	1498.1.1 = {
+		birth="1498.1.1"
+	}
+	1578.1.1 = {
+		death="1578.1.1"
+	}
+}
+381477 = {
+	name="Gabriel"	#Gabriel de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=monk
+	1504.1.1 = {
+		birth="1504.1.1"
+	}
+	1571.1.1 = {
+		death="1571.1.1"
+	}
+}
+381478 = {
+	name="Théodore-Jean"	#Théodore-Jean de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=monk
+	1505.1.1 = {
+		birth="1505.1.1"
+	}
+	1565.1.1 = {
+		death="1565.1.1"
+	}
+}
+381479 = {
+	name="Julien"	#Julien de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	1506.1.1 = {
+		birth="1506.1.1"
+	}
+	1575.1.1 = {
+		death="1575.1.1"
+	}
+}
+381480 = {
+	name="Claude"	#Claude de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	1507.1.1 = {
+		birth="1507.1.1"
+	}
+	1530.1.1 = {
+		death="1530.1.1"
+	}
+}
+381481 = {
+	name="Laurent"	#Laurent de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	1508.1.1 = {
+		birth="1508.1.1"
+	}
+	1544.4.11 = {
+		death="1544.4.11"
+	}
+}
+381482 = {
+	name="Françoise"	#Françoise de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	1509.1.1 = {
+		birth="1509.1.1"
+	}
+	1553.1.1 = {
+		death="1553.1.1"
+	}
+}
+381483 = {
+	name="Louise"	#Louise de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	1504.1.1 = {
+		birth="1504.1.1"
+	}
+	1596.1.1 = {
+		death="1596.1.1"
+	}
+}
+381484 = {
+	name="Catherine"	#Catherine de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=nun
+	1506.1.1 = {
+		birth="1506.1.1"
+	}
+	1570.1.1 = {
+		death="1570.1.1"
+	}
+}
+381485 = {
+	name="Madeleine"	#Madeleine de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=nun
+	1507.1.1 = {
+		birth="1507.1.1"
+	}
+	1574.1.1 = {
+		death="1574.1.1"
+	}
+}
+381486 = {
+	name="Marguerite"	#Marguerite de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=nun
+	1514.1.1 = {
+		birth="1514.1.1"
+	}
+	1578.1.1 = {
+		death="1578.1.1"
+	}
+}
+381487 = {
+	name="Gasparde"	#Gasparde de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=nun
+	1516.1.1 = {
+		birth="1516.1.1"
+	}
+	1579.1.1 = {
+		death="1579.1.1"
+	}
+}
+381488 = {
+	name="Anne"	#Anne de Clermont
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381475
+	mother=381473
+	trait=nun
+	1520.1.1 = {
+		birth="1520.1.1"
+	}
+	1570.1.1 = {
+		death="1570.1.1"
+	}
+}
+#Issue of Antoine III de Clermont
+381489 = {
+	name="Claude"	
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	1533.1.1 = {
+		birth="1533.1.1"
+	}
+	1569.10.3 = {
+		death="1569.10.3"
+	}
+}
+381490 = {
+	name="Henri Antoine"	#Henri Antoine de Clermont	
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	1540.1.1 = {
+		birth="1540.1.1"
+	}
+	#1570.5.17={
+	#	add_spouse=Diane de La Marck
+	#}
+	1573.6.26 = {
+		death="1573.6.26"
+	}
+}
+381491 = {
+	name="Anne"	#Anne de Clermont	
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	1535.1.1 = {
+		birth="1535.1.1"
+	}
+	1600.1.1 = {
+		death="1600.1.1"
+	}
+}
+381492 = {
+	name="Diane"	#Diane de Clermont	
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	1536.1.1 = {
+		birth="1536.1.1"
+	}
+	1605.1.1 = {
+		death="1605.1.1"
+	}
+}
+381493 = {
+	name="Charlotte"	#Charlotte de Clermont	
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	1538.1.1 = {
+		birth="1538.1.1"
+	}
+	1601.1.1 = {
+		death="1601.1.1"
+	}
+}
+381494 = {
+	name="Françoise"	#Françoise de Clermont	
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	1539.1.1 = {
+		birth="1539.1.1"
+	}
+	1605.1.1 = {
+		death="1605.1.1"
+	}
+}
+381495 = {
+	name="Antoine"	#Antoine de Clermont	
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	trait=bastard
+	1550.1.1 = {
+		birth="1550.1.1"
+	}
+	1611.1.1 = {
+		death="1611.1.1"
+	}
+}
+381496 = {
+	name="Claudine"	#Claudine de Clermont	
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381476
+	trait=bastard
+	1553.1.1 = {
+		birth="1553.1.1"
+	}
+	1600.1.1 = {
+		death="1600.1.1"
+	}
+}
+#Issue of Henri Antoine de Clermont	
+381497 = {
+	name="Charles-Henri"	#Charles-Henri de Clermont-Tonnerre
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381490
+	1571.3.20 = {
+		birth="1571.3.20"
+	}
+	1640.9.30 = {
+		death="1640.9.30"
+	}
+}
+#Issue of Charles-Henri de Clermont-Tonnerre
+381498 = {
+	name="Charles-Henri"	#Charles-Henri II 
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1600.1.1 = {
+		birth="1600.1.1"
+	}
+	1674.1.1 = {
+		death="1674.1.1"
+	}
+}
+381499 = {
+	name="Roger"	#Roger de Clermont
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1603.1.1 = {
+		birth="1603.1.1"
+	}
+	1676.1.1 = {
+		death="1676.1.1"
+	}
+}
+381500 = {
+	name="François"	#François de Clermont-Tonnerre (comte)
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1601.8.6 = {
+		birth="1601.8.6"
+	}
+	1679.9.24 = {
+		death="1679.9.24"
+	}
+}
+381501 = {
+	name="Henri"	#Henri de Clermont-Tonnerre 
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1604.1.1 = {
+		birth="1604.1.1"
+	}
+	1650.1.1 = {
+		death="1650.1.1"
+	}
+}
+381502 = {
+	name="Louis"	#Louis de Clermont-Tonnerre 
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1605.1.1 = {
+		birth="1605.1.1"
+	}
+	1650.1.1 = {
+		death="1650.1.1"
+	}
+}
+381503 = {
+	name="Isabelle"	#Isabelle de Clermont-Tonnerre 
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1607.1.1 = {
+		birth="1607.1.1"
+	}
+	1650.1.1 = {
+		death="1650.1.1"
+	}
+}
+381504 = {
+	name="Madeleine"	#Madeleine de Clermont-Tonnerre 
+	female=yes
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1608.1.1 = {
+		birth="1608.1.1"
+	}
+	1684.1.1 = {
+		death="1684.1.1"
+	}
+}
+381505 = {
+	name="Antoine"	#Antoine de Clermont-Tonnerre 
+	dynasty=89
+	religion="catholic"
+	culture="frankish"
+	father=381497
+	1610.1.1 = {
+		birth="1610.1.1"
+	}
+	1650.1.1 = {
+		death="1650.1.1"
+	}
+}
+#Issue of Henry II, Duke of Lorraine
+381506 = {
+	name="Nicole" #Nicole, Duchess of Lorraine
+	female=yes
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372571
+	mother=375591
+	1608.10.3 = {
+		birth="1608.10.3"
+	}
+	1657.2.2 = {
+		death="1657.2.2"
+	}
+}
+381507 = {
+	name="Claude-Françoise" #Claude-Françoise of Lorraine
+	female=yes
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372571
+	mother=375591
+	1612.10.6 = {
+		birth="1612.10.6"
+	}
+	1648.8.2 = {
+		death="1648.8.2"
+	}
+}
+#Issue of Francis II, Duke of Lorraine
+381508 = {
+	name="Christina" #Christina of Salm
+	female=yes
+	dynasty=12437
+	female=yes
+	religion="catholic"
+	culture="frankish"
+	1575.1.1 = {
+		birth="1575.1.1"
+	}
+	1627.1.1 = {
+		death="1627.1.1"
+	}
+}
+381509 = {
+	name="Henri" #Henri de Lorraine
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372576
+	mother=381508
+	1602.1.1 = {
+		birth="1602.1.1"
+	}
+	1611.1.1 = {
+		death="1611.1.1"
+	}
+}
+381510 = {
+	name="Charles" #Charles IV de Lorraine
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372576
+	mother=381508
+	1604.4.5 = {
+		birth="1604.4.5"
+	}
+	1621.5.23={
+		add_spouse=381506
+	}
+	1675.9.18 = {
+		death="1675.9.18"
+	}
+}
+381511 = {
+	name="Henriette" #Henriette de Lorraine (1605-1660)
+	female=yes
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372576
+	mother=381508
+	1605.4.7 = {
+		birth="1605.4.7"
+	}
+	1660.11.16 = {
+		death="1660.11.16"
+	}
+}
+381512 = {
+	name="Nicolas-François" #Nicolas-François de Lorraine
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372576
+	mother=381508
+	trait=monk
+	1609.12.6 = {
+		birth="1609.12.6"
+	}
+	1634.1.1={
+	remove_trait=monk
+	}
+	1634.3.8={
+		add_spouse=381507
+	}
+	1670.1.25 = {
+		death="1670.1.25"
+	}
+}
+381513 = {
+	name="Marguerite" #Marguerite de Lorraine
+	female=yes
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372576
+	mother=381508
+	1615.7.22 = {
+		birth="1615.7.22"
+	}
+	1672.4.13 = {
+		death="1672.4.13"
+	}
+}
+381514 = {
+	name="Christine" #Christine de Lorraine
+	female=yes
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=372576
+	mother=381508
+	1621.1.1 = {
+		birth="1621.1.1"
+	}
+	1622.1.1 = {
+		death="1622.1.1"
+	}
+}
+#Issue of Louis de Lorraine (1555-1588)
+381515 = {
+	name="Louis" #Louis de Guise, baron d'Ancerville
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=375688
+	trait=bastard
+	1588.12.14 = {
+		birth="1588.12.14"
+	}
+	1621.1.1={
+		add_spouse=381511
+	}
+	1631.12.4 = {
+		death="1631.12.4"
+	}
+}
+#Issue of Nicolas-François de Lorraine
+381516 = {
+	name="Ferdinand" #Ferdinand de Lorraine
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=381512
+	mother=381507
+	1639.12.29 = {
+		birth="1639.12.29"
+	}
+	1659.4.1 = {
+		death="1659.4.1"
+	}
+}
+#Issue of Charles IV de Lorraine
+381517 = {
+	name="François" 
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=381510
+	mother=381506
+	1637.1.1 = {
+		birth="1637.1.1"
+	}
+	1638.1.1 = {
+		death="1638.1.1"
+	}
+}
+381518 = {
+	name="Anne" 
+	female=yes
+	dynasty=1010043169
+	religion="catholic"
+	culture="frankish"
+	father=381510
+	mother=381506
+	1639.1.1 = {
+		birth="1639.1.1"
+	}
+	1720.1.1 = {
+		death="1720.1.1"
+	}
+}
+#Issue of Godefroy d'Auvergne 
+381519 = {
+	name="Marie" #Marie Ire d'Auvergne
+	female=yes
+	dynasty=733
+	religion="catholic"
+	culture="occitan"
+	father=381384 
+	1376.9.1 = {
+		birth="1376.9.1"
+	}
+	1437.8.7 = {
+		death="1437.8.7"
+	}
+}
+#Issue of Bertrand IV de La Tour
+381520 = {
+	name="Bertrand" #Bertrand IV de La Tour
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	1353.1.1 = {
+		birth="1353.1.1"
+	}
+	1389.1.1={
+		add_spouse=381519
+	}
+	1423.1.1 = {
+		death="1423.1.1"
+	}
+}
+381521 = {
+	name="Bertrand" #Bertrand V de La Tour d'Auvergne
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381520
+	mother=381519
+	1400.1.1 = {
+		birth="1400.1.1"
+	}
+	1461.3.22 = {
+		death="1461.3.22"
+	}
+}
+381522 = {
+	name="Jeanne" #Jeanne de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381520
+	mother=381519
+	1391.1.1 = {
+		birth="1391.1.1"
+	}
+	1426.1.1 = {
+		death="1426.1.1"
+	}
+}
+381523 = {
+	name="Isabeau" #Isabeau de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381520
+	mother=381519
+	1392.1.1 = {
+		birth="1392.1.1"
+	}
+	1440.1.1 = {
+		death="1440.1.1"
+	}
+}
+381524 = {
+	name="Louise" #Louise de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381520
+	mother=381519
+	1410.1.1 = {
+		birth="1410.1.1"
+	}
+	1472.1.1 = {
+		death="1472.1.1"
+	}
+}
+#Issue of Bertrand V de La Tour d'Auvergne
+381525 = {
+	name="Bertrand" #Bertrand VI de La Tour d'Auvergne
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	1417.1.1 = {
+		birth="1417.1.1"
+	}
+	1497.9.26 = {
+		death="1497.9.26"
+	}
+}
+381526 = {
+	name="Godefroy" #Godefroy de La Tour d'Auvergne
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	1418.1.1 = {
+		birth="1418.1.1"
+	}
+	1469.1.1 = {
+		death="1469.1.1"
+	}
+}
+381527 = {
+	name="Gabrielle" #Gabrielle de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	1419.1.1 = {
+		birth="1419.1.1"
+	}
+	1474.1.1 = {
+		death="1474.1.1"
+	}
+}
+381528 = {
+	name="Isabelle" #Isabelle de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	1421.1.1 = {
+		birth="1421.1.1"
+	}
+	1488.1.1 = {
+		death="1488.1.1"
+	}
+}
+381529 = {
+	name="Louise" #Louise de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	1423.1.1 = {
+		birth="1423.1.1"
+	}
+	1469.1.1 = {
+		death="1469.1.1"
+	}
+}
+381530 = {
+	name="Blanche" #Blanche de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	trait=nun
+	1424.1.1 = {
+		birth="1424.1.1"
+	}
+	1472.1.1 = {
+		death="1472.1.1"
+	}
+}
+381531 = {
+	name="Thibaud" #Thibaud de La Tour d'Auvergne
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381521
+	trait=monk
+	trait=bastard
+	1430.1.1 = {
+		birth="1430.1.1"
+	}
+	1499.1.1 = {
+		death="1499.1.1"
+	}
+}
+#Issue of Bertrand VI de La Tour d'Auvergne
+381532 = {
+	name="Jean"	#Jean IV d'Auvergne
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381525
+	1467.1.1 = {
+		birth="1467.1.1"
+	}
+	1495.1.1={
+		add_spouse=371357
+	}
+	1501.3.28 = {
+		death="1501.3.28"
+	}
+}
+381533 = {
+	name="Françoise"	#Françoise d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381525
+	1440.1.1 = {
+		birth="1440.1.1"
+	}
+	1507.1.1 = {
+		death="1507.1.1"
+	}
+}
+381534 = {
+	name="Jeanne"	#Jeanne d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381525
+	1444.1.1 = {
+		birth="1444.1.1"
+	}
+	1500.1.1 = {
+		death="1500.1.1"
+	}
+}
+381535 = {
+	name="Jeanne"	#Anne de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381525
+	1452.1.1 = {
+		birth="1452.1.1"
+	}
+	1512.10.13 = {
+		death="1512.10.13"
+	}
+}
+381536 = {
+	name="Louise"	#Louise de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381525
+	1455.1.1 = {
+		birth="1455.1.1"
+	}
+	1501.1.1 = {
+		death="1501.1.1"
+	}
+}
+#Issue of Jean IV d'Auvergne
+381537 = {
+	name="Anne"	#Anne d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381532
+	mother=371357
+	1495.1.1 = {
+		birth="1495.1.1"
+	}
+	1524.1.1 = {
+		death="1524.1.1"
+	}
+}
+381538 = {
+	name="Madeleine"	#Madeleine de La Tour d'Auvergne
+	female=yes
+	dynasty=1010044201
+	religion="catholic"
+	culture="occitan"
+	father=381532
+	mother=371357
+	1498.1.1 = {
+		birth="1498.1.1"
+	}
+	1519.4.28 = {
+		death="1519.4.28"
 	}
 }

@@ -128,3 +128,33 @@
 1313.1.1={
 	holder=458021 # Pedro Ponce de León
 }
+1352.1.1={
+	holder=458026 # Juan Ponce de León (m. 1367)
+}
+1367.1.1={
+	holder=458028 # Pedro Ponce de León (f. ca. 1374)
+}
+1374.1.1={
+	holder=381275 # Pedro Ponce de León y Haro (m. 1448)
+}
+1448.1.1={
+	holder=381283 # Juan Ponce de León y Ayala 
+}
+1469.10.20={
+	holder=381284 # Rodrigo Ponce de León (1443-1492) 
+}
+1492.8.28={
+	holder=381285 # Francisca Ponce de León y de la Fuente
+}
+1520.1.1={
+	holder=381288 # Rodrigo Ponce de León (m. 1530)
+}
+1530.1.1={
+	holder=381290 # Luis Cristóbal Ponce de León
+}
+1573.10.9={
+	holder=381291 # Rodrigo Ponce de León (m. 1630)
+}
+1630.1.16={
+	holder=381294 # Rodrigo Ponce de León (1602-1658)
+}
