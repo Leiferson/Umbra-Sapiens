@@ -2478,7 +2478,7 @@ province;red;green;blue;x;x;
 2477;1;108;221;;x
 2478;43;111;94;;x
 2479;85;114;222;;x
-2480;127;117;95;Elvas;x
+2480;127;117;95;;x
 2481;169;120;223;The Sud;x
 2482;1;123;96;Springbok;x
 2483;43;126;224;Calvinia;x
@@ -4878,9 +4878,9 @@ province;red;green;blue;x;x;
 4877;88;147;166;Portalegre;x
 4878;130;150;39;Braga;x
 4879;172;153;167;Bay of Arguin;x
-4880;4;156;40;;x
-4881;46;159;168;;x
-4882;88;162;41;;x
+4880;2;190;35;Lower Mississippi River;x #;4;156;40;;x
+4881;46;159;168;Middle Mississippi River;x
+4882;88;162;41;Upper Mississippi River;x
 4883;130;165;169;;x
 4884;172;168;42;;x
 4885;4;171;170;;x

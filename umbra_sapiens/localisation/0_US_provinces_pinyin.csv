@@ -497,7 +497,7 @@ PROV2476;Karghalik;Karghalik;Karghalik;Karghalik;Karghalik;Karghalik;Karghalik;K
 PROV2477;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;Hotan;x
 PROV2478;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;Kucha;x
 PROV2479;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;Karasahr;x
-PROV2480;Elvas;;;;;;;;;;;;;x
+PROV2480;White Nile;;;;;;;;;;;;;x
 PROV2481;The Sudd;;;;;;;;;;;;;x
 PROV2482;Springbok;;;;;;;;;;;;;x
 PROV2483;Calvinia;;;;;;;;;;;;;x
@@ -1172,7 +1172,7 @@ PROV3151;Lake Michikamau;Lake Michikamau;Lake Michikamau;Lake Michikamau;;;;;;;;
 PROV3152;Lake Mistassini;Lake Mistassini;Lake Mistassini;Lake Mistassini;;;;;;;;;x;
 PROV3153;Lake Apisikamîs;Lake Apisikamîs;Lake Apisikamîs;Lake Apisikamîs;;;;;;;;;x;
 PROV3154;Lake Petonbowk;Lake Petonbowk;Lake Petonbowk;Lake Petonbowk;;;;;;;;;x;
-PROV3155;Lake Nipissing;Lake Nipissing;Lake Nipissing;Lake Nipissing;;;;;;;;;x;
+PROV3155;Ottawa River;Ottawa River;Ottawa River;Ottawa River;;;;;;;;;x;
 PROV3156;Lake Ouentironk;Lake Ouentironk;Lake Ouentironk;Lake Ouentironk;;;;;;;;;x;
 PROV3157;Lake Animbiigoong;Lake Animbiigoong;Lake Animbiigoong;Lake Animbiigoong;;;;;;;;;x;
 PROV3158;Lake Minitie;Lake Minitie;Lake Minitie;Lake Minitie;;;;;;;;;x;
@@ -2897,3 +2897,6 @@ PROV4876;Minho;;;;;;;;;;;;;x
 PROV4877;Marvão;;;;;;;;;;;;;x
 PROV4878;Braga;;;;;;;;;;;;;x
 PROV4879;Bay of Arguin;;;;;;;;;;;;;x
+PROV4880;Lower Mississippi River;;;;;;;;;;;;;x
+PROV4881;Middle Mississippi River;;;;;;;;;;;;;x
+PROV4882;Upper Mississippi River;;;;;;;;;;;;;x
