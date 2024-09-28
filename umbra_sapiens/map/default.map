@@ -79,11 +79,14 @@ sea_zones = { 2905 2910 }
 sea_zones = { 2913 2918 }
 sea_zones = { 2920 2922 }
 sea_zones = { 3066 3066 }
-sea_zones = { 3069 3070 }
+sea_zones = { 3069 3070 } #50
 sea_zones = { 3073 3073 }
 sea_zones = { 3127 3129 }
 sea_zones = { 3151 3158 }
-sea_zones = { 3166 3186 }
+sea_zones = { 3166 3172 }
+sea_zones = { 3173 3177 } #Great Lakes #55
+sea_zones = { 3178 3178 }
+sea_zones = { 3179 3186 }
 sea_zones = { 3188 3188 }
 sea_zones = { 3557 3567 }
 sea_zones = { 3673 3673 }
@@ -97,11 +100,15 @@ sea_zones = { 2806 2807 }
 sea_zones = { 2809 2813 }
 sea_zones = { 2815 2823 }
 sea_zones = { 3671 3671 }
-sea_zones = { 4879 4879 }
+sea_zones = { 4879 4879 } #68
 
 ocean_region = {	# World Ocean
-	sea_zones = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50}
+	sea_zones = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68}
 }
+#ocean_region = {	# Great Lakes
+#	sea_zones = { 55 }
+#}
+
 
 #ocean_region = {	# European Ocean
 #	sea_zones = { 1 2 3 4 5 12 13 14 15 16 17 18 19 20 }
@@ -152,4 +159,9 @@ major_rivers =
 	2871 2872 #Blue Nile
 	2873 2840#White Nile
 	1855 # Lake Zaysan
+	
+	#North America
+	3155 #Ottawa River/Lake Nipissing
+	3158 3172
+	
 }

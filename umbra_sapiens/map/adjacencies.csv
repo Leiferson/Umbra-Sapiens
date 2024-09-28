@@ -615,3 +615,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 4616;4617;sea;3250;-1;-1;-1;-1;Kings Cove - Sand Point
 3878;3846;sea;3075;-1;-1;-1;-1;Coros - Curacao
 3883;3845;sea;3052;-1;-1;-1;-1;Orinoco - Kairi
+3155;3175;portage;1195;-1;-1;-1;-1;Ottawa River to Lake Karegondi
+3173;3158;portage;1195;-1;-1;-1;-1;Lake Gichagmi to Lake Minitie
+3158;3172;portage;1195;-1;-1;-1;-1;Lake Minitie to lake winipekw
+3172;3148;portage;1195;-1;-1;-1;-1;Lake Minitie to West Winipakw Bay
