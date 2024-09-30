@@ -194,7 +194,8 @@ world_steppe_west = {
 		d_komi d_zavarot d_pechora d_zyriane d_votyaki d_ural 
 		d_muzhi d_kazymmus d_tarkosale d_surgut
 		d_vorgashor d_salekhard d_baykalovsk d_korotchayevo d_sabetta d_yuzhny 
-		
+		#new additions in caucassus
+		d_tmutarakan d_adyghea d_siracena d_vainakhia d_sarir
 	}
 	counties = {
 		c_kimak
@@ -202,12 +203,13 @@ world_steppe_west = {
 }
 world_steppe_east = {
 	duchies = {
-		d_zhetysu d_chuy d_kirghiz d_altay d_otuken d_khangai d_ikh_bogd d_ili d_beshbaliq d_abakan d_uvs d_kara_khorum d_baygal d_gobi_altay d_barkul d_juyan d_tarbagatai d_ob d_jiuquan
-		d_dorno_tal d_baigal_nuur # Umbra Spherae
-		d_thentok d_limghuang # Umbra Spherae
-                            d_chubraseili d_kharkamverk d_verurbuju d_yakutsk
-	  d_egvekinot d_yanrakynnot d_khatyrka d_manily d_neshkan d_valkumey d_chkalov d_chersky d_sokoch d_ustbolsheretsk d_bering d_dolinovka d_tilichiki
-	  d_sydybylnew d_krasnoyarsk d_chekurovka d_sobolokh d_magadan d_druzhina d_kekra d_niurba d_zhilinda d_yukta d_chervyanka d_talnakh d_saragash
+	d_zhetysu d_chuy d_kirghiz d_altay d_otuken d_khangai d_ikh_bogd d_ili d_beshbaliq d_abakan d_uvs d_kara_khorum d_baygal d_gobi_altay d_barkul d_juyan d_tarbagatai d_ob d_jiuquan
+	d_dorno_tal d_baigal_nuur # Umbra Spherae
+	d_thentok d_limghuang # Umbra Spherae
+    d_chubraseili d_kharkamverk d_verurbuju d_yakutsk
+	d_egvekinot d_yanrakynnot d_khatyrka d_manily d_neshkan d_valkumey d_chkalov d_chersky d_sokoch d_ustbolsheretsk d_bering d_dolinovka d_tilichiki
+	d_sydybylnew d_krasnoyarsk d_chekurovka d_sobolokh d_magadan d_druzhina d_kekra d_niurba d_zhilinda d_yukta d_chervyanka d_talnakh d_saragash
+	d_sahaliyan_ula d_girin_ula d_sanggyeong d_donggyeong d_buyeo d_jungnyeong d_yemaek
 	}
 }
 world_steppe = {
@@ -309,6 +311,7 @@ custom_scotland = {
 custom_siberia = {
 	duchies = {
 		d_beloozero d_novgorod d_pskov d_rostov d_tver d_yaroslavl d_vladimir d_moskva d_kiev d_galich d_volhynia d_turov d_minsk d_smolensk d_chernigov d_novgorod-seversk d_ryazan d_pereyaslavl d_cherven_cities d_karachev d_novosil d_murom
+		
 	}
 }
 custom_historical_plague_free_zone = {
@@ -655,7 +658,7 @@ d_littlerock d_chicago d_akron d_eton
 world_west_america = {
 duchies = {
 d_kamloops d_haida_gwaii d_skagway d_gingolx d_vancouver d_kyuquot d_monmouth d_elkton d_pleasant_hill d_great_burrow
-d_washtucna d_whitefish d_athol d_indians_circle d_bowmont
+d_washtucna d_whitefish d_athol d_indians_circle d_bowmont d_fremont d_long_beach d_petaluma
 }
 }
 world_desert_america = {
@@ -663,6 +666,7 @@ duchies = {
 d_the_mojave d_tombstone d_greenvalley d_redrock d_mescalero d_black_canyon
 d_pequop d_silverthorne d_salt_lake d_silver_peak d_hennessey d_longmont d_copper_hill d_arbon
 d_metztitlan d_guasave d_mazatlan d_cosala d_coahuila d_alamos
+d_tahues d_guachichil d_cali d_black_mesa d_yosemite d_death_valley
 }
 }
 world_plains_america = {
@@ -681,7 +685,8 @@ d_florida d_carolina
 world_meso = {
 duchies = {
 d_tamaulipas d_colima d_jalisco d_puebla d_aztec1 d_mixteca d_tlapanec d_zapotec d_huasteca
-d_totonac d_tzotzil d_yokotan d_kaminaljuyu d_yucatan d_tikal d_chorti d_ihuatzio
+d_totonac d_tzotzil d_yokotan d_kaminaljuyu d_yucatan d_tikal d_chorti d_ihuatzio d_mexico
+d_chalco d_matlazinco d_manzanillo d_colimanew d_coculla d_colima
 }
 }
 world_west_isles = {
@@ -706,7 +711,7 @@ world_colombia = {
 duchies = {
 d_iquitos d_bogota d_honduras d_nicaragua d_costa_rica d_panama d_popayan d_coquivacoa d_cordillera
 d_caqueta d_western_llanos d_venezuela d_maracaibo d_eastern_llanos d_central_llanos d_upper_guyana 
-d_guyana
+d_guyana d_suriname
 }
 }
 world_andes = {
@@ -718,7 +723,7 @@ world_amazon = {
 duchies = {
 d_bahia d_sao_francisco d_pernambuco d_pontal d_piaui d_ceara d_maranhao d_rio_de_janeiro
 d_diamantina d_goias d_mato_grosso d_ofaie d_minas_gerais d_sao_paulo d_guayra d_rio_grande_do_sul
-d_eastern_amazon d_grao_para 
+d_eastern_amazon d_grao_para d_tilcara d_mendonza d_guapore d_western_amazon d_amapa 
 }
 }
 world_chaco = {
@@ -792,5 +797,20 @@ regions = {
 		world_west_america
 		world_east_america
 		world_artic_america
+	}
+}
+world_oceania = {
+	regions = {
+		 world_tenem_lamit world_malaysia world_java civilized_indonesia world_ausnew	
+	}
+}
+world_asia = {
+	regions = {
+		world_himalayas	world_india world_steppe world_persia world_asia_minor world_far_east world_indochina
+	}
+}
+old_world = {
+	regions = {
+		world_himalayas	world_india	world_europe world_asia world_africa world_oceania
 	}
 }

@@ -446,7 +446,8 @@ russian_subjugation;Russian Unification;;;;;;;;;;;;;x
 russian_subjugation_desc;Russia can't stand against the tartars divided. We must unite all Russias in order to secure our place in the world.;;;;;;;;;;;;;x
 romani_group;Roma;;;;;;;;;;;;;x
 romani;Roma;;;;;;;;;;;;;x
-gave_out_credit_or_debit_mod;Recently gave out Credit or Debit;;;;;;;;;;;;;x
+gave_out_credit_mod;Recently gave out Credit;;;;;;;;;;;;;x
+gave_out_debit_mod;Recently gave out Debit;;;;;;;;;;;;;x
 EVTNAMEbancoevents.1;Savings account;;;;;;;;;;;;;x
 EVTDESCbancoevents.1;The benefic Banco di San Giorgio is prepared to offer us a variety of savings accounts that will value at 4% per anum over the course of two years.;;;;;;;;;;;;;x
 EVTOPTAbancoevents.1;We may deposit 100 gold;;;;;;;;;;;;;x
@@ -548,3 +549,4 @@ EVTOPTAbancoevents.26;The bank is offering us 2500 gold to pe paid in full plus 
 EVTOPTBbancoevents.26;The bank is offering us 5000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
 EVTOPTCbancoevents.26;The bank is offering us 10000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
 EVTOPTDbancoevents.26;That would be most disavantegeous at this junction;;;;;;;;;;;;;x
+custom_siberia;The Russias;;;;;;;;;;;;;x

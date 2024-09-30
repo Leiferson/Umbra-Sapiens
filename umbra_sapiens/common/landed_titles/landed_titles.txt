@@ -17774,6 +17774,7 @@ e_russia = {
 				culture_group = north_germanic
 				culture_group = east_slavic
 				culture_group = finno_ugric
+				culture_group = baltic
 			}
 		}
 	}
@@ -44870,6 +44871,10 @@ e_mali = {
 e_kanem = {
 	color={ 50 230 235 }
 	color2={ 255 255 255 }
+	capital = 1743 # Bornu
+	allow = {
+		is_colonial = no
+	}
 	k_kanem = {
 		color={ 10 215 225 }
 		color2={ 255 255 255 }

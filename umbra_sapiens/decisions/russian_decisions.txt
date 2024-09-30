@@ -10,6 +10,7 @@ vassalize_don_cossacks = {
 			
 			religion_group = christian
 			independent = yes
+			NOT = { is_liege_of = d_don_cossacks }
 			OR = {
 				has_landed_title = c_ryazan
 				any_realm_lord = {
@@ -51,7 +52,7 @@ vassalize_zaporozhian_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_zaporozhian_cossacks }
 			OR = {
 				has_landed_title = c_oleshye
 				any_realm_lord = {
@@ -94,7 +95,7 @@ vassalize_kuban_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_kuban_cossacks }
 			OR = {
 				has_landed_title = c_kuban
 				any_realm_lord = {
@@ -137,7 +138,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_terek_cossacks }
 			OR = {
 				has_landed_title = c_jidan
 				any_realm_lord = {
@@ -180,7 +181,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_ural_cossacks }
 			OR = {
 				has_landed_title = c_guryev
 				any_realm_lord = {
@@ -223,7 +224,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_orenburg_cossacks }
 			OR = {
 				has_landed_title = c_belaya
 				any_realm_lord = {
@@ -266,7 +267,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_astrakhan_cossacks }
 			OR = {
 				has_landed_title = c_kuma
 				any_realm_lord = {
@@ -309,7 +310,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_siberian_cossacks }
 			OR = {
 				has_landed_title = c_sibir
 				any_realm_lord = {
@@ -352,7 +353,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_semirechye_cossacks }
 			OR = {
 				has_landed_title = c_almaty
 				any_realm_lord = {
@@ -395,7 +396,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_baikal_cossacks }
 			OR = {
 				has_landed_title = c_baygal
 				any_realm_lord = {
@@ -438,7 +439,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_amur_cossacks }
 			OR = {
 				has_landed_title = c_urkan
 				any_realm_lord = {
@@ -481,7 +482,7 @@ vassalize_terek_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_ussuri_cossacks }
 			OR = {
 				has_landed_title = c_hurha
 				any_realm_lord = {
@@ -524,7 +525,7 @@ vassalize_povolzhye_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_povolzhye_cossacks }
 			OR = {
 				has_landed_title = c_don_portage
 				any_realm_lord = {
@@ -567,7 +568,7 @@ vassalize_bug_cossacks = {
 			religion_group = christian
 
 			independent = yes
-
+			NOT = { is_liege_of = d_bug_cossacks }
 			OR = {
 				has_landed_title = c_vinnytsia
 				any_realm_lord = {

@@ -14,7 +14,7 @@ targetted_decisions = {
 		potential = {
 			has_landed_title = d_banco
 			wealth = 1400
-			NOT={ has_character_modifier = gave_out_credit_or_debit_mod }
+			NOT={ has_character_modifier = gave_out_debit_mod }
 		}
 		allow = {
 		}
@@ -83,7 +83,7 @@ targetted_decisions = {
 		potential = {
 			has_landed_title = d_banco
 			wealth = 1100
-			NOT={ has_character_modifier = gave_out_credit_or_debit_mod }
+			NOT={ has_character_modifier = gave_out_credit_mod }
 		}
 		allow = {
 		}

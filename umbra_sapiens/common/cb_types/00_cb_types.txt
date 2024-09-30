@@ -7102,7 +7102,16 @@ siberian_conquest = {
 		FROM = { NOT = { religion_group = christian }}
 		ROOT = {
 			higher_real_tier_than = DUKE
+			OR={
 			culture_group = east_slavic
+			has_landed_title=e_russia
+			has_landed_title=e_russia_2
+			has_landed_title=e_lechczechrus
+			has_landed_title=k_chernigov
+			has_landed_title=k_vladimir
+			has_landed_title=k_rus
+			has_landed_title=k_ruthenia
+			}
 			religion_group = christian
 			is_nomadic = no
 			independent = yes
@@ -19959,9 +19968,16 @@ russian_subjugation = {
 	can_use = {
 		ROOT = {
 			NOT = { same_realm = FROM }
+			OR={
 			culture_group = east_slavic
+			culture_group = baltic
+			culture_group = finno_ugric
+			}
 			capital_holding = {
-			region = world_europe_east
+			OR={
+			region = custom_siberia
+			region = world_steppe
+			}
 			} 
 			NOT = { is_liege_or_above = FROM }
 			has_horde_culture = no # Should use tribal invasion instead
@@ -19971,9 +19987,16 @@ russian_subjugation = {
 		}
 		FROM = {
 			NOT = { is_offmap_governor = yes }
+			OR={
 			culture_group = east_slavic
+			culture_group = baltic
+			culture_group = finno_ugric
+			}
 			capital_holding = {
-			region = world_europe_east
+			OR={
+			region = custom_siberia
+			region = world_steppe
+			}
 			} 
 			independent = yes
 		}
@@ -19982,6 +20005,7 @@ russian_subjugation = {
 	can_use_title = {
 		ROOT = {
 			OR = {
+				NOT = { has_character_modifier = launched_subjugation }
 				AND = {
 					has_ambition = obj_become_king
 					capital_scope = {
@@ -20021,6 +20045,25 @@ russian_subjugation = {
 	}
 	
 	on_add_title = {
+	ROOT = {
+			if = {
+				limit = {
+					OR = {
+						NOT = { has_ambition = obj_become_king }
+						capital_scope = {
+							kingdom = {
+								NOT = { title = PREVPREVPREV }
+							}
+						}
+					}
+				}
+				add_character_modifier = { 
+					name = launched_subjugation
+					years = 100
+					hidden = yes
+				}
+			}
+		}
 	}
 
 	on_success = {

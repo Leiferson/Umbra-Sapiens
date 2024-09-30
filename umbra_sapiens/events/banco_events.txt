@@ -17,8 +17,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -34,8 +34,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -51,8 +51,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -68,8 +68,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -85,8 +85,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -102,8 +102,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -119,8 +119,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -135,8 +135,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -151,8 +151,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -167,8 +167,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -183,8 +183,8 @@ character_event = {
 		set_character_flag = deposited_money
 		FROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
-		days = 1
+		name = gave_out_debit_mod
+		days = 3
 		}
 		}
 	}
@@ -336,7 +336,7 @@ character_event = {
 		character_event = { id = bancoevents.14 years = 2 }
 		FROMFROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
+		name = gave_out_credit_mod
 		days = 1
 		}
 		}
@@ -351,7 +351,7 @@ character_event = {
 		character_event = { id = bancoevents.15 years = 2 }
 		FROMFROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
+		name = gave_out_credit_mod
 		days = 1
 		}
 		}
@@ -366,7 +366,7 @@ character_event = {
 		character_event = { id = bancoevents.16 years = 2 }
 		FROMFROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
+		name = gave_out_credit_mod
 		days = 1
 		}
 		}
@@ -593,7 +593,7 @@ character_event = {
 		character_event = { id = bancoevents.21 years = 2 }
 		FROMFROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
+		name = gave_out_credit_mod
 		days = 1
 		}
 		}
@@ -608,7 +608,7 @@ character_event = {
 		character_event = { id = bancoevents.22 years = 2 }
 		FROMFROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
+		name = gave_out_credit_mod
 		days = 1
 		}
 		}
@@ -623,7 +623,7 @@ character_event = {
 		character_event = { id = bancoevents.23 years = 2 }
 		FROMFROM = {
 		add_character_modifier = {
-		name = gave_out_credit_or_debit_mod
+		name = gave_out_credit_mod
 		days = 1
 		}
 		}
