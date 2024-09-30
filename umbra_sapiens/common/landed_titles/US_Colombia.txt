@@ -2,7 +2,9 @@ e_colombia = {
 
 	color={ 236 142 81 }
 	color2={ 220 220 220 }
-
+	allow={
+	is_colonial = no
+	}
 	capital = 3907 # Bogota
 	k_honduras = {
 

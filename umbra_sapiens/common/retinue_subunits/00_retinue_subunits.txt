@@ -1281,29 +1281,29 @@ HORDE_RETTYPE_EUROPE = {
 		knights_defensive = -0.25
 	}
 }
-RETTYPE_CUL_CHUK =
-{
-	first_type = 3
-	first_amount = 100
-	second_type = 6
-	second_amount = 150
-	special_troops = reindeer_cavalry
-	potential = {
-		is_nomadic = no
-			OR = {
-			culture_group = far_north_east
-			culture_group = yukaghir_group
-			culture_group = baltic
-			culture_group = finno_ugric
-		}
-	}
-	
-	modifier = {
-		reindeer_cavalry_offensive = 0.25
-		reindeer_cavalry_defensive = 0.5
-		knights_morale = 0.1
-	}
-}
+#RETTYPE_CUL_CHUK =
+#{
+#	first_type = 3
+#	first_amount = 100
+#	second_type = 6
+#	second_amount = 150
+#	special_troops = reindeer_cavalry
+#	potential = {
+#		is_nomadic = no
+#			OR = {
+#			culture_group = far_north_east
+#			culture_group = yukaghir_group
+#			culture_group = baltic
+#			culture_group = finno_ugric
+#		}
+#	}
+#	
+#	modifier = {
+#		reindeer_cavalry_offensive = 0.25
+#		reindeer_cavalry_defensive = 0.5
+#		knights_morale = 0.1
+#	}
+#}
 RETTYPE_CUL_KOR =
 {
 	first_type = 4
@@ -1340,128 +1340,128 @@ RETTYPE_CUL_HAN =
 		pikemen_morale = 0.1
 	}
 }
-RETTYPE_CUL_EXPLOSIVE_HAN = 
-{
-	first_type = 5
-	first_amount = 250
-	second_type = 6
-	second_amount = 100
-	
-	special_troops = fire_lancers
-	
-	potential = {
-			date >= 950.1.1
-			TECH_CASTLE_CONSTRUCTION >= 1.8
-			TECH_SIEGE_EQUIPMENT >= 1.8
-			TECH_SKIRMISH >= 1.8
-		is_nomadic = no
-		culture = han
-	}
-	
-	modifier = {
-		fire_lancers_morale = 0.1
-		archers_offensive = 0.70
-		archers_defensive = 0.50
-		fire_lancers_offensive = 0.60
-		fire_lancers_defensive = 0.3
-	}
-}
-RETTYPE_CUL_ROCKETS_HAN = 
-{
-	first_type = 5
-	first_amount = 200
-	second_type = 6
-	second_amount = 50
-	
-	special_troops = rocketeers
-	
-	potential = {
-			date >= 904.1.1
-			TECH_CASTLE_CONSTRUCTION >= 1.8
-			TECH_SIEGE_EQUIPMENT >= 1.8
-			TECH_SKIRMISH >= 1.8
-		is_nomadic = no
-		culture = han
-	}
-	
-	modifier = {
-		rocketeers_morale = 0.1
-		archers_offensive = 0.70
-		archers_defensive = 0.50
-		rocketeers_offensive = 0.60
-		rocketeers_defensive = 0.3
-	}
-}
-RETTYPE_CUL_CANNONS_HAN = 
-{
-	first_type = 5
-	first_amount = 200
-	second_type = 6
-	second_amount = 50
-	
-	special_troops = cannoneers
-	
-	potential = {
-			date >= 1214.1.1
-			TECH_CASTLE_CONSTRUCTION = 3
-			TECH_SIEGE_EQUIPMENT = 3
-			TECH_SKIRMISH = 3
-		is_nomadic = no
-		culture = han
-	}
-	
-	modifier = {
-		cannoneers_morale = 0.1
-		archers_offensive = 0.70
-		archers_defensive = 0.50
-		cannoneers_offensive = 0.60
-		cannoneers_defensive = 0.3
-	}
-}
-RETTYPE_CUL_GUNNERS_HAN = 
-{
-	first_type = 6
-	first_amount = 250
-	
-	special_troops = hand_gunners
-	
-	potential = {
-			date >= 1214.1.1
-			TECH_CASTLE_CONSTRUCTION = 3
-			TECH_SIEGE_EQUIPMENT = 3
-			TECH_SKIRMISH = 3
-		is_nomadic = no
-		culture = han
-	}
-	
-	modifier = {
-		hand_gunners_morale = 0.1
-		hand_gunners_offensive = 0.60
-		hand_gunners_defensive = 0.3
-	}
-}
-RETTYPE_CUL_FIRELANCERS_HAN = 
-{
-	first_type = 6
-	first_amount = 250
-	
-	special_troops = fire_lancers
-	
-	potential = {
-			date >= 950.1.1
-			TECH_CASTLE_CONSTRUCTION >= 1.8
-			TECH_SIEGE_EQUIPMENT >= 1.8
-			TECH_SKIRMISH >= 1.8
-		is_nomadic = no
-		culture = han
-	}
-	
-	modifier = {
-		fire_lancers_morale = 0.1
-		fire_lancers_offensive = 0.60
-		fire_lancers_defensive = 0.3
-	}
-}
+#RETTYPE_CUL_EXPLOSIVE_HAN = 
+#{
+#	first_type = 5
+#	first_amount = 250
+#	second_type = 6
+#	second_amount = 100
+#	
+#	special_troops = fire_lancers
+#	
+#	potential = {
+#			date >= 950.1.1
+#			TECH_CASTLE_CONSTRUCTION >= 1.8
+#			TECH_SIEGE_EQUIPMENT >= 1.8
+#			TECH_SKIRMISH >= 1.8
+#		is_nomadic = no
+#		culture = han
+#	}
+#	
+#	modifier = {
+#		fire_lancers_morale = 0.1
+#		archers_offensive = 0.70
+#		archers_defensive = 0.50
+#		fire_lancers_offensive = 0.60
+#		fire_lancers_defensive = 0.3
+#	}
+#}
+#RETTYPE_CUL_ROCKETS_HAN = 
+#{
+#	first_type = 5
+#	first_amount = 200
+#	second_type = 6
+#	second_amount = 50
+#	
+#	special_troops = rocketeers
+#	
+#	potential = {
+#			date >= 904.1.1
+#			TECH_CASTLE_CONSTRUCTION >= 1.8
+#			TECH_SIEGE_EQUIPMENT >= 1.8
+#			TECH_SKIRMISH >= 1.8
+#		is_nomadic = no
+#		culture = han
+#	}
+#	
+#	modifier = {
+#		rocketeers_morale = 0.1
+#		archers_offensive = 0.70
+#		archers_defensive = 0.50
+#		rocketeers_offensive = 0.60
+#		rocketeers_defensive = 0.3
+#	}
+#}
+#RETTYPE_CUL_CANNONS_HAN = 
+#{
+#	first_type = 5
+#	first_amount = 200
+#	second_type = 6
+#	second_amount = 50
+#	
+#	special_troops = cannoneers
+#	
+#	potential = {
+#			date >= 1214.1.1
+#			TECH_CASTLE_CONSTRUCTION = 3
+#			TECH_SIEGE_EQUIPMENT = 3
+#			TECH_SKIRMISH = 3
+#		is_nomadic = no
+#		culture = han
+#	}
+#	
+#	modifier = {
+#		cannoneers_morale = 0.1
+#		archers_offensive = 0.70
+#		archers_defensive = 0.50
+#		cannoneers_offensive = 0.60
+#		cannoneers_defensive = 0.3
+#	}
+#}
+#RETTYPE_CUL_GUNNERS_HAN = 
+#{
+#	first_type = 6
+#	first_amount = 250
+#	
+#	special_troops = hand_gunners
+#	
+#	potential = {
+#			date >= 1214.1.1
+#			TECH_CASTLE_CONSTRUCTION = 3
+#			TECH_SIEGE_EQUIPMENT = 3
+#			TECH_SKIRMISH = 3
+#		is_nomadic = no
+#		culture = han
+#	}
+#	
+#	modifier = {
+#		hand_gunners_morale = 0.1
+#		hand_gunners_offensive = 0.60
+#		hand_gunners_defensive = 0.3
+#	}
+#}
+#RETTYPE_CUL_FIRELANCERS_HAN = 
+#{
+#	first_type = 6
+#	first_amount = 250
+#	
+#	special_troops = fire_lancers
+#	
+#	potential = {
+#			date >= 950.1.1
+#			TECH_CASTLE_CONSTRUCTION >= 1.8
+#			TECH_SIEGE_EQUIPMENT >= 1.8
+#			TECH_SKIRMISH >= 1.8
+#		is_nomadic = no
+#		culture = han
+#	}
+#	
+#	modifier = {
+#		fire_lancers_morale = 0.1
+#		fire_lancers_offensive = 0.60
+#		fire_lancers_defensive = 0.3
+#	}
+#}
 RETTYPE_CUL_TIBET = 
 {
 	first_type = 0

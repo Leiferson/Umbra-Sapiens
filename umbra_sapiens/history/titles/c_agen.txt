@@ -109,66 +109,73 @@ liege="d_aquitaine"
 1311.5.15={
 	holder=138341 #Amanieu de Fargis
 }
+1357.5.15={
+	holder=381539 # 1357–1363: Déodat de Rotbald
+} 
+1363.1.1={
+	holder=381540	# 1364–1374: Raymond de Salg
+}
 1369.1.1={
 	holder=455499 #Charles V
 	liege=k_france
 }
-1380.9.16={
-	holder=370746 #Charles VI
+1374.1.1={
+	holder=381541	# 1375–1382: Jean II. Belveti
 }
-1422.10.21={
-	holder=370786 #Charles VII
+1382.1.1={
+	holder=381542	# 1382–1383: Simon de Cramaud (Avignon Obedience)
 }
-1461.7.22={
-	holder=370841 #Louis XI
+1383.1.1={
+	holder=381543	# 1383–1395: Jean IV. (Avignon Obedience)
 }
-1483.8.30={
-	holder=370997 #Charles VIII
-}
-1498.4.7={
-	holder=371092 #Louis XII
-}
-1515.1.1={
-	holder=370977 #Francis I
-}
-1547.3.31={
-	holder=371100 #Henry II
-}
-1559.7.10={
-	holder=375095 #Francis II
-}
-1560.12.5={
-	holder=371693 #Charles IX
-}
-1574.5.30={
-	holder=371694 #Henry III
-}
-1589.8.2={
-	holder=371464 #Henry IV the Great
-}
-1610.5.14={
-	holder=371859 #Louis XIII the Just
-}
-    1357–1363: Déodat de Rotbald
-    1364–1374: Raymond de Salg
-    [c. 1367: Richard (?)]
-    1375–1382: Jean II. Belveti
-    [c. 1379: Jean III.]
-    1382–1383: Simon de Cramaud (Avignon Obedience)
-    1383–1395: Jean IV. (Avignon Obedience)
-    1395–1398: Bernard III. Chevenon (Avignon Obedience)
-    1398–1438: Imbert de Saint-Laurent (Avignon Obedience)
-    1439–1461: Jean V. Borgia
-    1461–1477: Pierre IV. de Bérard
-    [1477: Jean VI. de Monchenu]
-    1478–1487: Galeotto Grosso della Rovere
-    1487–1519: Cardinal Leonardo Grosso della Rovere
-	    1519–1538: Antonio della Rovere
-    1538–1550: Cardinal Jean de Lorraine (Administrator)
-    1550–1554: Matteo Bandello, O.P.
-    1555–1586: Janus Fregoso
-    [1586–1587: Pierre Donault, O.S.B.Clun.]
-    1587–1608: Nicolas de Villars
-    1609–1630: Claude de Gélas
-    1631–1636: Gaspard de Daillon du Lude
-	1636–1663: Barthélémi d'Elbène
+1395.1.1={
+	holder=381544	# 1395–1398: Bernard III. Chevenon (Avignon Obedience)
+}   
+1398.1.1={
+	holder=381545	# 1398–1438: Imbert de Saint-Laurent (Avignon Obedience)
+}  
+1439.1.1={
+	holder=381546	# 1439–1461: Jean V. Borgia
+}  
+1461.1.1={
+	holder=381547	# 1461–1477: Pierre IV. de Bérard
+}  
+1477.1.1={
+	holder=381348	# 1477: Jean VI. de Monchenu
+}  
+1478.1.1={
+	holder=381548	# 1478–1487: Galeotto Grosso della Rovere
+}  
+1487.1.1={
+	holder=381549	# 1487–1519: Cardinal Leonardo Grosso della Rovere
+}  
+1519.1.1={
+	holder=381550	# 1519–1538: Antonio della Rovere
+}  
+1538.1.1={
+	holder=372455	# 1538–1550: Cardinal Jean de Lorraine (Administrator)
+}  
+1550.5.18 = {
+	holder=381551	# 1550–1554: Matteo Bandello, O.P.
+}  
+1554.1.1={
+	holder=381552	# 1555–1586: Janus Fregoso
+}    
+1586.1.1={
+	holder=381553	# [1586–1587: Pierre Donault, O.S.B.Clun.]
+} 
+1587.1.1={
+	holder=381554	# 1587–1608: Nicolas de Villars
+} 
+1608.1.1={
+	holder=381555	# 1609–1630: Claude de Gélas
+} 
+1630.1.1={
+	holder=381556	# 1631–1636: Gaspard de Daillon du Lude
+} 
+1636.1.1={
+	holder=381557	# 1636–1663: Barthélémi d'Elbène
+} 
+    
+    
+	

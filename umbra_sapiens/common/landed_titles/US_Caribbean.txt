@@ -2,7 +2,9 @@ e_caribbean = {
 
 	color={ 27 131 43 }
 	color2={ 220 220 220 }
-
+	allow={
+	is_colonial = no
+	}
 	capital = 3828 # Barahonas
 
 	k_cuba = {

@@ -42,4 +42,5 @@
 }
 1349.10.25={
 	holder=0 # Sold to France
+	liege=c_montpellier
 }

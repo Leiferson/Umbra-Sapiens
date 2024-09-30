@@ -83,7 +83,7 @@ liege="d_gascogne"
 1317.1.1={
 	holder= 455750 #Jean III de Bretagne
 }
-1337.1.1=
+1341.4.30=
 {
 holder=370720 #John I, Count of Penthièvre
 liege=k_france

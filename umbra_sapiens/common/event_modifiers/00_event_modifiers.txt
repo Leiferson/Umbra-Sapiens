@@ -7887,3 +7887,6 @@ sent_conquistador_mod = {
 recently_changed_colonial_visibility = {
 	icon = 10
 }
+gave_out_credit_or_debit_mod = {
+	icon = 22 
+}

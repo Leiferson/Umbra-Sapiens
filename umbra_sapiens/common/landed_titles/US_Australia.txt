@@ -4,7 +4,9 @@ e_australia = {
 
 	color={ 162 122 135 }
 	color2={ 255 255 255 }
-
+	allow={
+	is_colonial = no
+	}
 	k_western_australia = { #Liang
 
 		capital = 3400 # Perthh

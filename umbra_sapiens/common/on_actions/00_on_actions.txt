@@ -1,6 +1,7 @@
 #character
 on_startup = {
 	events = {
+		bancoevents.27 #Gives money to the bank if it exists
 		chinaevents.16 # give education to people at the beggining of the game
 		1337 # Emperor Ticket character spawning event
 		GR.13 #True cognatic for rule gender = all

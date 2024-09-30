@@ -93,30 +93,78 @@
 1331.1.1={
 	holder=91186 #Jean II de Vienne
 }
-Hugues d'Arcy[68] (1351–1352)
-
-    Humbert, O.P.[69] (1352–1355) (Administrator)
-
-Jean de Craon[70] (1355–1373)
-Louis Thesart[71] (14 April 1374 – 12 October 1375)
-Richard Picque[72] (12 November 1375 – 6 December 1389)
-Ferry Cassinel[73] (29 January 1390 – 26 May 1390) (Avignon Obedience)
-Guy de Roye[74] (1391–1409)
-Simon of Cramaud[75] (2 July 1409 – 1413)
-Pierre Trousseau[76] (2 May 1413 - 16 December 1413)
-Renaud of Chartres[77] (2 January 1414 – 1444)
-Jacques Juvenal des Ursins (9 October 1444 – 3 March 1449)
-Jean Juvenal des Ursins (3 March 1449 – 14 July 1473)[79]
-Pierre de Montfort-Laval (1474–1493)[80]
-Robert Briçonnet (1493–1497)[81]
-Guillaume Briçonnet (1497–1507)
-Cardinal Charles Dominique de Carreto[83] (16 September 1507 – 28 March 1509)
-Cardinal Robert de Lenoncourt[84] (28 March 1509 – 25 September 1532)
-Cardinal Jean de Lorraine[85] (1533–1550)
-Cardinal Charles of Guise[86] (1538–1574)
-Cardinal Louis I of Guise[87] (1574–1588)
-Cardinal Nicolas de Pellevé[88] (1588–1594)
-Philippe du Bec[89] (1594–1605)
-Cardinal Louis II of Guise[90] (1605–1621)
-Gabriel de Sainte-Marie OSB (William Gifford)[91] (1623–1629)
-Henry of Guise[92] (1629–1641)
+1351.1.1={
+	holder=381558	#Hugues d'Arcy (1351–1352)
+}
+1352.1.1={
+	holder=381559	#Humbert, O.P.(1352–1355) (Administrator)
+}
+1355.1.1={
+	holder=381560	#Jean de Craon (1355–1373)
+}
+1374.4.14={
+	holder=381561	#Louis Thesart (14 April 1374 – 12 October 1375)
+}
+1375.10.12={
+	holder=381562	#Richard Picque (12 November 1375 – 6 December 1389)
+}
+1389.12.6={
+	holder=381563	#Ferry Cassinel (29 January 1390 – 26 May 1390) (Avignon Obedience)
+}
+1390.5.26={
+	holder=381564	#Guy de Roye (1391–1409)
+}
+1409.7.2={
+	holder=381542	#Simon of Cramaud (2 July 1409 – 1413)
+}
+1413.1.1={
+	holder=381565	#Pierre Trousseau (2 May 1413 - 16 December 1413)
+}
+1413.12.16={
+	holder=381566	#Renaud of Chartres (2 January 1414 – 1444)
+}
+1444.1.1={
+	holder=381567	#Jacques Juvenal des Ursins (9 October 1444 – 3 March 1449)
+}
+1449.3.3={
+	holder=381568	#Jean Juvenal des Ursins (3 March 1449 – 14 July 1473)
+}
+1473.7.14={
+	holder=381569	#Pierre de Montfort-Laval (1474–1493)
+}
+1493.1.1={
+	holder=381570	#Robert Briçonnet (1493–1497)
+}
+1497.6.3={
+	holder=381571	#Guillaume Briçonnet (1497–1507)
+}
+1507.1.1={
+	holder=381572	#Cardinal Charles Dominique de Carreto (16 September 1507 – 28 March 1509)
+}
+1509.3.28={
+	holder=381573	#Cardinal Robert de Lenoncourt (28 March 1509 – 25 September 1532)
+}
+1532.9.25={
+	holder=372455	#Cardinal Jean de Lorraine (1533–1550)
+}
+1550.1.1={
+	holder=373133	#Cardinal Charles of Guise(1538–1574)
+}
+1574.1.1={
+	holder=375688	#Louis de Lorraine (1555-1588)
+}
+1588.1.1={
+	holder=381574	#Cardinal Nicolas de Pellevé (1588–1594)
+}
+1594.3.24={
+	holder=381575	#Philippe du Bec (1594–1605)
+}
+1605.1.1={
+	holder=375695	#Cardinal Louis II of Guise (1605–1621)
+}
+1621.1.1={
+	holder=381576	#Gabriel de Sainte-Marie OSB (William Gifford) (1623–1629)
+}
+1629.4.11={
+	holder=375999	#Henri II, Duke of Guise
+}

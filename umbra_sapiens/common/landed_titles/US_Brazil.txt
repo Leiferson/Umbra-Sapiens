@@ -4,7 +4,9 @@ e_brazil = {
 	color2={ 220 220 220 }
 
 	capital = 4013 # Bahia
-
+	allow={
+	is_colonial = no
+	}
 	k_northern_brazil = {
 
 		color={ 151 132 0 }

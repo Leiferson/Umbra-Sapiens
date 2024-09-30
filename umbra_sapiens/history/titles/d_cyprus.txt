@@ -116,8 +116,43 @@
 	holder= 376154 #Catherine Cornaro
 }
 1489.2.26={
-	holder=0	#Venetian take over
+holder=377777	#Agostino Barbarigo
+liege=k_venice
+}
+1501.9.20 = {
+holder=377779	#Leonardo Loredan
+}
+1521.6.22 = {
+holder=377780	#Antonio Grimani
+}
+1523.5.7 = {
+holder=377781	#Andrea Gritti
+}
+1538.12.28 = {
+holder=377782	#Pietro Lando
+}
+1545.11.9 = {
+holder=377783	#Francesco Donato
+}
+1553.5.23 = {
+holder=377784	#Marcantonio Trivisan
+}
+1554.5.31 = {
+holder=377785	#Francesco Venier
+}
+1556.6.2 = {
+holder=377786	#Lorenzo Priuli
+}
+1559.8.17 = {
+holder=377787	#Girolamo Priuli
+}
+1567.11.4 = {
+holder=377788	#Pietro Loredan
+}
+1570.5.3 = {
+holder=377789	#Alvise I Mocenigo
 }
 1571.8.5={
 	holder=0	#Turkish conquest
+	liege=e_ottomans
 }

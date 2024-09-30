@@ -34,5 +34,6 @@
 	holder=375629	#Margarita de Saboya
 }
 1640.12.1={
+	holder=0
 	active = no
 }

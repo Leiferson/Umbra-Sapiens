@@ -49,3 +49,6 @@
 	liege="k_navarra"
 	holder=0
 }
+1379.3.31={
+	liege=c_avranches
+}

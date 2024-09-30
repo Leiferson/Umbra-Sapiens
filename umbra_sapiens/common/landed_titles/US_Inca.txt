@@ -4,7 +4,9 @@ e_inca = {
 	color2={ 220 220 220 }
 
 	capital = 3936 # Qusqu
-
+	allow={
+	is_colonial = no
+	}
 	k_peru = {
 
 		color={ 40 95 135 }

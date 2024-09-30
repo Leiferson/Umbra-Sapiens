@@ -2,7 +2,9 @@ e_maya = {
 
 	color={ 25 44 177 }
 	color2={ 220 220 220 }
-
+	allow={
+	is_colonial = no
+	}
 	capital = 3723 # Tenochtitlan
 	k_otomi = {
 		color={ 255 255 128 }

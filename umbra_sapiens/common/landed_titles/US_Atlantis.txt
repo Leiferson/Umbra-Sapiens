@@ -1,9 +1,15 @@
 			e_atlantis = {
 			color={ 128 163 13 }
 			color2={ 255 255 255 }
+			allow={
+			is_colonial = no
+				}
 			k_artic_isles = {
 			color={ 128 163 13 }
 			color2={ 255 255 255 }
+			allow={
+			is_colonial = no
+					}
 			d_falkland = {
 
 			color={ 99 224 10 }
@@ -100,6 +106,9 @@
 			k_macaronesia = {
 			color={ 128 163 13 }
 			color2={ 255 255 255 }
+			allow={
+			is_colonial = no
+					}
 			d_canarias = {
 			color={ 60 190 43 }
 			color2={ 255 255 255 }

@@ -132,8 +132,7 @@ holder=248846
 	holder=467502	#John Komnenos Asen
 }
 1371.9.26={
-	holder=	#Balsha II
-	liege=377293
+	holder=377293	#Balsha II
 }
 1385.1.1={
 	holder=377303	#Komnina Balshic

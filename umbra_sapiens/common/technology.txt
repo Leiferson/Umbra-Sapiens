@@ -1,8 +1,8 @@
 TECH_GROUP_MILITARY = {
 	TECH_INFANTRY = {
 		modifier = {
-			fire_lancers_MORALE = 0.4
-			fire_lancers_DEFENSIVE = 0.6
+			#fire_lancers_MORALE = 0.4
+			#fire_lancers_DEFENSIVE = 0.6
 			LIGHT_INFANTRY_DEFENSIVE = 0.6
 			ARCHERS_DEFENSIVE = 0.6
 			archers_morale = 0.4
@@ -11,12 +11,12 @@ TECH_GROUP_MILITARY = {
 			heavy_infantry_morale = 0.4
 			PIKEMEN_DEFENSIVE = 0.6
 			pikemen_morale = 0.4
-			hand_gunners_MORALE = 0.4
-			hand_gunners_DEFENSIVE = 0.6
-			cannoneers_MORALE = 0.4
-			cannoneers_DEFENSIVE = 0.6
-			rocketeers_MORALE = 0.4
-			rocketeers_DEFENSIVE = 0.6
+			#hand_gunners_MORALE = 0.4
+			#hand_gunners_DEFENSIVE = 0.6
+			#cannoneers_MORALE = 0.4
+			#cannoneers_DEFENSIVE = 0.6
+			#rocketeers_MORALE = 0.4
+			#rocketeers_DEFENSIVE = 0.6
 		}	
 	}
 	TECH_CAVALRY = {
@@ -24,27 +24,27 @@ TECH_GROUP_MILITARY = {
 			LIGHT_CAVALRY_DEFENSIVE = 0.6
 			KNIGHTS_DEFENSIVE = 0.6
 			camel_cavalry_defensive = 0.6
-			reindeer_cavalry_defensive = 0.6
+			#reindeer_cavalry_defensive = 0.6
 			war_elephants_defensive = 0.6
 			horse_archers_defensive = 0.6
 			LIGHT_CAVALRY_morale = 0.4
 			KNIGHTS_morale = 0.4
 			camel_cavalry_morale = 0.4
-			reindeer_cavalry_morale = 0.4
+			#reindeer_cavalry_morale = 0.4
 			war_elephants_morale = 0.4
 			horse_archers_morale = 0.4
 		}
 	}
 	TECH_SKIRMISH = {
 		modifier = {
-			fire_lancers_OFFENSIVE = 0.6
-			hand_gunners_OFFENSIVE = 0.6
+			#fire_lancers_OFFENSIVE = 0.6
+			#hand_gunners_OFFENSIVE = 0.6
 			LIGHT_CAVALRY_OFFENSIVE  = 0.6
 			horse_archers_offensive = 0.6
 			ARCHERS_OFFENSIVE = 0.6
 #			LIGHT_INFANTRY_OFFENSIVE = 0.6
 			camel_cavalry_offensive = 0.6
-			reindeer_cavalry_offensive = 0.6
+			#reindeer_cavalry_offensive = 0.6
 			custom_modifier_text  = better_skirmisher_tactics_custom_modifier_tt
 		}
 			
@@ -60,8 +60,8 @@ TECH_GROUP_MILITARY = {
 	}
 	TECH_SIEGE_EQUIPMENT = {
 		modifier = {
-		cannoneers_OFFENSIVE = 0.6
-		rocketeers_OFFENSIVE = 0.6
+		#cannoneers_OFFENSIVE = 0.6
+		#rocketeers_OFFENSIVE = 0.6
 			SIEGE_SPEED = 1.0
 			SIEGE_DEFENCE = 1.0
 		}

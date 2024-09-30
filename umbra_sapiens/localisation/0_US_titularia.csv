@@ -145,8 +145,8 @@ KINGGRANDDUCHESS;Queen-Grand Duchess;;;;;;;;;;;;;x
 UNION;Union of;;;;;;;;;;;;;x
 e_commonwealth;Poland and the Grand Duchy of Lithuania;;;;;;;;;;;;;x
 e_commonwealth_adj;Polish lithuanian;;;;;;;;;;;;;x
-e_kalmar;Kalmar;;;;;;;;;;;;;x
-e_kalmar_adj;Kalmar;;;;;;;;;;;;;x
+e_kalmar;Kalmar Union;;;;;;;;;;;;;x
+e_kalmar_adj;Kalmar Union;;;;;;;;;;;;;x
 e_espana_burgona;Spain;;;;;;;;;;;;;x
 e_espana_burgona_adj;Spanish;;;;;;;;;;;;;x
 k_prussia;Prussia;;;;;;;;;;;;;x
@@ -214,3 +214,8 @@ create_new_spain;Create the Viceroyalty of New Spain;;;;;;;;;;;;;x
 create_new_spain_desc;By reorganizing our american colonies under a modern colonial administration we can ensure their efficient management.;;;;;;;;;;;;;x
 k_ambrosian_republic;Ambrosian Republic;;;;;;;;;;;;;x
 k_ambrosian_republic_adj;Ambrosian Republic;;;;;;;;;;;;;x
+PROTECTOR;Prottetor;;;;;;;;;;;;;x
+d_banco;Banco di San Giorgio;;;;;;;;;;;;;x
+d_banco_adj;Banco di San Giorgio;;;;;;;;;;;;;x
+create_banco;Create the Banco di San Giorgio;;;;;;;;;;;;;x
+create_banco_desc;The Banco di San Giorgio was a was a financial institution founded in 1407 to consolidate the public debt, which had been escalating due to the war with Venice for trading and financial dominance.;;;;;;;;;;;;;x

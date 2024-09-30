@@ -90,11 +90,12 @@
 1328.11.9={
 	holder=469513
 }
-1345.9.18={
+1345.12.25={
 	holder=380192	#Charles Martel, Duke of Calabria
 }
 1348.5.10={
 	holder=461703 #Joanna I
+	liege=k_naples
 }
 1382.5.12={
 	holder=371112 #Charles III of Naples

@@ -10736,8 +10736,8 @@
 	culture="frankish"
 	father=455784
 	mother=455753
-	1345.2.5 = {
-		birth="1345.2.5"
+	1341.4.29= {
+		birth="1341.4.29"
 		}
 	1387.1.21 = { add_spouse=370736 }
 	1404.1.4 = {
@@ -21045,6 +21045,9 @@
 	1383.1.1 = {
 		birth="1383.1.1"
 	}
+	1407.8.15={
+		add_spouse=381588	
+	}
 	1443.3.14 = {
 		death="1443.3.14"
 	}
@@ -25034,8 +25037,8 @@
 	culture="frankish"
 	father=371100
 	mother=371535
-	1574.5.30 = {
-		birth="1574.5.30"
+	1551.9.19 = {
+		birth="1551.9.19"
 	}
 	1589.8.2 = {
 		death="1589.8.2"
@@ -29393,6 +29396,9 @@
 	1363.1.1={
 		birth="1363.1.1"
 	}
+	1380.3.23={
+		add_spouse=381585
+	}
 	1395.1.2={
 		death="1395.1.2"
 	}
@@ -30556,6 +30562,9 @@
 	mother=450508
 	1337.1.1 = {
 		birth="1337.1.1"
+	}
+	1362.1.1={
+		add_spouse=381579
 	}
 	1383.4.24 = {
 		death="1383.4.24"
@@ -102507,7 +102516,7 @@
 	}
 
 	1582.9.28={
-		birth="1582.9.28"
+		death="1582.9.28"
 	}
 }
 377077 = {
@@ -102522,7 +102531,7 @@
 	}
 
 	1573.1.2={
-		birth="1573.1.2"
+		death="1573.1.2"
 	}
 }
 #Issue of Bogdan III the One-Eyed
@@ -137735,7 +137744,6 @@
 379613 = {
 	name="Diogo" 	#Diogo de Castro (conde de Basto)
 	dynasty=279
-	father=379609
 	religion="catholic"
 	culture="portuguese"
 	1490.1.1 = {
@@ -137779,7 +137787,6 @@
 379616 = {
 	name="Diogo" 	#Diogo de Castro
 	dynasty=1010043998
-	father=379609
 	#Felipa de Ataíde
 	religion="catholic"
 	culture="portuguese"
@@ -137796,7 +137803,6 @@
 379617 = {
 	name="Lourenço" 	#Lourenço Pires de Castro
 	dynasty=1010043998
-	father=379609
 	#Felipa de Ataíde
 	religion="catholic"
 	culture="portuguese"
@@ -137821,7 +137827,7 @@
 	}
 } 
 379619 = {
-	name="João" 	#Francisco de Mascarenhas, conde de Vila da Horta y conde de Santa Cruz
+	name="Francisco" 	#Francisco de Mascarenhas, conde de Vila da Horta y conde de Santa Cruz
 	dynasty=1010044000
 	religion="catholic"
 	culture="portuguese"
@@ -145851,7 +145857,7 @@
 	}
 }
 #380191 is taken
-#Issue of 
+#Issue of Andrew, Duke of Calabria
 380192 = {
 	name="Charles Martel"	#Charles Martel, Duke of Calabria
 	dynasty=81
@@ -159757,8 +159763,8 @@
 	mother=379699
 	religion=catholic
 	culture=castillan
-	1409.1.1={
-		birth="1409.1.1"
+	1380.1.1={
+		birth="1380.1.1"
 	}
 	1458.10.19={
 		death="1458.10.19"
@@ -160618,8 +160624,8 @@
 	1348.1.1 = {
 		birth="1348.1.1"
 	}
-	1361.1.1 = {
-		death="1361.1.1"
+	1363.1.1 = {
+		death="1363.1.1"
 	}
 }
 #Issue of Juan Sánchez Manuel
@@ -164447,5 +164453,867 @@
 	}
 	1519.4.28 = {
 		death="1519.4.28"
+	}
+}
+#bishops of Agen
+381539 = {
+	name="Déodat"	# 1357–1363: Déodat de Rotbald
+	dynasty=1010044202
+	religion="catholic"
+	culture="occitan"
+	1305.1.1 = {
+		birth="1305.1.1"
+	}
+	1363.1.1 = {
+		death="1363.1.1"
+	}
+}
+381540 = {
+	name="Raymond"	# 1364–1374: Raymond de Salg
+	dynasty=1010044203
+	religion="catholic"
+	culture="occitan"
+	1308.1.1 = {
+		birth="1308.1.1"
+	}
+	1374.1.1 = {
+		death="1374.1.1"
+	}
+}
+381541 = {
+	name="Jean"	# 1375–1382: Jean II. Belveti
+	dynasty=1010044204
+	religion="catholic"
+	culture="occitan"
+	1310.1.1 = {
+		birth="1310.1.1"
+	}
+	1382.1.1 = {
+		death="1382.1.1"
+	}
+}
+381542 = {
+	name="Simon"	# 1382–1383: Simon de Cramaud (Avignon Obedience)
+	dynasty=1010044205
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1345.1.1 = {
+		birth="1345.1.1"
+	}
+	1423.1.19 = {
+		death="1423.1.19"
+	}
+}
+381543 = {
+	name="Jean"	# 1383–1395: Jean IV. (Avignon Obedience)
+	religion="catholic"
+	culture="occitan"
+	1317.1.1 = {
+		birth="1317.1.1"
+	}
+	1395.1.1 = {
+		death="1395.1.1"
+	}
+}
+381544 = {
+	name="Bernard"	# 1395–1398: Bernard III. Chevenon (Avignon Obedience)
+	dynasty=1010044206
+	religion="catholic"
+	culture="occitan"
+	1330.1.1 = {
+		birth="1330.1.1"
+	}
+	1398.1.1 = {
+		death="1398.1.1"
+	}
+}
+381545 = {
+	name="Imbert"	# 1398–1438: Imbert de Saint-Laurent (Avignon Obedience)
+	dynasty=1010044207
+	religion="catholic"
+	culture="occitan"
+	1370.1.1 = {
+		birth="1370.1.1"
+	}
+	1438.1.1 = {
+		death="1438.1.1"
+	}
+}
+381546 = {
+	name="Jean"	# 1439–1461: Jean V. Borgia
+	dynasty=100458
+	religion="catholic"
+	culture="occitan"
+	1403.1.1 = {
+		birth="1403.1.1"
+	}
+	1461.1.1 = {
+		death="1461.1.1"
+	}
+}
+381547 = {
+	name="Pierre"	# 1461–1477: Pierre IV. de Bérard
+	dynasty=1010044208
+	religion="catholic"
+	culture="occitan"
+	1409.1.1 = {
+		birth="1409.1.1"
+	}
+	1477.1.1 = {
+		death="1477.1.1"
+	}
+}
+381548 = {
+	name="Galeotto"	# 1478–1487: Galeotto Grosso della Rovere
+	dynasty=1010044184
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1434.1.1 = {
+		birth="1434.1.1"
+	}
+	1487.1.1 = {
+		death="1487.1.1"
+	}
+}
+381549 = {
+	name="Leonardo"	# 1487–1519: Cardinal Leonardo Grosso della Rovere
+	dynasty=1010044184
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1450.1.1 = {
+		birth="1450.1.1"
+	}
+	1519.1.1 = {
+		death="1519.1.1"
+	}
+}
+381550 = {
+	name="Leonardo"	# 1519–1538: Antonio della Rovere
+	dynasty=1010044184
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1480.1.1 = {
+		birth="1480.1.1"
+	}
+	1538.1.1 = {
+		death="1538.1.1"
+	}
+}
+381551 = {
+	name="Matteo"	# 1550–1554: Matteo Bandello, O.P.
+	dynasty=1010044209
+	religion="catholic"
+	culture="occitan"
+	trait=monk
+	1500.1.1 = {
+		birth="1500.1.1"
+	}
+	1554.1.1 = {
+		death="1554.1.1"
+	}
+}
+381552 = {
+	name="Janus"	
+	dynasty=1010043515 # 1555–1586: Janus Fregoso
+	religion="catholic"
+	culture="italian"
+	1510.1.1= {
+		birth="1510.1.1"
+	} 	
+	1586.1.1= {
+		death="1586.1.1"
+	}
+}
+381553 = {
+	name="Pierre"	
+	dynasty=1010044210 # [1586–1587: Pierre Donault, O.S.B.Clun.]
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1519.1.1= {
+		birth="1519.1.1"
+	} 	
+	1587.1.1= {
+		death="1587.1.1"
+	}
+}
+381554 = {
+	name="Nicolas"	
+	dynasty=13114 # 1587–1608: Nicolas de Villars
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1535.1.1= {
+		birth="1535.1.1"
+	} 	
+	1608.1.1= {
+		death="1608.1.1"
+	}
+}
+381555 = {
+	name="Claude"	
+	dynasty=1010044211 # 1609–1630: Claude de Gélas
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1571.1.1= {
+		birth="1571.1.1"
+	} 	
+	1630.1.1= {
+		death="1630.1.1"
+	}
+}
+381556 = {
+	name="Gaspard"	
+	dynasty=1010044212 # 1631–1636: Gaspard de Daillon du Lude
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1575.1.1= {
+		birth="1575.1.1"
+	} 	
+	1636.1.1= {
+		death="1636.1.1"
+	}
+}
+381557 = {
+	name="Barthélémi"	
+	dynasty=1010044213 # 1636–1663: Barthélémi d'Elbène
+	religion="catholic"
+	culture="italian"
+	trait=monk
+	1600.1.1= {
+		birth="1600.1.1"
+	} 	
+	1663.1.1= {
+		death="1663.1.1"
+	}
+}
+#Bishops of Reims
+381558 = {
+	name="Hugues" #Hugues d'Arcy (1351–1352)
+	dynasty=13108 #d'Arcy
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1300.1.1 = {
+		birth="1300.1.1" 
+	}
+	1352.1.1 = {
+		death="1352.1.1" 
+	}
+}
+381559 = {
+	name="Humbert" #Humbert, O.P.(1352–1355) (Administrator)
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1303.1.1 = {
+		birth="1303.1.1" 
+	}
+	1355.1.1 = {
+		death="1355.1.1" 
+	}
+}
+381560 = {
+	name="Jean" #Jean de Craon (1355–1373)
+	dynasty=1010043125
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1310.1.1 = {
+		birth="1310.1.1"
+	}
+	1373.1.1 = {
+		death="1373.1.1"
+	}
+}
+381561 = {
+	name="Louis" #Louis Thesart (14 April 1374 – 12 October 1375)
+	dynasty=1010044214
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1313.1.1 = {
+		birth="1313.1.1"
+	}
+	1375.10.12 = {
+		death="1375.10.12"
+	}
+}
+381562 = {
+	name="Richard" #Richard Picque (12 November 1375 – 6 December 1389)
+	dynasty=1010044215
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1328.1.1 = {
+		birth="1328.1.1"
+	}
+	1389.12.6 = {
+		death="1389.12.6"
+	}
+}
+381563 = {
+	name="Ferry" #Ferry Cassinel (29 January 1390 – 26 May 1390) (Avignon Obedience)
+	dynasty=1010044216
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1335.1.1 = {
+		birth="1335.1.1"
+	}
+	1390.5.26 = {
+		death="1390.5.26"
+	}
+}
+381564 = {
+	name="Guy" #Guy de Roye (1391–1409)
+	dynasty=1010043408
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1340.1.1 = {
+		birth="1340.1.1"
+	}
+	1409.1.1 = {
+		death="1409.1.1"
+	}
+}
+381565 = {
+	name="Pierre" #Pierre Trousseau (2 May 1413 - 16 December 1413)
+	dynasty=1010044217
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1360.1.1 = {
+		birth="1360.1.1"
+	}
+	1413.12.16 = {
+		death="1413.12.16"
+	}
+}
+381566 = {
+	name="Renaud" #Renaud of Chartres (2 January 1414 – 1444)
+	dynasty=1010044218
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1380.1.1 = {
+		birth="1380.1.1"
+	}
+	1444.4.4 = {
+		death="1444.4.4"
+	}
+}
+381567 = {
+	name="Jacques" #Jacques Juvenal des Ursins (9 October 1444 – 3 March 1449)
+	dynasty=1010044219
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1394.1.1 = {
+		birth="1394.1.1"
+	}
+	1449.3.3 = {
+		death="1449.3.3"
+	}
+}
+381568 = {
+	name="Jean" #Jean Juvenal des Ursins (3 March 1449 – 14 July 1473)
+	dynasty=1010044219
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1388.1.1 = {
+		birth="1388.1.1"
+	}
+	1473.7.14 = {
+		death="1473.7.14"
+	}
+}
+381569 = {
+	name="Pierre" #Pierre de Montfort-Laval (1474–1493)
+	dynasty=1010044220
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1427.1.1 = {
+		birth="1427.1.1"
+	}
+	1493.1.1 = {
+		death="1493.1.1"
+	}
+}
+381570 = {
+	name="Robert" #Robert Briçonnet (1493–1497)
+	dynasty=1010044221
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1435.1.1 = {
+		birth="1435.1.1"
+	}
+	1497.6.3 = {
+		death="1497.6.3"
+	}
+}
+381571 = {
+	name="Guillaume" #Guillaume Briçonnet (1497–1507)
+	dynasty=1010044221
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1441.1.1 = {
+		birth="1441.1.1"
+	}
+	1514.1.1 = {
+		death="1514.1.1"
+	}
+}
+381572 = {
+	name="Charles Dominique" #Cardinal Charles Dominique de Carreto (16 September 1507 – 28 March 1509)
+	dynasty=1010044222
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1454.1.1 = {
+		birth="1454.1.1"
+	}
+	1514.8.15 = {
+		death="1514.8.15"
+	}
+}
+381573 = {
+	name="Robert" #Cardinal Robert de Lenoncourt (28 March 1509 – 25 September 1532)
+	dynasty=1010044223
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1480.1.1 = {
+		birth="1480.1.1"
+	}
+	1532.9.25 = {
+		death="1532.9.25"
+	}
+}
+381574 = {
+	name="Nicolas" #Cardinal Nicolas de Pellevé (1588–1594)
+	dynasty=1010044224
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1518.10.18 = {
+		birth="1518.10.18"
+	}
+	1594.3.24 = {
+		death="1594.3.24"
+	}
+}
+381575 = {
+	name="Philippe Crespin"	#Philippe du Bec (1594–1605)
+	dynasty=1010044225
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1519.1.1 = {
+		birth="1519.1.1"
+	}
+	1605.1.10 = {
+		death="1605.1.10"
+	}
+}
+381576 = {
+	name="Gabriel"	#Gabriel de Sainte-Marie OSB (William Gifford) (1623–1629)
+	dynasty=1010044226
+	religion="catholic"
+	culture="frankish"
+	trait=monk
+	1554.1.1 = {
+		birth="1554.1.1"
+	}
+	1629.4.11 = {
+		death="1629.4.11"
+	}
+}
+#Issue of Valdemar IV of Denmark
+381577 = {
+	name="Christoffer" # Christopher, Duke of Lolland
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=451500
+	mother=451531
+	1341.1.1={
+		birth="1341.1.1"
+	}
+	1363.6.11={
+		death="1363.6.11"
+	}
+}
+381578 = {
+	name="Margaret" # Margaret of Denmark
+	female=yes
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=451500
+	mother=451531
+	1345.1.1={
+		birth="1345.1.1"
+	}
+	1350.1.1={
+		death="1350.1.1"
+	}
+}
+381579 = {
+	name="Ingeborg" # Ingeborg of Denmark, Duchess of Mecklenburg
+	female=yes
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=451500
+	mother=451531
+	1347.1.4={
+		birth="1347.1.4"
+	}
+	1370.6.16={
+		death="1370.6.16"
+	}
+}
+381580 = {
+	name="Catherine" #Catherine of Denmark
+	female=yes
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=451500
+	mother=451531
+	1349.1.1={
+		birth="1349.1.1"
+	}
+	1349.1.5={
+		death="1349.1.5"
+	}
+}
+381581 = {
+	name="Valdemar" #Valdemar of Denmark
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=451500
+	mother=451531
+	1350.1.1={
+		birth="1350.1.1"
+	}
+	1363.6.11={
+		death="1363.6.11"
+	}
+}
+381582 = {
+	name="Margaret" #Margaret I of Denmark
+	female=yes
+	dynasty=487
+	religion="catholic"
+	culture="danish"
+	father=451500
+	mother=451531
+	1353.3.1={
+		birth="1353.3.1"
+	}
+	1412.10.29={
+		death="1412.10.29"
+	}
+}
+#Issue of Henry III, Duke of Mecklenburg
+381583 = {
+	name="Albrecht" #Albert IV, Duke of Mecklenburg
+	dynasty=101893 #Niklotid
+	religion="catholic"
+	culture="german"
+	father=372122
+	mother=381579
+	1363.1.1 = {
+		birth="1363.1.1"
+	}
+	1388.12.31 = {
+		death="1388.12.31"
+	}
+}
+381584 = {
+	name="Euphemia" 
+	female=yes
+	dynasty=101893 #Niklotid
+	religion="catholic"
+	culture="german"
+	father=372122
+	mother=381579
+	1365.1.1 = {
+		birth="1365.1.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+381585 = {
+	name="Maria" #Maria of Mecklenburg-Schwerin
+	female=yes
+	dynasty=101893 #Niklotid
+	religion="catholic"
+	culture="german"
+	father=372122
+	mother=381579
+	1366.1.1 = {
+		birth="1366.1.1"
+	}
+	1402.5.13 = {
+		death="1402.5.13"
+	}
+}
+381586 = {
+	name="Ingeborg" #Ingeborg of Mecklenburg-Schwerin
+	female=yes
+	dynasty=101893 #Niklotid
+	religion="catholic"
+	culture="german"
+	father=372122
+	mother=381579
+	trait=nun
+	1367.1.1 = {
+		birth="1367.1.1"
+	}
+	1400.1.1 = {
+		death="1400.1.1"
+	}
+}
+#Issue of Wartislaw VII, Duke of Pomerania
+381587 = {
+	name="Eric" #Eric of Pomerania
+	dynasty=177
+	religion="catholic"
+	culture="pommeranian"
+	father=372046
+	mother=381585
+	1381.1.1={
+		birth="1381.1.1"
+	}
+	1459.9.24={
+		death="1459.9.24"
+	}
+}
+381588 = {
+	name="Katharina" #Catherine of Pomerania, Countess Palatine of Neumarkt
+	female=yes
+	dynasty=177
+	religion="catholic"
+	culture="pommeranian"
+	father=372046
+	mother=381585
+	1390.1.1={
+		birth="1390.1.1"
+	}
+	1426.3.4={
+		death="1426.3.4"
+	}
+}
+#Issue of Magnus Eriksson
+381589 = {
+	name="Eric"	#Eric XII of Sweden
+	dynasty=155
+	religion="catholic"
+	culture="swedish"
+	father=450500 
+	mother=455942
+	1339.1.1={
+		birth="1339.1.1"
+	}
+	1359.6.20={
+		death="1359.6.20"
+	}
+}
+381590 = {
+	name="Eric"	#Haakon VI of Norway
+	dynasty=155
+	religion="catholic"
+	culture="swedish"
+	father=450500 
+	mother=455942
+	1340.1.1={
+		birth="1340.1.1"
+	}
+	1363.1.1={
+		add_spouse=381582
+	}
+	1380.9.11={
+		death="1380.9.11"
+	}
+}
+#Issue of Haakon VI of Norway
+381591 = {
+	name="Olaf"	#Olaf II of Denmark
+	dynasty=155
+	religion="catholic"
+	culture="swedish"
+	father=381590 
+	mother=381582
+	1370.1.1={
+		birth="1370.1.1"
+	}
+	1387.8.3={
+		death="1387.8.3"
+	}
+}
+#Issue of John, Count Palatine of Neumarkt
+381592 = {
+	name="Christoph" #Christopher of Bavaria
+	dynasty=217
+	religion="catholic"
+	culture="german"
+	father=371421
+	mother=381588
+	1416.2.26 = {
+		birth="1416.2.26"
+	}
+	1445.9.12={
+		add_spouse=372162	#Dorothea of Brandenburg
+	}
+	1448.1.6 = {
+		death="1448.1.6"
+	}
+}
+#bishops of Aarhus
+381593 = {
+	name="Paul" # Paul, 1352–1369
+	religion="catholic"
+	culture="danish"
+	1302.1.1 = {
+		birth="1302.1.1"
+	}
+	1369.1.1 = {
+		death="1369.1.1"
+	}
+}
+381594 = {
+	name="Olufsen" # Olufsen, 1369–1386
+	religion="catholic"
+	culture="danish"
+	1309.1.1 = {
+		birth="1309.1.1"
+	}
+	1386.1.1 = {
+		death="1386.1.1"
+	}
+}
+381595 = {
+	name="Peder" # Peder Jensen Lodehat, 1386–1395
+	dynasty=100271
+	religion="catholic"
+	culture="danish"
+	1320.1.1 = {
+		birth="1320.1.1"
+	}
+	1395.1.1 = {
+		death="1395.1.1"
+	}
+}
+381596 = {
+	name="Bo" # Bo Mogensen, 1395–1424
+	dynasty=100271
+	religion="catholic"
+	culture="danish"
+	1370.1.1 = {
+		birth="1370.1.1"
+	}
+	1424.1.1 = {
+		death="1424.1.1"
+	}
+}
+381597 = {
+	name="Ulrik" # Ulrik Stygge, 1424–1449
+	dynasty=1010044227
+	religion="catholic"
+	culture="danish"
+	1390.1.1 = {
+		birth="1390.1.1"
+	}
+	1449.1.1 = {
+		death="1449.1.1"
+	}
+}
+381598 = {
+	name="Jens" # Jens Iversen Lange, 1449–1482
+	dynasty=1010044228
+	religion="catholic"
+	culture="danish"
+	1419.1.1 = {
+		birth="1419.1.1"
+	}
+	1482.1.1 = {
+		death="1482.1.1"
+	}
+}
+381599 = {
+	name="Ejler" # Ejler Madsen Bølle, 1482–1490
+	dynasty=1010044229
+	religion="catholic"
+	culture="danish"
+	1429.1.1 = {
+		birth="1429.1.1"
+	}
+	1490.1.1 = {
+		death="1490.1.1"
+	}
+}
+381600 = {
+	name="Niels" # Niels Clausen, 1490–1520
+	religion="catholic"
+	culture="danish"
+	1474.1.1 = {
+		birth="1474.1.1"
+	}
+	1520.1.1 = {
+		death="1520.1.1"
+	}
+}
+381601 = {
+	name="Ove" # Ove Bille, 1520–1536
+	dynasty=1010044230
+	religion="catholic"
+	culture="danish"
+	1498.1.1 = {
+		birth="1498.1.1"
+	}
+	1555.4.10 = {
+		death="1555.4.10"
+	}
+}
+#Karl Knutsson
+381602 = {
+	name="Karl" # Karl Knutsson
+	dynasty=3811
+	religion="catholic"
+	culture="swedish"
+	1408.1.1 = {
+		birth="1408.1.1"
+	}
+	1470.5.15 = {
+		death="1470.5.15"
+	}
+}
+#Pietro di Campofregoso
+381603 = {
+	name="Pietro"	
+	dynasty=13004 #di Campofregoso
+	religion="catholic"
+	culture="italian"
+	1330.1.1= {
+		birth="1330.1.1"
+	} 	
+	1404.4.22= {
+		death="1404.4.22"
 	}
 }

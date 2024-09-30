@@ -6039,3 +6039,148 @@
 	culture = occitan
 	religion = catholic
 }
+1010044202= {
+	name="de Rotbald"
+	culture = occitan
+	religion = catholic
+}
+1010044203= {
+	name="de Salg"
+	culture = occitan
+	religion = catholic
+}
+1010044204= {
+	name="Belveti"
+	culture = occitan
+	religion = catholic
+}
+1010044205= {
+	name="de Cramaud"
+	culture = occitan
+	religion = catholic
+}
+1010044206= {
+	name="Chevenon"
+	culture = occitan
+	religion = catholic
+}
+1010044207= {
+	name="de Saint-Laurent"
+	culture = occitan
+	religion = catholic
+}
+1010044208= {
+	name="de Bérard"
+	culture = occitan
+	religion = catholic
+}
+1010044209= {
+	name="Bandello"
+	culture = occitan
+	religion = catholic
+}
+1010044210= {
+	name="Donault"
+	culture = occitan
+	religion = catholic
+}
+1010044211= {
+	name="de Gélas"
+	culture = occitan
+	religion = catholic
+}
+1010044212= {
+	name="de Daillon du Lude"
+	culture = occitan
+	religion = catholic
+}
+1010044213= {
+	name="d'Elbene"
+	culture = frankish
+	religion = catholic
+}
+1010044214= {
+	name="Thesart"
+	culture = frankish
+	religion = catholic
+}
+1010044215= {
+	name="Picque"
+	culture = frankish
+	religion = catholic
+}
+1010044216= {
+	name="Cassinel"
+	culture = frankish
+	religion = catholic
+}
+1010044217= {
+	name="Trousseau"
+	culture = frankish
+	religion = catholic
+}
+1010044218= {
+	name="de Chartres"
+	culture = frankish
+	religion = catholic
+}
+1010044219= {
+	name="Juvenal des Ursins"
+	culture = frankish
+	religion = catholic
+}
+1010044220= {
+	name="de Montfort-Laval"
+	culture = frankish
+	religion = catholic
+}
+1010044221= {
+	name="de Briçonnet"
+	culture = frankish
+	religion = catholic
+}
+1010044222= {
+	name="de Carreto"
+	culture = italian
+	religion = catholic
+}
+1010044223= {
+	name="de Lenoncourt"
+	culture = frankish
+	religion = catholic
+}
+1010044224= {
+	name="de Pellevé"
+	culture = frankish
+	religion = catholic
+}
+1010044225= {
+	name="du Bec"
+	culture = frankish
+	religion = catholic
+}
+1010044226= {
+	name="Gifford"
+	culture = english
+	religion = catholic
+}
+1010044227= {
+	name="Stygge"
+	culture = danish
+	religion = catholic
+}
+1010044228= {
+	name="Lange"
+	culture = danish
+	religion = catholic
+}
+1010044229= {
+	name="Bølle"
+	culture = danish
+	religion = catholic
+}
+1010044230= {
+	name="Bille"
+	culture = danish
+	religion = catholic
+}

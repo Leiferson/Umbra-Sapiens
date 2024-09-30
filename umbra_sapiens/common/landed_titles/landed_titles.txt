@@ -43173,11 +43173,8 @@ e_mali = {
 	
 	# Creation/usurpation trigger
 	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture_group = west_african
-			}
+		allow={
+		is_colonial = no
 		}
 	}
 	k_cotedivoire = {

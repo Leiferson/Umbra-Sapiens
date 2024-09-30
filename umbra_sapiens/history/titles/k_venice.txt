@@ -28,6 +28,9 @@
 {
 	holder=184052 #Pietro Tradonico
 }
+840.2.23={
+	de_jure_liege=e_italy
+}
 864.7.13=
 {
 	holder=184026 #Orso I Participazio

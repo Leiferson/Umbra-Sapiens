@@ -4,7 +4,9 @@ e_tenem_lamit = {
     	color2= { 255 255 255 }
 
 	capital = 2709 # Paiwan
-
+	allow={
+		is_colonial = no
+	}
 	k_taiwan = {
 		color={ 34 183 55 }
 		color2={ 255 255 255 }

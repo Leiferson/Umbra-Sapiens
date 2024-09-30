@@ -94,6 +94,7 @@ tribal_governments = {
 		title_prefix = "tribal_"
 		potential = {
 		religion_group = pagan_group
+		is_european_pagan = no
 		OR = {
 		liege = { government = primitive_government }
 		independent = yes

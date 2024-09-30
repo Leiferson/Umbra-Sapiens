@@ -1273,7 +1273,7 @@ e_kalmar = {
 	culture = swedish
 	dignity = 200
 	norse_pagan_reformed = 500 # Crusade target weight
-	title_prefix = "UNION"
+	short_name = yes
 	title = "KING"
 	title_female = "QUEEN"
 		allow = {
@@ -1936,4 +1936,24 @@ k_ambrosian_republic = {
 				}
 			}
 		}	
+}
+d_banco = {
+	color={ 244 141 120 }
+	color2={ 255 255 255 }
+	capital = 233 # Genoa
+	
+	title = "PROTECTOR"
+	
+	culture = italian
+	short_name = yes
+	# Always exists
+	landless = yes
+	# Cannot be held as a secondary title
+	primary = yes
+	dynasty_title_names = no 
+	
+	monthly_income = 500
+	assimilate = no
+	can_be_usurped = no
+	can_be_claimed = no
 }

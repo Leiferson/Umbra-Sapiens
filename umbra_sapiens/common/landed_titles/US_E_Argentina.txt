@@ -6,7 +6,9 @@ e_argentina = {
 	color2={ 220 220 220 }
 
 	capital = 4128 # Argentina
-	
+	allow={
+	is_colonial = no	
+	}
 	k_paraguay = {
 
 		color={ 200 20 13 }

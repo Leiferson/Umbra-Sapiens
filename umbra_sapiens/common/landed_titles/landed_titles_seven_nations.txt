@@ -47,6 +47,7 @@ e_seven_nations = {
 				ai = no
 			}
 		}
+		is_colonial = no
 	}
 
 	k_woodlands_nation = {

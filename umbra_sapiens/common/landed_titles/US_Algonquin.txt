@@ -2,7 +2,7 @@ e_wabanaki = {
 
 	color={ 85 144 229 }
 	color2={ 220 220 220 }
-
+	
 	norse = "Vinland"
 	norwegian = "Vinland"
 	danish = "Vinland"
@@ -11,7 +11,9 @@ e_wabanaki = {
 	saxon = "Winland"
 	old_saxon = "Winland"
 	german = "Winland"
-
+	allow={
+	is_colonial = no
+	}
 	capital = 3547 # Unama'kik
 
 	k_mikmaq = {

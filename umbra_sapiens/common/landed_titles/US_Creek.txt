@@ -2,7 +2,9 @@ e_creek = {
 
 	color={ 125 24 157 }
 	color2={ 220 220 220 }
-
+	allow={
+	is_colonial = no
+	}
 	capital = 3706 # Muskogee
 	k_tejas = {
 

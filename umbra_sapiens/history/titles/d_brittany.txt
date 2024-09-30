@@ -164,6 +164,7 @@
 }
 1524.7.20 = {
 	holder=371099	#François de France (1518-1536)
+	liege=k_france
 }
 1536.8.10 = {
 	holder=371100	#Henry II of France

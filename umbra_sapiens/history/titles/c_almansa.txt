@@ -118,7 +118,7 @@
 	holder=457635 # Juan Sánchez Manuel
 }
 1369.3.23 = {
-	liege=0
+	liege=k_cas_and_leon
 }
 1384.1.2 = {
 	holder=381266 # Alfonso Manuel

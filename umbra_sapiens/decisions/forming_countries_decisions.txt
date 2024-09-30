@@ -55,6 +55,10 @@ unite_great_britain = {
 				de_jure_liege = e_great_britain
 			}
 			destroy_landed_title = e_britannia
+			activate_title = {
+				title = e_britannia
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -113,6 +117,10 @@ unite_great_britain = {
 				de_jure_liege = e_union_jack
 			}
 			destroy_landed_title = e_great_britain
+			activate_title = {
+				title = e_great_britain
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -180,6 +188,10 @@ unite_great_britain = {
 				de_jure_liege = e_russia_2
 			}
 			destroy_landed_title = e_russia
+			activate_title = {
+				title = e_russia
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -352,6 +364,10 @@ unite_great_britain = {
 				de_jure_liege = e_espana_burgona
 			}
 			destroy_landed_title = e_spain
+			activate_title = {
+				title = e_spain
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -363,6 +379,7 @@ unite_great_britain = {
 		ai_check_interval = 60
 		
 		potential = {
+			NOT = { is_title_active = e_kalmar }
 			has_landed_title = k_denmark
 			has_landed_title = k_sweden
 			has_landed_title = k_norway
@@ -412,6 +429,10 @@ unite_great_britain = {
 				de_jure_liege = e_kalmar
 			}
 			destroy_landed_title = e_scandinavia
+			activate_title = {
+				title = e_scandinavia
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -495,6 +516,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_cas_and_leon }
 			has_landed_title = k_castille
 			has_landed_title = k_leon
 			NOR = {
@@ -547,6 +569,14 @@ unite_great_britain = {
 			k_cas_and_leon = { de_jure_liege = e_spain }
 			destroy_landed_title = k_castille
 			destroy_landed_title = k_leon
+			activate_title = {
+				title = k_castille
+				status = no
+							}
+			activate_title = {
+				title = k_leon
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -558,6 +588,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_new_spain }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -642,6 +673,34 @@ unite_great_britain = {
 			destroy_landed_title = k_mazatlan
 			destroy_landed_title = k_collimatl
 			destroy_landed_title = k_jalisco
+			activate_title = {
+				title = k_yokotan
+				status = no
+							}
+			activate_title = {
+				title = k_mixteca
+				status = no
+							}
+			activate_title = {
+				title = k_tlaxcala
+				status = no
+							}
+			activate_title = {
+				title = k_aztec
+				status = no
+							}
+			activate_title = {
+				title = k_mazatlan
+				status = no
+							}
+			activate_title = {
+				title = k_collimatl
+				status = no
+							}
+			activate_title = {
+				title = k_jalisco
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -653,6 +712,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_internal_provinces }
 			OR = {
 			completely_controls = k_alamos
 			completely_controls = k_tejas
@@ -728,6 +788,22 @@ unite_great_britain = {
 			destroy_landed_title = k_tejas
 			destroy_landed_title = k_southwest_nation
 			destroy_landed_title = k_cali
+			activate_title = {
+				title = k_alamos
+				status = no
+							}
+			activate_title = {
+				title = k_tejas
+				status = no
+							}
+			activate_title = {
+				title = k_southwest_nation
+				status = no
+							}
+			activate_title = {
+				title = k_cali
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -739,6 +815,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_new_granada }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -801,6 +878,10 @@ unite_great_britain = {
 				k_new_granada = { de_jure_liege = e_espana_burgona }
 			}
 			destroy_landed_title = k_colombia
+			activate_title = {
+				title = k_colombia
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -812,6 +893,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_venezuela_2 }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -874,6 +956,10 @@ unite_great_britain = {
 				k_venezuela_2 = { de_jure_liege = e_espana_burgona }
 			}
 			destroy_landed_title = k_venezuela
+			activate_title = {
+				title = k_venezuela
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -885,6 +971,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_peru_spanish }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -954,6 +1041,14 @@ unite_great_britain = {
 			}
 			destroy_landed_title = k_peru
 			destroy_landed_title = k_upper_peru
+			activate_title = {
+				title = k_peru
+				status = no
+							}
+			activate_title = {
+				title = k_upper_peru
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -965,6 +1060,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_la_plata }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -1034,6 +1130,14 @@ unite_great_britain = {
 			}
 			destroy_landed_title = k_argentina
 			destroy_landed_title = k_paraguay
+			activate_title = {
+				title = k_argentina
+				status = no
+							}
+			activate_title = {
+				title = k_paraguay
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -1045,6 +1149,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_puerto_rico }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -1114,6 +1219,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_cuba_spanish }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -1176,6 +1282,10 @@ unite_great_britain = {
 				k_cuba_spanish = { de_jure_liege = e_espana_burgona }
 			}
 			destroy_landed_title=k_cuba
+			activate_title = {
+				title = k_cuba
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -1187,6 +1297,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_santo_domingo }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -1249,6 +1360,10 @@ unite_great_britain = {
 				k_santo_domingo = { de_jure_liege = e_espana_burgona }
 			}
 			destroy_landed_title=k_dominica
+			activate_title = {
+				title = k_dominica
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -1260,6 +1375,7 @@ unite_great_britain = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = k_philippines_spanish }
 			OR = {
 			has_landed_title=e_spain
 			has_landed_title=e_espana_burgona
@@ -1322,6 +1438,10 @@ unite_great_britain = {
 				k_philippines_spanish = { de_jure_liege = e_espana_burgona }
 			}
 			destroy_landed_title = k_ma_i
+			activate_title = {
+				title = k_ma_i
+				status = no
+							}
 		}
 		ai_will_do = {
 			factor = 1
@@ -1333,6 +1453,7 @@ create_ottoman_empire = {
 		ai_check_interval = 12
 		
 		potential = {
+			NOT = { is_title_active = e_ottomans }
 			has_landed_title=k_ottoman
 			NOR = {
 				has_alternate_start_setting = {

@@ -115,7 +115,7 @@
 1350.8.8 = {
 	holder=381265	#Blanca Manuel de Villena
 }
-1361.1.1={
+1363.1.1 = {
 	holder=370046	#Sancho de Castilla (1363-1371)
 }
 1369.3.23 = {

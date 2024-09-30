@@ -7,7 +7,9 @@ e_nunavut = {
 	norwegian = "Helluland"
 	danish = "Helluland"
 	swedish = "Helluland"
-
+	allow={
+	is_colonial = no
+	}
 	capital = 3515 # Iqaluit
 	k_nedene = {
 		color={ 147 84 255 }
@@ -1626,6 +1628,11 @@ e_cree = {
 	swedish = "Markland"
 
 	capital = 3535 # Sheshatshiu
+	
+	allow={
+	is_colonial = no
+	}
+	
 	k_ojibwe = {
 	color={ 115 216 223 }
 	color2={ 220 220 220 }

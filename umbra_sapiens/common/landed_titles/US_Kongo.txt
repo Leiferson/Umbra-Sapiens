@@ -2,7 +2,9 @@ e_kongo = {
 
 	color = { 108 138 110 }
 	color2 = { 250 250 250 }
-
+	allow={
+	is_colonial = no
+	}
 	capital = 2381 #Nkhata
 	k_sudan = {
 

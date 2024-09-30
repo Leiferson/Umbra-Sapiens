@@ -35,7 +35,7 @@
 1328.11.9={
 	holder=469513	#Andrew, Duke of Calabria
 }
-1345.9.18={
+1345.12.25={
 	holder=380192	#Charles Martel, Duke of Calabria
 }
 1348.5.10={

@@ -203,7 +203,7 @@
 	holder=377150	#Mihnea I the Bad
 }
 1509.10.29={
-	holder=377194	#Mircea III the Dragon
+	holder=377159	#Mircea III the Dragon
 }
 1510.4.8={
 	holder=377154	#Vlad V the Younger

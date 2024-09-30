@@ -446,3 +446,105 @@ russian_subjugation;Russian Unification;;;;;;;;;;;;;x
 russian_subjugation_desc;Russia can't stand against the tartars divided. We must unite all Russias in order to secure our place in the world.;;;;;;;;;;;;;x
 romani_group;Roma;;;;;;;;;;;;;x
 romani;Roma;;;;;;;;;;;;;x
+gave_out_credit_or_debit_mod;Recently gave out Credit or Debit;;;;;;;;;;;;;x
+EVTNAMEbancoevents.1;Savings account;;;;;;;;;;;;;x
+EVTDESCbancoevents.1;The benefic Banco di San Giorgio is prepared to offer us a variety of savings accounts that will value at 4% per anum over the course of two years.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.1;We may deposit 100 gold;;;;;;;;;;;;;x
+EVTOPTBbancoevents.1;We may deposit 500 gold;;;;;;;;;;;;;x
+EVTOPTCbancoevents.1;We may deposit 1000 gold;;;;;;;;;;;;;x
+EVTOPTDbancoevents.1;We may deposit 1500 gold;;;;;;;;;;;;;x
+EVTOPTEbancoevents.1;We may deposit 2000 gold;;;;;;;;;;;;;x
+EVTOPTFbancoevents.1;We may deposit 2500 gold;;;;;;;;;;;;;x
+EVTOPTGbancoevents.1;We may deposit 3000 gold;;;;;;;;;;;;;x
+EVTOPTHbancoevents.1;We may deposit 3500 gold;;;;;;;;;;;;;x
+EVTOPTIbancoevents.1;We may deposit 4000 gold;;;;;;;;;;;;;x
+EVTOPTJbancoevents.1;We may deposit 4500 gold;;;;;;;;;;;;;x
+EVTOPTLbancoevents.1;We may deposit 5000 gold;;;;;;;;;;;;;x
+EVTNAMEbancoevents.2;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.2;From our cleverly deposited funds we have reveiced 8 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.2;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.3;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.3;From our cleverly deposited funds we have reveiced 40 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.3;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.4;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.4;From our cleverly deposited funds we have reveiced 80 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.4;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.5;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.5;From our cleverly deposited funds we have reveiced 120 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.5;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.6;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.6;From our cleverly deposited funds we have reveiced 160 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.6;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.7;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.7;From our cleverly deposited funds we have reveiced 200 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.7;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.8;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.8;From our cleverly deposited funds we have reveiced 240 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.8;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.9;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.9;From our cleverly deposited funds we have reveiced 280 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.9;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.10;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.10;From our cleverly deposited funds we have reveiced 320 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.10;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.11;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.11;From our cleverly deposited funds we have reveiced 360 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.11;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.12;Interest is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.12;From our cleverly deposited funds we have reveiced 400 gold in interest.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.12;You reap what you sow;;;;;;;;;;;;;x
+EVTNAMEbancoevents.13;Small Loans;;;;;;;;;;;;;x
+EVTDESCbancoevents.13;The benefic Banco di San Giorgio is prepared to offer us a variety of loans befiting of our condition.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.13;The bank is offering us 100 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTBbancoevents.13;The bank is offering us 300 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTCbancoevents.13;The bank is offering us 500 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTDbancoevents.13;That would be most disavantegeous at this junction;;;;;;;;;;;;;x
+EVTNAMEbancoevents.14;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.14;It is due time to pay our dept. Two years ago we asked for 100 gold by the benefic Banco di San Giorgio and now we must pay 120 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.14;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.15;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.15;It is due time to pay our dept. Two years ago we were generously given 300 gold by the benefic Banco di San Giorgio and now we must pay 360 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.15;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.16;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.16;It is due time to pay our dept. Two years ago we were generously given 500 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.16;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.17;Medium Loans;;;;;;;;;;;;;x
+EVTDESCbancoevents.17;The benefic Banco di San Giorgio is prepared to offer us a variety of loans befiting of our condition.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.17;The bank is offering us 1000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTBbancoevents.17;The bank is offering us 1500 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTCbancoevents.17;The bank is offering us 2000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTDbancoevents.17;That would be most disavantegeous at this junction;;;;;;;;;;;;;x
+EVTNAMEbancoevents.18;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.18;It is due time to pay our dept. Two years ago we were generously given 1000 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.18;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.19;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.19;It is due time to pay our dept. Two years ago we were generously given 1500 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.19;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.20;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.20;It is due time to pay our dept. Two years ago we were generously given 2000 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.20;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.21;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.21;It is due time to pay our dept. Two years ago we were generously given 3000 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.21;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.22;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.22;It is due time to pay our dept. Two years ago we were generously given 2500 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.22;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.23;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.23;It is due time to pay our dept. Two years ago we were generously given 5000 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.23;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.24;Debt is Due;;;;;;;;;;;;;x
+EVTDESCbancoevents.24;It is due time to pay our dept. Two years ago we were generously given 10000 gold by the benefic Banco di San Giorgio and now we must pay 600 in return.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.24;My purse is lighter;;;;;;;;;;;;;x
+EVTNAMEbancoevents.25;Loan size;;;;;;;;;;;;;x
+EVTDESCbancoevents.25;We may choose between several loan sizes depending on our needs;;;;;;;;;;;;;x
+EVTOPTAbancoevents.25;A small loan will sufice;;;;;;;;;;;;;x
+EVTOPTBbancoevents.25;A medium loan will be enough;;;;;;;;;;;;;x
+EVTOPTCbancoevents.25;We require a big loan;;;;;;;;;;;;;x
+EVTOPTDbancoevents.25;That would be most disavantegeous at this junction;;;;;;;;;;;;;x
+EVTNAMEbancoevents.26;Big Loans;;;;;;;;;;;;;x
+EVTOPTAbancoevents.26;My purse is lighter;;;;;;;;;;;;;x
+EVTDESCbancoevents.26;The benefic Banco di San Giorgio is prepared to offer us a variety of loans befiting of our condition.;;;;;;;;;;;;;x
+EVTOPTAbancoevents.26;The bank is offering us 2500 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTBbancoevents.26;The bank is offering us 5000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTCbancoevents.26;The bank is offering us 10000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
+EVTOPTDbancoevents.26;That would be most disavantegeous at this junction;;;;;;;;;;;;;x

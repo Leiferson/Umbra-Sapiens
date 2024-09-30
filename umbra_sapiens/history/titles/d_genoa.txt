@@ -824,7 +824,7 @@
 	holder=377825	#Antoniotto di Montaldo
 }
 1393.7.15={
-	holder=377840	#Pietro di Campofregoso
+	holder=381603	#Pietro di Campofregoso
 }
 1393.7.16={
 	holder=377827	#Clemente Promontorio
@@ -845,10 +845,12 @@
 	holder=377820	#Antoniotto I Adorno
 }
 1396.11.27={
-	holder=377820	#Antoniotto I Adorno
+	holder=370746 #Charles VI
+	liege=k_france
 }
 1413.3.27={
 	holder=377831	#Giorgio Adorno
+	liege=k_genoa
 }
 1415.3.29={
 	holder=377832	#Barnaba Guano

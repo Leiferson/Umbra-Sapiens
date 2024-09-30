@@ -9341,6 +9341,30 @@ is_single_player_observer_mode = {
 		is_local_human_observer = yes
 	}
 }
+is_european_pagan = {
+	Or={
+	religion=norse_pagan
+	religion=norse_pagan_reformed
+	religion=slavic_pagan
+	religion=slavic_pagan_reformed
+	religion=finnish_pagan
+	religion=finnish_pagan_reformed
+	religion=hellenic_pagan
+	religion=hellenic_pagan_reformed
+	}
+}
+
+is_colonial = {
+	capital_scope = {
+				OR = {
+				region = world_europe
+				region = world_africa_north
+				region = world_asia_minor
+				region = world_middle_east
+				}
+		}
+	religion_group = christian 
+}
 
 is_portugal = {
 	OR = {

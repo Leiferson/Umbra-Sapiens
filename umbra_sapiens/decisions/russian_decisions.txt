@@ -9,13 +9,7 @@ vassalize_don_cossacks = {
 			higher_tier_than = DUKE
 			
 			religion_group = christian
-
-			d_don_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
-
+			independent = yes
 			OR = {
 				has_landed_title = c_ryazan
 				any_realm_lord = {
@@ -31,7 +25,6 @@ vassalize_don_cossacks = {
 			war = no
 			wealth = 300
 			religion_group = christian
-			independent = yes
 		}
 		effect = {
 			wealth = -300
@@ -57,11 +50,7 @@ vassalize_zaporozhian_cossacks = {
 			
 			religion_group = christian
 
-			d_zaporozhian_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_oleshye
@@ -104,11 +93,7 @@ vassalize_kuban_cossacks = {
 			
 			religion_group = christian
 
-			d_kuban_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_kuban
@@ -151,11 +136,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_terek_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_jidan
@@ -198,11 +179,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_ural_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_guryev
@@ -245,11 +222,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_orenburg_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_belaya
@@ -292,11 +265,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_astrakhan_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_kuma
@@ -339,11 +308,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_siberian_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_sibir
@@ -386,11 +351,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_semirechye_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_almaty
@@ -433,11 +394,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_baikal_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_baygal
@@ -480,11 +437,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_amur_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_urkan
@@ -527,11 +480,7 @@ vassalize_terek_cossacks = {
 			
 			religion_group = christian
 
-			d_ussuri_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_hurha
@@ -574,11 +523,7 @@ vassalize_povolzhye_cossacks = {
 			
 			religion_group = christian
 
-			d_povolzhye_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_don_portage
@@ -621,11 +566,7 @@ vassalize_bug_cossacks = {
 			
 			religion_group = christian
 
-			d_bug_cossacks = {
-				holder_scope = {
-					independent = yes
-				}
-			}
+			independent = yes
 
 			OR = {
 				has_landed_title = c_vinnytsia

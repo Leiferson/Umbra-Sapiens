@@ -4,6 +4,9 @@ e_zimbabwe_mutapa = {
 	color2 = { 250 250 250 }
 
 	capital = 2372 #Zimbabwe
+	allow={
+	is_colonial = no
+	}
 	k_south_africa = { #
 
 		color={ 244 25 6 }

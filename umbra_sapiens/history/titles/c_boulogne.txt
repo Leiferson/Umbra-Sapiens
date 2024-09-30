@@ -95,7 +95,7 @@
 	liege="d_burgundy"
 }
 1437.8.7 = {
-	holder=381521	Bertrand V de La Tour d'Auvergne
+	holder=381521	#Bertrand V de La Tour d'Auvergne
 }
 1461.3.22 = {
 	holder=381525	#Bertrand VI de La Tour d'Auvergne
