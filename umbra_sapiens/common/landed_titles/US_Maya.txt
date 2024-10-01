@@ -2307,8 +2307,6 @@ k_alamos = {
 				color={ 58 54 58 }
 				color2={ 220 220 220 }
 
-				holy_site=mayan
-				holy_site=mayan_reformed
 				
 				b_chortli = {
 				}

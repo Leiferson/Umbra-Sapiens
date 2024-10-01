@@ -6731,12 +6731,12 @@ andean_rel_group = {
 		
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = THE_LEGENDS
-		priest_title = PRIEST
+		priest_title = ULMINA
 		
-		high_god_name = GOD_THE_ANCESTORS
+		high_god_name = GOD_UMINA
 		
 		god_names = {
-			GOD_THE_ANCESTORS
+			GOD_TUMBAL
 		}
 		evil_god_names = {
 			ELNINO
@@ -6769,12 +6769,12 @@ andean_rel_group = {
 		color = { 0.25 0.5 0.5 }
 
 		scripture_name = THE_LEGENDS
-		priest_title = PRIEST
+		priest_title = ULMINA
 		
-		high_god_name = GOD_THE_ANCESTORS
+		high_god_name = GOD_UMINA
 		
 		god_names = {
-			GOD_THE_ANCESTORS
+			GOD_TUMBAL
 		}
 		evil_god_names = {
 			ELNINO

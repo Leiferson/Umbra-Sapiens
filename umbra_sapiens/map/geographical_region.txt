@@ -716,7 +716,7 @@ d_guyana d_suriname
 }
 world_andes = {
 duchies = {
-d_kuntisuyu d_quito d_cajamarca d_chimor d_huanuco d_kamana d_antisuyu d_upper_peru d_potosi
+d_kuntisuyu d_quito d_cajamarca d_chimor d_huanuco d_kamana d_antisuyu d_upper_peru d_potosi d_guayaquil
 }
 }
 world_amazon = {

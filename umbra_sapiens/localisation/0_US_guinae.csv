@@ -504,6 +504,8 @@ temple_count_ethiopian;Lique Liqawint;;;;;;;;;;;;;x
 temple_baron_ethiopian;Qess;;;;;;;;;;;;;x
 king_gabonese;Manikongo;;;;;;;;;;;;;x
 king_female_gabonese;Manikongo;;;;;;;;;;;;;x
+emperor_ambundu;Sobha;;;;;;;;;;;;;x
+emperor_female_ambundu;Sobha;;;;;;;;;;;;;x
 king_ambundu;Ngola;;;;;;;;;;;;;x
 king_female_ambundu;Ngola;;;;;;;;;;;;;x
 duke_ambundu;Mvunda;;;;;;;;;;;;;x
@@ -512,6 +514,8 @@ count_ambundu;Di-kanda;;;;;;;;;;;;;x
 count_female_ambundu;Di-kanda;;;;;;;;;;;;;x
 baron_ambundu;Mbanza;;;;;;;;;;;;;x
 baron_female_angolan;Mbanza;;;;;;;;;;;;;x
+emperor_angolan;Sobha;;;;;;;;;;;;;x
+emperor_female_angolan;Sobha;;;;;;;;;;;;;x
 king_angolan;Ngola;;;;;;;;;;;;;x
 king_female_angolan;Ngola;;;;;;;;;;;;;x
 duke_angolan;Mvunda;;;;;;;;;;;;;x
@@ -520,6 +524,8 @@ count_angolan;Di-kanda;;;;;;;;;;;;;x
 count_female_angolan;Di-kanda;;;;;;;;;;;;;x
 baron_angolan;Mbanza;;;;;;;;;;;;;x
 baron_female_angolan;Mbanza;;;;;;;;;;;;;x
+emperor_namibian;Sobha;;;;;;;;;;;;;x
+emperor_female_namibian;Sobha;;;;;;;;;;;;;x
 king_namibian;Ngola;;;;;;;;;;;;;x
 king_female_namibian;Ngola;;;;;;;;;;;;;x
 duke_namibian;Mvunda;;;;;;;;;;;;;x
@@ -528,6 +534,8 @@ count_namibian;Di-kanda;;;;;;;;;;;;;x
 count_female_namibian;Di-kanda;;;;;;;;;;;;;x
 baron_namibian;Mbanza;;;;;;;;;;;;;x
 baron_female_namibian;Mbanza;;;;;;;;;;;;;x
+emperor_ovambo;Sobha;;;;;;;;;;;;;x
+emperor_female_ovambo;Sobha;;;;;;;;;;;;;x
 king_ovambo;Ngola;;;;;;;;;;;;;x
 king_female_ovambo;Ngola;;;;;;;;;;;;;x
 duke_ovambo;Mvunda;;;;;;;;;;;;;x
@@ -536,6 +544,8 @@ count_ovambo;Di-kanda;;;;;;;;;;;;;x
 count_female_ovambo;Di-kanda;;;;;;;;;;;;;x
 baron_ovambo;Mbanza;;;;;;;;;;;;;x
 baron_female_ovambo;Mbanza;;;;;;;;;;;;;x
+emperor_chokwe;Sobha;;;;;;;;;;;;;x
+emperor_female_chokwe;Sobha;;;;;;;;;;;;;x
 king_chokwe;Ngola;;;;;;;;;;;;;x
 king_female_chokwe;Ngola;;;;;;;;;;;;;x
 duke_chokwe;Mvunda;;;;;;;;;;;;;x
@@ -544,6 +554,8 @@ count_chokwe;Di-kanda;;;;;;;;;;;;;x
 count_female_chokwe;Di-kanda;;;;;;;;;;;;;x
 baron_chokwe;Mbanza;;;;;;;;;;;;;x
 baron_female_chokwe;Mbanza;;;;;;;;;;;;;x
+emperor_xindonga;Sobha;;;;;;;;;;;;;x
+emperor_female_xindonga;Sobha;;;;;;;;;;;;;x
 king_xindonga;Ngola;;;;;;;;;;;;;x
 king_female_xindonga;Ngola;;;;;;;;;;;;;x
 duke_xindonga;Mvunda;;;;;;;;;;;;;x
@@ -552,6 +564,8 @@ count_xindonga;Di-kanda;;;;;;;;;;;;;x
 count_female_xindonga;Di-kanda;;;;;;;;;;;;;x
 baron_xindonga;Mbanza;;;;;;;;;;;;;x
 baron_female_xindonga;Mbanza;;;;;;;;;;;;;x
+emperor_nhaneca;Sobha;;;;;;;;;;;;;x
+emperor_female_nhaneca;Sobha;;;;;;;;;;;;;x
 king_nhaneca;Ngola;;;;;;;;;;;;;x
 king_female_nhaneca;Ngola;;;;;;;;;;;;;x
 duke_nhaneca;Mvunda;;;;;;;;;;;;;x
@@ -560,6 +574,8 @@ count_nhaneca;Di-kanda;;;;;;;;;;;;;x
 count_female_nhaneca;Di-kanda;;;;;;;;;;;;;x
 baron_nhaneca;Mbanza;;;;;;;;;;;;;x
 baron_female_nhaneca;Mbanza;;;;;;;;;;;;;x
+emperor_lovale;Sobha;;;;;;;;;;;;;x
+emperor_female_lovale;Sobha;;;;;;;;;;;;;x
 king_lovale;Ngola;;;;;;;;;;;;;x
 king_female_lovale;Ngola;;;;;;;;;;;;;x
 duke_lovale;Mvunda;;;;;;;;;;;;;x
@@ -594,6 +610,8 @@ king_yoruba;Oba;;;;;;;;;;;;;x
 king_female_yoruba;Oba;;;;;;;;;;;;;x
 tribal_king_gabonese;Manikongo;;;;;;;;;;;;;x
 tribal_king_female_gabonese;Manikongo;;;;;;;;;;;;;x
+tribal_emperor_ambundu;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_ambundu;Sobha;;;;;;;;;;;;;x
 tribal_king_ambundu;Ngola;;;;;;;;;;;;;x
 tribal_king_female_ambundu;Ngola;;;;;;;;;;;;;x
 tribal_duke_ambundu;Mvunda;;;;;;;;;;;;;x
@@ -601,7 +619,9 @@ tribal_duke_female_ambundu;Mvunda;;;;;;;;;;;;;x
 tribal_count_ambundu;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_ambundu;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_ambundu;Mbanza;;;;;;;;;;;;;x
-tribal_baron_female_angolan;Mbanza;;;;;;;;;;;;;x
+tribal_baron_female_ambundu;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_angolan;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_angolan;Sobha;;;;;;;;;;;;;x
 tribal_king_angolan;Ngola;;;;;;;;;;;;;x
 tribal_king_female_angolan;Ngola;;;;;;;;;;;;;x
 tribal_duke_angolan;Mvunda;;;;;;;;;;;;;x
@@ -610,6 +630,8 @@ tribal_count_angolan;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_angolan;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_angolan;Mbanza;;;;;;;;;;;;;x
 tribal_baron_female_angolan;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_namibian;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_namibian;Sobha;;;;;;;;;;;;;x
 tribal_king_namibian;Ngola;;;;;;;;;;;;;x
 tribal_king_female_namibian;Ngola;;;;;;;;;;;;;x
 tribal_duke_namibian;Mvunda;;;;;;;;;;;;;x
@@ -618,6 +640,8 @@ tribal_count_namibian;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_namibian;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_namibian;Mbanza;;;;;;;;;;;;;x
 tribal_baron_female_namibian;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_ovambo;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_ovambo;Sobha;;;;;;;;;;;;;x
 tribal_king_ovambo;Ngola;;;;;;;;;;;;;x
 tribal_king_female_ovambo;Ngola;;;;;;;;;;;;;x
 tribal_duke_ovambo;Mvunda;;;;;;;;;;;;;x
@@ -626,6 +650,8 @@ tribal_count_ovambo;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_ovambo;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_ovambo;Mbanza;;;;;;;;;;;;;x
 tribal_baron_female_ovambo;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_chokwe;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_chokwe;Sobha;;;;;;;;;;;;;x
 tribal_king_chokwe;Ngola;;;;;;;;;;;;;x
 tribal_king_female_chokwe;Ngola;;;;;;;;;;;;;x
 tribal_duke_chokwe;Mvunda;;;;;;;;;;;;;x
@@ -634,6 +660,8 @@ tribal_count_chokwe;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_chokwe;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_chokwe;Mbanza;;;;;;;;;;;;;x
 tribal_baron_female_chokwe;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_xindonga;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_xindonga;Sobha;;;;;;;;;;;;;x
 tribal_king_xindonga;Ngola;;;;;;;;;;;;;x
 tribal_king_female_xindonga;Ngola;;;;;;;;;;;;;x
 tribal_duke_xindonga;Mvunda;;;;;;;;;;;;;x
@@ -642,6 +670,8 @@ tribal_count_xindonga;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_xindonga;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_xindonga;Mbanza;;;;;;;;;;;;;x
 tribal_baron_female_xindonga;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_nhaneca;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_nhaneca;Sobha;;;;;;;;;;;;;x
 tribal_king_nhaneca;Ngola;;;;;;;;;;;;;x
 tribal_king_female_nhaneca;Ngola;;;;;;;;;;;;;x
 tribal_duke_nhaneca;Mvunda;;;;;;;;;;;;;x
@@ -650,6 +680,8 @@ tribal_count_nhaneca;Di-kanda;;;;;;;;;;;;;x
 tribal_count_female_nhaneca;Di-kanda;;;;;;;;;;;;;x
 tribal_baron_nhaneca;Mbanza;;;;;;;;;;;;;x
 tribal_baron_female_nhaneca;Mbanza;;;;;;;;;;;;;x
+tribal_emperor_lovale;Sobha;;;;;;;;;;;;;x
+tribal_emperor_female_lovale;Sobha;;;;;;;;;;;;;x
 tribal_king_lovale;Ngola;;;;;;;;;;;;;x
 tribal_king_female_lovale;Ngola;;;;;;;;;;;;;x
 tribal_duke_lovale;Mvunda;;;;;;;;;;;;;x

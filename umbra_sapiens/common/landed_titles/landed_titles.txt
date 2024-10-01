@@ -56661,8 +56661,8 @@ d_mayan_reformed = {
 	
 	capital = 3759 #Tikal
 	
-	title = "TLATOANI"
-	title_female = "CIHUATLATOANI"
+	title = "AHAU_CAN_MAI"
+	title_female = "AHAU_CAN_MAI"
 	foa = "HEAD_PRIEST_FOA"
 	
 	short_name = yes

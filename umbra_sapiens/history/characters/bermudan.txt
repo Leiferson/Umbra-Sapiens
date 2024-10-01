@@ -1,6 +1,6 @@
 1019930613={
 	name=Ashaquid
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmbeiplekdf"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=4 stewardship=6 intrigue=5 learning=5
@@ -11,7 +11,7 @@
 }
 1019930614={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lmahifnegfo"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=5 stewardship=6 intrigue=4 learning=8
@@ -24,7 +24,7 @@
 1019930615={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="mlmbjnnedhl"
 	culture=bermudan religion=caribic_pagan
 	father=1019930613	#Ashaquid
@@ -33,7 +33,7 @@
 }
 1019930616={
 	name=Catataugh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="iceiipleedf"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=7 intrigue=6 learning=6
@@ -44,7 +44,7 @@
 }
 1019930617={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lbkhifneglf"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=8 stewardship=4 intrigue=8 learning=8
@@ -56,7 +56,7 @@
 1019930618={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lihiifnegfd"
 	culture=bermudan religion=caribic_pagan
 	father=1019930614	#Pochins
@@ -66,7 +66,7 @@
 1019930619={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="acphifnegeo"
 	culture=bermudan religion=caribic_pagan
 	father=1019930614	#Pochins
@@ -76,7 +76,7 @@
 1019930620={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="kmahpfajglc"
 	culture=bermudan religion=caribic_pagan
 	father=1019930614	#Pochins
@@ -85,7 +85,7 @@
 }
 1019930621={
 	name=Opechancanough
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cbahiegeglp"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=5 stewardship=5 intrigue=5 learning=4
@@ -97,7 +97,7 @@
 1019930622={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="liahemkmeaf"
 	culture=bermudan religion=caribic_pagan
 	father=1019930617	#Kiptopeke
@@ -107,7 +107,7 @@
 1019930623={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lhphpfodikk"
 	culture=bermudan religion=caribic_pagan
 	father=1019930617	#Kiptopeke
@@ -116,7 +116,7 @@
 }
 1019930624={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nokniiekglp"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=8 stewardship=8 intrigue=6 learning=6
@@ -128,7 +128,7 @@
 }
 1019930625={
 	name=Nemattanew
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="mgalfecfncj"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=8 intrigue=6 learning=8
@@ -141,7 +141,7 @@
 1019930626={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="claibiioifa"
 	culture=bermudan religion=caribic_pagan
 	father=1019930621	#Opechancanough
@@ -150,7 +150,7 @@
 }
 1019930627={
 	name=Parahunt
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="agaafddlncj"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=6 intrigue=6 learning=4
@@ -162,7 +162,7 @@
 }
 1019930628={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="mlboneoknfj"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=8 stewardship=6 intrigue=4 learning=6
@@ -173,7 +173,7 @@
 }
 1019930629={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cgalkppghcj"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=8 stewardship=7 intrigue=6 learning=7
@@ -185,7 +185,7 @@
 1019930630={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="mhladeccbcj"
 	culture=bermudan religion=caribic_pagan
 	father=1019930625	#Nemattanew
@@ -195,7 +195,7 @@
 1019930631={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="mgalfegfncc"
 	culture=bermudan religion=caribic_pagan
 	father=1019930625	#Nemattanew
@@ -204,7 +204,7 @@
 }
 1019930632={
 	name=Opechancanough
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lgdajdnlncj"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=7 stewardship=8 intrigue=7 learning=4
@@ -216,7 +216,7 @@
 }
 1019930633={
 	name=Opitchapan
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ajaaofifnlb"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=7 stewardship=5 intrigue=4 learning=4
@@ -228,7 +228,7 @@
 1019930634={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ahakoddlncn"
 	culture=bermudan religion=caribic_pagan
 	father=1019930627	#Parahunt
@@ -237,7 +237,7 @@
 }
 1019930635={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="egiapddldej"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=6 stewardship=7 intrigue=5 learning=5
@@ -249,7 +249,7 @@
 }
 1019930636={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="kiaafbagecj"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=5 stewardship=7 intrigue=5 learning=7
@@ -260,7 +260,7 @@
 }
 1019930637={
 	name=Opechancanough
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nmdfjeooncl"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=7 stewardship=6 intrigue=5 learning=8
@@ -272,7 +272,7 @@
 }
 1019930638={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lpcikcllncd"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=5 stewardship=7 intrigue=8 learning=6
@@ -284,7 +284,7 @@
 }
 1019930639={
 	name=Opitchapan
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdfjeoeocl"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=6 stewardship=5 intrigue=6 learning=6
@@ -296,7 +296,7 @@
 }
 1019930640={
 	name=Opitchapan
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ncgjgeooncf"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=8 intrigue=7 learning=5
@@ -308,7 +308,7 @@
 1019930641={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lbmljepmnjn"
 	culture=bermudan religion=caribic_pagan
 	father=1019930637	#Opechancanough
@@ -318,7 +318,7 @@
 1019930642={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nmdfneamacl"
 	culture=bermudan religion=caribic_pagan
 	father=1019930637	#Opechancanough
@@ -328,7 +328,7 @@
 1019930643={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="codmjcodncm"
 	culture=bermudan religion=caribic_pagan
 	father=1019930637	#Opechancanough
@@ -337,7 +337,7 @@
 }
 1019930644={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdfjcoeomd"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=8 intrigue=6 learning=4
@@ -349,7 +349,7 @@
 }
 1019930645={
 	name=Catataugh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ibhfjeokncl"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=4 stewardship=8 intrigue=7 learning=7
@@ -361,7 +361,7 @@
 1019930646={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdfjffnomd"
 	culture=bermudan religion=caribic_pagan
 	father=1019930644	#Chauco
@@ -370,7 +370,7 @@
 }
 1019930647={
 	name=Totopotomoi
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdfkbddocd"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=8 stewardship=6 intrigue=6 learning=7
@@ -381,7 +381,7 @@
 }
 1019930648={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdajnoeokk"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=6 stewardship=6 intrigue=8 learning=5
@@ -394,7 +394,7 @@
 1019930649={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdfjcoehod"
 	culture=bermudan religion=caribic_pagan
 	father=1019930644	#Chauco
@@ -403,7 +403,7 @@
 }
 1019930650={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmcbjjfhomf"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=5 stewardship=5 intrigue=6 learning=5
@@ -414,7 +414,7 @@
 }
 1019930651={
 	name=Opechancanough
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmjekgiolcd"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=4 stewardship=4 intrigue=7 learning=7
@@ -425,7 +425,7 @@
 }
 1019930652={
 	name=Totopotomoi
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmdfbbdkkcl"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=7 stewardship=5 intrigue=4 learning=8
@@ -437,7 +437,7 @@
 1019930653={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="idafbbdiobk"
 	culture=bermudan religion=caribic_pagan
 	father=1019930647	#Totopotomoi
@@ -446,7 +446,7 @@
 }
 1019930654={
 	name=Opechancanough
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cmjekgcjacd"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=6 stewardship=5 intrigue=4 learning=6
@@ -458,7 +458,7 @@
 }
 1019930655={
 	name=Ashaquid
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmjfkneodcd"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=6 stewardship=5 intrigue=6 learning=8
@@ -469,7 +469,7 @@
 }
 1019930656={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="gkhdgkkjakn"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=6 stewardship=7 intrigue=6 learning=6
@@ -482,7 +482,7 @@
 1019930657={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bmajpgafkcc"
 	culture=bermudan religion=caribic_pagan
 	father=1019930654	#Opechancanough
@@ -492,7 +492,7 @@
 1019930658={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="jndejgccjle"
 	culture=bermudan religion=caribic_pagan
 	father=1019930654	#Opechancanough
@@ -501,7 +501,7 @@
 }
 1019930659={
 	name=Catataugh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cmjehgaccod"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=4 intrigue=8 learning=4
@@ -513,7 +513,7 @@
 1019930660={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nmhekgfjocf"
 	culture=bermudan religion=caribic_pagan
 	father=1019930654	#Opechancanough
@@ -523,7 +523,7 @@
 1019930661={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cnjedlcjaad"
 	culture=bermudan religion=caribic_pagan
 	father=1019930654	#Opechancanough
@@ -532,7 +532,7 @@
 }
 1019930662={
 	name=Nectowance
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cgjdkfcjmcd"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=7 stewardship=8 intrigue=6 learning=4
@@ -544,7 +544,7 @@
 1019930663={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bkidpkddnkn"
 	culture=bermudan religion=caribic_pagan
 	father=1019930656	#Tomocomo
@@ -553,7 +553,7 @@
 }
 1019930664={
 	name=Catataugh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="licdgkfjakk"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=5 stewardship=7 intrigue=4 learning=5
@@ -565,7 +565,7 @@
 }
 1019930665={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bicegffjckk"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=4 stewardship=5 intrigue=6 learning=5
@@ -578,7 +578,7 @@
 1019930666={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lidaggfjdkj"
 	culture=bermudan religion=caribic_pagan
 	father=1019930664	#Catataugh
@@ -588,7 +588,7 @@
 1019930667={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bicogafgcjb"
 	culture=bermudan religion=caribic_pagan
 	father=1019930665	#Tomocomo
@@ -597,7 +597,7 @@
 }
 1019930668={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="pobebjfcokk"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=6 stewardship=6 intrigue=5 learning=6
@@ -608,7 +608,7 @@
 }
 1019930669={
 	name=Opechancanough
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bgcigfpciek"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=7 stewardship=5 intrigue=7 learning=6
@@ -620,7 +620,7 @@
 }
 1019930670={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bgcegpcjcki"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=7 stewardship=6 intrigue=6 learning=8
@@ -632,7 +632,7 @@
 }
 1019930671={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="aicggpfjckk"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=7 stewardship=8 intrigue=7 learning=8
@@ -645,7 +645,7 @@
 1019930672={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bagepfaiikn"
 	culture=bermudan religion=caribic_pagan
 	father=1019930665	#Tomocomo
@@ -655,7 +655,7 @@
 1019930673={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="dpcenlfopfj"
 	culture=bermudan religion=caribic_pagan
 	father=1019930665	#Tomocomo
@@ -664,7 +664,7 @@
 }
 1019930674={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="poblbkffoei"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=8 stewardship=6 intrigue=8 learning=5
@@ -676,7 +676,7 @@
 }
 1019930675={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="kgikbgicobk"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=5 stewardship=7 intrigue=6 learning=5
@@ -687,7 +687,7 @@
 }
 1019930676={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ppbmbnhcbkk"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=4 stewardship=8 intrigue=7 learning=6
@@ -699,7 +699,7 @@
 }
 1019930677={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nibebjfcohh"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=7 stewardship=4 intrigue=4 learning=7
@@ -712,7 +712,7 @@
 1019930678={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="pjdabffkobi"
 	culture=bermudan religion=caribic_pagan
 	father=1019930674	#Pochins
@@ -721,7 +721,7 @@
 }
 1019930679={
 	name=Nectowance
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="joblikkgopg"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=4
@@ -733,7 +733,7 @@
 1019930680={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="poblnkefpei"
 	culture=bermudan religion=caribic_pagan
 	father=1019930674	#Pochins
@@ -742,7 +742,7 @@
 }
 1019930681={
 	name=Nemattanew
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ioblokkibpj"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=7 stewardship=8 intrigue=8 learning=4
@@ -753,7 +753,7 @@
 }
 1019930682={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="kbbnikcgopp"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=5 stewardship=4 intrigue=7 learning=8
@@ -766,7 +766,7 @@
 1019930683={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="aobldgpiong"
 	culture=bermudan religion=caribic_pagan
 	father=1019930679	#Nectowance
@@ -776,7 +776,7 @@
 1019930684={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="flbldkkfbml"
 	culture=bermudan religion=caribic_pagan
 	father=1019930679	#Nectowance
@@ -785,7 +785,7 @@
 }
 1019930685={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="fodcokonbaj"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=6 stewardship=5 intrigue=6 learning=6
@@ -797,7 +797,7 @@
 }
 1019930686={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ddploimjelj"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=7 stewardship=8 intrigue=4 learning=5
@@ -810,7 +810,7 @@
 1019930687={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ipkhjkkibpg"
 	culture=bermudan religion=caribic_pagan
 	father=1019930681	#Nemattanew
@@ -819,7 +819,7 @@
 }
 1019930688={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="iohlmkaibog"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=5 stewardship=5 intrigue=7 learning=5
@@ -830,7 +830,7 @@
 }
 1019930689={
 	name=Nemattanew
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="kabmaepmbnj"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=7 stewardship=4 intrigue=6 learning=5
@@ -841,7 +841,7 @@
 }
 1019930690={
 	name=Okiawampe
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="obekogmdcao"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=6 stewardship=6 intrigue=4 learning=4
@@ -854,7 +854,7 @@
 1019930691={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="fgecokkdbeg"
 	culture=bermudan religion=caribic_pagan
 	father=1019930685	#Kiptopeke
@@ -864,7 +864,7 @@
 1019930692={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="fokookfnbgi"
 	culture=bermudan religion=caribic_pagan
 	father=1019930685	#Kiptopeke
@@ -874,7 +874,7 @@
 1019930693={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="fjjbhklhlak"
 	culture=bermudan religion=caribic_pagan
 	father=1019930685	#Kiptopeke
@@ -883,7 +883,7 @@
 }
 1019930694={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="obeoogmahod"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=8 stewardship=4 intrigue=5 learning=7
@@ -895,7 +895,7 @@
 }
 1019930695={
 	name=Nectowance
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="obeeogmdaao"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=4 intrigue=8 learning=7
@@ -906,7 +906,7 @@
 }
 1019930696={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nelnekpnfao"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=6 stewardship=8 intrigue=8 learning=5
@@ -918,7 +918,7 @@
 }
 1019930697={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="oblkbgmaphi"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=8 intrigue=5 learning=6
@@ -931,7 +931,7 @@
 1019930698={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bbmoigbaood"
 	culture=bermudan religion=caribic_pagan
 	father=1019930694	#Kiptopeke
@@ -940,7 +940,7 @@
 }
 1019930699={
 	name=Debedeavon
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="obooogmahob"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=7 stewardship=8 intrigue=5 learning=7
@@ -952,7 +952,7 @@
 }
 1019930700={
 	name=Opitchapan
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="obhcogmahop"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=7 stewardship=6 intrigue=7 learning=4
@@ -963,7 +963,7 @@
 }
 1019930701={
 	name=Parahunt
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cgeofgmgpod"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=6 stewardship=4 intrigue=5 learning=8
@@ -975,7 +975,7 @@
 }
 1019930702={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ockkfbfdkhi"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=6 stewardship=4 intrigue=6 learning=6
@@ -987,7 +987,7 @@
 1019930703={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="gnhkbgldjgn"
 	culture=bermudan religion=caribic_pagan
 	father=1019930697	#Tomocomo
@@ -997,7 +997,7 @@
 1019930704={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="objkaiadomi"
 	culture=bermudan religion=caribic_pagan
 	father=1019930697	#Tomocomo
@@ -1006,7 +1006,7 @@
 }
 1019930705={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="akaabgmephp"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=5 stewardship=7 intrigue=7 learning=7
@@ -1019,7 +1019,7 @@
 1019930706={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="oejkbbfhkkn"
 	culture=bermudan religion=caribic_pagan
 	father=1019930702	#Chauco
@@ -1028,7 +1028,7 @@
 }
 1019930707={
 	name=Opitchapan
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="oklkpbcamhi"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=7 stewardship=6 intrigue=6 learning=5
@@ -1039,7 +1039,7 @@
 }
 1019930708={
 	name=Okiawampe
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ocdkfbndehh"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=6 stewardship=8 intrigue=4 learning=5
@@ -1050,7 +1050,7 @@
 }
 1019930709={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="pkfijncnmcf"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=8 stewardship=4 intrigue=6 learning=4
@@ -1063,7 +1063,7 @@
 1019930710={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="okfkhicamnk"
 	culture=bermudan religion=caribic_pagan
 	father=1019930707	#Opitchapan
@@ -1073,7 +1073,7 @@
 1019930711={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="hkakpbcimpi"
 	culture=bermudan religion=caribic_pagan
 	father=1019930707	#Opitchapan
@@ -1083,7 +1083,7 @@
 1019930712={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="dkailkcnkco"
 	culture=bermudan religion=caribic_pagan
 	father=1019930709	#Kiptopeke
@@ -1092,7 +1092,7 @@
 }
 1019930713={
 	name=Catataugh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nkfjoihdpai"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=7 stewardship=7 intrigue=8 learning=7
@@ -1105,7 +1105,7 @@
 1019930714={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ggcfjnckgkf"
 	culture=bermudan religion=caribic_pagan
 	father=1019930709	#Kiptopeke
@@ -1115,7 +1115,7 @@
 1019930715={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ikliincnmpo"
 	culture=bermudan religion=caribic_pagan
 	father=1019930709	#Kiptopeke
@@ -1124,7 +1124,7 @@
 }
 1019930716={
 	name=Pochins
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nkfjllkdbhb"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=5 stewardship=4 intrigue=4 learning=7
@@ -1135,7 +1135,7 @@
 }
 1019930717={
 	name=Parahunt
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nkfjophinfi"
 	culture=bermudan religion=caribic_pagan
 	martial=6 diplomacy=8 stewardship=6 intrigue=7 learning=7
@@ -1148,7 +1148,7 @@
 1019930718={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="lkejdehfdai"
 	culture=bermudan religion=caribic_pagan
 	father=1019930713	#Catataugh
@@ -1158,7 +1158,7 @@
 1019930719={
 	name=Pocahontas
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nkfjhihdhai"
 	culture=bermudan religion=caribic_pagan
 	father=1019930713	#Catataugh
@@ -1168,7 +1168,7 @@
 1019930720={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ckfgllkdahh"
 	culture=bermudan religion=caribic_pagan
 	father=1019930716	#Pochins
@@ -1177,7 +1177,7 @@
 }
 1019930721={
 	name=Ashaquid
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nkfnfljdhhb"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=5 intrigue=4 learning=4
@@ -1189,7 +1189,7 @@
 }
 1019930722={
 	name=Catataugh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ekcjmhldoik"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=4 stewardship=5 intrigue=4 learning=6
@@ -1201,7 +1201,7 @@
 }
 1019930723={
 	name=Kiptopeke
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="hkflplkddhb"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=8 stewardship=4 intrigue=8 learning=5
@@ -1213,7 +1213,7 @@
 }
 1019930724={
 	name=Wahunsenacawh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bpkjlfkdbhi"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=7 stewardship=8 intrigue=7 learning=6
@@ -1224,7 +1224,7 @@
 }
 1019930725={
 	name=Opitchapan
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="npmccllcbhp"
 	culture=bermudan religion=caribic_pagan
 	martial=4 diplomacy=5 stewardship=8 intrigue=5 learning=5
@@ -1236,7 +1236,7 @@
 1019930726={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="bifcllkghhb"
 	culture=bermudan religion=caribic_pagan
 	father=1019930716	#Pochins
@@ -1245,7 +1245,7 @@
 }
 1019930727={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nofnfdmphbb"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=6 intrigue=8 learning=6
@@ -1257,7 +1257,7 @@
 1019930728={
 	name=Nandua
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="cmpnoljbhhb"
 	culture=bermudan religion=caribic_pagan
 	father=1019930721	#Ashaquid
@@ -1267,7 +1267,7 @@
 1019930729={
 	name=Cockacoeske
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nifnfafkhab"
 	culture=bermudan religion=caribic_pagan
 	father=1019930721	#Ashaquid
@@ -1276,7 +1276,7 @@
 }
 1019930730={
 	name=Wahunsenacawh
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nhmjahapapb"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=7 intrigue=6 learning=7
@@ -1288,7 +1288,7 @@
 }
 1019930731={
 	name=Chauco
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="geinfbmoefm"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=4 stewardship=5 intrigue=4 learning=5
@@ -1299,7 +1299,7 @@
 }
 1019930732={
 	name=Nemattanew
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="pnnofdbphhe"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=6 stewardship=4 intrigue=6 learning=6
@@ -1311,7 +1311,7 @@
 }
 1019930733={
 	name=Nemattanew
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ncfnfdjnebb"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=6 stewardship=5 intrigue=6 learning=5
@@ -1323,7 +1323,7 @@
 1019930734={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="ihmbiilmlmm"
 	culture=bermudan religion=caribic_pagan
 	father=1019930730	#Wahunsenacawh
@@ -1332,7 +1332,7 @@
 }
 1019930735={
 	name=Totopotomoi
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nhmjghmpapd"
 	culture=bermudan religion=caribic_pagan
 	martial=8 diplomacy=8 stewardship=6 intrigue=8 learning=5
@@ -1344,7 +1344,7 @@
 1019930736={
 	name=Amonute
 	female=yes
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="niifagbdiib"
 	culture=bermudan religion=caribic_pagan
 	father=1019930730	#Wahunsenacawh
@@ -1353,7 +1353,7 @@
 }
 1019930737={
 	name=Ashaquid
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="nhmjmhakdpf"
 	culture=bermudan religion=caribic_pagan
 	martial=7 diplomacy=6 stewardship=4 intrigue=8 learning=7
@@ -1364,7 +1364,7 @@
 }
 1019930738={
 	name=Tomocomo
-	dynasty=1009990274
+	dynasty=1009990288
 	dna="okmolhapajd"
 	culture=bermudan religion=caribic_pagan
 	martial=5 diplomacy=5 stewardship=4 intrigue=5 learning=8

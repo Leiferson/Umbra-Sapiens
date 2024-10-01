@@ -847,3 +847,159 @@
 	name="Ronpa"
 	culture=caran
 }
+1009990274 = {
+	name="Ronpa"
+	culture=caran
+}
+1009990275 = {
+	name="Galtanar"
+	culture=galapan
+}
+1009990276 = {
+	name="Tummamna"
+	culture=madeiran
+}
+1009990277 = {
+	name="Azornla"
+	culture=azoren
+}
+1009990278 = {
+	name="Himtone"
+	culture=tamil
+}
+1009990279 = {
+	name="Solitna"
+	culture=vazimba
+}
+1009990280 = {
+	name="Vezopel"
+	culture=vazimba
+}
+1009990281 = {
+	name="Callanpa"
+	culture=vazimba
+}
+1009990282 = {
+	name="Paklako"
+	culture=vazimba
+}
+1009990283 = {
+	name="Erlampa"
+	culture=sundanese
+}
+1009990284 = {
+	name="Tukampanta"
+	culture=sundanese
+}
+1009990285 = {
+	name="Kaszalappa"
+	culture=manden
+}
+1009990286 = {
+	name="Kuntpi"
+	culture=rekohun
+}
+1009990287 = {
+	name="Azlanka"
+	culture=zealander
+}
+1009990288 = {
+	name="Bezezizon"
+	culture=bermudan
+}
+1009990289 = {
+	name="Japoto"
+	culture=caran
+}
+1009990290 = {
+	name="Xagua"
+	culture=caran
+}
+1009990291 = {
+	name="Jocay"
+	culture=caran
+}
+1009990292 = {
+	name="Puna"
+	culture=caran
+}
+1009990293 = {
+	name="Pillacagua"
+	culture=caran
+}
+1009990294 = {
+	name="Xipixapa"
+	culture=caran
+}
+1009990295 = {
+	name="Manta"
+	culture=caran
+}
+1009990296 = {
+	name="Canelo"
+	culture=caran
+}
+1009990297 = {
+	name="Tallan"
+	culture=caran
+}
+1009990298 = {
+	name="Sechura"
+	culture=caran
+}
+1009990299 = {
+	name="Chono"
+	culture=caran
+}
+1009990300 = {
+	name="Puruha"
+	culture=caran
+}
+1009990301 = {
+	name="Quijo"
+	culture=caran
+}
+1009990302 = {
+	name="Aromo"
+	culture=caran
+}
+1009990303 = {
+	name="Liguiqui"
+	culture=caran
+}
+1009990304 = {
+	name="Charapoto"
+	culture=caran
+}
+1009990305 = {
+	name="Jipijapa"
+	culture=caran
+}
+1009990306 = {
+	name="Sosote"
+	culture=caran
+}
+1009990307 = {
+	name="Ayacucho"
+	culture=caran
+}
+1009990308 = {
+	name="Pajan"
+	culture=caran
+}
+1009990309 = {
+	name="Salango"
+	culture=caran
+}
+1009990310 = {
+	name="Santay"
+	culture=caran
+}
+1009990311 = {
+	name="Yaguachi"
+	culture=caran
+}
+1009990312 = {
+	name="Daule"
+	culture=caran
+}

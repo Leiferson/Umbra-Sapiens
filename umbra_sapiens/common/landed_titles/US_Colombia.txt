@@ -350,6 +350,16 @@ e_colombia = {
 				holy_site=caribic_pagan_reformed
 				holy_site=muisca_pagan
 				holy_site=muisca_pagan_reformed
+				holy_site=mayan
+				holy_site=mayan_reformed
+				holy_site=chimuan_pagan
+				holy_site=chimuan_pagan_reformed
+				holy_site=chavin_pagan
+				holy_site=chavin_pagan_reformed
+				holy_site=tiwanakan_pagan
+				holy_site=tiwanakan_pagan_reformed
+				holy_site=caran_pagan
+				holy_site=caran_pagan_reformed
 				b_bogota = {
 				}
 				b_bogota-ii = {

@@ -84,6 +84,32 @@ e_inca = {
 			}
 
 		}
+		d_guayaquil = {
+
+			color={ 200 48 62 }
+			color2={ 220 220 220 }
+
+			capital = 3919 # Kitu
+			
+			c_guayaquil = {
+
+				color={ 41 97 49 }
+				color2={ 220 220 220 }
+				
+				b_guayaquil = {
+				}
+				b_guayaquil-ii = {
+				}
+				b_guayaquil-iii = {
+				}
+				b_guayaquil-iv = {
+				}
+				b_guayaquil-v = {
+				}
+				b_guayaquil-vi = {
+				}
+			}
+		}
 		d_quito = {
 
 			color={ 157 43 52 }
@@ -134,18 +160,6 @@ e_inca = {
 				b_canari-ii = {
 				}
 				b_canari-iii = {
-				}
-			}
-			c_guayaquil = {
-
-				color={ 41 97 49 }
-				color2={ 220 220 220 }
-				
-				b_guayaquil = {
-				}
-				b_guayaquil-ii = {
-				}
-				b_guayaquil-iii = {
 				}
 			}
 			c_esmeraldas = {
@@ -447,14 +461,6 @@ e_inca = {
 
 				color={ 79 98 189 }
 				color2={ 220 220 220 }
-				holy_site=chimuan_pagan
-				holy_site=chimuan_pagan_reformed
-				holy_site=chavin_pagan
-				holy_site=chavin_pagan_reformed
-				holy_site=tiwanakan_pagan
-				holy_site=tiwanakan_pagan_reformed
-				holy_site=caran_pagan
-				holy_site=caran_pagan_reformed
 				b_naska = {
 				}
 				b_naska-ii = {

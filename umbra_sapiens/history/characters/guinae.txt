@@ -3231,3 +3231,104 @@
 		death = yes
 	}
 }
+#Cara
+360256 = {
+	name = "Cuyuchi"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	730.1.1 = {
+		birth = yes
+	}
+	796.1.1 = {
+		death = yes
+	}
+}
+360257 = {
+	name = "Curiatao"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	825.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+360258 = {
+	name = "Umu"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	914.1.1 = {
+		birth = yes
+	}
+	990.1.1 ={
+		death = yes
+	}
+}
+360259 = {
+	name = "Surandaman"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	1040.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+360260 = {
+	name = "Luyes"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	father = 360259
+	1100.1.1 = {
+		birth = yes
+	}
+	1189.1.1 = {
+		death = yes
+	}
+}
+360261 = {
+	name = "Huachuri"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	father = 360260
+	1150.1.1 = {
+		birth = yes
+	}
+	1231.1.1 = {
+		death = yes
+	}
+}
+360262 = {
+	name = "Umu"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	father = 360261
+	1210.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+360263 = {
+	name = "Usca"
+	dynasty = 1009990291
+	religion = caran_pagan
+	culture = caran
+	father = 360262
+	1281.1.1 = {
+		birth = yes
+	}
+	1338.1.1 = {
+		death = yes
+	}
+}
