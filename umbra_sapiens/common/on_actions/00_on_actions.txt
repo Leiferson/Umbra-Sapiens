@@ -38,6 +38,7 @@ on_startup = {
 #character
 on_yearly_pulse = {
 	events = {
+		bancoevents.33 # inflation event
 		russianevents.1
 		russianevents.2
 		russianevents.3

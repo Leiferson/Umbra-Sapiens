@@ -1200,7 +1200,7 @@ e_russia_2 = {
 		color={ 147 164 104 }
 		color2={ 255 255 255 }
 
-		capital = 547 # Kiev
+		capital = 575 # Moscow
 		
 		culture = russian
 		dignity = 200

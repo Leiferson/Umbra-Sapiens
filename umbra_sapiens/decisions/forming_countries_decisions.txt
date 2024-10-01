@@ -176,6 +176,10 @@ unite_great_britain = {
 		effect = {
 			wealth = -100
 			prestige = 250
+			capital = c_moskva
+			575 = {
+			add_holding_slot = 2
+			}
 			e_russia_2 = {
 				show_scope_change = no
 				grant_title = ROOT

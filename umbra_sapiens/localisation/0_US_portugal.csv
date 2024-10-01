@@ -550,3 +550,7 @@ EVTOPTBbancoevents.26;The bank is offering us 5000 gold to pe paid in full plus 
 EVTOPTCbancoevents.26;The bank is offering us 10000 gold to pe paid in full plus 20% of the value after a duration of 2 years;;;;;;;;;;;;;x
 EVTOPTDbancoevents.26;That would be most disavantegeous at this junction;;;;;;;;;;;;;x
 custom_siberia;The Russias;;;;;;;;;;;;;x
+ask_for_credit;Ask for a credit;;;;;;;;;;;;;x
+ask_for_credit_desc;We make take a credit from the Banco di San Giorgio at cheap rates;;;;;;;;;;;;;x
+deposit_money;Deposit Money;;;;;;;;;;;;;x
+deposit_money_desc;We make deposit our money at the Banco di San Giorgio for interest;;;;;;;;;;;;;x
