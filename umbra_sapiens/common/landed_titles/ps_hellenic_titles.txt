@@ -1,0 +1,678 @@
+e_byzantium = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+e_roman_empire = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+e_nicaea = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 3
+            color = 0
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_hellenic_pagan = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 381
+            emblem = 0
+            color = 1
+            color = 0
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_anatolia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 401
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_armenia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 14
+            emblem = 0
+            color = 2
+            color = 0
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_bosnia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 108
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_bulgaria = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 257
+            emblem = 0
+            color = 2
+            color = 0
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_croatia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 1
+            texture_internal = 164
+            emblem = 0
+            color = 1
+            color = 4
+            color = 0
+        }
+		religion = catholic
+    }	
+}
+k_cyprus = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_epirus = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 302
+            emblem = 0
+            color = 0
+            color = 3
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_georgia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 1
+            texture_internal = 58
+            emblem = 0
+            color = 1
+            color = 2
+            color = 4
+        }
+		religion = catholic
+    }	
+}
+k_greece = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 401
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_serbia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 1
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_sicily = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 3
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_thrace = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_trebizond = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 294
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+
+#####
+
+k_syria = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 300
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_wallachia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 304
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_mesopotamia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 0
+            color = 1
+            color = 3
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+k_crimea = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 316
+            emblem = 0
+            color = 1
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+
+### Duchies
+
+d_thrace = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 381
+            emblem = 0
+            color = 2
+            color = 0
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_optimatoi = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 400
+            emblem = 0
+            color = 1
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_adrianopolis = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_abydos = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 238
+            emblem = 0
+            color = 0
+            color = 3
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+### Anatolia
+d_nikaea = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 0
+            color = 5
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_samos = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 0
+            color = 3
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_anatolia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 353
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_bucellarian = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 467
+            emblem = 0
+            color = 1
+            color = 4
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_cappadocia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 354
+            emblem = 0
+            color = 4
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_charsianon = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 420
+            emblem = 0
+            color = 2
+            color = 0
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_cibyrrhaeot = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 262
+            emblem = 0
+            color = 0
+            color = 3
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_armenia_minor = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 250
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_cyprus = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_thracesia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 354
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+### Greece
+# d_thessalonika
+# d_athens
+# d_achaia
+# d_aegean_islands
+# d_krete
+d_thessalonika = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 127
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_athens = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 250
+            emblem = 0
+            color = 4
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_achaia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 255
+            emblem = 0
+            color = 0
+            color = 4
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_aegean_islands = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 211
+            emblem = 0
+            color = 4
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_krete = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 114
+            emblem = 0
+            color = 1
+            color = 2
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+### Trebizond
+# d_paphlagonia
+# d_armeniacon
+# d_trebizond
+d_paphlagonia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 355
+            emblem = 0
+            color = 1
+            color = 3
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_armeniacon = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 285
+            emblem = 0
+            color = 3
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+d_trebizond = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 196
+            emblem = 0
+            color = 3
+            color = 1
+            color = 0
+        }
+		religion = orthodox
+    }	
+}
+
+# Achaia
+
+c_achaia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 0
+            color = 0
+            color = 2
+            color = 0
+        }
+		religion = hellenic_pagan
+    }	
+}
+c_korinthos = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 71
+            emblem = 0
+            color = 3
+            color = 0
+            color = 0
+        }
+		religion = hellenic_pagan
+    }	
+}
+c_methone = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 0
+            color = 0
+            color = 4
+            color = 0
+        }
+		religion = hellenic_pagan
+    }	
+}
+c_monemvasia = {
+    pagan_coa = {
+        template = 0
+        layer = {
+            texture = 0
+            texture_internal = 0
+            emblem = 0
+            color = 2
+            color = 1
+            color = 0
+        }
+		religion = hellenic_pagan
+    }	
+}

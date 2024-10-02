@@ -16,7 +16,7 @@ spriteTypes = {
 
 	CoatOfArmsType = {
 		name = "coa_plain"
-		frame = "gfx\\coats_of_arms\\frame.tga"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -43,7 +43,7 @@ spriteTypes = {
 	
 	CoatOfArmsType = {
 		name = "coa_party_per_fess"
-		frame = "gfx\\coats_of_arms\\frame.tga"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -80,7 +80,7 @@ spriteTypes = {
 	
 	CoatOfArmsType = {
 		name = "coa_party_per_pale"
-		frame = "gfx\\coats_of_arms\\frame.tga"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -117,7 +117,7 @@ spriteTypes = {
 	
 	CoatOfArmsType = {
 		name = "coa_party_per_cross"
-		frame = "gfx\\coats_of_arms\\frame.tga"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -174,7 +174,7 @@ spriteTypes = {
 	
 	CoatOfArmsType = {
 		name = "coa_party_triangle"
-		frame = "gfx\\coats_of_arms\\frame.tga"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -221,7 +221,7 @@ spriteTypes = {
 	
 	CoatOfArmsType = {
 		name = "coa_plain_muslim"
-		frame = "gfx\\coats_of_arms\\frame_muslim.tga"
+		frame = "gfx\\coats_of_arms\\solo_frame_muslim_v9.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -245,7 +245,8 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	
+
+# Vanilla Indian Frame	
 	CoatOfArmsType = {
 		name = "coa_plain_indian"
 		frame = "gfx\\coats_of_arms\\frame_indian.dds"
@@ -273,10 +274,11 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	
+
+# NU	
 	CoatOfArmsType = {
 		name = "coa_plain_pagan"
-		frame = "gfx\\coats_of_arms\\frame_pagan.tga"
+		frame = "gfx\\coats_of_arms\\solo_frame_pagan.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
@@ -300,91 +302,55 @@ spriteTypes = {
 			scale = 1
 		}
 	}
-	CoatOfArmsType = {
-		name = "coa_plain_inca"
-		frame = "gfx\\coats_of_arms\\frame_inca.dds"
-		mask = "gfx\\interface\\seal_mask_CoA.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\plain_pagan.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
-	
-	CoatOfArmsType = {
-		name = "coa_plain_inca_unit"
-		frame = "gfx\\coats_of_arms\\unit_banner_overlay_pagan.tga"
-		mask = "gfx\\interface\\seal_mask_CoA.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\unit_banner_mask_pagan.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
-	
-	CoatOfArmsType = {
-		name = "coa_plain_muisca"
-		frame = "gfx\\coats_of_arms\\frame_muisca.dds"
-		mask = "gfx\\interface\\seal_mask_CoA.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\plain_pagan.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
-	
-	CoatOfArmsType = {
-		name = "coa_plain_muisca_unit"
-		frame = "gfx\\coats_of_arms\\unit_banner_overlay_pagan.tga"
-		mask = "gfx\\interface\\seal_mask_CoA.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\unit_banner_mask_pagan.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
-	
+
+# Aztec Frame	
 	CoatOfArmsType = {
 		name = "coa_plain_aztec"
-		frame = "gfx\\coats_of_arms\\frame_aztec.dds"
+		frame = "gfx\\coats_of_arms\\solo_frame_aztec.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
 		effect = "gfx/FX/coa_shield.lua"
 				
 		layer = {
-			mask = "gfx\\coats_of_arms\\plain_pagan.tga"
+			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"	
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
-	}
-	
+	}	
+
+# Muslim Frame	
+	CoatOfArmsType = {
+		name = "solo_islamic_frame"
+		frame = "gfx\\coats_of_arms\\solo_frame_muslim_v9.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"			
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}		
+
+# Tengri Frame	
+	CoatOfArmsType = {
+		name = "solo_tengri_frame"
+		frame = "gfx\\coats_of_arms\\solo_tengri_v2.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\solo_tengri_mask.tga"			
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+
+
 	CoatOfArmsType = {
 		name = "coa_plain_aztec_unit"
-		frame = "gfx\\coats_of_arms\\unit_banner_overlay_pagan.tga"
-		mask = "gfx\\interface\\seal_mask_CoA.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\unit_banner_mask_pagan.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
-	CoatOfArmsType = {
-		name = "coa_plain_japanese_unit"
 		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
@@ -395,23 +361,10 @@ spriteTypes = {
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
-}
+	}		
 
-CoatOfArmsType = {
-		name = "coa_plain_china"
-		frame = "gfx\\coats_of_arms\\frame_indian.tga"
-		mask = "gfx\\interface\\seal_mask_CoA.tga"
-		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
-		effect = "gfx/FX/coa_shield.lua"
-				
-		layer = {
-			mask = "gfx\\coats_of_arms\\plain_pagan.tga"
-			center = { x= 0 y = 0 }
-			scale = 1
-		}
-	}
 	CoatOfArmsType = {
-		name = "coa_plain_china_unit"
+		name = "solo_islamic_frame_unit"
 		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
 		mask = "gfx\\interface\\seal_mask_CoA.tga"
 		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
@@ -422,5 +375,146 @@ CoatOfArmsType = {
 			center = { x= 0 y = 0 }
 			scale = 1
 		}
+	}	
+	
+	CoatOfArmsType = {
+		name = "solo_tengri_frame_unit"
+		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\unit_banner_mask_muslim.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}				
+
+# Zoroastrian Frame	
+	CoatOfArmsType = {
+		name = "solo_zoroastrian_frame"
+		frame = "gfx\\coats_of_arms\\solo_frame_zoroastrian.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"			
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+
+	CoatOfArmsType = {
+		name = "solo_zoroastrian_frame_unit"
+		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\unit_banner_mask_muslim.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+
+# West African Frame	
+	CoatOfArmsType = {
+		name = "solo_african_frame"
+		frame = "gfx\\coats_of_arms\\solo_frame_african.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"			
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+
+	CoatOfArmsType = {
+		name = "solo_african_frame_unit"
+		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\unit_banner_mask_muslim.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}		
+
+# Norse Frame	
+	CoatOfArmsType = {
+		name = "solo_norse_frame"
+		frame = "gfx\\coats_of_arms\\solo_frame_norse_t2.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\solo_islamic_mask.tga"	
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+	
+	CoatOfArmsType = {
+		name = "solo_norse_frame_unit"
+		frame = "gfx\\coats_of_arms\\unit_banner_overlay_muslim.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+				
+		layer = {
+			mask = "gfx\\coats_of_arms\\unit_banner_mask_muslim.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+
+# en chef
+
+	CoatOfArmsType = {
+		name = "coa_in_chief"
+		frame = "gfx\\coats_of_arms\\frame_solo.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+		
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_1.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_2.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
 	}
+	CoatOfArmsType = {
+		name = "coa_in_chief_unit"
+		frame = "gfx\\coats_of_arms\\unit_banner_overlay.tga"
+		mask = "gfx\\interface\\seal_mask_CoA.tga"
+		seal_overlay = "gfx\\interface\\seal_overlay_CoA.dds"
+		effect = "gfx/FX/coa_shield.lua"
+		
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_1_unit.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+		layer = {
+			mask = "gfx\\coats_of_arms\\party_per_chief_2_unit.tga"
+			center = { x= 0 y = 0 }
+			scale = 1
+		}
+	}	
+	
 }
