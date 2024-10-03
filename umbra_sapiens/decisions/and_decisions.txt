@@ -1,0 +1,354 @@
+targeted_decisions = {
+	adopt = {
+		filter = court
+		ai_target_filter = court
+		
+		potential = {
+			OR = {
+				FROM = {
+					ai = yes
+					has_game_rule = {
+						name = and_ai_adoption
+						value = on
+					}
+					
+					OR = {
+						has_living_children = no
+						has_children = no
+					}
+				}
+				FROM = {
+					ai = no
+				}
+			}
+		}
+		
+		allow = {
+			NOT = { 
+				is_child_of = FROM
+			}
+			NOT = {
+				is_older_than = FROM 
+			}
+			
+			is_alive = yes
+			is_landed = no
+			
+			ROOT = { 
+				age_diff = {
+					who = FROM
+					years = 5
+				}
+			}
+			
+			AND = {
+				mother = {
+					is_alive = no
+				}
+			
+				father = {
+					is_alive = no
+				}
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							is_female = yes
+						}
+					}
+				}
+				
+				hidden_tooltip = {
+					father = {
+						ROOT = {
+							set_real_father = PREV
+						}
+					}
+				}
+				
+				set_father = FROM
+				hidden_tooltip = {
+					FROM = {
+						spouse = {
+							PREVPREV = {
+								set_mother = PREV
+							}
+						}
+					}				
+				}
+				add_trait = adopted
+				dynasty = FROM
+				
+				hidden_tooltip = {
+					any_child = {
+						limit = { is_child_of = THIS }
+						dynasty = ROOT
+
+						any_child = {
+							limit = { is_child_of = THIS }
+							dynasty = ROOT
+
+							any_child = {
+								limit = { is_child_of = THIS }
+								dynasty = ROOT
+							}
+					    } 
+				    }
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM = {
+						is_female = yes
+					}
+				}
+
+				hidden_tooltip = {
+					father = {
+						ROOT = {
+							set_real_father = PREV
+						}
+					}
+				}
+				
+				set_mother = FROM
+				hidden_tooltip = {
+					FROM = {
+						spouse = {
+							PREVPREV = {
+								set_father = PREV
+							}
+						}
+					}
+				}
+				dynasty = FROM
+				add_trait = adopted
+				
+				hidden_tooltip = {
+					any_child = {
+						limit = { is_child_of = THIS }
+						dynasty = ROOT
+
+						any_child = {
+							limit = { is_child_of = THIS }
+							dynasty = ROOT
+
+							any_child = {
+								limit = { is_child_of = THIS }
+								dynasty = ROOT
+							}
+					    } 
+				    }
+				}
+			}
+		}
+		
+		ai_will_do = {
+			modifier = {
+				factor = 0.01
+				trait = kind
+			}
+			modifier = {
+				factor = 0.02
+				trait = monk
+			}
+			modifier = {
+				factor = 0.01
+				trait = scholar
+			}
+			modifier = {
+				factor = 0.01
+				trait = theologian
+			}
+			modifier = {
+				factor = 0.3
+				trait = celibate
+			}
+		}
+		
+		ai_acceptance = {
+			factor = 0
+			yes_threshold = 90
+			show_maybe_for_human = yes
+			additive_modifier = {
+				value = 50
+				localisation_key = "REASON_ORPHAN"
+				AND = {
+					father = {
+						is_alive = no
+					}
+					mother = {
+						is_alive = no
+					}
+				}
+			}
+			additive_modifier = {
+				value = -100
+				localisation_key = "REASON_HATES"
+				opinion < -50
+			}
+			additive_modifier = {
+				value = -25
+				localisation_key = "REASON_DONT_LIKE"
+				AND = {
+					opinion < 0
+					opinion >= -50
+				}
+			}
+			additive_modifier = {
+				value = 10
+				localisation_key = "REASON_LIKES"
+				AND = {
+					opinion >= 50
+					opinion < 90
+				}
+			}
+			additive_modifier = {
+				value = 25
+				localisation_key = "REASON_LOVES"
+				opinion >= 90
+			}
+			additive_modifier = {
+				value = 10
+				localisation_key = "REASON_WEALTH"
+				wealth = 1000
+			}
+			additive_modifier = {
+				value = 5
+				localisation_key = "REASON_KIND"
+				trait = kind
+			}
+			additive_modifier = {
+				value = 25
+				localisation_key = "REASON_INFANT"
+				age < 10
+			}
+			additive_modifier = {
+				value = 10
+				localisation_key = "REASON_TEEN"
+				AND = {
+					age >= 10
+					age < 16				
+				}
+			}
+			additive_modifier = {
+				value = -25
+				localisation_key = "REASON_DRINKING_AGE"
+				AND = {
+					age >= 16
+					age < 21				
+				}
+			}
+			additive_modifier = {
+				value = -75
+				localisation_key = "REASON_DOESNT_WANT_MOMMY"
+				age >= 21
+			}
+			additive_modifier = {
+				value = -1000
+				localisation_key = "REASON_ADULT"
+				age >= 24
+			}
+			additive_modifier = {
+				value = -1000
+				localisation_key = "REASON_LANDED"
+				is_landed = yes
+			}
+		}
+	}
+	
+	disinherit = {
+		filter = all
+		ai_target_filter = dynasty
+	
+		potential = {
+			AND = {
+				OR = {
+					is_close_relative = FROM
+					dynasty = FROM				
+				}
+				OR = {
+					FROM = {
+						ai = yes
+						has_game_rule = {
+							name = and_ai_adoption
+							value = on
+						}
+						
+						AND = {
+							opinion = {
+								who = ROOT
+								value <= -100
+							}
+							ROOT = {
+								is_foe = FROM							
+							}
+						}
+					}
+					FROM = {
+						ai = no
+					}
+				}
+			}
+		
+		}
+		
+		allow = {
+			OR = {
+				FROM = {
+					ai = yes
+					ROOT = {
+						is_foe = FROM
+					}
+				}
+				FROM = {
+					ai = no
+					always = yes
+				}
+			}
+		}
+		
+		effect = {
+			ROOT = {
+				add_trait = disinherited
+				opinion = {
+					modifier = disinherited_opinion
+					who = FROM
+					years = 50
+				}
+			}
+		}
+		
+		ai_will_do = {
+			modifier = {
+				factor = 0.01
+				trait = elusive_shadow
+			}
+			modifier = {
+				factor = 0.01
+				trait = lunatic
+			}
+			modifier = {
+				factor = 0.01
+				trait = possessed
+			}
+			modifier = {
+				factor = 0.001
+				trait = envious
+			}
+			modifier = {
+				factor = 0.001
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.001
+				trait = wroth
+			}
+		}
+	}
+}

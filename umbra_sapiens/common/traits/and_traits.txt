@@ -1,0 +1,23 @@
+disinherited = {
+	sex_appeal_opinion = -20
+
+	customizer = no
+	
+	cannot_inherit = yes
+	
+	male_insult = INSULT_EUNUCH
+	male_insult_adj = INSULT_UNMANNED
+	child_insult_adj = INSULT_SILLY
+}
+
+adopted = {
+	sex_appeal_opinion = -20
+	learning = 2
+	diplomacy = -1
+
+	customizer = no
+	
+	male_compliment = COMPLIMENT_ADOPTED
+	female_compliment = COMPLIMENT_ADOPTED
+	child_compliment = COMPLIMENT_ADOPTED
+}

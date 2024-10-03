@@ -1,0 +1,30 @@
+decisions = {
+	revolt_republic = {
+		only_independent = yes
+		is_high_prio = yes
+		ai_check_interval = 1
+		
+	potential = {
+		is_republic = no
+		is_landed = yes
+		trait = peasant_leader
+	}
+	allow = {
+		is_female = no
+	}
+	effect = {
+		set_government_type = republic_government
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+				factor = 0
+				OR = {
+						trait = ambitious
+						trait = paranoid
+						trait = greedy
+						}
+			}
+		}
+	}
+}

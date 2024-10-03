@@ -1,0 +1,390 @@
+spriteTypes = {
+
+##Catholic##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_westerngfx"
+		texturefile = "gfx\\interface\\desert_temple_catholic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_catholic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Orthodox##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_orthodoxholygfx"
+		texturefile = "gfx\\interface\\desert_temple_orthodox.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_orthodoxholygfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_orthodox_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Coptic##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_copticgfx"
+		texturefile = "gfx\\interface\\desert_temple_coptic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_copticgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_coptic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Jewish##	
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_jewishgfx"
+		texturefile = "gfx\\interface\\desert_temple_jewish.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_jewishgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_jewish_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Muslim##
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_muslimgfx"
+		texturefile = "gfx\\interface\\desert_temple_arabic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_muslimgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_arabic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Zoroastrian##
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_persiangfx"
+		texturefile = "gfx\\interface\\desert_temple_zoro.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_persiangfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_zoro_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Unreformed pagan##
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_norsegfx"
+		texturefile = "gfx\\interface\\desert_shrine_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_norsegfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_pagangfx"
+		texturefile = "gfx\\interface\\desert_shrine_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_pagangfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_outremergfx"
+		texturefile = "gfx\\interface\\desert_shrine_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_outremergfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_mongolgfx"
+		texturefile = "gfx\\interface\\desert_shrine_mongol.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_mongolgfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_mongol_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_hellenicgfx"
+		texturefile = "gfx\\interface\\desert_shrine_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_hellenicgfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_zunistgfx"
+		texturefile = "gfx\\interface\\desert_shrine_zun.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_zunistgfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_zun_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_bongfx"
+		texturefile = "gfx\\interface\\desert_shrine_bon.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_bongfx_looted"
+		texturefile = "gfx\\interface\\desert_shrine_bon_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Reformed pagan##
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformednorsegfx"
+		texturefile = "gfx\\interface\\desert_temple_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformednorsegfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedpagangfx"
+		texturefile = "gfx\\interface\\desert_temple_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedpagangfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedoutremergfx"
+		texturefile = "gfx\\interface\\desert_temple_african.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedoutremergfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_african_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedmongolgfx"
+		texturefile = "gfx\\interface\\desert_temple_mongol.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedmongolgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_mongol_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedhellenicgfx"
+		texturefile = "gfx\\interface\\desert_temple_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedhellenicgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedzunistgfx"
+		texturefile = "gfx\\interface\\desert_temple_zun.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedzunistgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_zun_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedbongfx"
+		texturefile = "gfx\\interface\\desert_temple_bon.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_reformedbongfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_bon_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Hindu##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_hindugfx"
+		texturefile = "gfx\\interface\\desert_temple_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_hindugfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_hindu_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Buddhist##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_buddhistgfx"
+		texturefile = "gfx\\interface\\desert_temple_buddhist.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_buddhistgfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_buddhist_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Jain##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_jaingfx"
+		texturefile = "gfx\\interface\\desert_temple_jain.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_jaingfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_jain_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Taoist##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_chinesegfx"
+		texturefile = "gfx\\interface\\desert_temple_taoist.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_outremergfx_chinesegfx_looted"
+		texturefile = "gfx\\interface\\desert_temple_taoist_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Others##	
+	
+	spriteType = {
+		name = "GFX_settlement_castle_outremergfx"
+		texturefile = "gfx\\interface\\castle_coptic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_outremergfx_looted"
+		texturefile = "gfx\\interface\\castle_coptic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_outremergfx"
+		texturefile = "gfx\\interface\\city_coptic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_outremergfx_looted"
+		texturefile = "gfx\\interface\\city_coptic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+}

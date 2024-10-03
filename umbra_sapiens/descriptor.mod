@@ -1,8 +1,7 @@
 name="Umbra Sapiens 0.17d Istanbul (Not Constantinople)"
-archive="mod/umbra_sapiens.zip"
+path="mod/Umbra Sapiens/umbra_sapiens""
 dependencies=
 {
 	Umbra Spherae-Reborn 
 }
-user_dir="Umbra Sapiens"
 picture="umbrasapiens.png"

@@ -1,0 +1,14 @@
+and_ai_adoption = {
+	name = AND_AI_ADOPTION
+	group = AND_GROUP
+	option = {
+		name = off
+		text = AND_AI_ADOPTION_OFF
+		desc = AND_AI_ADOPTION_OFF_DESC
+	}
+	option = {
+		name = on
+		text = AND_AI_ADOPTION_ON
+		desc = AND_AI_ADOPTION_ON_DESC
+	}
+}

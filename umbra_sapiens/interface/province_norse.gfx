@@ -1,0 +1,404 @@
+spriteTypes = {
+
+##Catholic##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_westerngfx"
+		texturefile = "gfx\\interface\\norse_temple_catholic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_westerngfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_catholic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Orthodox##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_orthodoxholygfx"
+		texturefile = "gfx\\interface\\norse_temple_orthodox.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_orthodoxholygfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_orthodox_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Coptic##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_copticgfx"
+		texturefile = "gfx\\interface\\norse_temple_coptic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_copticgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_coptic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Jewish##	
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_jewishgfx"
+		texturefile = "gfx\\interface\\norse_temple_jewish.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_jewishgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_jewish_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Muslim##
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_muslimgfx"
+		texturefile = "gfx\\interface\\norse_temple_muslim.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_muslimgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_muslim_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Zoroastrian##
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_persiangfx"
+		texturefile = "gfx\\interface\\norse_temple_zoro.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_persiangfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_zoro_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Unreformed pagan##
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_norsegfx"
+		texturefile = "gfx\\interface\\norse_shrine_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_norsegfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_pagangfx"
+		texturefile = "gfx\\interface\\norse_shrine_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_pagangfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_africangfx"
+		texturefile = "gfx\\interface\\norse_shrine_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_africangfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_mongolgfx"
+		texturefile = "gfx\\interface\\norse_shrine_mongol.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_mongolgfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_mongol_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_hellenicgfx"
+		texturefile = "gfx\\interface\\norse_shrine_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_hellenicgfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_zunistgfx"
+		texturefile = "gfx\\interface\\norse_shrine_zun.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_zunistgfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_zun_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_bongfx"
+		texturefile = "gfx\\interface\\norse_shrine_bon.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_bongfx_looted"
+		texturefile = "gfx\\interface\\norse_shrine_bon_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Reformed pagan##
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformednorsegfx"
+		texturefile = "gfx\\interface\\norse_temple_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformednorsegfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedpagangfx"
+		texturefile = "gfx\\interface\\norse_temple_pagan.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedpagangfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_pagan_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedafricangfx"
+		texturefile = "gfx\\interface\\norse_temple_african.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedafricangfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_african_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedmongolgfx"
+		texturefile = "gfx\\interface\\norse_temple_mongol.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedmongolgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_mongol_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedhellenicgfx"
+		texturefile = "gfx\\interface\\norse_temple_hellenic.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedhellenicgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_hellenic_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedzunistgfx"
+		texturefile = "gfx\\interface\\norse_temple_zoro.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedzunistgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_zoro_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedbongfx"
+		texturefile = "gfx\\interface\\norse_temple_bon.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_reformedbongfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_bon_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Hindu##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_hindugfx"
+		texturefile = "gfx\\interface\\norse_temple_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_hindugfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_hindu_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Buddhist##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_buddhistgfx"
+		texturefile = "gfx\\interface\\norse_temple_buddhist.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_buddhistgfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_buddhist_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Jain##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_jaingfx"
+		texturefile = "gfx\\interface\\norse_temple_hindu.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_jaingfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_hindu_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+##Taoist##
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_chinesegfx"
+		texturefile = "gfx\\interface\\norse_temple_taoist.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_temple_norsegfx_chinesegfx_looted"
+		texturefile = "gfx\\interface\\norse_temple_taoist_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+
+##Others##	
+	
+	spriteType = {
+		name = "GFX_settlement_castle_norsegfx"
+		texturefile = "gfx\\interface\\castle_norse.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_castle_norsegfx_looted"
+		texturefile = "gfx\\interface\\castle_norse_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_norsegfx"
+		texturefile = "gfx\\interface\\city_norse.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_city_norsegfx_looted"
+		texturefile = "gfx\\interface\\city_norse_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_tribal_norsegfx"
+		texturefile = "gfx\\interface\\placeholder_tribal_norse.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_settlement_tribal_norsegfx_looted"
+		texturefile = "gfx\\interface\\placeholder_tribal_norse_looted.tga"
+		noOfFrames = 1
+		norefcount = yes
+	}
+}

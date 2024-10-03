@@ -1,0 +1,29 @@
+adopt;Adopt;x
+adopt_desc;Adopt §Y[Root.GetBestName]§!.;x
+adopted;Adopted;x
+adopted_desc;Was such a sweety, that deserved to be adopted.;x
+disinherit;Disinherit;x
+disinherit_desc;Disinherit §Y[Root.GetBestName]§! from succession.;x
+disinherited;Disinherited;x
+disinherited_desc;When your liege disinherits you, it is always a bad sign.;x
+disinherited_opinion;Disinherited from succession;x
+COMPLIMENT_ADOPTED;Have been adopted;x
+REASON_ORPHAN;Both parents died;x
+REASON_HATES;Hates you;x
+REASON_DONT_LIKE;Doesn't like you;x
+REASON_LIKES;Likes you;x
+REASON_LOVES;Loves you;x
+REASON_WEALTH;You're rich;x
+REASON_KIND;You're kind;x
+REASON_INFANT;An Infant;x
+REASON_TEEN;A Teen;
+REASON_DRINKING_AGE;At Drinking Age;x
+REASON_DOESNT_WANT_MOMMY;Doesn't want parents;x
+REASON_ADULT;Adult;x
+REASON_LANDED;Has landed titles;x
+AND_AI_ADOPTION;A&D AI Adoption;x
+AND_GROUP;A&D;x
+AND_AI_ADOPTION_OFF;Off;x
+AND_AI_ADOPTION_OFF_DESC;AI would not adopt anyone.;x
+AND_AI_ADOPTION_ON;On;x
+AND_AI_ADOPTION_ON_DESC;AI would be able to adopt anyone.;x
