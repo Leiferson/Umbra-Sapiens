@@ -22,6 +22,25 @@ defined_text = {
 
 	use_first_valid = yes # (Defaults to no)
 
+	text = { # Unique name (Constantinople)
+		trigger = {
+			has_wonder = wonder_city_of_wonders_byz
+		}
+		localisation_key = wonder_city_of_wonders_byz
+	}
+	text = { # Unique name (Roma)
+		trigger = {
+			has_wonder = wonder_city_of_wonders_roma
+		}
+		localisation_key = wonder_city_of_wonders_roma
+	}
+	text = { # Unique name (Jerusalem)
+		trigger = {
+			has_wonder = wonder_city_of_wonders_jeru
+		}
+		localisation_key = wonder_city_of_wonders_jeru
+	}
+
 	######### Very rare...
 	text = {
 		trigger = {
@@ -321,6 +340,7 @@ defined_text = {
 				has_wonder = wonder_mosque
 				has_wonder = wonder_synagogue
 				has_wonder = wonder_temple_pagan
+				has_wonder = wonder_temple_hellenic_pagan
 				has_wonder = wonder_temple_buddhist
 				has_wonder = wonder_temple_hindu			
 			}
@@ -537,6 +557,7 @@ defined_text = {
 				has_wonder = wonder_mosque
 				has_wonder = wonder_synagogue
 				has_wonder = wonder_temple_pagan
+				has_wonder = wonder_temple_hellenic_pagan
 				has_wonder = wonder_temple_buddhist
 				has_wonder = wonder_temple_hindu			
 			}
@@ -604,6 +625,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_wonder = wonder_temple_pagan
+				has_wonder = wonder_temple_hellenic_pagan
 				has_wonder = wonder_temple_hindu
 				has_wonder = wonder_temple_buddhist
 			}
@@ -700,7 +722,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_wonder = wonder_library }
-		localisation_key = String_Library
+		localisation_key = String_Library 
 	}
 	text = {
 		trigger = { has_wonder = wonder_mausoleum }
@@ -748,6 +770,60 @@ defined_text = {
 		trigger = { has_wonder = wonder_underground_city_petra }
 		localisation_key = wonder_underground_city_petra
 	}
+	text = {
+		trigger = { has_wonder = wonder_cathedral_notre_dame }
+		localisation_key = String_Cathedral
+	}
+	text = {
+		trigger = { has_wonder = wonder_cathedral_hagia_sophia }
+		localisation_key = String_Cathedral
+	}
+	text = {
+		trigger = { 
+			uses_dynamic_name_cow_trigger = yes
+			wonder_stage = 1
+			NOT = { wonder_stage = 3 }
+		}
+		localisation_key = String_cow_City1
+	}
+	text = {
+		trigger = { 
+			uses_dynamic_name_cow_trigger = yes
+			wonder_stage = 3
+			NOT = { wonder_stage = 6 }
+		}
+		localisation_key = String_cow_City2
+	}
+	text = {
+		trigger = { 
+			uses_dynamic_name_cow_trigger = yes
+			wonder_stage = 6
+			NOT = { wonder_stage = 9 }
+		}
+		localisation_key = String_cow_City3
+	}
+	text = {
+		trigger = { 
+			uses_dynamic_name_cow_trigger = yes
+			OR = {
+				wonder_stage = 9
+				wonder_stage = 10
+			}
+		}
+		localisation_key = String_cow_City4
+	}
+	text = {
+		trigger = { has_wonder = wonder_city_of_wonders_byz }
+		localisation_key = String_cow_byz_Basileuousa
+	}
+	text = {
+		trigger = { has_wonder = wonder_city_of_wonders_roma }
+		localisation_key = String_cow_roma_Eternal
+	}
+	text = {
+		trigger = { has_wonder = wonder_city_of_wonders_jeru }
+		localisation_key = String_cow_jeru_Holy
+	}
 	
 	#In case it cannot find anything...
     fallback_text = {
@@ -777,6 +853,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_wonder = wonder_temple_pagan
+				has_wonder = wonder_temple_hellenic_pagan
 				has_wonder = wonder_temple_hindu
 				has_wonder = wonder_temple_buddhist
 				has_wonder = wonder_temple_hindu_konark
@@ -855,8 +932,10 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_wonder = wonder_university
-			has_wonder = wonder_house_of_wisdom
+			OR = {
+				has_wonder = wonder_university
+				has_wonder = wonder_house_of_wisdom
+			}
 		}
 		localisation_key = String_university
 	}
@@ -894,6 +973,20 @@ defined_text = {
 	text = {
 		trigger = { has_wonder = wonder_underground_city_petra }
 		localisation_key = String_underground_city
+	}
+	text = {
+		trigger = { has_wonder = wonder_cathedral_notre_dame }
+		localisation_key = String_cathedral
+	}
+	text = {
+		trigger = { has_wonder = wonder_cathedral_hagia_sophia }
+		localisation_key = String_cathedral
+	}
+	text = {
+		trigger = {
+			has_city_of_wonders_trigger = yes
+		}
+		localisation_key = String_cow_city
 	}
 	
 	#In case it cannot find anything...
@@ -983,25 +1076,77 @@ defined_text = {
 	name = GetWonderDesc
 	#Dependent on event-targets: upgrade_00, upgrade_01 and upgrade_02
 	text = {
+		trigger = { #For City of Wonders (Constantinople)
+			has_wonder = wonder_city_of_wonders_byz
+		}
+		localisation_key = wonder_city_of_wonders_byz_desc
+	}
+	text = {
+		trigger = { #For City of Wonders (Roma)
+			has_wonder = wonder_city_of_wonders_roma
+		}
+		localisation_key = wonder_city_of_wonders_roma_desc
+	}
+	text = {
+		trigger = { #For City of Wonders (Alexandria)
+			has_wonder = wonder_city_of_wonders_alex
+		}
+		localisation_key = wonder_city_of_wonders_alex_desc
+	}
+	text = {
+		trigger = { #For City of Wonders (Antioch)
+			has_wonder = wonder_city_of_wonders_anti
+		}
+		localisation_key = wonder_city_of_wonders_anti_desc
+	}
+	text = {
+		trigger = { #For City of Wonders (Jerusalem)
+			has_wonder = wonder_city_of_wonders_jeru
+		}
+		localisation_key = wonder_city_of_wonders_jeru_desc
+	}
+	text = {
+		trigger = { #For City of Wonders (Babylon/Baghdad)
+			has_wonder = wonder_city_of_wonders_baby
+		}
+		localisation_key = wonder_city_of_wonders_baby_desc
+	}
+	text = {
 		trigger = { #for baby wonders (adds upgrade mention)
 			has_wonder_upgrade = yes
 			NOT = { num_of_wonder_upgrades = 3 }
 			NOT = { wonder_age = 15 }
+			NOT = {
+				has_city_of_wonders_trigger = yes
+			}
 		}
 		localisation_key = String_Wonder_Desc00
 	}
 	text = { #for wonders that build no upgrades, but stages instead: no upgrade addendum
 		trigger = {
 			has_wonder_upgrade = no
+			NOT = {
+				has_city_of_wonders_trigger = yes
+			}
 		}
 		localisation_key = String_Wonder_Desc01
 	}
 	text = { #Variant 1: mentions an upgrade
-		trigger = { num_of_wonder_upgrades = 2 }
+		trigger = { 
+			num_of_wonder_upgrades = 2 
+			NOT = {
+				has_city_of_wonders_trigger = yes
+			}
+		}
 		localisation_key = String_Wonder_Desc02
 	}
 	text = { #Variant 2: mentions an upgrade
-		trigger = { num_of_wonder_upgrades = 5 }
+		trigger = { 
+			num_of_wonder_upgrades = 5 
+			NOT = {
+				has_city_of_wonders_trigger = yes
+			}
+		}
 		localisation_key = String_Wonder_Desc03
 	}
 }
@@ -1073,12 +1218,6 @@ defined_text = {
 		localisation_key = String_time_immemorial
 	}
 
-	text = {
-		trigger = {
-			wonder_age = 400
-		}
-		localisation_key = String_ancient
-	}
 	#In case it cannot find anything...
     fallback_text = {
         localisation_key = String_a_long_time
@@ -1108,6 +1247,7 @@ defined_text = {
 			OR = {
 				has_wonder = wonder_cathedral
 				has_wonder = wonder_temple_pagan
+				has_wonder = wonder_temple_hellenic_pagan
 			}
 		}
 		localisation_key = String_brought_people_together
@@ -1320,7 +1460,7 @@ defined_text = {
 			has_wonder_upgrade_flag = defensive
 			NOT = { has_wonder_upgrade_flag = decorative }
 		}
-		localisation_key = String_contributes_to_heightened_security
+		localisation_key = String_contribute_to_heightened_security
 	}
 	text = {
 		trigger = {
@@ -1371,6 +1511,12 @@ defined_text = {
 			has_wonder_upgrade_flag = contemplative
 		}
 		localisation_key = String_inspires_awe
+	}
+	text = {
+		trigger = {
+			has_wonder_upgrade_flag = body_stash
+		}
+		localisation_key = String_remains_a_rumor
 	}
 
 	fallback_text = {
@@ -1551,6 +1697,38 @@ defined_text = { ### Needs a province scope - USE ONLY TOGETHER WITH GetWonderTe
 	}
 	fallback_text = {
 		localisation_key = string_In
+	}
+}
+
+
+defined_text = { 
+	name = GetHagiaSophiaUse
+	
+	use_first_valid = yes # Defaults to no
+
+	text = {
+		trigger = {
+			has_wonder_flag = Hagia_Sophia_orthodox_cult
+			#always = yes
+		}
+		localisation_key = string_Hagia_Sophia_Orthodox
+	}
+	text = {
+		trigger = {
+			has_wonder_flag = Hagia_Sophia_catholic_cult
+		}
+		localisation_key = string_Hagia_Sophia_Latin
+	}
+	text = {
+		trigger = {
+			has_wonder_flag = Hagia_Sophia_muslim_cult
+		}
+		localisation_key = string_Hagia_Sophia_Muslim
+	}
+
+
+	fallback_text = {
+		localisation_key = string_pride_of_constantinople
 	}
 }
 
