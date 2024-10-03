@@ -1,14 +1,7 @@
 culture =
 {
-	#religion_group = "christian"
-	religion = {
-		"catholic"
-		"cathar"
-		"fraticelli"
-		"waldensian"
-		"lollard"				
-	}
-	
+	religion_group = "christian"
+
 	templates = { 
 		"coa_plain:1"
 		"coa_party_per_fess:2"
@@ -806,6 +799,34 @@ culture = {
 	religion = {
 		"west_african_pagan_reformed"
 		"west_african_pagan"
+		"south_bantu_mythology"
+		"south_bantu_mythology_reformed"
+		"south_bantu_mythology"
+		"south_bantu_mythology_reformed"
+		"east_bantu_mythology"
+		"east_bantu_mythology_reformed"
+		"cushitic_pagan"
+		"cushitic_pagan_reformed"
+		"omotic_pagan"
+		"omotic_pagan_reformed"
+		"dreamtime"
+		"dreamtime_religion_reformed"
+		"maori_religion"
+		"maori_religion_reformed"
+		"melanesian_religion"
+		"melanesian_religion_reformed"
+		"sulawesi_religion"
+		"sulawesi_religion_reformed"
+		"bornean_religion"
+		"bornean_religion_reformed"
+		"philippine_religion"
+		"philippine_religion_reformed"
+		"taiwanese_religion"
+		"taiwanese_religion_reformed"
+		"java_religion"
+		"java_religion_reformed"
+		"sumatran_religion"
+		"sumatran_religion_reformed"
 	}
 	
 	templates = { 	
@@ -897,7 +918,10 @@ culture = {
 		"tengri_pagan_reformed"
 		"tengri_pagan"
 		"bon"
-		"bon_reformed"
+		"nat"
+		"bimojiao"
+		"rmagao"
+		"jurchen_pagan"
 	}
 	
 	templates = { 
