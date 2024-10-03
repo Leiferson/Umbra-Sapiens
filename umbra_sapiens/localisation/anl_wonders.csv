@@ -1,0 +1,71 @@
+##CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Wonders
+wonder_ozymandias;Statue of Ozymandias;;;;;;;;;x
+wonder_ozymandias_desc;Two vast and trunkless legs of stone stand in the desert. . . . Near them, on the sand, half sunk a shattered visage lies...;;;;;;;;;x
+wonder_hanging_gardens;Hanging Gardens of Babylon;;;;;;;;;x
+wonder_hanging_gardens_desc;The Hanging Gardens of Babylon, constructed by King Nebuchadnezzar II at around 600 BC, were supposedly built for Queen Amytis as a gift.;;;;;;;;;x
+wonder_colossus_rhodes;Colossus of Rhodes;;;;;;;;;x
+wonder_colossus_rhodes_desc;The Colossus of Rhodes, constructed by Chares of Lindos at around 280 BC, was a statue of the Greek god Helios. It was built in celebration of a victory over Cyprus.;;;;;;;;;x
+wonder_temple_artemis;Temple of Artemis;;;;;;;;;x
+wonder_temple_artemis_desc;The Temple of Artemis, sponsored by Croesus at around 550 BC,was a temple honoring the Greek god Artemis. It was rebuilt three times due to natural disasters and arson.;;;;;;;;;x
+wonder_obelisk_axum;Obelisk of Axum;;;;;;;;;x
+wonder_obelisk_axum_desc;The Obelisk of Axum was constructed sometime in the 4th century AD by subjects of the Kingdom of Aksum.;;;;;;;;;x
+wonder_sigiriya;Sigiriya;;;;;;;;;x
+wonder_sigiriya_desc;The fortress of Sigiriya, constructed by King Kashyapa I in 477 AD, was built on a rock and became a complex city soon after it was created.;;;;;;;;;x
+wonder_camelot;Camelot;;;;;;;;;x
+wonder_camelot_desc;Camelot Castle is the mythical castle of King Arthur, where he would meet with his Knights of the Round Table. It has been rediscovered and now stands as a bastion of Christianity.;;;;;;;;;x
+wonder_atlantis;Atlantis;;;;;;;;;x
+wonder_atlantis_desc;The famous lost city of Atlantis was lost to the tides until its rediscovery. Now, it is a wealthy city with strong ties to Greek culture.;;;;;;;;;x
+wonder_shambhala;Shambhala;;;;;;;;;x
+wonder_shambhala_desc;Shambhala, or Shangri-La, is a mythical Tibetan kingdom mentioned in various religious texts. It has been discovered and now stands as a bastion of the Eastern religions.;;;;;;;;;x
+wonder_iram_of_the_pillars;Iram of the Pillars;;;;;;;;;x
+wonder_iram_of_the_pillars_desc;Iram of the Pillars, or Iram dhāt al-ʿimād, is a lost city mentioned in the Qur'an. It has been rediscovered and now stands as a bastion of Islam.;;;;;;;;;x
+wonder_kitezh;Kitezh;;;;;;;;;x
+wonder_kitezh_desc;Kitezh is a lost city in Russia that is said to have sunk into Lake Svetloyar. It has been rediscovered and refurbished with investments of wealth and time.;;;;;;;;;x
+wonder_tir_na_nog;Tír na nÓg;;;;;;;;;x
+wonder_tir_na_nog_desc;Tír na nÓg is one of the names of the Celtic otherworld, said to a land of youth and joy inhabited by gods. Now, a connection has been found to this mythical land.;;;;;;;;;x
+wonder_ys;Ys;;;;;;;;;x
+wonder_ys_desc;Ys is a lost city off the coast of Brittany that is said to have sunk into the ocean. It has been rediscovered and refurbished with investments of wealth and time.;;;;;;;;;x
+wonder_hyperborea;Hyperborea;;;;;;;;;x
+wonder_hyperborea_desc;To the ancient Greeks, Hyperborea was a land north of Thrace said to be inhabited by giants. Now, this land has been discovered and tamed, serving as a land of plenty for all who maintain it.;;;;;;;;;x
+wonder_athens_acropolis;Acropolis of Athens;;;;;;;;;x
+wonder_athens_acropolis_desc;The Acropolis of Athens was the highest point in the city of Athens and was dedicated to the Greek goddess Athena.;;;;;;;;;x
+wonder_labyrinth;Labyrinth;;;;;;;;;x
+wonder_labyrinth_desc;This massive labyrinth was designed by Daedalus to hold the fearsome Minotaur.;;;;;;;;;x
+wonder_pompeii;Pompeii;;;;;;;;;x
+wonder_pompeii_desc;Pompeii used to be an important trading hub for the Roman Empire before it was reduced to ash and rubble by the eruption of the nearby volcano, Mount Vesuvius.;;;;;;;;;x
+wonder_olympia;Olympia;;;;;;;;;x
+wonder_olympia_desc;Olympia was the site of the first Olympics, held by the various ancient Greek city-states. Every four years, Olympia would observe a truce and all of the city-states would send representatives to peacefully compete in the Olympic Games.;;;;;;;;;x
+
+#Wonder Upgrades
+upgrade_false_windows;False Windows;;;;;;;;;x
+upgrade_false_windows_desc;Ancient stelae were often decorated with false windows.;;;;;;;;;x
+upgrade_false_doors;False Doors;;;;;;;;;x
+upgrade_false_doors_desc;Ancient stelae were often decorated with false doors.;;;;;;;;;x
+upgrade_lion_gateway;Lion Gateway;;;;;;;;;x,,,
+upgrade_lion_gateway_desc;A large gateway to the fortress, shaped like a lion.;;;;;;;;;x
+upgrade_sword_stone;The Sword in the Stone;;;;;;;;;x
+upgrade_sword_stone_desc;By removing the sword from the stone, Arthur became King of Camelot.;;;;;;;;;x
+upgrade_round_table;The Round Table;;;;;;;;;x,,,
+upgrade_round_table_desc;King Arthur would meet with his loyal knights at this table.;;;;;;;;;x
+upgrade_statue_poseidon;Statue of Poseidon;;;;;;;;;x
+upgrade_statue_poseidon_desc;A large statue of Poseidon stands in the center of the town.;;;;;;;;;x
+upgrade_lofty_pillars;Lofty Pillars;;;;;;;;;x
+upgrade_lofty_pillars_desc;The lost city of Iram of the Pillars stands tall with its awe-inspiring lofty pillars.;;;;;;;;;x
+upgrade_mag_mell;Mag Mell;;;;;;;;;x
+upgrade_mag_mell_desc;Mag Mell, or the Plain of Honey, is the connection between Tír na nÓg and Earth.;;;;;;;;;x
+upgrade_propylon;Propylon;;;;;;;;;x
+upgrade_propylon_desc;The Propylon was the gateway to Olympia.;;;;;;;;;x
+upgrade_prytaneion;Prytaneion;;;;;;;;;x
+upgrade_prytaneion_desc;The Prytaneion is the building where the officials and winners of the Olympic Games would gather.;;;;;;;;;x
+upgrade_philippeion;Philippeion;;;;;;;;;x
+upgrade_philippeion_desc;The Philippeion was a circular memorial to the family of Philip.;;;;;;;;;x
+upgrade_statue_zeus;Statue of Zeus;;;;;;;;;x
+upgrade_statue_zeus_desc;The temple of Zeus, which contained the famous Statue of Zeus, was constructed by Phidias at around 456 BC. It was built to show superiority over the Athenians, who had recently completed the statue of Athena in the Parthenon.;;;;;;;;;x
+upgrade_stadium;Stadium;;;;;;;;;x
+upgrade_stadium_desc;This stadium was the location of many of the sporting events held in the Olympics.;;;;;;;;;x
+upgrade_baths;Baths;;;;;;;;;x
+upgrade_baths_desc;These ancient baths used to be a place to cleanse the body and relax.;;;;;;;;;x
+upgrade_leonidaion;Leonidaion;;;;;;;;;x
+upgrade_leonidaion_desc;The Leonidaion was a building that housed athletes for the Olympics.;;;;;;;;;x

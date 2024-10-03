@@ -1,0 +1,8 @@
+#An Antique Land Wonder Sprites
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wonder_upgrade_statue"
+		texturefile = "gfx\\interface\\wonder_interface\\wonder_upgrades\\wonder_upgrade_statue.dds"
+	}
+}

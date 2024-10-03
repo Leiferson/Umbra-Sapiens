@@ -1,0 +1,82 @@
+#An Antique Land Society Customizable Localisation
+
+defined_text = {
+	name = GetSocietyCurrency
+
+	text = {
+		localisation_key = currency_name_esoteric_order
+		trigger = { society_member_of = esoteric_order }
+	}
+}
+
+defined_text = {
+	name = GetEsotericOrderRankUpTooltip
+
+	text = {
+		trigger = {  society_rank == 1 }
+		localisation_key = GetEsotericOrderRankUpTooltip_Standard_Rank1
+	}
+	text = {
+		trigger = { society_rank == 2 }
+		localisation_key = GetEsotericOrderRankUpTooltip_Standard_Rank2
+	}
+	text = {
+		trigger = { society_rank == 3 }
+		localisation_key = GetEsotericOrderRankUpTooltip_Standard_Rank3
+	}
+}
+
+defined_text = {
+	name = GetSocietyRank
+
+	text = {
+		localisation_key = esoteric_order_rank_1_male
+		trigger = { is_female = no society_rank = { society = esoteric_order rank == 1 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_2_male
+		trigger = { is_female = no society_rank = { society = esoteric_order rank == 2 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_3_male
+		trigger = { is_female = no society_rank = { society = esoteric_order rank == 3 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_4_male
+		trigger = { is_female = no society_rank = { society = the_guilds rank == 4 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_1_female
+		trigger = { is_female = yes society_rank = { society = esoteric_order rank == 1 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_2_female
+		trigger = { is_female = yes society_rank = { society = esoteric_order rank == 2 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_3_female
+		trigger = { is_female = yes society_rank = { society = esoteric_order rank == 3 } }
+	}
+	text = {
+		localisation_key = esoteric_order_rank_4_female
+		trigger = { is_female = yes society_rank = { society = esoteric_order rank == 4 } }
+	}
+}
+
+defined_text = {
+	name = GetSocietyName
+	
+	text = {
+		localisation_key = string_esoteric_orde
+		trigger = { society_member_of = esoteric_order }
+	}
+}
+
+defined_text = {
+	name = GetSocietyNameCap
+
+	text = {
+		localisation_key = esoteric_order
+		trigger = { society_member_of = esoteric_order }
+	}
+}

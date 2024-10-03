@@ -1,0 +1,3 @@
+#Antique Land Nicknames
+
+nick_cyclopes_slayer = {}

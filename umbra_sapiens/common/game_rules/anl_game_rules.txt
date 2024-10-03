@@ -1,0 +1,35 @@
+#An Antique Land Game Rules
+
+an_antique_land_wonders = {
+	name = "RULE_AN_ANTIQUE_LAND_WONDERS"
+	group = "RULE_GROUP_ANL"
+	option = {
+		name = all
+		text = "RULE_OPTION_ALL"
+		desc = "RULE_AN_ANTIQUE_LAND_WONDERS_ALL_DESC"
+	}
+	option = {
+		name = historical
+		text = "RULE_OPTION_HISTORICAL"
+		desc = "RULE_AN_ANTIQUE_LAND_WONDERS_HISTORICAL_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_AN_ANTIQUE_LAND_WONDERS_OFF_DESC"
+	}
+}
+an_antique_land_artifacts = {
+	name = "RULE_AN_ANTIQUE_LAND_ARTIFACTS"
+	group = "RULE_GROUP_ANL"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_AN_ANTIQUE_LAND_ARTIFACTS_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_AN_ANTIQUE_LAND_ARTIFACTS_OFF_DESC"
+	}
+}

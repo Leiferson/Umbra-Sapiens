@@ -1,0 +1,20 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+RULE_GROUP_ANL;An Antique Land;;;;;;;;;x
+
+RULE_AN_ANTIQUE_LAND_WONDERS;An Antique Land Great Works;;;;;;;;;x
+RULE_OPTION_ALL;All;;;;;;;;;x
+RULE_AN_ANTIQUE_LAND_WONDERS_ALL_DESC;All of the ANL Great Works will appear.;;;;;;;;;x
+RULE_OPTION_HISTORICAL;Historical;;;;;;;;;x
+RULE_AN_ANTIQUE_LAND_WONDERS_HISTORICAL_DESC;Only the historical ANL Great Works will appear. NOTE: This will disable the mythical cities quest chains AND the corresponding mythical artifacts.;;;;;;;;;x
+RULE_OPTION_OFF;Off;;;;;;;;;x
+RULE_AN_ANTIQUE_LAND_WONDERS_OFF_DESC;None of the ANL Great Works will appear.;;;;;;;;;x
+
+RULE_AN_ANTIQUE_LAND_ARTIFACTS;An Antique Land Artifacts;;;;;;;;;x
+RULE_OPTION_ON;On;;;;;;;;;x
+RULE_AN_ANTIQUE_LAND_ARTIFACTS_ON_DESC;All of the ANL artifacts will appear.;;;;;;;;;x
+RULE_AN_ANTIQUE_LAND_ARTIFACTS_OFF_DESC;None of the ANL artifacts will apppear.;;;;;;;;;x
+
+#RULE_AN_ANTIQUE_LAND_EARLY_CRUSADES;An Antique Land Early Crusades;;;;;;;;;x
+#RULE_AN_ANTIQUE_LAND_EARLY_CRUSADES_OFF_DESC;Crusades, Jihads, and Great Holy Wars will not be changed from vanilla.;;;;;;;;;x
+#RULE_AN_ANTIQUE_LAND_EARLY_CRUSADES_ON_DESC;Crusades, Jihads, and Great Holy Wars will ALL be available from the beginning of the game.;;;;;;;;;x

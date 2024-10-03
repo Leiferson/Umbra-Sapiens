@@ -1,0 +1,13 @@
+#An Antique Land On Actions
+
+on_startup = {
+	events = { anl.999 }
+}
+
+on_character_ask_to_join_society = {
+	events = { anl.996 }
+}
+
+on_five_year_pulse = {
+	events = { anl.990 }
+}

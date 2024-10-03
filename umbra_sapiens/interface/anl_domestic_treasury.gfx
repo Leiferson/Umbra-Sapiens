@@ -1,0 +1,20 @@
+#An Antique Land Artifact Sprites
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sword_stone"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sword_stone.dds"
+	}
+	spriteType = {
+		name = "GFX_sword_stone_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\sword_stone_small.dds"
+	}
+	#spriteType = {
+	#	name = "GFX_poseidon_trident"
+	#	texturefile = "gfx\\interface\\inventory\\artifacts\\the_trident.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_poseidon_trident_small"
+	#	texturefile = "gfx\\interface\\inventory\\artifacts\\the_trident_small.dds"
+	#}
+}

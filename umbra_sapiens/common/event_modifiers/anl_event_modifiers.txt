@@ -1,0 +1,156 @@
+#An Antique Land Event Modifiers
+
+#Camelot modifiers
+memory_of_fair_maiden = {
+	icon = 40
+	fertility = 0.2
+	learning = -1
+}
+shivering_in_cold = {
+	icon = 51
+	health = -0.5
+}
+memory_of_last_battle = {
+	icon = 41
+	monthly_character_prestige = 1
+}
+fought_at_bar = {
+	icon = 51
+	health = -0.5
+}
+arthurian_generosity = {
+	icon = 6
+	stewardship = 1
+}
+arthurian_chastity = {
+	icon = 39
+	monthly_character_piety = 1
+}
+arthurian_faith = {
+	icon = 8
+	learning = 1
+}
+arthurian_bravery = {
+	icon = 1
+	martial = 1
+}
+arthurian_humility = {
+	icon = 7
+	intrigue = 1
+}
+arthurian_loyalty = {
+	icon = 45
+	monthly_character_wealth = 5
+}
+arthurian_honesty = {
+	icon = 11
+	diplomacy = 1
+}
+arthurian_honour = {
+	icon = 9
+	monthly_character_prestige = 1
+}
+footsteps_of_king_arthur = {
+	icon = 7
+	stewardship = 1
+	learning = 1
+	martial = 1
+	diplomacy = 1
+	intrigue = 1
+	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.5
+	monthly_character_wealth = 2.5
+}
+king_arthurs_blessing = {
+	icon = 7
+	stewardship = 1
+	learning = 1
+	martial = 1
+	diplomacy = 1
+	intrigue = 1
+	monthly_character_piety = 1
+	monthly_character_prestige = 1
+	monthly_character_wealth = 5
+}
+
+#Atlantis modifiers
+generous_host = {
+	icon = 69
+	stewardship = 1
+}
+ate_lotus_fruit = {
+	icon = 88
+	health = 3
+}
+refused_lotus_fruit = {
+	icon = 87
+	health = 0.5
+	learning = 1 #
+}
+tricked_cyclops = {
+	icon = 81
+	intrigue = 1
+}
+poseidon_curse = {
+	icon = 62
+	#global_tax_modifier = 0.8
+	monthly_character_wealth = -5
+}
+poseidon_blessing = {
+	icon = 61
+	#global_tax_modifier = 1.2
+	monthly_character_wealth = 5
+}
+winds_of_aeolus = {
+	icon = 129
+	global_movement_speed = 0.05
+	martial = 1 #
+}
+circean_infatuation = {
+	icon = 39
+	fertility = 0.2
+}
+heard_sirens_song = {
+	icon = 15
+	monthly_character_prestige = 1
+}
+respected_helios_cattle = {
+	icon = 133
+	diplomacy = 1
+}
+new_odysseus = {
+	icon = 7
+	stewardship = 1
+	learning = 1
+	intrigue = 1
+	martial = 1
+	diplomacy = 1
+	
+	health = 0.5
+	fertility = 0.2
+	
+	monthly_character_prestige = 1
+	monthly_character_piety = 1
+	monthly_character_wealth = 5
+	
+	#global_tax_modifier = 1.2
+	global_movement_speed = 0.05
+}
+odysseus_devotee = {
+	icon = 7
+	stewardship = 1
+	learning = 1
+	intrigue = 1
+	martial = 1
+	diplomacy = 1
+	
+	#health = 0.5
+	#fertility = 0.2
+	
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	monthly_character_wealth = 2.5
+	
+	#global_tax_modifier = 1.2
+	#global_movement_speed = 0.05
+}

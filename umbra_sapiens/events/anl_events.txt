@@ -1,0 +1,1728 @@
+#An Antique Land Events
+
+namespace = anl
+
+#Beginning of the Camelot quest chain
+narrative_event = {
+	id = anl.001
+	picture = GFX_evt_son_asking_father
+	title = anl.title.001
+	desc = EVTDESCanl.001
+	border = GFX_event_narrative_frame_religion
+	
+	min_age = 16
+	only_playable = yes
+	only_capable = yes
+	only_independent = yes
+	religion_group = christian
+	prisoner = no
+	ai = no
+	
+	trigger = {
+		AND = {
+			has_game_rule = {
+				name = an_antique_land_wonders
+				value = all
+			}
+			has_landed_title = c_gwent
+			NOR = {
+				has_global_flag = camelot_discovered
+				has_character_flag = camelot_quest
+				has_character_flag = camelot_quest_complete
+				20 = {
+					has_wonder = yes
+				}
+				trait = cruel
+				trait = cynical
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 120
+	}
+	option = { #begin the quest
+		name = EVTOPTAanl.001
+		custom_tooltip = {
+			text = EVTOPTAanl.001.tooltip
+			set_character_flag = camelot_quest
+			narrative_event = {
+				id = anl.002
+				days = 8
+			}
+		}
+	}
+	option = { #end the quest
+		name = EVTOPTBanl.001
+		custom_tooltip = {
+			text = EVTOPTBanl.001.tooltip
+			prestige = 50
+		}
+	}
+}
+
+#Camelot quest chain event 2 - arthurian scholarship
+narrative_event = {
+	id = anl.002
+	picture = GFX_evt_elder_council
+	title = anl.title.002
+	desc = EVTDESCanl.002
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	
+	option = { #take the stone
+		name = EVTOPTAanl.002
+		add_artifact = sword_stone_anl
+		custom_tooltip = {
+			text = EVTOPTAanl.002.tooltip
+			narrative_event = {
+				id = anl.003
+				days = 8
+			}
+		}
+	}
+	option = { #reject the stone
+		name = EVTOPTBanl.002
+		custom_tooltip = {
+			text = EVTOPTBanl.002.tooltip
+			narrative_event = {
+				id = anl.003
+				days = 8
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 3 - preparing supplies
+narrative_event = {
+	id = anl.003
+	picture = GFX_evt_armory
+	title = anl.title.003
+	desc = EVTDESCanl.003
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = { #little preparation
+		name = EVTOPTAanl.003
+		trigger = {
+			treasury >= 100
+		}
+		wealth = -100
+		custom_tooltip = {
+			text = EVTOPTAanl.003.tooltip
+			set_character_flag = camelot_quest_few_supplies
+			narrative_event = {
+				id = anl.004
+				days = 5
+			}
+		}
+	}
+	option = { #moderate preparation
+		name = EVTOPTBanl.003
+		trigger = {
+			treasury >= 500
+		}
+		wealth = -500
+		custom_tooltip = {
+			text = EVTOPTBanl.003.tooltip
+			set_character_flag = camelot_quest_supplies
+			narrative_event = {
+				id = anl.004
+				days = 14
+			}
+		}
+	}
+	option = { #extensive preparation
+		name = EVTOPTCanl.003
+		trigger = {
+			treasury >= 2500
+		}
+		wealth = -2500
+		custom_tooltip = {
+			text = EVTOPTCanl.003.tooltip
+			set_character_flag = camelot_quest_many_supplies
+			narrative_event = {
+				id = anl.004
+				days = 10
+			}
+		}
+	}
+	option = { #no preparation
+		name = EVTOPTDanl.003
+		custom_tooltip = {
+			text = EVTOPTDanl.003.tooltip
+			set_character_flag = camelot_quest_no_supplies
+			narrative_event = {
+				id = anl.004
+				days = 8
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 4 - embarking on the journey
+narrative_event = {
+	id = anl.004
+	picture = GFX_evt_depopulated_town
+	title = anl.title.004
+	desc = EVTDESCanl.004
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.004
+		trigger = {
+			treasury >= 50
+		}
+		wealth = -50
+		custom_tooltip = {
+			text = EVTOPTAanl.004.tooltip
+			add_character_modifier = {
+				modifier = arthurian_generosity
+				duration = -1
+			}
+			narrative_event = {
+				id = anl.005
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.004
+		trigger = {
+			NOT = {
+				has_character_flag = camelot_quest_no_supplies
+			}
+		}
+		custom_tooltip = {
+			text = EVTOPTBanl.004.tooltip
+			add_character_modifier = {
+				modifier = arthurian_generosity
+				duration = -1
+			}
+			if = {
+				limit = { has_character_flag = camelot_quest_many_supplies }
+				clr_character_flag = camelot_quest_many_supplies
+				set_character_flag = camelot_quest_supplies
+			}
+			else_if = {
+				limit = { has_character_flag = camelot_quest_supplies }
+				clr_character_flag = camelot_quest_supplies
+				set_character_flag = camelot_quest_few_supplies
+			}
+			else_if = {
+				limit = { has_character_flag = camelot_quest_few_supplies }
+				clr_character_flag = camelot_quest_few_supplies
+				set_character_flag = camelot_quest_no_supplies
+			}
+			narrative_event = {
+				id = anl.005
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCanl.004
+		add_character_modifier = {
+			modifier = shivering_in_cold
+			duration = -1
+		}
+		custom_tooltip = {
+			text = EVTOPTCanl.004.tooltip
+			add_character_modifier = {
+				modifier = arthurian_generosity
+				days = -1
+			}
+			narrative_event = {
+				id = anl.005
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDanl.004
+		custom_tooltip = {
+			text = EVTOPTDanl.004.tooltip
+			narrative_event = {
+				id = anl.005
+				days = 8
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 5 - the fair maiden
+narrative_event = {
+	id = anl.005
+	picture = GFX_evt_homage_hf
+	title = anl.title.005
+	desc = EVTDESCanl.005
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	#immediate = {
+	#	create_character = {
+	#		age = 26
+	#		name = "Gwyneth"
+	#		culture = welsh
+	#		female = 100
+	#		random_traits = yes
+	#		religion = christian
+	#		health = 10
+	#		fertility = 0
+	#	}
+	#}
+	option = {
+		name = EVTOPTAanl.005
+		custom_tooltip = {
+			text = EVTOPTAanl.005.tooltip
+			add_character_modifier = {
+				modifier = arthurian_chastity
+				days = -1
+			}
+			narrative_event = {
+				id = anl.006
+				days = 14
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.005
+		custom_tooltip = {
+			text = EVTOPTBanl.005.tooltip
+			add_character_modifier = {
+				modifier = memory_of_fair_maiden
+				duration = 365
+			}
+			narrative_event = {
+				id = anl.006
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCanl.005
+		custom_tooltip = {
+			text = EVTOPTCanl.005.tooltip
+			narrative_event = {
+				id = anl.0051
+				days = 1
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 5.1 - death by a witch
+narrative_event = {
+	id = anl.0051
+	picture = GFX_evt_arson_hf
+	title = anl.title.0051
+	desc = EVTDESCanl.0051
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0051
+		hidden_tooltip = {
+			destroy_artifact = sword_stone_anl
+		}
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+#Camelot quest chain event 6 - the heathen
+narrative_event = {
+	id = anl.006
+	picture = GFX_evt_runestone_raising_oldgods
+	title = anl.title.006
+	desc = EVTDESCanl.006
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.006
+		add_artifact = protective_branch_anl
+		custom_tooltip = {
+			text = EVTOPTAanl.006.tooltip
+			narrative_event = {
+				id = anl.007
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.006
+		custom_tooltip = {
+			text = EVTOPTBanl.006.tooltip
+			add_character_modifier = {
+				modifier = arthurian_faith
+				days = -1
+			}
+			narrative_event = {
+				id = anl.007
+				days = 8
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 7 - the hordes of the undead
+narrative_event = {
+	id = anl.007
+	picture = GFX_evt_burning_castle_hf
+	title = anl.title.007
+	desc = EVTDESCanl.007
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.007
+		custom_tooltip = {
+			text = EVTOPTAanl.007.tooltip
+			add_character_modifier = {
+				modifier = arthurian_bravery
+				days = -1
+			}
+			narrative_event = {
+				id = anl.0071
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.007
+		narrative_event = {
+			id = anl.0072
+			days = 8
+		}
+	}
+}
+
+#Camelot quest chain event 7.1 - the last battle
+narrative_event = {
+	id = anl.0071
+	picture = GFX_evt_viking_battle_oldgods
+	title = anl.title.0071
+	desc = EVTDESCanl.0071
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0071
+		custom_tooltip = {
+			text = EVTOPTAanl.0071.tooltip
+			narrative_event = {
+				id = anl.0072
+				days = 1
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 7.2 - a frightening dream
+narrative_event = {
+	id = anl.0072
+	picture = GFX_evt_bad_news
+	title = anl.title.0072
+	desc = EVTDESCanl.0072
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0072
+		add_character_modifier = {
+			modifier = memory_of_last_battle
+			duration = -1
+		}
+		custom_tooltip = {
+			text = EVTOPTAanl.0072.tooltip
+			narrative_event = {
+				id = anl.008
+				days = 8
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 8 - an evening at a bar
+narrative_event = {
+	id = anl.008
+	picture = GFX_evt_feast_hf
+	title = anl.title.008
+	desc = EVTDESCanl.008
+	border = GFX_event_narrative_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.008
+		custom_tooltip = {
+			text = EVTOPTAanl.008.tooltip
+			add_character_modifier = {
+				modifier = fought_at_bar
+				duration = 132
+			}
+			narrative_event = {
+				id = anl.009
+				days = 14
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.008
+		custom_tooltip = {
+			text = EVTOPTBanl.008.tooltip
+			add_character_modifier = {
+				modifier = arthurian_humility
+				duration = -1
+			}
+			narrative_event = {
+				id = anl.009
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCanl.008
+		narrative_event = {
+			id = anl.0081
+			days = 1
+		}
+	}
+}
+
+#Camelot quest chain event 8.1 - it's a trap!
+narrative_event = {
+	id = anl.0081
+	picture = GFX_evt_dead_body_hf
+	title = anl.title.0081
+	desc = EVTDESCanl.0081
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0081
+		hidden_tooltip = {
+			destroy_artifact = sword_stone_anl
+		}
+		death = {
+			death_reason = death_murder_unknown
+		}
+	}
+}
+
+#Camelot quest chain event 9 - the lost treasure
+narrative_event = {
+	id = anl.009
+	picture = GFX_evt_children_talking
+	title = anl.title.009
+	desc = EVTDESCanl.009
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.009
+		trigger = {
+			NOT = {
+				has_character_flag = camelot_quest_no_supplies
+			}
+		}
+		custom_tooltip = {
+			text = EVTOPTAanl.009
+			if = {
+				limit = { has_character_flag = camelot_quest_many_supplies }
+				clr_character_flag = camelot_quest_many_supplies
+				set_character_flag = camelot_quest_supplies
+			}
+			else_if = {
+				limit = { has_character_flag = camelot_quest_supplies }
+				clr_character_flag = camelot_quest_supplies
+				set_character_flag = camelot_quest_few_supplies
+			}
+			else_if = {
+				limit = { has_character_flag = camelot_quest_few_supplies }
+				clr_character_flag = camelot_quest_few_supplies
+				set_character_flag = camelot_quest_no_supplies
+			}
+			narrative_event = {
+				id = anl.0091
+				days = 14
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.009
+		trigger = {
+			treasury >= 100
+		}
+		wealth = -100
+		custom_tooltip = {
+			text = EVTOPTBanl.009
+			add_character_modifier = {
+				modifier = arthurian_loyalty
+				duration = -1
+			}
+			narrative_event = {
+				id = anl.010
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCanl.009
+		custom_tooltip = {
+			text = EVTOPTCanl.009
+			narrative_event = {
+				id = anl.010
+				days = 8
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 9.1 - on the trail of treasure
+narrative_event = {
+	id = anl.0091
+	picture = GFX_evt_idyllic_fishing_wol
+	title = anl.title.0091
+	desc = EVTDESCanl.0091
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0091
+		narrative_event = {
+			id = anl.0092
+			days = 14
+		}
+	}
+}
+
+#Camelot quest chain event 9.2 - the children's treasure
+narrative_event = {
+	id = anl.0092
+	picture = GFX_evt_stone_church_soa
+	title = anl.title.0092
+	desc = EVTDESCanl.0092
+	border = GFX_event_narrative_frame_diplomacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0092
+		custom_tooltip = {
+			text = EVTOPTAanl.0092.tooltip
+			add_character_modifier = {
+				modifier = arthurian_loyalty
+				duration = -1
+			}
+			add_character_modifier = {
+				modifier = arthurian_honesty
+				duration = -1
+			}
+			narrative_event = {
+				id = anl.010
+				days = 14
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.0092
+		wealth = 1000
+		custom_tooltip = {
+			text = EVTOPTBanl.0092.tooltip
+			narrative_event = {
+				id = anl.010
+				days = 14
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 10 - a clearing in the forest
+narrative_event = {
+	id = anl.010
+	picture = GFX_evt_bandits_forest
+	title = anl.title.010
+	desc = EVTDESCanl.010
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.010
+		trigger = {
+			has_artifact = sword_stone_anl
+		}
+		destroy_artifact = sword_stone_anl
+		custom_tooltip = {
+			text = EVTOPTAanl.010.tooltip
+			add_character_modifier = {
+				modifier = arthurian_honour
+				duration = -1
+			}
+			narrative_event = {
+				id = anl.0101
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBanl.010
+		trigger = {
+			NOT = {
+				has_artifact = sword_stone_anl
+			}
+		}
+		custom_tooltip = {
+			text = EVTOPTBanl.010.tooltip
+			narrative_event = {
+				id = anl.0101
+				days = 1
+			}
+		}
+	}
+}
+
+#Camelot quest chain event 10.1 - the discovery of camelot
+narrative_event = {
+	id = anl.0101
+	picture = GFX_evt_pilgrims_epic_journey
+	title = anl.title.0101
+	desc = EVTDESCanl.0101
+	border = GFX_event_narrative_frame_stewardship
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0101
+		narrative_event = {
+			id = anl.011
+			days = 90
+		}
+	}
+}
+
+#End of the Camelot quest chain (event 11) - the mythical camelot
+narrative_event = {
+	id = anl.011
+	picture = GFX_evt_rider_adventure
+	title = anl.title.011
+	desc = EVTDESCanl.011
+	border = GFX_event_narrative_frame_diplomacy
+
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				AND = {
+					has_character_modifier = arthurian_bravery
+					has_character_modifier = arthurian_chastity
+					has_character_modifier = arthurian_faith
+					has_character_modifier = arthurian_generosity
+					has_character_modifier = arthurian_honesty
+					has_character_modifier = arthurian_honour
+					has_character_modifier = arthurian_humility
+					has_character_modifier = arthurian_loyalty
+				}
+			}
+			set_character_flag = camelot_quest_all_virtues
+		}
+		else_if = {
+			limit = {
+				NOR = {
+					has_character_modifier = arthurian_bravery
+					has_character_modifier = arthurian_chastity
+					has_character_modifier = arthurian_faith
+					has_character_modifier = arthurian_generosity
+					has_character_modifier = arthurian_honesty
+					has_character_modifier = arthurian_honour
+					has_character_modifier = arthurian_humility
+					has_character_modifier = arthurian_loyalty
+				}
+			}
+			set_character_flag = camelot_quest_no_virtues
+		}
+		else = {
+			set_character_flag = camelot_quest_some_virtues
+		}
+	}
+	option = { #perfect ending
+		name = EVTOPTAanl.011
+		trigger = {
+			has_character_flag = camelot_quest_all_virtues
+		}
+		add_character_modifier = {
+			modifier = king_arthurs_blessing
+			days = -1
+		}
+		add_artifact = excalibur_anl
+		prestige = 1000
+	}
+	option = { #good ending
+		name = EVTOPTBanl.011
+		trigger = {
+			has_character_flag = camelot_quest_some_virtues
+		}
+		add_character_modifier = {
+			modifier = footsteps_of_king_arthur
+			days = 3650
+		}
+		prestige = 500
+	}
+	option = { #worst ending
+		name = EVTOPTCanl.011
+		trigger = {
+			has_character_flag = camelot_quest_no_virtues
+		}
+		prestige = 250
+	}
+	after = {
+		hidden_tooltip = {
+			set_global_flag = camelot_discovered
+			set_character_flag = camelot_quest_complete
+			clr_character_flag = camelot_quest
+			clr_character_flag = camelot_quest_no_supplies
+			clr_character_flag = camelot_quest_few_supplies
+			clr_character_flag = camelot_quest_supplies
+			clr_character_flag = camelot_quest_many_supplies
+			clr_character_flag = camelot_quest_all_virtues
+			clr_character_flag = camelot_quest_some_virtues
+			clr_character_flag = camelot_quest_no_virtues
+			remove_character_modifier = shivering_in_cold
+			remove_character_modifier = arthurian_bravery
+			remove_character_modifier = arthurian_chastity
+			remove_character_modifier = arthurian_faith
+			remove_character_modifier = arthurian_humility
+			remove_character_modifier = arthurian_generosity
+			remove_character_modifier = arthurian_loyalty
+			remove_character_modifier = arthurian_honesty
+			remove_character_modifier = arthurian_honour
+			if = {
+				limit = { has_artifact = sword_stone_anl }
+				destroy_artifact = sword_stone_anl
+			}
+			narrative_event = { id = anl.998 }
+		}
+	}
+}
+
+#Beginning of the Atlantis quest chain (event 12) - a strange medallion
+narrative_event = {
+	id = anl.012
+	picture = GFX_evt_son_asking_father
+	title = anl.title.012
+	desc = EVTDESCanl.012
+	border = GFX_event_narrative_frame_religion
+	
+	min_age = 16
+	only_playable = yes
+	only_capable = yes
+	only_independent = yes
+	religion = hellenic_pagan
+	prisoner = no
+	ai = no
+	
+	trigger = {
+		AND = {
+			has_game_rule = {
+				name = an_antique_land_wonders
+				value = all
+			}
+			has_landed_title = c_kaneia
+			NOR = {
+				has_global_flag = atlantis_discovered
+				has_character_flag = atlantis_quest
+				has_character_flag = atlantis_quest_complete
+				479 = {
+					has_wonder = yes
+				}
+				trait = craven
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	option = { #begin the quest
+		name = EVTOPTAanl.012
+		custom_tooltip = {
+			narrative_event = {
+				id = anl.013
+				days = 4
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 13 - visions of the past
+narrative_event = {
+	id = anl.013
+	picture = GFX_evt_fancy_feast
+	title = anl.title.013
+	desc = EVTDESCanl.013
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	
+	option = { #begin the quest
+		name = EVTOPTAanl.013
+		add_artifact = atlantis_medallion_anl
+		custom_tooltip = {
+			text = EVTOPTAanl.013.tooltip
+			set_character_flag = atlantis_quest
+			narrative_event = {
+				id = anl.014
+				days = 12
+			}
+		}
+	}
+	option = { #reject the quest
+		name = EVTOPTBanl.013
+		custom_tooltip = {
+			text = EVTOPTBanl.013.tooltip
+		}
+	}
+}
+
+#Atlantis quest chain event 14 - researching the history of atlantis
+narrative_event = {
+	id = anl.014
+	picture = GFX_evt_Council_Around_Table
+	title = anl.title.014
+	desc = EVTDESCanl.014
+	border = GFX_event_narrative_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { wealth >= 200 }
+		name = EVTOPTAanl.014
+		wealth = -200
+		custom_tooltip = {
+			narrative_event = {
+				id = anl.015
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.014
+		custom_tooltip = {
+			text = EVTOPTBanl.014.tooltip
+			narrative_event = {
+				id = anl.015
+				days = 180
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 15 - a rushed meeting
+narrative_event = {
+	id = anl.015
+	picture = GFX_evt_secret_ceremony
+	title = anl.title.015
+	desc = EVTDESCanl.015
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.015
+		custom_tooltip = {
+			text = EVTOPTAanl.015.tooltip
+			add_trait = travelling
+			narrative_event = {
+				id = anl.016
+				days = 15
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 16 - a dead end...?
+narrative_event = {
+	id = anl.016
+	picture = GFX_evt_Byzantine_through_Arch_Victory
+	title = anl.title.016
+	desc = EVTDESCanl.016
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		trigger = { wealth >= 100 }
+		name = EVTOPTAanl.016
+		wealth = -100
+		custom_tooltip = {
+			text = EVTOPTAanl.016.tooltip
+			narrative_event = {
+				id = anl.017
+				days = 13
+			}
+			add_character_modifier = {
+				modifier = generous_host
+				days = -1
+			}
+		}
+	}
+	
+	option = {
+		#trigger = { gold < 100 }
+		name = EVTOPTBanl.016
+		custom_tooltip = {
+			text = EVTOPTBanl.016.tooltip
+			narrative_event = {
+				id = anl.017
+				days = 13
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTCanl.016
+		prestige = 200
+		wealth = 200
+		custom_tooltip = {
+			text = EVTOPTCanl.016.tooltip
+			narrative_event = {
+				id = anl.0161
+				days = 4
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 16.1 - a breach of hospitium
+narrative_event = {
+	id = anl.0161
+	picture = GFX_evt_horse_friend
+	title = anl.title.0161
+	desc = EVTDESCanl.0161
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0161
+		custom_tooltip = {
+			text = EVTOPTAanl.0161.tooltip
+			#set_graphical_culture = bear
+			#culture = bear
+			set_graphical_culture = horse
+			culture = horse
+			set_character_flag = atlantis_quest_complete
+			clr_character_flag = atlantis_quest
+			destroy_artifact = atlantis_medallion_anl
+			remove_trait = travelling
+			#TODO: add stat penalties
+		}
+	}
+}
+
+#Atlantis quest chain event 17 - so it begins...
+narrative_event = {
+	id = anl.017
+	picture = GFX_evt_moonlit_mountains_hf
+	title = anl.title.017
+	desc = EVTDESCanl.017
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.017
+		custom_tooltip = {
+			text = EVTOPTAanl.017.tooltip
+			narrative_event = {
+				id = anl.018
+				days = 2
+			}
+			destroy_artifact = atlantis_medallion_anl
+		}
+	}
+	
+	# option = {
+		# name = EVTOPTBanl.017
+		# custom_tooltip = {
+			# text = EVTOPTBanl.017.tooltip
+			# narrative_event = {
+				# id = anl.018
+				# days = 2
+			# }
+			# #set_character_flag = kept_medallion
+		# }
+	# }
+}
+
+#Atlantis quest chain event 18 - a leap of faith
+narrative_event = {
+	id = anl.018
+	picture = GFX_evt_moonlit_mountains_hf
+	title = anl.title.018
+	desc = EVTDESCanl.018
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.018
+		custom_tooltip = {
+			text = EVTOPTAanl.018.tooltip
+			narrative_event = {
+				id = anl.019
+				days = 8
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 19 - the odyssey
+narrative_event = {
+	id = anl.019
+	picture = GFX_evt_ship_voyage_hf
+	title = anl.title.019
+	desc = EVTDESCanl.019
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.019
+		custom_tooltip = {
+			text = EVTOPTAanl.019.tooltip
+			narrative_event = {
+				id = anl.020
+				days = 20
+			}
+		}
+	}
+}
+
+#Atlantis quest chain 20 - the lotus eaters
+narrative_event = {
+	id = anl.020
+	picture = GFX_evt_council_agreement
+	title = anl.title.020
+	desc = EVTDESCanl.020
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.020
+		hidden_tooltip = {
+			add_character_modifier = {
+				modifier = ate_lotus_fruit
+				days = -1
+			}
+			add_trait = incapable
+			narrative_event = {
+				id = anl.0201
+				days = 21 #TODO: add longer delay
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.020
+		hidden_tooltip = {
+			add_character_modifier = {
+				modifier = refused_lotus_fruit
+				days = -1
+			}
+			narrative_event = {
+				id = anl.0201
+				days = 3
+			}
+		}
+	}
+}
+
+#Atlantis quest chain 20.1 - the grip of the lotus
+narrative_event = {
+	id = anl.0201
+	picture = GFX_evt_fishing
+	title = anl.title.0201
+	desc = {
+		trigger = { has_character_modifier = ate_lotus_fruit }
+		text = EVTDESCanl.0201.bad
+	}
+	desc = {
+		trigger = { has_character_modifier = refused_lotus_fruit }
+		text = EVTDESCanl.0201.good
+	}
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = { trait = incapable }
+			remove_trait = incapable
+		}
+	}
+	
+	option = {
+		name = EVTOPTAanl.0201
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.021
+				days = 25
+			}
+		}
+	}
+	
+	after = {
+		if = { 
+			limit = { has_character_modifier = ate_lotus_fruit }
+			remove_character_modifier = ate_lotus_fruit
+		}
+	}
+}
+
+#Atlantis quest chain event 21 - the cyclopes
+narrative_event = {
+	id = anl.021
+	picture = GFX_evt_heads_on_pikes_hf
+	title = anl.title.021
+	desc = EVTDESCanl.021
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.021
+		hidden_tooltip = {
+			add_trait = wounded #severely_injured
+			narrative_event = {
+				id = anl.0211
+				days = 4
+			}
+			set_character_flag = remained_silent
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.021
+		hidden_tooltip = {
+			add_trait = severely_injured
+			narrative_event = {
+				id = anl.0211
+				days = 4
+			}
+			set_character_flag = announced_yourself
+		}
+	}
+	
+	option = {
+		name = EVTOPTCanl.021
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.0211
+				days = 4
+			}
+			add_character_modifier = {
+				modifier = tricked_cyclops
+				days = -1
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 21.1 - escape from the cyclopes
+narrative_event = {
+	id = anl.0211
+	picture = GFX_evt_bandits
+	title = anl.title.0211
+	desc = {
+		trigger = { has_character_modifier = tricked_cyclops }
+		text = EVTDESCanl.0211
+	}
+	desc = {
+		trigger = { has_character_flag = remained_silent }
+		text = EVTDESCanl.0211.silent
+	}
+	desc = {
+		trigger = { has_character_flag = announced_yourself }
+		text = EVTDESCanl.0211.announced
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0211
+		prestige = 200
+		wealth = 500
+		give_nickname = nick_cyclopes_slayer
+		hidden_tooltip = {
+			add_character_modifier = {
+				modifier = poseidon_curse
+				days = -1
+			}
+			narrative_event = {
+				id = anl.022
+				days = 60
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.0211
+		hidden_tooltip = {
+			add_character_modifier = {
+				modifier = poseidon_blessing
+				days = -1
+			}
+			narrative_event = {
+				id = anl.022
+				days = 30
+			}
+		}
+	}
+	
+	after = {
+		clr_character_flag = remained_silent
+		clr_character_flag = announced_yourself
+	}
+}
+
+#Atlantis quest chain event 22 - dinner with the laistrygones
+narrative_event = {
+	id = anl.022
+	picture = GFX_evt_mountaintop_castle_hf
+	title = anl.title.022
+	desc = EVTDESCanl.022
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.022
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.0221
+				days = 4
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 22.1 - the winds of aeolus
+narrative_event = {
+	id = anl.0221
+	picture = GFX_evt_merchant_ship_at_sea_republic
+	title = anl.title.0221
+	desc = EVTDESCanl.0221
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0221
+		#add_artifact = winds_of_aeolus
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.023
+				days = 33
+			}
+			add_character_modifier = {
+				modifier = winds_of_aeolus
+				days = -1
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 23 - in the service of circe
+narrative_event = {
+	id = anl.023
+	picture = GFX_evt_feast
+	title = anl.title.023
+	desc = EVTDESCanl.023
+	
+	is_triggered_only = yes
+	
+	option = { #TODO: add more options here?
+		name = EVTOPTAanl.023
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.0231
+				days = 9
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 23.1 - love in the time of circe
+narrative_event = {
+	id = anl.0231
+	picture = GFX_evt_lovers
+	title = anl.title.0231
+	desc = EVTDESCanl.0231
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0231
+		#TODO: gain Circe as lover
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.024
+				days = 45
+			}
+			add_character_modifier = {
+				modifier = circean_infatuation
+				days = -1
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 24 - the sirens' song
+narrative_event = {
+	id = anl.024
+	picture = GFX_evt_whispers
+	title = anl.title.024
+	desc = EVTDESCanl.024
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.024
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.025
+				days = 38
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.024
+		custom_tooltip = {
+			text = EVTOPTBanl.024.tooltip
+			narrative_event = {
+				id = anl.025
+				days = 38
+			}
+			add_character_modifier = {
+				modifier = heard_sirens_song
+				days = -1
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 25 - scylla and charybdis
+narrative_event = {
+	id = anl.025
+	picture = GFX_evt_kraken
+	title = anl.title.025
+	desc = EVTDESCanl.025
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.025
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.026
+				days = 26
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 26 - the sun cattle
+narrative_event = {
+	id = anl.026
+	picture = GFX_evt_hunt
+	title = anl.title.026
+	desc = EVTDESCanl.026
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.026
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.0261
+				days = 3
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.026
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.0261
+				days = 3
+			}
+			set_character_flag = respected_cattle
+		}
+	}
+}
+
+#Atlantis quest chain event 26.1 - the wrath of helios
+narrative_event = {
+	id = anl.0261
+	picture = GFX_evt_bloody_man
+	title = anl.title.0261
+	desc = EVTDESCanl.0261
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0261
+		trigger = { has_character_flag = respected_cattle }
+		hidden_tooltip = {
+			clr_character_flag = respected_cattle
+			narrative_event = {
+				id = anl.027
+				days = 40
+			}
+			add_character_modifier = {
+				modifier = respected_helios_cattle
+				days = -1
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.0261
+		trigger = { NOT = { has_character_flag = respected_cattle } }
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.027
+				days = 40
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 27 - in the halls of calypso
+narrative_event = {
+	id = anl.027
+	picture = GFX_evt_woman_at_window_hf
+	title = anl.title.027
+	desc = EVTDESCanl.027
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.027
+		hidden_tooltip = {
+			narrative_event = {
+				id = anl.0271
+				days = 15
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 27.1 - calypso's request
+narrative_event = {
+	id = anl.0271
+	picture = GFX_evt_homage_hf
+	title = anl.title.0271
+	desc = EVTDESCanl.0271
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.0271
+		custom_tooltip = {
+			text = EVTOPTAanl.0271.tooltip
+			set_character_flag = calypso_ending
+			narrative_event = {
+				id = anl.028
+				days = 12
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.0271
+		custom_tooltip = {
+			text = EVTOPTBanl.0271.tooltip
+			narrative_event = {
+				id = anl.028
+				days = 12
+			}
+		}
+	}
+}
+
+#Atlantis quest chain event 28 - the mythical atlantis
+narrative_event = {
+	id = anl.028
+	picture = {
+		trigger = { NOT = { has_character_flag = calypso_ending } }
+		picture = GFX_evt_trade_post_republic 
+	}
+	picture = {
+		trigger = { has_character_flag = calypso_ending }
+		picture = GFX_evt_lovers #GFX_evt_bloodlines
+	}
+	title = anl.title.028
+	#desc = EVTDESCanl.028
+	
+	desc = {
+		trigger = { has_character_flag = calypso_ending }
+		text = EVTDESCanl.028.calypso
+	}
+	
+	desc = {
+		trigger = { NOT = { has_character_flag = calypso_ending } }
+		text = EVTDESCanl.028
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				AND = {
+					has_character_modifier = generous_host
+					has_character_modifier = refused_lotus_fruit
+					has_character_modifier = tricked_cyclops
+					has_character_modifier = poseidon_blessing
+					has_character_modifier = winds_of_aeolus
+					has_character_modifier = circean_infatuation
+					has_character_modifier = heard_sirens_song
+					has_character_modifier = respected_helios_cattle
+				}
+			}
+			set_character_flag = atlantis_quest_all_virtues
+		}
+		else_if = {
+			limit = {
+				OR = {
+					#has_character_modifier = generous_host
+					has_character_modifier = ate_lotus_fruit
+					#has_character_modifier = tricked_cyclops
+					has_character_modifier = poseidon_curse
+					#has_character_modifier = winds_of_aeolus
+					#has_character_modifier = circean_infatuation
+					#has_character_modifier = heard_sirens_song
+					#has_character_modifier = respected_helios_cattle
+				}
+				NOR = {
+					has_character_modifier = generous_host
+					has_character_modifier = tricked_cyclops
+					has_character_modifier = winds_of_aeolus
+					has_character_modifier = circean_infatuation
+					has_character_modifier = heard_sirens_song
+					has_character_modifier = respected_helios_cattle
+				}
+			}
+			set_character_flag = atlantis_quest_no_virtues
+		}
+		else = { set_character_flag = atlantis_quest_some_virtues }
+	}
+	
+	option = {
+		name = EVTOPTAanl.028
+		trigger = { has_character_flag = calypso_ending }
+		add_trait = immortal
+		give_nickname = nick_lover_of_calypso
+		#TODO: add more here? maybe deify player?
+		if = { #calypso best ending
+			limit = { has_character_flag = atlantis_quest_all_virtues }
+			prestige = 1000
+			#add_artifact = poseidon_trident_anl
+		}
+		else_if = { #calypso good ending
+			limit = { has_character_flag = atlantis_quest_some_virtues }
+			prestige = 500
+		}
+		else_if = { #calypso worst ending
+			limit = { has_character_flag = atlantis_quest_no_virtues }
+			prestige = 250
+		}
+		custom_tooltip = {
+			text = EVTOPTAanl.028.tooltip
+		}
+	}
+	
+	option = {
+		name = EVTOPTBanl.028
+		trigger = { NOT = { has_character_flag = calypso_ending } }
+		give_nickname = nick_new_odysseus
+		if = { #atlantis best ending
+			limit = { has_character_flag = atlantis_quest_all_virtues }
+			prestige = 1500
+			add_artifact = poseidon_trident_anl
+		}
+		else_if = { #atlantis good ending
+			limit = { has_character_flag = atlantis_quest_some_virtues }
+			prestige = 1000
+		}
+		else_if = { #atlantis worst ending
+			limit = { has_character_flag = atlantis_quest_no_virtues }
+			prestige = 500
+		}
+		custom_tooltip = {
+			text = EVTOPTBanl.028.tooltip
+			narrative_event = { id = anl.997 }
+			set_global_flag = atlantis_discovered
+		}
+	}
+	
+	after = {
+		hidden_tooltip = {
+			if = {
+				limit = { has_character_flag = atlantis_quest_all_virtues }
+				add_character_modifier = {
+					modifier = new_odysseus
+					days = -1
+				}
+			}
+			else_if = {
+				limit = { has_character_flag = atlantis_quest_some_virtues }
+				add_character_modifier = {
+					modifier = odysseus_devotee
+					days = 3650
+				}
+			}
+			#set_global_flag = atlantis_discovered
+			set_character_flag = atlantis_quest_complete
+			clr_character_flag = atlantis_quest
+			clr_character_flag = atlantis_quest_all_virtues
+			clr_character_flag = atlantis_quest_some_virtues
+			clr_character_flag = atlantis_quest_no_virtues
+			clr_character_flag = calypso_ending
+			remove_character_modifier = generous_host
+			remove_character_modifier = ate_lotus_fruit
+			remove_character_modifier = refused_lotus_fruit
+			remove_character_modifier = tricked_cyclops
+			remove_character_modifier = poseidon_curse
+			remove_character_modifier = poseidon_blessing
+			remove_character_modifier = winds_of_aeolus
+			remove_character_modifier = circean_infatuation
+			remove_character_modifier = heard_sirens_song
+			remove_character_modifier = respected_helios_cattle
+			remove_trait = travelling
+			if = {
+				limit = { has_artifact = atlantis_medallion_anl }
+				destroy_artifact = atlantis_medallion_anl
+			}
+		}
+	}
+}

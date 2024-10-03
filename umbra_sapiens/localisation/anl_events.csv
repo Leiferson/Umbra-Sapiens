@@ -1,0 +1,324 @@
+##CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+######EVENTS
+#Camelot Event Chain
+anl.title.001;The Quest for Camelot;;;;;;;;;x
+EVTDESCanl.001;One day, as you walk the castle grounds, you are stopped by an old friend. After inviting him into the castle, you both spend the day reminiscing about the days of yore. Eventually, the topic of King Arthur and the majestic Camelot comes up. Your friend tells you of an old crone that he met in a nearby village a few months ago who gave him a crude map on faded yellow paper. After a close examination, you recognize the first landmark on the map to be a nearby hill. Together, you and your friend make plans to leave on a quest for the famed Camelot as soon as preparations have been completed.;;;;;;;;;x
+EVTOPTAanl.001;Embark on a quest for the mythical castle!;;;;;;;;;x
+EVTOPTAanl.001.tooltip;Begin preparations for the long journey. You have reason to believe that this quest will take a very long time and cost a lot of money...;;;;;;;;;x
+EVTOPTBanl.001;I don't have time for this.;;;;;;;;;x
+EVTOPTBanl.001.tooltip;Disregard the news and forget about the search for Camelot.;;;;;;;;;x
+
+anl.title.002;The Arthurian Scholarship;;;;;;;;;x
+EVTDESCanl.002;In order to prepare for the possibly long and arduous quest, you gather a group of scholars to teach you about chivalry. They describe the common chivalric virtues: bravery, chastity, faith, honour, honesty, humility, generosity, and loyalty. The group describes how it will be important to keep these virtues in mind on your journey. After the meeting, your friend informs you that he will not be able to join you since he has to tend to his sick mother. However, he wishes you luck on your journey and hands you a small rock with an engraving of a sword.;;;;;;;;;x
+EVTOPTAanl.002;Thank you, my friend. I will keep it close.;;;;;;;;;x
+EVTOPTAanl.002.tooltip;Begin preparing supplies for the journey.;;;;;;;;;x
+EVTOPTBanl.002;Thank you, but you should keep this.;;;;;;;;;x
+EVTOPTBanl.002.tooltip;Return the engraved stone and begin preparing supplies for the journey.;;;;;;;;;x
+
+anl.title.003;Preparation of Supplies;;;;;;;;;x
+EVTDESCanl.003;As time passes, you grow increasingly anxious to embark on your long journey. Soon, you may find the true Camelot! However, there are some preparations that must be made before departure. Your squire approaches you and asks for a list of supplies to purchase from the market.;;;;;;;;;x
+EVTOPTAanl.003;Spend a small amount on supplies.;;;;;;;;;x
+EVTOPTAanl.003.tooltip;Begin your journey.;;;;;;;;;x
+EVTOPTBanl.003;Spend a moderate amount on supplies.;;;;;;;;;x
+EVTOPTBanl.003.tooltip;Begin your journey.;;;;;;;;;x
+EVTOPTCanl.003;Spend a large amount on supplies.;;;;;;;;;x
+EVTOPTCanl.003.tooltip;Begin your journey.;;;;;;;;;x
+EVTOPTDanl.003;We cannot afford to spend money on supplies.;;;;;;;;;x
+EVTOPTDanl.003.tooltip;Begin your journey without any preparation.;;;;;;;;;x
+
+anl.title.004;Embarking on the Journey;;;;;;;;;x
+EVTDESCanl.004;After leaving in the early morning, you have made considerable progress on your journey. Soon, you encounter a village torn apart by famine and despair. A few beggars approach your horse and ask for some supplies.;;;;;;;;;x
+EVTOPTAanl.004;Give the villagers some money.;;;;;;;;;x
+EVTOPTAanl.004.tooltip;Continue on your journey.;;;;;;;;;x
+EVTOPTBanl.004;Give the villagers some supplies.;;;;;;;;;x
+EVTOPTBanl.004.tooltip;Give the villagers some of your supplies and continue on your journey.;;;;;;;;;x
+EVTOPTCanl.004;Give the villagers your extra clothes.;;;;;;;;;x
+EVTOPTCanl.004.tooltip;Give the villagers your extra clothes and continue on your journey.;;;;;;;;;x
+EVTOPTDanl.004;Ignore the villagers.;;;;;;;;;x
+EVTOPTDanl.004.tooltip;Ignore the villagers and continue on your journey.;;;;;;;;;x
+
+anl.title.005;The Fair Maiden;;;;;;;;;x
+EVTDESCanl.005;A few days later, you and your men are resting by a pond after a long day of traveling. Out of the nearby woods, a fair young maiden suddenly approaches. She appears to be lonely, and soon becomes acquainted with you and your soldiers. After the sun sets, the maiden sits down next to you and begins stroking your hair.;;;;;;;;;x
+EVTOPTAanl.005;I should be resting.;;;;;;;;;x
+EVTOPTAanl.005.tooltip;Ignore the fair maiden's advances and get some rest.;;;;;;;;;x
+EVTOPTBanl.005;A little fun couldn't hurt...;;;;;;;;;x
+EVTOPTBanl.005.tooltip;Follow the fair maiden home.;;;;;;;;;x
+EVTOPTCanl.005;Unhand me, wretched temptress!;;;;;;;;;x
+EVTOPTCanl.005.tooltip;Slay the fair maiden, just in case.;;;;;;;;;x
+
+anl.title.0051;A Witch!;;;;;;;;;x
+EVTDESCanl.0051;You raise your sword to attack the innocent fair maiden, only to be knocked backwards. Before you, the fair maiden catches on fire and begins to scream in fury. Fire blazes all around you, and you are soon consumed by the flames. Maybe it would have been better to leave her alone?;;;;;;;;;x
+EVTOPTAanl.0051;What? Noooooooooo!;;;;;;;;;x
+
+anl.title.006;The Heathen;;;;;;;;;x
+EVTDESCanl.006;Not long after the incident with the fair maiden, a heathen stops your caravan and leads you to his hut, surrounded by ancient runestones. He describes how he foretold the passing of your party and how he had prepared a sacred branch for your safety. If what he says is true, it will imbue you with strength and resilience. He holds the sacred branch out to you, asking that you take it and bring glory to the old gods.;;;;;;;;;x
+EVTOPTAanl.006;Thank you. It will be put to good use.;;;;;;;;;x
+EVTOPTAanl.006.tooltip;Continue on your journey.;;;;;;;;;x
+EVTOPTBanl.006;I will go without it.;;;;;;;;;x
+EVTOPTBanl.006.tooltip;Return the artifact and continue on your journey.;;;;;;;;;x
+
+anl.title.007;The Hordes of the Undead;;;;;;;;;x
+EVTDESCanl.007;You wake up one night to find that the skies have turned red and dead men are emerging from the ground. You hear the screams of the fallen rising on the horizon. In the commotion, your men turn to you for their orders.;;;;;;;;;x
+EVTOPTAanl.007;Charge into battle!;;;;;;;;;x
+EVTOPTAanl.007.tooltip;Lead your men into the fray.;;;;;;;;;x
+EVTOPTBanl.007;Retreat!;;;;;;;;;x
+
+anl.title.0071;The Last Battle;;;;;;;;;x
+EVTDESCanl.0071;Your men fight valiantly, but soon they have all perished at the hands of the undead. Only you remain on the bloody hillside, furiously swinging your sword at monster after monster. It is not long before you are finally overrun. The last thing you see is the sun, burning blood red in the dark sky.;;;;;;;;;x
+EVTOPTAanl.0071;How could this be?;;;;;;;;;x
+EVTOPTAanl.0071.tooltip;You feel your life slowly fading...;;;;;;;;;x
+
+anl.title.0072;A Frightening Dream;;;;;;;;;x
+EVTDESCanl.0072;You awake with a fright. It was all a dream! Around you, your men are preparing for the day, unaware of the horrors that you have witnessed. With a heavy heart, you gather your supplies and try to push the terrible sights out of your mind.;;;;;;;;;x
+EVTOPTAanl.0072;What a terrifying nightmare!;;;;;;;;;x
+EVTOPTAanl.0072.tooltip;Continue on your journey.;;;;;;;;;x
+
+anl.title.008;An Evening at a Bar;;;;;;;;;x
+EVTDESCanl.008;After a long day of traveling, you and your men stop at a local bar to eat and relax. The food is excellent, the alcohol is plentiful, and all is good -- up until your men get a little too rowdy, that is. A patron upset by their behavior approaches you and begins to call you a slew of disrespectful and outright rude names.;;;;;;;;;x
+EVTOPTAanl.008;I don't have to put up with this!;;;;;;;;;x
+EVTOPTAanl.008.tooltip;Start a fight with the rude patron.;;;;;;;;;x
+EVTOPTBanl.008;I'm sorry to have offended you.;;;;;;;;;x
+EVTOPTBanl.008.tooltip;Politely apologize and escort your men to their rented rooms.;;;;;;;;;x
+EVTOPTCanl.008;That smile won't be on your face much longer...;;;;;;;;;x
+EVTOPTCanl.008.tooltip;Wait until the patron falls asleep in his room, then sneak in and murder him.;;;;;;;;;x
+
+anl.title.0081;It's a Trap!;;;;;;;;;x
+EVTDESCanl.0081;At around midnight, you take a dagger and slowly creep into the rude patron's room. All seems to be clear, so you unsheathe your dagger and stab quickly at the man sleeping on the bed. However, the blade only sinks into a pillow. Out of the corner of your eye, you spot the rude patron standing in the corner with a sword. Maybe this wasn't the best idea?;;;;;;;;;x
+EVTOPTAanl.0081;We can talk this through!;;;;;;;;;x
+
+anl.title.009;The Lost Treasure;;;;;;;;;x
+EVTDESCanl.009;Soon, you and your men pass by a small but idyllic village. There are many children playing in the streets, and one turns to you as you ride by. He asks if you will help the village find its lost treasure, taken by a sorcerer many years ago.;;;;;;;;;x
+EVTOPTAanl.009;Promise to help with the search for the treasure.;;;;;;;;;x
+EVTOPTAanl.009.tooltip;Use some of your supplies to help search for the lost treasure.;;;;;;;;;x
+EVTOPTBanl.009;We do not have the time to help you, but take this money.;;;;;;;;;x
+EVTOPTBanl.009.tooltip;Continue on your journey.;;;;;;;;;x
+EVTOPTCanl.009;We do not have time or money to offer you.;;;;;;;;;x
+EVTOPTCanl.009.tooltip;Ignore the children and continue your journey.;;;;;;;;;x
+
+anl.title.0091;On the Trail of Treasure;;;;;;;;;x
+EVTDESCanl.0091;As you continue to search for the lost treasure, your men grow frustrated with the distraction from the quest for Camelot. However, it is too late to turn back. Eventually, you find the area that the child described. After a night of digging, your men pull a chest from the ground. Inside, there is a large amount of gold.;;;;;;;;;x
+EVTOPTAanl.0091;It is time to head out.;;;;;;;;;x
+
+anl.title.0092;The Children's Treasure;;;;;;;;;x
+EVTDESCanl.0092;You and your men retrace your steps, taking even more time from your quest for Camelot. Hopefully, this will be worth it. In a short while, you arrive back at the village. Now, it is time to decide what will happen to the newfound treasure that belongs to the village.;;;;;;;;;x
+EVTOPTAanl.0092;We shall return this treasure to its rightful owners!;;;;;;;;;x
+EVTOPTAanl.0092.tooltip;Return the treasure to the children and continue on your journey.;;;;;;;;;x
+EVTOPTBanl.0092;They do not need to know that we found it...;;;;;;;;;x
+EVTOPTBanl.0092.tooltip;Continue on your journey.;;;;;;;;;x
+
+anl.title.010;A Clearing in the Forest;;;;;;;;;x
+EVTDESCanl.010;One night, as your men are sleeping, you notice a glint from deep in the woods. Against your better judgment, you head into the forest. Eventually, you find a small clearing with blue wisps floating around in the air. Curiously, you inspect the sources of light. Suddenly, a ghostly figure forms out of the wisps. King Arthur! He asks that you vow to protect your land if you find Camelot, and requires the engraved stone as a sign of your acceptance.;;;;;;;;;x
+EVTOPTAanl.010;I shall honor this commitment.;;;;;;;;;x
+EVTOPTAanl.010.tooltip;Accept King Arthur's requests.;;;;;;;;;x
+EVTOPTBanl.010;I do not have the stone...;;;;;;;;;x
+EVTOPTBanl.010.tooltip;Accept King Arthur's requests without giving him the stone.;;;;;;;;;x
+
+anl.title.0101;The Discovery of Camelot;;;;;;;;;x
+EVTDESCanl.0101;King Arthur's ghost gives you the location of Camelot, and you run back to your camp with excitement. After all this time, you finally know where Camelot is! You make preparations for the three-month-long journey to your newfound destination.;;;;;;;;;x
+EVTOPTAanl.0101;Onwards!;;;;;;;;;x
+
+anl.title.011;The Mythical Camelot;;;;;;;;;x
+EVTDESCanl.011;After a trailing and painstaking journey, you have finally arrived at your destination. You push aside the branches of a bush to find a large clearing with green grass and flowing streams. In the center sits Camelot, standing tall and proud over the surrounding landscape. Excitedly, you and your men rush inside to observe the magnificent wonder.;;;;;;;;;x
+EVTOPTAanl.011;Camelot and the mythical Excalibur have been discovered!;;;;;;;;;x
+EVTOPTBanl.011;Camelot has been discovered!;;;;;;;;;x
+EVTOPTCanl.011;Camelot has been discovered!;;;;;;;;;x
+
+#Atlantis Quest Chain
+anl.title.012;A Strange Medallion;;;;;;;;;x
+EVTDESCanl.012;As you are walking through the marketplace on a bright day in search of provisions for the upcoming feast, you almost trip over a small metallic object. As you prepare to kick it away, you suddenly feel compelled to pick it up. In doing so, you discover that it is a faded medallion with an image of a man wrestling with a large lion. In the background, a cliff casts an ominous shadow over the coastline. As you put the medallion away, dark storm clouds roll over the horizon, and a torrential downpour begins to fall.;;;;;;;;;x
+EVTOPTAanl.012;Curses! I knew it would rain today!;;;;;;;;;x
+
+anl.title.013;Visions of the Past;;;;;;;;;x
+EVTDESCanl.013;Once the feast has been prepared, you stand at the back of the room and give a toast. "To all those that came before us!" you say as you raise your glass. As the feast commences, you pull out the medallion to investigate it further, only to pass out on the ground. While you sleep, you dream of times long ago, when men from a mysterious civilization ruled the waves. The next day, you wake up in your bed, firmly grasping the mysterious medallion.;;;;;;;;;x
+EVTOPTAanl.013;I must find the meaning of these visions!;;;;;;;;;x
+EVTOPTAanl.013.tooltip;Begin the search for the fabled Atlantis.;;;;;;;;;x
+EVTOPTBanl.013;Quick, I must be rid of this sorcerous object at once!;;;;;;;;;x
+EVTOPTBanl.013.tooltip;Throw the medallion out into the sea and never look back.;;;;;;;;;x
+
+anl.title.014;Researching the History of Atlantis;;;;;;;;;x
+EVTDESCanl.014;Determined to find the source of the mystical civilization of which you dreamed, you begin collecting as many books discussing ancient civilizations as possible. Soon, the books and scrolls begin to pile up and the task of reading through them becomes more and more overwhelming.;;;;;;;;;x
+EVTOPTAanl.014;Hire the best scholars to help.;;;;;;;;;x
+EVTOPTBanl.014;I suppose I should get to work.;;;;;;;;;x
+EVTOPTBanl.014.tooltip;Begin reading through the documents by yourself. This will probably take a while.;;;;;;;;;x
+
+anl.title.015;A Rushed Meeting;;;;;;;;;x
+EVTDESCanl.015;"I've got it!" You jump up from the table at which you were researching, proudly holding up a scroll. According to the author, there are those in the ancient city of Troy, now the city of Ilium, who might still know the whereabouts of the mythical city of Atlantis. After calling a meeting with your court, you let them know that you will soon be leaving for some time. Then, you begin to gather your supplies in preparation for the journey.;;;;;;;;;x
+EVTOPTAanl.015;Onwards to Troy!;;;;;;;;;x
+EVTOPTAanl.015.tooltip;Set sail for the ancient city of Troy.;;;;;;;;;x
+
+anl.title.016;A Dead End...?;;;;;;;;;x
+EVTDESCanl.016;Eventually, you find yourself in the ancient city of Troy. However, after many days searching for anyone with knowledge of Atlantis, you begin to feel weary and long for a return to the comfort of your palace. Just as you are preparing to leave, one of your servants discovers an old fisherman who claims that he has seen a place similar to the one depicted on the medallion. "All I ask in return," he says, "is for a taste of your wine and a place to sleep tonight.";;;;;;;;;x
+EVTOPTAanl.016;Come, my friend! Drink and be merry!;;;;;;;;;x
+EVTOPTAanl.016.tooltip;Invite the fisherman into your camp and give him your finest wines.;;;;;;;;;x
+EVTOPTBanl.016;I cannot afford any wine, but please join us for the night.;;;;;;;;;x
+EVTOPTBanl.016.tooltip;Invite the fisherman into your camp.;;;;;;;;;x
+EVTOPTCanl.016;Begone, wretch! We only require your boat.;;;;;;;;;x
+EVTOPTCanl.016.tooltip;Take the peasant's boat and cast him out.;;;;;;;;;x
+#EVTOPTAanl.016;What are you waiting for? Take me to it!;;;;;;;;;x
+#EVTOPTAanl.016.tooltip;Set out with the fisherman.;;;;;;;;;x
+#EVTOPTBanl.016;Something about this man seems a bit... fishy.;;;;;;;;;x
+
+anl.title.0161;A Breach of Hospitium;;;;;;;;;x
+EVTDESCanl.0161;Lightning pierces the sky as the man before you sheds off his rags and reveals his glowing skin. He pulls out a trident as thunder reverberates through your camp. "For casting out a guest, you shall be punished! For the rest of your days, you will serve Poseidon! You shall never forget the importance of hospitium!;;;;;;;;;x
+EVTOPTAanl.0161;Neigh!;;;;;;;;;x
+EVTOPTAanl.0161.tooltip;Your throat begins to feel a bit hoarse...;;;;;;;;;x
+
+anl.title.017;So it begins...;;;;;;;;;x
+EVTDESCanl.017;The next day, you set out with the fisherman to find the location on the medallion. You spend your time on his boat appreciating the beautiful Mediterranean waves and sampling some of the underwater fauna. Eventually, after days of sailing, the fisherman docks underneath a familiar cliff. "Now, the medallion," the fisherman demands. You turn to look at him.;;;;;;;;;x
+EVTOPTAanl.017;Of course!;;;;;;;;;x
+EVTOPTAanl.017.tooltip;Hand the medallion to the fisherman.;;;;;;;;;x
+#EVTOPTBanl.017;What if I need it later?;;;;;;;;;x
+#EVTOPTBanl.017.tooltip;Refuse to hand over the medallion.;;;;;;;;;x
+
+anl.title.018;A Leap of Faith;;;;;;;;;x
+EVTDESCanl.018;You survey your surroundings, then look back at the fisherman. To your surprise, he is nowhere to be found. His boat seems to be gone, too. As you turn back to the cliff, a voice echoes within your mind. It repeats one word over and over: JUMP.;;;;;;;;;x
+EVTOPTAanl.018;We didn't come all this way for nothing!;;;;;;;;;x
+EVTOPTAanl.018.tooltip;Jump!;;;;;;;;;x
+
+anl.title.019;The Odyssey;;;;;;;;;x
+EVTDESCanl.019;You and your crew awake on the deck of a ship at sea as the sun beats down overhead. "How did we get here?" you ask the man next to you. He shrugs. You look at the sails which are full with wind.;;;;;;;;;x
+EVTOPTAanl.019;At least we have the wind on our side.;;;;;;;;;x
+EVTOPTAanl.019.tooltip;Now, we wait.;;;;;;;;;x
+
+anl.title.020;The Lotus Eaters;;;;;;;;;x
+EVTDESCanl.020;After some time, you drift ashore and find a group of people waiting for you. "You must be tired," the leader remarks. "Please, stay with us for a while and take some of our fruits. We have more than enough to share!";;;;;;;;;x
+EVTOPTAanl.020;We graciously accept your hospitality!;;;;;;;;;x
+EVTOPTBanl.020;Thank you, but I have my own food.;;;;;;;;;x
+
+anl.title.0201;The Grip of the Lotus;;;;;;;;;x
+EVTDESCanl.0201.bad;As soon as your teeth break through the skin of the lotus fruit, you begin to feel drowsy. You look around and see your men begin to collapse, but it doesn't bother you. The grip of the lotus keeps your mind happy as you drop to the ground. Everything over the next few weeks is a blur, and when you finally awake, your head throbs. The Lotus-Eaters are long gone, so you drag your men back to the boat despite their protests.;;;;;;;;;x
+EVTDESCanl.0201.good;You head to the ship to find a meal, but everybody is asleep when you return. You try waking up one of your men to no avail. It must have been the fruit--the Lotus-Eaters poisoned them! Carefully, you drag your men back to the boat and set out again. You hope you'll meet more inviting hosts wherever you next dock.;;;;;;;;;x
+EVTOPTAanl.0201;I'm never coming back here again!;;;;;;;;;x
+
+anl.title.021;The Cyclopes;;;;;;;;;x
+EVTDESCanl.021;After a few weeks, you and your crew dock at a seemingly peaceful island. After some exploration, your men find a cavern filled with a herd of sheep. Hungrily, your crew catch one and cook it over a fire. Just as you are about to take the first bite, a thundering sound grows louder and louder. Then, the sun is blotted out by a large figure. A Cyclops! You realize this must be his herd of sheep. You and your crewmembers freeze in panic. After he settles in the cavern, he reaches for one of his sheep but instead grabs one of your men. Though slightly confused, he still swallows the poor man. He is about to reach for another when one of your crewmembers sprints to the entrance. "Who goes there?" he demands. His voice booms across the cavern.;;;;;;;;;x
+EVTOPTAanl.021;Remain silent.;;;;;;;;;x
+EVTOPTBanl.021;"It is I, [This.GetTitledFirstName]!";;;;;;;;;x
+EVTOPTCanl.021;"Nobody!";;;;;;;;;x
+
+anl.title.0211;Escape from the Cyclopes;;;;;;;;;x
+EVTDESCanl.0211;"Well, Nobody, you're about to be my dinner!" The Cyclops clumsily lunges at you, leaving you plenty of time to defend yourself by stabbing him in the leg. The Cyclops shrieks in pain, then kicks a large boulder in front of the entrance to the cavern. You and your remaining crewmembers hide in a nook as the Cyclops begins to search for you in the darkness. Out of the corner of your eye, you see the sheep gathered nearby. The Cyclops eventually gives up the search and exits the cavern. A few minutes later, he returns with a couple other Cyclopes. "This is where Nobody attacked me!" he announces. His friends stare at him incredulously, then burst out laughing. "What are you laughing at?" he pleas as they head for the sheep. Then, an idea forms in your head: you have your men hide under the bellies of the sheep. There is one sheep left for you, but the wounded Cyclops has his back turned to you. Maybe you could slay this beast for good?;;;;;;;;;x
+EVTDESCanl.0211.silent;Despite your silence, the Cyclops begins searching for you. Just as you are about to hide, the Cyclops puts his foot down right on top of your toes. Then, he kicks a large boulder in front of the entrance to the cavern. You and your remaining crewmembers hide in a nook as the Cyclops begins to search for you in the darkness. Out of the corner of your eye, you see the sheep gathered nearby. The Cyclops eventually gives up the search and exits the cavern. A few minutes later, he returns with a couple other Cyclopes. "I know they're somewhere in here!" he announces. His friends look around for a few minutes, but they soon grow bored and head for the sheep. Then, an idea forms in your head: you have your men hide under the bellies of the sheep. There is one sheep left for you, but the wounded Cyclops has his back turned to you. Maybe you could slay this beast for good?;;;;;;;;;x
+EVTDESCanl.0211.announced;"Well, [This.GetTitledFirstName], you're about to be my dinner!" The Cyclops lunges at you, but you trip over a rock while trying to back away. The Cyclops stomps on your hand, smashing it completely. As you writhe in pain, he kicks a large boulder in front of the entrance to the cavern. You and your remaining crewmembers hide in a nook as the Cyclops begins to search for you in the darkness. Out of the corner of your eye, you see the sheep gathered nearby. The Cyclops eventually gives up the search and exits the cavern. A few minutes later, he returns with a couple other Cyclopes. "This is where I saw them!" he announces. His friends look around for a few minutes, but they soon grow bored and head for the sheep. Then, an idea forms in your head: you have your men hide under the bellies of the sheep. There is one sheep left for you, but the wounded Cyclops has his back turned to you. Maybe you could slay this beast for good?;;;;;;;;;x
+EVTOPTAanl.0211;Kill the Cyclops.;;;;;;;;;x
+EVTOPTBanl.0211;Escape from the Cyclops.;;;;;;;;;x
+
+anl.title.022;Dinner with the Laistrygones;;;;;;;;;x
+EVTDESCanl.022;After another period of sailing, you arrive at a mountainous island with a settlement off in the distance. Hopefully, you'll be able to have some proper hospitality for the first time in months! You and your crewmembers trek to the settlement as daydreams of roasts and abundant wine fill your heads. Upon your arrival, you are surprised to be greeted by more giants. These ones seem friendly enough, however--they introduce themselves as the Laistrygones, and they even invite you to a feast in their great hall. You enjoy the festivities, but the richness of the food takes a toll on your stomach. Apologetically, you retire to the nearest latrine. A few minutes later, you hear shrieks from the main room. You run back, but you are too late. Some of your crewmembers have drawn their weapons, but you're not sure why until you look at the table. The Laistrygones are trying to chop up one of your crewmembers! You rejoin your crew as the Laistrygones begin to chase you.;;;;;;;;;x
+EVTOPTAanl.022;Run back to the ship!;;;;;;;;;x
+
+anl.title.0221;The Winds of Aeolus;;;;;;;;;x
+EVTDESCanl.0221;You and your remaining crew members sprint back to the docked ship as the terrifying Laistrygones give chase. As you prepare the ship to sail away, they begin throwing massive boulders from the cliffs above. They are truly a formidable foe! Boulders land in the waters all around the boat as you frantically try to set sail. Unfortunately, the wind does not want to cooperate. Just as all seems lost, however, a strong wind catches in the ship's sails and pushes you safely to sea.;;;;;;;;;x
+EVTOPTAanl.0221;Maybe things are finally looking up!;;;;;;;;;x
+
+anl.title.023;In the Service of Circe;;;;;;;;;x
+EVTDESCanl.023;Eventually, you arrive at yet another island. There doesn't seem to be any lack of those around! After docking, you are greeted by a strange woman who introduces herself as Circe. She invites you and your men to join her for a meal in her dwelling. Though you are wary due to all the recent mishaps, your hunger gets the better of you and you accept. You don't regret it, either, because Circe's food is irresistible. As you eat, you tell the tale of your journey thus far. Just as you are about to finish, however, one of your men starts to choke violently. He falls to the floor as two others begin choking. You look around in a panic while all your men drop to the floor. Then, they begin growing hooves and pink skin. Soon, all your men have been replaced by swine! You turn to Circe.;;;;;;;;;x
+EVTOPTAanl.023;What have you done?!;;;;;;;;;x
+
+anl.title.0231;Love in the Time of Circe;;;;;;;;;x
+EVTDESCanl.0231;"Now it's just us," Circe whispers. You demand that she change them back, but she argues that you must first prove your devotion to your crew and your mission. Over the next few weeks, Circe puts you to work doing chores around her island. During this time, you begin to feel an attraction to her despite her sorcery. When Circe is satisfied with your work, she reverts your crew back to their human forms. As you are gathering your supplies, Circe walks up and plants a kiss on your cheek, then smirks at you. "I hope to see you again, [This.GetFirstName]." Then, she hands you a sack filled with beeswax and cryptively warns you to beware the song of the Sirens. As you sail away, you feel sad to leave behind such a curious woman.;;;;;;;;;x
+EVTOPTAanl.0231;All in all, this island wasn't that bad.;;;;;;;;;x
+
+anl.title.024;The Sirens' Song;;;;;;;;;x
+EVTDESCanl.024;One day, you hear very faint singing off in the distance. Instantly, you yearn to jump from the ship and sail toward the source of that singing. Could that be the song of the Sirens? As the singing gets louder, you instruct your men to plug their ears with the beeswax. Soon, the Sirens come into view and your longing to swim toward them increases tremendously. Your last crew member finishes plugging his ears and motions toward you with the beeswax.;;;;;;;;;;x
+EVTOPTAanl.024;Give me some of that beeswax.;;;;;;;;;;x
+EVTOPTBanl.024;I have a different idea...;;;;;;;;;;x
+EVTOPTBanl.024.tooltip;Have your men tie you to the mast so you can listen to the Sirens' song.;;;;;;;;;;x
+
+anl.title.025;Scylla and Charybdis;;;;;;;;;;x
+EVTDESCanl.025;After your encounter with the Sirens, the seas are calm for some time. On one cloudy day, you decide to enjoy a quick nap. You doze off as a cloud drifts in front of the sun. You awake hours later to the sound of thunder and the flash of lightning in the sky. Your men are scrambling around the ship so nobody except you sees the dark silhouette in the distance. As your ship creeps closer and closer, you realize that this dark silhouette is some form of sea monster! The storm worsens and worsens as you frantically warn the crew members about the terror ahead. In a matter of minutes, you are between it and a massive whirpool. The monster smacks around its tentacles, searching for the vessel that has dared to pass this gateway. One tentacle connects with the hull of your ship, sending some of your crew members sinking into the depths of the sea. Hours later, after you have left the monster behind, you take stock of your losses.;;;;;;;;;;x
+EVTOPTAanl.025;We must continue our journey!;;;;;;;;;;x
+
+anl.title.026;The Sun Cattle;;;;;;;;;;x
+EVTDESCanl.026;Some time after your encounter with the sea monster, you arrive at an idyllic island with cattle grazing among the verdant fields. Excitedly, you dock your ship and prepare for a celebratory feast. You crew members run into the fields with their weapons drawn, ready to feast on steak!;;;;;;;;;;x
+EVTOPTAanl.026;Wait for me!;;;;;;;;;;x
+EVTOPTBanl.026;Come to think of it, I have a bad feeling about this...;;;;;;;;;;x
+
+anl.title.0261;The Wrath of Helios;;;;;;;;;;x
+EVTDESCanl.0261;As your men slaughter the grazing cattle, you start to feel unsettled. In the distance, you hear flowing water. Was that there a second ago? You can make out some mountains in the distance, but there don't seem to be any streams or waterfalls nearby. Suddenly, you realize the "mountains" are moving--they're waves! You yell to your men to watch out, but it is too late. Hurriedly, you grasp a nearby tree to brace against the flood. The waves prove to be too strong, however, and you are thrown out to sea. After a brief struggle, your vision goes black.;;;;;;;;;;x
+EVTOPTAanl.0261;Water water everywhere...;;;;;;;;;;x
+EVTOPTBanl.0261;Water water everywhere...;;;;;;;;;;x
+
+anl.title.027;In the Halls of Calypso;;;;;;;;;;x
+EVTDESCanl.027;You don't know how much time has passed when you open your eyes to a glowing figure standing above you. "Greetings. I am Calypso." Calypso takes you to her home and shows you around. Though you are wary of the strange woman, you can't help but be impressed by its opulence. Then, Calypso invites you to dine with her. During the meal, you ask if she can help you find the city of Atlantis, but she refuses to help you and demands that you stay in her halls for the rest of your life. The next day, you ask again, but she refuses again. Each day you ask, and each day she refuses. In the meantime, you begin to spend more time with Calypso--it even starts to become enjoyable. One day, you stop asking, content to spend the rest of your life with this woman. That night, she invites you to her chambers and asks if she can request something from you.;;;;;;;;;;x
+EVTOPTAanl.027;Of course, dear Calypso!;;;;;;;;;;x
+
+anl.title.0271;Calypso's Request;;;;;;;;;;x
+EVTDESCanl.0271;Calypso's eyes sparkle as she speaks: "You have gained my admiration, so I feel I owe you something in return. I will give you two options." She continues, "first, you may choose to spend the rest of your life here on this paradise. You will live forever with me and we will be free to do whatever we please." You nod for her to continue.  "Second, I will aid you in your journey to find Atlantis, but you will be forced to leave from this island and never return." You blink in surprise. After thinking for a moment, you tell her...;;;;;;;;;;x
+EVTOPTAanl.0271;I accept the first offer.;;;;;;;;;;x
+EVTOPTAanl.0271.tooltip;Forget about Atlantis and gain immortality at Calypso's side.;;;;;;;;;;x
+EVTOPTBanl.0271;Sorry, but I've come this far. I can't stop now.;;;;;;;;;;x
+EVTOPTBanl.0271.tooltip;Continue your search for Atlantis.;;;;;;;;;;x
+
+anl.title.028;The Mythical Atlantis;;;;;;;;;;x
+EVTDESCanl.028;Calypso nods slowly at your response. Clearly, she was hoping you would choose the other option. However, her face soon loses any sign of emotion and she leads you outside. As you walk toward the shore, a ship appears. Calypso gives you exact directions on where to find Atlantis, then turns to leave. You begin to board the ship, but a pang of guilt strikes your heart. You turn to wave to Calypso, but her and her home have disappeared. You turn back, determined, and set out to sea. As you near the spot that Calypso described, you see a city rising from the ocean. Could this be it? Is this the mythical Atlantis? As you arrive at one of the countless docks around the city, you think back at all you have gone through. The sounds of city life draw you out of your reverie as a sense of accomplishment fills your mind.;;;;;;;;;;x
+EVTDESCanl.028.calypso;Calypso smiles at your response. Clearly, she was hoping you would choose this option. She leads you outside, then raises her arms. Blinding light fills your vision and you fall to the ground. When you open your eyes again, you feel different. Very different. Powerful. You look at Calypso, and she nods. Together, you walk toward the sunset with Calypso, content to remain in her company for eternity.;;;;;;;;;;x
+EVTOPTAanl.028;Who needs Atlantis anyway?;;;;;;;;;;x
+EVTOPTAanl.028.tooltip;Your quest to find Atlantis ends.;;;;;;;;;;x
+EVTOPTBanl.028;At last, Atlantis!;;;;;;;;;;x
+EVTOPTBanl.028.tooltip;The mythical Atlantis appears off the coast of Crete.;;;;;;;;;;x
+
+
+######EVENT MODIFIERS
+#Camelot modifiers
+memory_of_fair_maiden;Memory of the Fair Maiden;;;;;;;;;x
+memory_of_fair_maiden_desc;The memory of the fair maiden sticks with you to this day.;;;;;;;;;x
+shivering_in_cold;Shivering in the Cold;;;;;;;;;x
+shivering_in_cold_desc;You are shivering in the cold after donating your extra clothes to a destitute village.;;;;;;;;;x
+memory_of_last_battle;Memory of the Last Battle;;;;;;;;;x
+memory_of_last_battle_desc;You will never forget the horrors that you witnessed in your dream of the Last Battle.;;;;;;;;;x
+fought_at_bar;Fought in a Bar Fight;;;;;;;;;x
+fought_at_bar_desc;You fought back after someone insulted you in a bar.;;;;;;;;;x
+arthurian_generosity;Arthurian Generosity;;;;;;;;;x
+arthurian_generosity_desc;You possess the generosity of King Arthur's Court.;;;;;;;;;x
+arthurian_chastity;Arthurian Chastity;;;;;;;;;x
+arthurian_chastity_desc;You possess the chastity of King Arthur's Court.;;;;;;;;;x
+arthurian_faith;Arthurian Faith;;;;;;;;;x
+arthurian_faith_desc;You possess the faith of King Arthur's Court.;;;;;;;;;x
+arthurian_bravery;Arthurian Bravery;;;;;;;;;x
+arthurian_bravery_desc;You possess the bravery of King Arthur's Court.;;;;;;;;;x
+arthurian_humility;Arthurian Humility;;;;;;;;;x
+arthurian_humility_desc;You possess the humility of King Arthur's Court.;;;;;;;;;x
+arthurian_loyalty;Arthurian Loyalty;;;;;;;;;x
+arthurian_loyalty_desc;You possess the loyalty of King Arthur's Court.;;;;;;;;;x
+arthurian_honesty;Arthurian Honesty;;;;;;;;;x
+arthurian_honesty_desc;You possess the honesty of King Arthur's Court.;;;;;;;;;x
+arthurian_honour;Arthurian Honour;;;;;;;;;x
+arthurian_honour_desc;You possess the honour of King Arthur's Court.;;;;;;;;;x
+footsteps_of_king_arthur;Following in King Arthur's Footsteps;;;;;;;;;x
+footsteps_of_king_arthur_desc;You are attempting to live like the chivalrous King Arthur.;;;;;;;;;x
+king_arthurs_blessing;King Arthur's Blessing;;;;;;;;;x
+king_arthurs_blessing_desc;You emulate the chivalrous King Arthur in every aspect.;;;;;;;;;x
+
+#Atlantis modifiers
+generous_host;Generous Host;;;;;;;;;x
+generous_host_desc;You showed extra hospitality to a guest in need.;;;;;;;;;x
+ate_lotus_fruit;Ate Lotus Fruit;;;;;;;;;x
+ate_lotus_fruit_desc;You ate the dangerous lotus fruit and found yourself unable to leave the lotus-eaters.;;;;;;;;;x
+refused_lotus_fruit;Refused Lotus Fruit;;;;;;;;;x
+refused_lotus_fruit_desc;You smartly refused to eat the dangerous lotus fruit.;;;;;;;;;x
+tricked_cyclops;Tricked a Cyclops;;;;;;;;;x
+tricked_cyclops_desc;You are truly Nobody.;;;;;;;;;x
+poseidon_curse;Curse of Poseidon;;;;;;;;;x
+poseidon_curse_desc;Fishermen from your realm have noticed a strange lack of fish lately.;;;;;;;;;x
+poseidon_blessing;Blessing of Poseidon;Fishermen from your realm have noticed a strange abundance of fish lately.;;;;;;;;;x
+winds_of_aeolus;Winds of Aeolus;;;;;;;;;x
+winds_of_aeolus_desc;Since you escaped from the Laistrygones, you notice you've been moving just a bit more quickly.;;;;;;;;;x
+circean_infatuation;Circean Infatuation;;;;;;;;;x
+circean_infatuation_desc;You can't stop thinking about that enchantress...;;;;;;;;;x
+heard_sirens_song;Heard the Sirens' Song;;;;;;;;;;x
+heard_sirens_song_desc;You have heard the song of the Sirens and lived to tell the tale.;;;;;;;;;;x
+respected_helios_cattle;Respected Helios' Cattle;;;;;;;;;;x
+respected_helios_cattle_desc;You refrained from slaughtering Helios' sacred cattle.;;;;;;;;;;x
+new_odysseus;The New Odysseus;;;;;;;;;;x
+new_odysseus_desc;After your search for Atlantis, you have proven yourself as the reincarnated Odysseus.;;;;;;;;;;x
+odysseus_devotee;Devotee of Odysseus;;;;;;;;;;x
+odysseus_devotee_desc;After your search for Atlantis, you have proven yourself as a worthy devotee to Odysseus.;;;;;;;;;;x
+
+
+######NICKNAMES
+#Atlantis Nicknames
+nick_cyclopes_slayer;the Slayer of Cyclopes;;;;;;;;;x
+nick_lover_of_calypso;the Lover of Calypso;;;;;;;;;;x #change this?
+nick_new_odysseus;the New Odysseus;;;;;;;;;;x

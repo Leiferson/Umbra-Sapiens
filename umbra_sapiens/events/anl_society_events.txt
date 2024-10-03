@@ -1,0 +1,193 @@
+#An Antique Land Society Events
+
+### JOIN THE ESOTERIC ORDER ###
+character_event = {
+    id = anl.996
+	hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+    	FROM = { leader = { society_member_of = esoteric_order } }
+    }
+    immediate = {
+    	FROM = { leader = { character_event = { id = anl.995 } } }
+    }
+}
+
+character_event = {
+    id = anl.995
+	hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+    	FROM = { letter_event = { id = anl.994 } }
+    }
+}
+
+letter_event = {
+    id = anl.994
+    desc = EVTDESCanl.994
+    border = GFX_event_letter_frame_war
+	
+    is_triggered_only = yes
+
+    option = {
+        name = EVTOPTAanl.994
+		join_society = esoteric_order
+    }
+    #option = {
+    #    name = EVTOPTBanl.994
+    #}
+}
+
+### RANK UP IN THE ESOTERIC ORDER ###
+character_event = { #Rank up
+	id = anl.993
+
+	hide_window = yes
+	trigger = {
+		has_character_flag = has_sent_request_to_rank_up
+	}
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { is_in_society = yes }
+			random_society_member = {
+				limit = {
+					is_society_grandmaster = yes
+					same_society_as = ROOT
+				}
+				character_event = { id = anl.992 }
+			}
+		}
+		if = {
+			limit = { is_in_society = no }
+			clr_character_flag = has_sent_request_to_rank_up
+		}
+	}
+}
+
+character_event = {
+	id = anl.992
+	
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:rank_up_target = { letter_event = { id = anl.991 } }
+	}
+}
+
+letter_event = {
+	id = anl.991
+	desc = EVTDESCanl.991
+	border = GFX_event_letter_frame_war
+
+	trigger = {
+		society_rank < 4
+		has_character_flag = has_sent_request_to_rank_up
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAanl.991
+		if = { limit = { society_rank < 4 }
+			society_rank_up = 1
+		}
+		clr_character_flag = has_sent_request_to_rank_up
+	}
+}
+
+### AI ###
+character_event = {
+	id = anl.990
+	hide_window = yes
+	
+	only_rulers = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				ai = yes
+				prisoner = no
+				NOT = { trait = incapable }
+				society_member_of = esoteric_order
+				society_rank <= 3
+				society_can_rank_up = yes
+			}
+			random_list = {
+				75 = {}
+				25 = {
+					society_rank_up = 1					
+				}
+			}
+		}
+		if = {
+			limit = {
+				ai = yes
+				prisoner = no
+				NOT = { trait = incapable }
+				is_adult = yes
+				is_in_society = no
+				controls_religion = no
+				block_general_event_trigger = no
+			}
+			character_event = { id = anl.989 }
+		}
+	}
+}
+
+character_event = {
+	id = anl.989
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_list = {
+			90 = {
+			}
+			10 = {
+				trigger = {
+					can_join_society = esoteric_order
+				}
+				modifier = {
+					factor = 2
+					prestige = 200
+				}
+				modifier = {
+					factor = 0.5
+					learning > 10
+				}
+				join_society = esoteric_order
+				#random_list = { # Artificially increase society influence for balance purposes, not really useful in my opinion.
+				#	75 = {
+				#		modifier = {
+				#			factor = 0
+				#			society_influence >= 30
+				#		}
+				#		add_society_modifier = 	{ 
+				#			modifier = tutorial_successful_mission
+				#			years = 10
+				#		}
+				#	}
+				#	25 = {
+				#	}
+				#}
+				if = {
+					limit = {
+						NOT = {
+							society = {
+								any_society_member = {
+									is_society_grandmaster = yes
+								}
+							}
+						}
+					}
+					set_society_grandmaster = yes
+				}
+			}
+		}
+	}
+}

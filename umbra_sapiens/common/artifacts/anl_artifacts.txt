@@ -1,0 +1,219 @@
+#An Antique Land Artifacts
+
+llywelyns_coronet_anl = {
+	quality = 4
+	diplomacy = 1
+	monthly_character_prestige = 0.7
+	castle_opinion = 4
+	tribal_opinion = 4
+	town_opinion = 4
+	same_religion_opinion = 4
+	active = {
+		religion_group = christian
+	}
+	allowed_gift = {
+		religion_group = christian
+	}
+	flags = { christian unique crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_cursed_diamond_crown"
+	slot = crown
+}
+
+magna_carta_anl = {
+	quality = 4
+	stewardship = -2
+	diplomacy = 1
+	vassal_opinion = 10
+	short_reign_length = -5
+	active = {
+		primary_title = {
+			title = k_england
+		}
+	}
+	flags = { unique text }
+	stacking = no
+	#indestructible = yes
+	picture = "GFX_book"
+}
+
+ozymandias_staff_anl = {
+	quality = 5
+	martial = 2
+	vassal_opinion = -2
+	monthly_character_prestige = 1
+	active = {
+		trait = cruel
+	}
+	flags = { unique staff }
+	stacking = no
+	picture = "GFX_scepter_emerald"
+}
+
+scala_sancta_piece_anl = {
+	quality = 2
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.5
+	active = {
+		religion_group = christian
+	}
+	allowed_gift = {
+		religion_group = christian
+	}
+	flags = { religious christian crucifixion }
+	stacking = no
+	picture = "GFX_relic_box_simple"
+}
+
+sword_stone_anl = {
+	quality = 1
+	learning = 1
+	active = {
+		has_character_flag = camelot_quest
+	}
+	stacking = no
+	picture = "GFX_sword_stone"
+}
+
+protective_branch_anl = {
+	quality = 3
+	health = 0.5
+	martial = 1
+	stacking = no
+	picture = "GFX_branch_of_the_cypress_of_keshmar"
+}
+
+excalibur_anl = {
+	quality = 5
+	stewardship = 1
+	learning = 1
+	martial = 1
+	diplomacy = 1
+	intrigue = 1
+	monthly_character_piety = 2.5
+	monthly_character_prestige = 2.5
+	same_religion_opinion = 5
+	active = {
+		religion_group = christian
+	}
+	stacking = no
+	picture = "GFX_sword_of_heroes"
+}
+
+shroud_of_turin_anl = {
+	quality = 4
+	learning = 2
+	monthly_character_piety = 0.5
+	same_religion_opinion = 10
+	active = {
+		religion_group = christian
+	}
+	allowed_gift = {
+		religion_group = christian
+	}
+	stacking = no
+	picture = "GFX_image_of_edessa"
+}
+
+buddhas_tooth_anl = {
+	quality = 3
+	learning = 1
+	same_religion_opinion = 5
+	active = {
+		religion = buddhist
+	}
+	allowed_gift = {
+		religion_group = eastern
+	}
+	stacking = no
+	picture = "GFX_relic_box"
+}
+
+holy_right_hand_anl = { #TODO: make available through an event
+	quality = 2
+	same_religion_opinion = 5
+	active = {
+		religion_group = christian
+	}
+	allowed_gift = {
+		religion_group = christian
+	}
+	stacking = no
+	picture = "GFX_relic_box"
+}
+
+holy_girdle_anl = { #TODO: make available through an event
+	quality = 5
+	learning = 2
+	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.5
+	same_religion_opinion = 10
+	active = {
+		religion_group = christian
+	}
+	allowed_gift = {
+		religion_group = christian
+	}
+	stacking = no
+	picture = "GFX_shroud_of_jesus"
+}
+
+bones_of_magi_anl = {
+	quality = 3
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	same_religion_opinion = 2
+	active = {
+		religion_group = christian
+	}
+	allowed_gift = {
+		religion_group = christian
+	}
+	stacking = no
+	picture = "GFX_relic_box_simple"
+}
+
+atlantis_medallion_anl = {
+	quality = 1
+	monthly_character_piety = 0.1
+	active = {
+		has_character_flag = atlantis_quest
+	}
+	stacking = no
+	picture = "GFX_relic_box_simple"
+}
+
+poseidon_trident_anl = {
+	quality = 5
+	stewardship = 1
+	learning = 1
+	martial = 1
+	diplomacy = 1
+	intrigue = 1
+	monthly_character_piety = 2.5
+	monthly_character_prestige = 2.5
+	same_religion_opinion = 5
+	active = {
+		religion = hellenic_pagan
+	}
+	stacking = no
+	picture = "GFX_the_trident"
+}
+
+ariadne_thread_anl = {
+	quality = 3
+	intrigue = 2
+	active = {
+		religion = hellenic_pagan
+	}
+	stacking = no
+	picture = "GFX_relic_box"
+}
+
+icarus_wings_anl = { #TODO: add events based on these
+	quality = 4
+	martial = 2
+	combat_rating = 50
+	stacking = no
+	picture = "GFX_relic_box_iron"
+}

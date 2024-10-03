@@ -1,0 +1,331 @@
+#An Antique Land Artifact Spawns
+
+ozymandias_staff_anl = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	spawn_chance = {
+		value = 5
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = historical
+			}
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			AND = {
+				is_landed = yes
+				trait = cruel
+			}
+		}
+	}
+	artifacts = {
+		ozymandias_staff_anl = {
+			value = 1
+		}
+	}
+}
+
+llywelyns_coronet_anl = {
+	max_amount = 1
+	spawn_date = 1240.4.11 #Death of Llywelyn the Great
+	spawn_chance = {
+		value = 100
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			AND = {
+				religion_group = christian
+				NOT = {
+					is_title_active = k_wales
+				}
+			}
+		}
+		additive_modifier = {
+			value = 100
+			AND = {
+				religion_group = christian
+				primary_title = {
+					title = k_wales
+				}
+			}
+		}
+	}
+	artifacts = {
+		llywelyns_coronet_anl = {
+			value = 1
+		}
+	}
+}
+
+magna_carta_anl = {
+	max_amount = 1
+	spawn_date = 1215.6.15
+	spawn_chance = {
+		value = 75
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 100
+			primary_title = {
+				title = k_england
+			}
+		}
+	}
+	artifacts = {
+		magna_carta_anl = {
+			value = 1
+		}
+	}
+}
+
+scala_sancta_piece_anl = {
+	max_amount = 2
+	spawn_date = 1.1.1
+	spawn_chance = {
+		value = 50
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			AND = {
+				religion_group = christian
+				is_landed = yes
+			}
+		}
+	}
+	artifacts = {
+		scala_sancta_piece_anl = {
+			value = 1
+		}
+	}
+}
+
+shroud_of_turin_anl = {
+	max_amount = 1
+	spawn_date = 1390.1.5
+	spawn_chance = {
+		value = 25
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 5
+			AND = {
+				religion_group = christian
+				is_landed = yes
+			}
+		}
+	}
+	artifacts = {
+		shroud_of_turin_anl = {
+			value = 1
+		}
+	}
+}
+
+buddhas_tooth_anl = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	spawn_chance = {
+		value = 50
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 15
+			AND = {
+				religion = buddhist
+				is_landed = yes
+			}
+		}
+		additive_modifier = {
+			value = 1
+			AND = {
+				religion_group = eastern
+				is_landed = yes
+			}
+		}
+	}
+	artifacts = {
+		buddhas_tooth_anl = {
+			value = 1
+		}
+	}
+}
+
+bones_of_magi_anl = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	spawn_chance = {
+		value = 50
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 15
+			AND = {
+				religion_group = christian
+				is_landed = yes
+			}
+		}
+	}
+	artifacts = {
+		bones_of_magi_anl = {
+			value = 1
+		}
+	}
+}
+
+ariadne_thread_anl = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	spawn_chance = {
+		value = 50
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 15
+			AND = {
+				religion_group = hellenic_pagan
+				is_landed = yes
+			}
+		}
+	}
+	artifacts = {
+		ariadne_thread_anl = {
+			value = 1
+		}
+	}
+}
+
+icarus_wings_anl = {
+	max_amount = 1
+	spawn_date = 1.1.1
+	spawn_chance = {
+		value = 25
+		modifier = {
+			factor = 0
+			is_alternate_start = yes
+		}
+		modifier = {
+			factor = 0
+			has_game_rule = {
+				name = an_antique_land_artifacts
+				value = off
+			}
+		}
+	}
+	weight = {
+		value = 0
+		additive_modifier = {
+			value = 15
+			AND = {
+				religion_group = hellenic_pagan
+				is_landed = yes
+			}
+		}
+	}
+	artifacts = {
+		icarus_wings_anl = {
+			value = 1
+		}
+	}
+}

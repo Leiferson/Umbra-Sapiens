@@ -1,0 +1,104 @@
+#An Antique Land Maintenance Events
+
+namespace = anl
+
+#Early Crusades test
+character_event = {
+	id = anl.9999
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		set_global_flag = christian_crusades_unlocked 
+		set_global_flag = muslim_jihads_unlocked
+		set_global_flag = pagan_ghws_unlocked
+	}
+}
+
+#Removal of wonders with game rules or alternate start
+character_event = {
+	id = anl.999
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					is_alternate_start = yes
+					has_game_rule = {
+						name = an_antique_land_wonders
+						value = off
+					}
+				}
+			}
+			any_wonder = {
+				if = {
+					limit = { has_wonder = wonder_ozymandias }
+					location = { destroy_wonder = yes }
+				}
+				if = {
+					limit = { has_wonder = wonder_hanging_gardens }
+					location = { destroy_wonder = yes }
+				}
+				if = {
+					limit = { has_wonder = wonder_colossus_rhodes }
+					location = { destroy_wonder = yes }
+				}
+				if = {
+					limit = { has_wonder = wonder_temple_artemis }
+					location = { destroy_wonder = yes }
+				}
+				if = {
+					limit = { has_wonder = wonder_statue_zeus }
+					location = { destroy_wonder = yes }
+				}
+				if = {
+					limit = { has_wonder = wonder_obelisk_axum }
+					location = { destroy_wonder = yes }
+				}
+				if = {
+					limit = { has_wonder = wonder_sigiriya }
+					location = { destroy_wonder = yes }
+				}
+			}
+		}
+	}
+}
+
+#Discovery of Camelot
+character_event = {
+	id = anl.998
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		20 = {
+			add_wonder = wonder_camelot
+			wonder = {
+				set_name = wonder_camelot
+				set_description = wonder_camelot_desc
+			}
+		}
+	}
+}
+
+#Discovery of Atlantis
+character_event = {
+	id = anl.997
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		479 = {
+			add_wonder = wonder_atlantis
+			wonder = {
+				set_name = wonder_atlantis
+				add_wonder_stage = 1
+				add_wonder_stage = 1
+				add_wonder_stage = 1
+				set_description = wonder_atlantis_desc
+			}
+		}
+	}
+}

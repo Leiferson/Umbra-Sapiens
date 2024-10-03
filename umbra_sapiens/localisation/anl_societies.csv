@@ -1,0 +1,28 @@
+##CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Societies
+esoteric_order;Esoteric Order;;;;;;;;;x
+esoteric_order_desc;This mysterious order is composed of scholars who have rejected the confines of accepted religious beliefs and dedicated their lives to the search for supreme knowledge. With the tools of science and subterfuge, the Esoterics search for ancient artifacts and mythical places in the hope that they will lead to the discovery of the purpose of life.;;;;;;;;;x
+esoteric_order_leader_desc;Rector;;;;;;;;;x
+esoteric_order_rank_1_male;Discipulus;;;;;;;;;x
+esoteric_order_rank_2_male;Scholaris;;;;;;;;;x
+esoteric_order_rank_3_male;Magister;;;;;;;;;x
+esoteric_order_rank_4_male;Dominus;;;;;;;;;x
+esoteric_order_rank_1_female;Discipula;;;;;;;;;x
+esoteric_order_rank_2_female;Scholaris;;;;;;;;;x
+esoteric_order_rank_3_female;Magistra;;;;;;;;;x
+esoteric_order_rank_4_female;Domina;;;;;;;;;x
+currency_name_esoteric_order;Scientia;;;;;;;;;x
+
+IS_esoteric_order_TRIGGER;Is a member of the Esoteric Order.;;;;;;;;;;;;;x
+request_to_rank_up_within_esoteric_order;Request to rank up.;;;;;;;;;;;;;x
+request_to_rank_up_within_esoteric_order_tt;Has [Root.Society.GetCurrency]! greater or equal to [Root.GetSocietyRankUpTooltip1];;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank1;[Root.Society.GetCurrency]!;;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank2;[Root.Society.GetCurrency]!;;;;;;;;;;;;;x
+GetTutorialRankUpTooltip_Standard_Rank3;[Root.Society.GetCurrency]!;;;;;;;;;;;;;x
+
+EVTDESCanl.994;The Esoterics call to you. Do you wish to take on the responsibilities of one dedicated to the pursuit of higher knowledge?;;;;;;;;;x
+EVTOPTAanl.994;Gladly.;;;;;;;;;x
+#EVTOPTBanl.994;I fear that this is not for me.;;;;;;;;;x
+EVTDESCanl.991;I have accepted your request to move up in the ranks of the Esoteric Order. May your studies be fruitful and your devotion never waver!;;;;;;;;;x
+EVTOPTAanl.991;It is an honor.;;;;;;;;;x

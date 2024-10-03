@@ -1,0 +1,62 @@
+#An Antique Land Society Sprites
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_esoteric_order_ranks"
+		texturefile = "gfx\\interface\\societies\\rank_icons_esoteric_order.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_esoteric_order_ranks_highlight"
+		texturefile = "gfx\\interface\\societies\\rank_icons_esoteric_order_highlight.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_esoteric_order_ranks_locked"
+		texturefile = "gfx\\interface\\societies\\rank_icons_esoteric_order_locked.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_society_main_background_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\society_bg_esoteric_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_expansion_background_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\society_exp_bg_esoteric_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_small_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\symbol_small_esoteric_order.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_society_influence_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\society_influence_esoteric_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_portrait_ring_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_esoteric_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_portrait_ring_small_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_esoteric_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_currency_esoteric_order"
+		texturefile = "gfx\\interface\\societies\\society_currency_esoteric_order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_event_window_society_quest_background_esoteric_order"
+		textureFile = "gfx/interface/society_quest/mission_bg_esoteric_order.dds"
+	}
+}
