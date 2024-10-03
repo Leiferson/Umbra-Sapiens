@@ -9,12 +9,7 @@ b_beja-iii = city
 #b_beja-iv = castle
 #b_beja-v = temple
 #b_beja-vi = castle
-# Misc
-culture = portuguese
-religion = catholic
 
-# History
-# Misc
 culture = visigothic
 religion = catholic
 

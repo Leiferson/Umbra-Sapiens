@@ -27,7 +27,7 @@ decisions = {
 			}
 		}
 		allow = {
-			OR { 
+			OR = { 
 			   primary_title = { title = e_western_roman_empire }
 			}
 			NOT = {

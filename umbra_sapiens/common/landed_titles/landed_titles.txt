@@ -43189,9 +43189,7 @@ e_mali = {
 	
 	# Creation/usurpation trigger
 	allow = {
-		allow={
 		is_colonial = no
-		}
 	}
 	k_cotedivoire = {
 

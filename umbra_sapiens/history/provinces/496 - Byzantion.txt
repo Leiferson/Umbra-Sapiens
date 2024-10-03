@@ -124,7 +124,7 @@ religion = orthodox
 	destroy_wonder_upgrade = upgrade_cow_district_forum_constantine
 	add_custom_history = String_4th_crusade_devastation_byz
 	destroy_wonder_upgrade = upgrade_cow_district_bibliothekai_byz
-	add_custom_history = String_bibliothekai_destroyed_byz
+	#add_custom_history = String_bibliothekai_destroyed_byz
 	set_wonder_stage = 5
 	set_wonder_damaged = yes
 }

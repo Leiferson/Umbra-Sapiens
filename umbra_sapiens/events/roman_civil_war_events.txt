@@ -389,7 +389,7 @@ narrative_event = {
 	    name = CVREO.10
 		wealth = -2000
 		prestige = -1000
-	    hidden_tooltip { narrative_event = { id = CVR.1 days = 10 } }
+	    hidden_tooltip = { narrative_event = { id = CVR.1 days = 10 } }
 		custom_tooltip = { text = tooltip_CVR.8 }
 	    
 	    }

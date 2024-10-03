@@ -33,7 +33,7 @@ religion = sunni
 }
 
 70.7.30 = {
-	add_custom_history = String_great_revolt_jeru
+	#add_custom_history = String_great_revolt_jeru
 	destroy_wonder_upgrade = upgrade_cow_district_second_temple_jeru
 	add_custom_history = String_second_temple_destroyed_jeru
 	set_wonder_stage = 1

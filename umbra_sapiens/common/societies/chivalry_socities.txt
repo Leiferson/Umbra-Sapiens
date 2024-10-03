@@ -31512,8 +31512,8 @@ society_holy_one = {
 			}
 		}
 		OR = {
-			primary_title { has_title_flag = chivalry_holy_society_one_flag }
-			liege = { primary_title { has_title_flag = chivalry_holy_society_one_flag } }
+			primary_title = { has_title_flag = chivalry_holy_society_one_flag }
+			liege = { primary_title = { has_title_flag = chivalry_holy_society_one_flag } }
 			has_holyorder_societies_prerequisites = yes
 		}
 		has_holyorder_societies_religion_holy = yes

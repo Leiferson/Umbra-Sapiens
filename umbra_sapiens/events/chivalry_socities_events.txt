@@ -3989,7 +3989,7 @@ character_event = {
 		}
 		else_if = { #society_holy_one
 			limit = {
-				primary_title { has_title_flag = chivalry_holy_society_one_flag }
+				primary_title = { has_title_flag = chivalry_holy_society_one_flag }
 			}
 			join_society = society_holy_one
 			set_society_grandmaster = yes
@@ -4054,7 +4054,7 @@ character_event = {
 		character_event = { id = CHI.1059 days = 180 }
 		if = { #society_holy_one
 			limit = {
-				primary_title { has_title_flag = chivalry_holy_society_one_flag }
+				primary_title = { has_title_flag = chivalry_holy_society_one_flag }
 			}
 			if = {
 				limit = { NOT = { society_member_of = society_holy_one } }
