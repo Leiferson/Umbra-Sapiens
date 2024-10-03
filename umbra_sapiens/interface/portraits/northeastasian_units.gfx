@@ -175,3 +175,4 @@ objectTypes = {
 		actorfile = "gfx\models\Attachments\fu_pike.xac"
 		scale = 1.0f
 	}
+}
