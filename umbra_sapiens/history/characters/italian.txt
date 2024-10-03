@@ -39467,17 +39467,17 @@
 	}
 }
 #Non-noble
-184070={
-	name="Pietro" #Barbolano
-	religion=catholic
-	culture=italian
-	980.1.1={
-		birth=980.1.1
-	}
-	1035.1.1={
-		death=1035.1.1
-	}
-}
+# 184070={
+	# name="Pietro" #Barbolano
+	# religion=catholic
+	# culture=italian
+	# 980.1.1={
+		# birth=980.1.1
+	# }
+	# 1035.1.1={
+		# death=1035.1.1
+	# }
+# }
 184071={
 	name="Domenico" 
 	dynasty=13071 #Flabonico
