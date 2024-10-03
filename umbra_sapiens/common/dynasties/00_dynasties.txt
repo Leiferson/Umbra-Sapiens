@@ -200,7 +200,7 @@
 }
 20=
 {
-	name="von Rügen"
+	name="von Rÿgen"
 	culture="german"
 }
 21=
@@ -1253,7 +1253,7 @@
 }
 110=
 {
-	name="von Rügen"
+	name="von Rÿgen"
 	culture="german"
 }
 111=
@@ -1903,7 +1903,7 @@
 }
 162=
 {
-	name="d'Éolienne"
+	name="d'ÿolienne"
 	culture="frankish"
 }
 163=
@@ -2079,7 +2079,7 @@
 }
 182=
 {
-	name="Árpády"
+	name="ÿrpády"
 	culture="hungarian"
 }
 183=
@@ -2713,7 +2713,7 @@
 }
 227=
 {
-	name="von Thüringen"
+	name="von Thÿringen"
 	culture="german"
 	religion="catholic"
 # solo : d'azur au lion fascé d'argent et de gueules	
@@ -2766,7 +2766,7 @@
 }
 230=
 {
-	name="von Österreich"
+	name="von ÿsterreich"
 	culture="german"
 }
 231=
@@ -3158,7 +3158,7 @@
 }
 259=
 {
-	name="von Württemberg"
+	name="von Wÿrttemberg"
 	culture="german"
 # solo : d'or à trois ramures de cerf de sable
   coat_of_arms = {
@@ -3175,7 +3175,7 @@
 }
 260=
 {
-	name="von Tübingen"
+	name="von Tÿbingen"
 	culture="german"
 	religion="catholic"
 # solo : d'or au gonfanon de gueules	
@@ -3507,7 +3507,7 @@
 }
 285=
 {
-	name="von Jülich"
+	name="von Jÿlich"
 	culture="german"
 	religion="catholic"
 # solo : d'or au lion de sable
@@ -5128,10 +5128,10 @@
 }
 401=
 {
-	name="Álvarez de Asturias" # v : "de las Asturias"
+	name="ÿlvarez de Asturias" # v : "de las Asturias"
 	culture="castillan"
 	religion="catholic"
-# solo : équipolé de vair et de gueules de quinze points (Álvarez de Asturias)
+# solo : équipolé de vair et de gueules de quinze points (ÿlvarez de Asturias)
   coat_of_arms = {
       template = 0
       layer = {
@@ -5224,7 +5224,7 @@
 	name="de Vivar"
 	culture="castillan"
 	religion="catholic"
-# solo : de sinople à la bande de gueules bordée d'or (probablement attribuées comme celles d'Álvar Fáñez)	
+# solo : de sinople à la bande de gueules bordée d'or (probablement attribuées comme celles d'ÿlvar Fáñez)	
     coat_of_arms = {
         template = 0
         layer = {
@@ -5259,7 +5259,7 @@
 }
 412=
 {
-	name="d'Ávalos"
+	name="d'ÿvalos"
 	culture="basque"
 # solo : écartelé d'or et de gueules
   coat_of_arms = {
@@ -5817,7 +5817,7 @@
 }
 466=
 {
-	name="Ómar"
+	name="ÿmar"
 	culture="norwegian"
 	religion="catholic"
 }
@@ -5908,7 +5908,7 @@
 }
 476=
 {
-	name="Ósk"
+	name="ÿsk"
 	culture="norwegian"
 	religion="catholic"
 }
@@ -5932,7 +5932,7 @@
 }
 478=
 {
-	name="Ásbrning"
+	name="ÿsbrning"
 	culture="norwegian"
 }
 479=
@@ -6455,7 +6455,7 @@
 }
 527=
 {
-	name="von Orlamünde" # v : "Orlamunde"
+	name="von Orlamÿnde" # v : "Orlamunde"
 	culture="german"
 # solo : d'or semé de coeurs de gueules, au lion de sable
   coat_of_arms = {
@@ -8285,7 +8285,7 @@
 }
 708=
 {
-	name="Árpád"
+	name="ÿrpád"
 	culture="hungarian"
 	religion="tengri_pagan"
   coat_of_arms = {
@@ -8882,7 +8882,7 @@
 }
 757=
 {
-	name="Ætheling"
+	name="ÿtheling"
 	culture="saxon"
 }
 758=
@@ -9214,7 +9214,7 @@
 }
 786=
 {
-	name="Álvarez de Azagra" # seigneurs d'Albarracin (avant la maison de Lara)
+	name="ÿlvarez de Azagra" # seigneurs d'Albarracin (avant la maison de Lara)
 	culture="castillan"
 # solo : d'or à la bande de sable
     coat_of_arms = {
@@ -10490,7 +10490,7 @@
 }
 
 939={
-	name="Hütter"
+	name="Hÿtter"
 	culture="german"
 	religion="catholic"
 #v
@@ -11250,7 +11250,7 @@
 }
 1048=
 {
-	name="Örnsparre"
+	name="ÿrnsparre"
 	culture="swedish"
 # solo : parti de gueules à l'aigle d'or, et fascé vivrée d'or et d'azur
   coat_of_arms = {
@@ -11603,22 +11603,22 @@
 }
 1189=
 {
-	name="Þrymr"
+	name="ÿrymr"
 	culture="norse"
 }
 1190=
 {
-	name="Þvari"
+	name="ÿvari"
 	culture="norse"
 }
 1191=
 {
-	name="Ölfúss"
+	name="ÿlfúss"
 	culture="norse"
 }
 1192=
 {
-	name="Örn"
+	name="ÿrn"
 	culture="norse"
 }
 1193=
@@ -11786,17 +11786,17 @@
 }
 1225=
 {
-	name="Þistill"
+	name="ÿistill"
 	culture="norse"
 }
 1226=
 {
-	name="Þjófi"
+	name="ÿjófi"
 	culture="norse"
 }
 1227=
 {
-	name="Þynning"
+	name="ÿynning"
 	culture="norse"
 }
 1687=
@@ -12065,12 +12065,12 @@
 }
 2031=
 {
-	name="Østby"
+	name="ÿstby"
 	culture="norwegian"
 }
 2032=
 {
-	name="Østråt"
+	name="ÿstråt"
 	culture="norwegian"
 }
 2033=
@@ -12329,7 +12329,7 @@
 }
 3104=
 {
-	name="Mac Áeda" #MacHeth or Mackay
+	name="Mac ÿeda" #MacHeth or Mackay
 	culture="scottish"
 	religion="catholic"
   coat_of_arms = {
@@ -12729,7 +12729,7 @@
 }
 3143=
 {
-	name="Mac Áegusa"
+	name="Mac ÿegusa"
 	culture="scottish"
 }
 3145=
@@ -15460,7 +15460,7 @@
 {
 	name="de Toledo"
 	culture="castillan"
-# solo : équipolé d'argent et d'azur de quinze points (Álvarez de Toledo)
+# solo : équipolé d'argent et d'azur de quinze points (ÿlvarez de Toledo)
   coat_of_arms = {
       template = 0
       layer = {
@@ -16155,7 +16155,7 @@
 }
 7120=
 {
-	name="von Löningen" # Benno II, évêque d'Osnabrück
+	name="von Löningen" # Benno II, évêque d'Osnabrÿck
 	culture="german"
 	religion="catholic"
 # armoiries de l'évêché
@@ -16173,7 +16173,7 @@
 }
 7121=
 {
-	name="von Corvey" # Markward von Corvey, évêque d'Osnabrück
+	name="von Corvey" # Markward von Corvey, évêque d'Osnabrÿck
 	culture="german"
 	religion="catholic"
 # armoiries de l'évêché
@@ -16227,7 +16227,7 @@
 }
 7124=
 {
-	name="von Rüssel" # Boudewijn von Rüssel, évêque d'Osnabrück
+	name="von Rÿssel" # Boudewijn von Rÿssel, évêque d'Osnabrÿck
 	culture="german"
 	religion="catholic"
 # armoiries de l'évêché
@@ -16281,7 +16281,7 @@
 }
 7127=
 {
-	name="von Weyhe" # Engelbert von Weyhe, évêque d'Osnabrück
+	name="von Weyhe" # Engelbert von Weyhe, évêque d'Osnabrÿck
 	culture="german"
 	religion="catholic"
 # armoiries de l'évêché
@@ -16473,7 +16473,7 @@
 }
 7139=
 {
-	name="von Wüllersleben"
+	name="von Wÿllersleben"
 	culture="german"
 	religion="catholic"
     coat_of_arms = {
@@ -16751,7 +16751,7 @@
 }
 7159=
 {
-	name="von Ösel"
+	name="von ÿsel"
 	culture="german"
 	religion="catholic"
 }
@@ -16822,7 +16822,7 @@
 }
 7167=
 {
-	name="von Lechsgmünd"
+	name="von Lechsgmÿnd"
 	culture="german"
 # solo : fascé d'azur et d'or, à la panthère de gueules
   coat_of_arms = {
@@ -18371,7 +18371,7 @@
 }
 7284=
 {
-	name="von Grünberg"
+	name="von Grÿnberg"
 	culture="german"
 	religion="catholic"
 }
@@ -19469,7 +19469,7 @@
 }
 8617=
 {
-	name="Íñiga"
+	name="ÿñiga"
 	culture="basque"
 	religion="catholic"
   coat_of_arms = {
@@ -20802,7 +20802,7 @@
 }
 8750=
 {
-	name="de Álava"
+	name="de ÿlava"
 	culture="basque"
 	religion="catholic"
 }
@@ -22147,7 +22147,7 @@
 }
 9229=
 {
-	name="Eóganacht-Áine"
+	name="Eóganacht-ÿine"
 	culture="irish"
 	religion="catholic"
 }
@@ -23849,7 +23849,7 @@
 }
 12154=
 {
-	name="d'Àger"
+	name="d'ÿger"
 	culture="catalan"
 	religion="catholic"
 # solo : d'argent à la fasce de sable, chargée de cinq losanges d'or
@@ -24602,7 +24602,7 @@
 }
 12251=
 {
-	name="von Schweipünt"
+	name="von Schweipÿnt"
 	culture="german"
 	religion="catholic"
 }
@@ -25235,7 +25235,7 @@
 }
 12446=
 {
-	name="von Württemberg"
+	name="von Wÿrttemberg"
 	culture="german"
 	religion="catholic"
     coat_of_arms = {
@@ -27156,7 +27156,7 @@
 }
 14107=
 {
-	name="Ó Braonain"
+	name="ÿ Braonain"
 	culture="irish"
 }
 14108=
@@ -27233,7 +27233,7 @@
 }
 14122=
 {
-	name="Ua Áedacáin"
+	name="Ua ÿedacáin"
 	culture="irish"
 }
 14123=
@@ -28507,7 +28507,7 @@
 }
 19048=
 {
-	name="Ilocki" # hungarian Újlaki, of Ilok
+	name="Ilocki" # hungarian ÿjlaki, of Ilok
 	culture="croatian" #
 # solo : coupé d'argent à la fasce de gueules, et de gueules plain (ou fascé d'argent et de gueules de quatre pièces selon l'interprétation)
     coat_of_arms = {
@@ -29575,7 +29575,7 @@
 }
 20083=
 {
-	name="a Áengusa" # premiers comte d'Angus
+	name="a ÿengusa" # premiers comte d'Angus
 	culture="scottish"
 	religion="catholic"
 # solo : d'argent au lion gardant de gueules	
@@ -30932,7 +30932,7 @@
 }
 25025=
 {
-	name="a hÉrinn"
+	name="a hÿrinn"
 	culture="scottish"
 }
 25026=
@@ -32209,7 +32209,7 @@ coat_of_arms = {
 }
 100087=
 {
-	name="von Osnabrück"
+	name="von Osnabrÿck"
 	culture="german"
 	religion="catholic"
   coat_of_arms = {
@@ -32226,7 +32226,7 @@ coat_of_arms = {
 }
 100088=
 {
-	name="von Münster"
+	name="von Mÿnster"
 	culture="german"
 	religion="catholic"
 # solo : d'or au chef de gueules	
@@ -32261,7 +32261,7 @@ coat_of_arms = {
 }
 100090=
 {
-	name="von Jülich"
+	name="von Jÿlich"
 	culture="german"
 # solo : d'or au lion de sable	
   coat_of_arms = {
@@ -33110,7 +33110,7 @@ coat_of_arms = {
 }
 100186=
 {
-	name="de Évora"
+	name="de ÿvora"
 	culture="portuguese"
 }
 100187=
@@ -33726,7 +33726,7 @@ coat_of_arms = {
 }
 100251=
 {
-	name="von Fürstenberg"
+	name="von Fÿrstenberg"
 	culture="german"
 # solo : d'or à l'aigle de gueules, à la bordure nébulée d'argent sur azur
 # dynasties.tga
@@ -33750,7 +33750,7 @@ coat_of_arms = {
 }
 100253=
 {
-	name="von Württemberg"
+	name="von Wÿrttemberg"
 	culture="german"
 }
 100254=
@@ -33761,7 +33761,7 @@ coat_of_arms = {
 }
 100255=
 {
-	name="von Thüringen"
+	name="von Thÿringen"
 	culture="german"
 }
 100256=
@@ -33804,7 +33804,7 @@ coat_of_arms = {
 }
 100262=
 {
-	name="von Lübeck"
+	name="von Lÿbeck"
 	culture="german"
 }
 100263=
@@ -34263,7 +34263,7 @@ coat_of_arms = {
 }
 100301=
 {
-	name="Ängel"
+	name="ÿngel"
 	culture="swedish"
 	religion="catholic"
 }
@@ -34367,7 +34367,7 @@ coat_of_arms = {
 }
 100314=
 {
-	name="von Nürnberg"
+	name="von Nÿrnberg"
 	culture="german"
 }
 100315=
@@ -35442,7 +35442,7 @@ coat_of_arms = {
 }
 100457=
 {
-	name="von Bülow"
+	name="von Bÿlow"
 	culture="german"
 # solo : d'azur à quatorze besants d'or, posés quatre, quatre, trois, deux et un
   coat_of_arms = {
@@ -36903,7 +36903,7 @@ coat_of_arms = {
 }
 100674=
 {
-	name="Özkan"
+	name="ÿzkan"
 	culture="turkish"
 	religion="sunni"
 #v
@@ -38737,7 +38737,7 @@ coat_of_arms = {
 {
 	name="Kamateros"
 	culture="greek"
-	religion="crimean_gothic"
+	religion="orthodox"
 # solo : d'or semé d'étoiles de gueules
   coat_of_arms = {
       template = 0
@@ -41478,7 +41478,7 @@ coat_of_arms = {
 }
 101563=
 {
-	name="Örösur"
+	name="ÿrösur"
 	culture="hungarian"
 	religion="catholic"
 # solo : de gueules au corbeau d'argent (très incertain) *
@@ -41514,7 +41514,7 @@ coat_of_arms = {
 }
 101565=
 {
-	name="Ákos"
+	name="ÿkos"
 	culture="hungarian"
 	religion="catholic"
 # solo : d'azur à deux brochets affrontés d'or (émaux probablement modernes)
@@ -41952,7 +41952,7 @@ coat_of_arms = {
 }
 101694=
 {
-	name="von Jülich" # von Julichgau same as von Jülich (van Gulik)
+	name="von Jÿlich" # von Julichgau same as von Jÿlich (van Gulik)
 	culture="german"
 	religion="catholic"
 # solo : d'or au lion de sable	
@@ -42053,7 +42053,7 @@ coat_of_arms = {
 }
 101703=
 {
-	name="Mac Áéda"
+	name="Mac ÿéda"
 	culture="irish"
 }
 101704=
@@ -42587,7 +42587,7 @@ coat_of_arms = {
 }
 101764=
 {
-	name="Ásgeir"
+	name="ÿsgeir"
 	culture="norwegian"
 }
 101765=
@@ -44166,12 +44166,12 @@ coat_of_arms = {
 }
 101934=
 {
-	name="Nergüi"
+	name="Nergÿi"
 	culture="mongol"
 }
 101935=
 {
-	name="Lkhagvasüren"
+	name="Lkhagvasÿren"
 	culture="mongol"
 }
 101936=
@@ -44192,7 +44192,7 @@ coat_of_arms = {
 }
 101939=
 {
-	name="Pürevsüren"
+	name="Pÿrevsÿren"
 	culture="mongol"
 }
 101940=
@@ -46525,7 +46525,7 @@ coat_of_arms = {
 }
 1027032=
 {
-	name="Uí Ímair"
+	name="Uí ÿmair"
 	culture="norwegian"
 # solo : d'argent au corbeau de sable (descendants d'Ivar)	
     coat_of_arms = {
@@ -46835,7 +46835,7 @@ coat_of_arms = {
 }
 1030030=
 {
-	name="Østman"
+	name="ÿstman"
 	culture="norwegian"
 	religion="catholic"
 }
@@ -46884,7 +46884,7 @@ coat_of_arms = {
 }
 1029005=
 {
-	name="Dentümoger"
+	name="Dentÿmoger"
 	culture="cuman"
 	religion="tengri_pagan"
 }
@@ -46903,7 +46903,7 @@ coat_of_arms = {
 }
 1031002=
 {
-	name="Rübsamen"
+	name="Rÿbsamen"
 	culture="german"
 	religion="catholic"
 }
@@ -47717,7 +47717,7 @@ coat_of_arms = {
 }
 9513=
 {
-	name="Lüneburg" # Famille patricienne de Lubeck
+	name="Lÿneburg" # Famille patricienne de Lubeck
 	culture="german"
 	religion="catholic"
 # solo : d'azur à trois tours d'argent	
@@ -48243,7 +48243,7 @@ coat_of_arms = {
 }
 1029058=
 {
-	name="Ælbegatæ"
+	name="ÿlbegatæ"
 	culture="alan"
 	religion="orthodox"
 }
@@ -48374,7 +48374,7 @@ coat_of_arms = {
 }
 1040002=
 {
-	name="Ua Máele Ódrain"
+	name="Ua Máele ÿdrain"
 	culture="irish"
 	religion="catholic"
 }
@@ -48392,7 +48392,7 @@ coat_of_arms = {
 }
 1040005=
 {
-	name="Írakonungr"
+	name="ÿrakonungr"
 	culture="norwegian"
 	religion="catholic"
 }
@@ -48412,7 +48412,7 @@ coat_of_arms = {
 }
 1040007=
 {
-	name="Uí Áeda Odba"
+	name="Uí ÿeda Odba"
 	culture="irish"
 	religion="catholic"
 }
@@ -48661,7 +48661,7 @@ coat_of_arms = {
 }
 1043503=
 {
-	name="Þyli"
+	name="ÿyli"
 	culture="norse"
 	religion="norse_pagan"
 }
@@ -50483,7 +50483,7 @@ coat_of_arms = {
 }
 1029043=
 {
-	name="Yüregir"
+	name="Yÿregir"
 	culture="pecheneg"
 }
 1029044=
@@ -50493,17 +50493,17 @@ coat_of_arms = {
 }
 1029045=
 {
-	name="Bügdüz"
+	name="Bÿgdÿz"
 	culture="pecheneg"
 }
 1029046=
 {
-	name="Üçok"
+	name="ÿçok"
 	culture="pecheneg"
 }
 1029047=
 {
-	name="Çavuldur"
+	name="ÿavuldur"
 	culture="pecheneg"
 }
 1029048=
@@ -50533,12 +50533,12 @@ coat_of_arms = {
 }
 1029053=
 {
-	name="Çepni"
+	name="ÿepni"
 	culture="pecheneg"
 }
 1029054=
 {
-	name="Eymür"
+	name="Eymÿr"
 	culture="pecheneg"
 }
 1029145=
@@ -55077,7 +55077,7 @@ coat_of_arms = {
 }
 1022389=
 {
-	name="Kürt"
+	name="Kÿrt"
 	culture="hungarian"
 	religion="tengri_pagan"
 }
@@ -56352,7 +56352,7 @@ coat_of_arms = {
 }
 1045023=
 {
-	name="af Åland"
+	name="af ÿland"
 	culture="norse"
 	religion="norse_pagan"
 }
@@ -56426,7 +56426,7 @@ coat_of_arms = {
 }
 1047010=
 {
-	name="Æthelfrithing"
+	name="ÿthelfrithing"
 	culture="saxon"
 	religion="norse_pagan"
     coat_of_arms = {
@@ -56515,7 +56515,7 @@ coat_of_arms = {
 }
 1047016=
 {
-	name="Æbbing"
+	name="ÿbbing"
 	culture="saxon"
 }
 1047017=
@@ -56526,7 +56526,7 @@ coat_of_arms = {
 }
 1047007=
 {
-	name="Ælling"
+	name="ÿlling"
 	culture="saxon"
 }
 1044092=
@@ -56981,13 +56981,13 @@ coat_of_arms = {
 }
 1051104=
 {
-	name="Üzümcü"
+	name="ÿzÿmcÿ"
 	culture="uyghur"
 	religion="manichean"
 }
 1051105=
 {
-	name="Sarigül"
+	name="Sarigÿl"
 	culture="turkish"
 	religion="tengri_pagan"
 }
@@ -57005,7 +57005,7 @@ coat_of_arms = {
 }
 1051108=
 {
-	name="Günaydin"
+	name="Gÿnaydin"
 	culture="kirghiz"
 	religion="manichean"
 }
@@ -57141,7 +57141,7 @@ coat_of_arms = {
 }
 1051121=
 {
-	name="Müjde"
+	name="Mÿjde"
 	culture="uyghur"
 	religion="buddhist"
 }
@@ -57517,7 +57517,7 @@ coat_of_arms = {
 }
 1055033=
 {
-	name = "Lü"
+	name = "Lÿ"
 	culture = han
 	religion = taoist
 }
@@ -58080,7 +58080,7 @@ coat_of_arms = {
 
 1051160=
 {
-	name = "Æluæ"
+	name = "ÿluæ"
 	culture = jurchen
 	religion = tengri_pagan
 }
@@ -73229,7 +73229,7 @@ name="de Léon"
 }
 
 25982061 = {
-	name="von Brünnow" # 
+	name="von Brÿnnow" # 
 	culture = german
 # solo : de gueules à trois bandes d'argent
     coat_of_arms = {
@@ -73280,7 +73280,7 @@ name="de Léon"
 }
 
 25982064 = {
-	name="von Büches" # 
+	name="von Bÿches" # 
 	culture = german
 # solo : d'argent à la croix ancrée de sable
     coat_of_arms = {
@@ -73314,7 +73314,7 @@ name="de Léon"
 }
 
 25982066 = {
-	name="von Büren" # 
+	name="von Bÿren" # 
 	culture = german
 # solo : d'argent au lion de sable
     coat_of_arms = {
@@ -73468,7 +73468,7 @@ name="de Léon"
 }
 
 25982075 = {
-	name="von Wülfingen" # 
+	name="von Wÿlfingen" # 
 	culture = german
 # solo : d'or à deux loups passants de sable
     coat_of_arms = {
@@ -73867,7 +73867,7 @@ name="de Léon"
 }
 
 25982098 = {
-	name="von Düdelsheim" # 
+	name="von Dÿdelsheim" # 
 	culture = german
 # solo : de sable au lion d'argent
     coat_of_arms = {
@@ -73884,7 +73884,7 @@ name="de Léon"
 }
 
 25982099 = {
-	name="von Dürn" # 
+	name="von Dÿrn" # 
 	culture = german
 # solo : d'argent à trois écussons d'azur
     coat_of_arms = {
@@ -74393,7 +74393,7 @@ name="de Léon"
 }
 
 25982128 = {
-	name="von Fünfkirchen" # 
+	name="von Fÿnfkirchen" # 
 	culture = german
 # solo : parti en 1 coupé d'argent et d'azur, en 2 d'or plain
     coat_of_arms = {
@@ -74418,7 +74418,7 @@ name="de Léon"
 }
 
 25982129 = {
-	name="Fürer" # 
+	name="Fÿrer" # 
 	culture = german
 # solo : parti d'argent à la roue de gueules, et de gueules à la fleur de lis d'argent
     coat_of_arms = {
@@ -74443,7 +74443,7 @@ name="de Léon"
 }
 
 25982130 = {
-	name="von Fürstenberg" # 
+	name="von Fÿrstenberg" # 
 	culture = german
 # solo : d'or à deux fasces de gueules
     coat_of_arms = {
@@ -74564,7 +74564,7 @@ name="de Léon"
 }
 
 25984005 = {
-	name="z Ústí" # Vítkovci. Seigneurs de Sezimovo Usti
+	name="z ÿstí" # Vítkovci. Seigneurs de Sezimovo Usti
 	culture = bohemian
 # solo : d'or au quintefeuille de sable
     coat_of_arms = {
@@ -81723,19 +81723,19 @@ name="de Léon"
 }
 1053010=
 {
-	name="Güçlü" #Ficticious
+	name="Gÿçlÿ" #Ficticious
 	culture="turkish"
 	religion="sunni"
 }
 1053011=
 {
-	name="Rüzgar" #Ficticious
+	name="Rÿzgar" #Ficticious
 	culture="turkish"
 	religion="sunni"
 }
 1053012=
 {
-	name="Üzengi" #Ficticious
+	name="ÿzengi" #Ficticious
 	culture="turkish"
 	religion="sunni"
 }
@@ -81864,7 +81864,7 @@ name="de Léon"
 	culture = mongol
 }
 1040074 = {
-	name="Zübü"
+	name="Zÿbÿ"
 	culture = mongol
 }
 1040075 = {
@@ -81964,7 +81964,7 @@ name="de Léon"
 }
 
 105810 = {
-	name="Ngülkhar"
+	name="Ngÿlkhar"
 	culture="zhangzhung"
 	religion="bon"
 }
@@ -84944,7 +84944,7 @@ name="de Léon"
 	religion = tengri_pagan
 }
 1100008 = {
-	name = "Bülärid"
+	name = "Bÿlärid"
 	culture = pecheneg
 	religion = tengri_pagan
 }
@@ -84954,7 +84954,7 @@ name="de Léon"
 	religion = tengri_pagan
 }
 1100010 = {
-	name = "Äyle"
+	name = "ÿyle"
 	culture = pecheneg
 	religion = tengri_pagan
 }
@@ -85069,7 +85069,7 @@ name="de Léon"
 	religion = tengri_pagan
 }
 1100033 = {
-	name = "Üül"
+	name = "ÿÿl"
 	culture = mongol
 	religion = tengri_pagan
 }
@@ -85659,7 +85659,7 @@ name="de Léon"
 	culture="italian"
 }
 1062187 = {
-	name = "von Saarbrücken"
+	name = "von Saarbrÿcken"
 	culture = german
 # d'azur au lion d'argent (comtes de Saarbruck ancien)	
     coat_of_arms = {
@@ -86340,7 +86340,7 @@ name="de Léon"
     }	
 }
 1062201 = {
-	name = "Ó Cellaigh" # O'Kelly
+	name = "ÿ Cellaigh" # O'Kelly
 	culture = "irish"
 # d'azur à deux lions affrontés d'argent (simplifiées)	
     coat_of_arms = {
@@ -86387,7 +86387,7 @@ name="de Léon"
     }	
 }
 1062204 = {
-	name = "Ó Dubhda"
+	name = "ÿ Dubhda"
 	culture = "irish"
     coat_of_arms = {
         template = 0
@@ -88267,7 +88267,7 @@ name="de Léon"
 	religion = bon
 }
 1062530 = {
-	name = "Yümai"
+	name = "Yÿmai"
 	culture = bodpa
 	religion = bon
 }
@@ -88846,7 +88846,7 @@ name="de Léon"
 	culture = "bohemian"
 }
 1069012 = {
-	name = "z Ústí"
+	name = "z ÿstí"
 	culture = "bohemian"
 	religion = "catholic"
 }
