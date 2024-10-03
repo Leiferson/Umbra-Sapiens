@@ -7428,6 +7428,21 @@ e_byzantium = {
 				b_elos = {
 				}
 			}
+			c_kythera = {
+				color={ 198 37 141 }
+				color2={ 255 255 20 }
+				
+				b_kythera = {
+				}
+				b_kastri = {
+				}
+				b_cerigo = {
+				}
+				b_skandeia = {
+				}
+				b_agia_nikalaos = {
+				}
+			}
 		}
 		
 		d_aegean_islands = {
